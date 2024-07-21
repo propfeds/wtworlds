@@ -1,0 +1,37 @@
+{
+    "criteria":
+    {
+        "polearm_sneak_attack":
+        {
+            "trigger": "player_hurt_entity",
+            "conditions":
+            {
+                "player":
+                {
+                    "equipment":
+                    {
+                        "mainhand":
+                        {
+                            "predicates":
+                            {
+                                "custom_data":
+                                {
+                                    "polearm": true
+                                }
+                            }
+                        }
+                    },
+                    "flags":
+                    {
+                        "is_sneaking": true,
+                        "is_on_ground": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "prop:polearm_sneak_attack"
+    }
+}
