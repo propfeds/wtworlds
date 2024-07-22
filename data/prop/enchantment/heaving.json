@@ -1,0 +1,66 @@
+{
+    "description": "",
+    "supported_items":
+    [
+        "golden_sword"
+    ],
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "anvil_cost": 0,
+    "min_cost":
+    {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "effects":
+    {
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "attacker",
+                            "predicate":
+                            {
+                                "flags":
+                                {
+                                    "is_sneaking": true,
+                                    "is_on_ground": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "prop:heaving"
+                }
+            }
+        ]
+    }
+}
