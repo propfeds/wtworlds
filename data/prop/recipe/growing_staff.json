@@ -25,21 +25,6 @@
         "components":
         {
             "minecraft:custom_model_data": 1752000,
-            "minecraft:food":
-            {
-                "nutrition": 0,
-                "saturation": 0,
-                "can_always_eat": true,
-                "eat_seconds": 2147483647,
-                "using_converts_to":
-                {
-                    "id": "minecraft:golden_sword",
-                    "components":
-                    {
-                        "minecraft:custom_model_data": 1752000
-                    }
-                }
-            },
             "minecraft:item_name": "\"Battlestaff\"",
             "minecraft:max_damage": 240,
             "enchantments":
