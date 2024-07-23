@@ -1,5 +1,5 @@
 {
-    "description": "",
+    "description": "Heaving",
     "supported_items":
     [
         "golden_sword"
@@ -8,17 +8,17 @@
     [
         "mainhand"
     ],
-    "weight": 1,
+    "weight": 2,
     "max_level": 1,
-    "anvil_cost": 0,
+    "anvil_cost": 4,
     "min_cost":
     {
-        "base": 1,
+        "base": 15,
         "per_level_above_first": 0
     },
     "max_cost":
     {
-        "base": 10,
+        "base": 45,
         "per_level_above_first": 0
     },
     "effects":
