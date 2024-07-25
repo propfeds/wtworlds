@@ -1,34 +1,49 @@
 {
-    "anvil_cost": 2,
     "description": "Committed",
-    "effects": {
-        "minecraft:damage": [
+    "primary_items": "golden_sword",
+    "supported_items": "golden_sword",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "weight": 5,
+    "max_level": 3,
+    "min_cost":
+    {
+        "base": 1,
+        "per_level_above_first": 11
+    },
+    "max_cost":
+    {
+        "base": 21,
+        "per_level_above_first": 11
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "minecraft:damage":
+        [
             {
-                "effect": {
+                "effect":
+                {
                     "type": "minecraft:add",
-                    "value": {
+                    "value":
+                    {
                         "type": "minecraft:linear",
                         "base": 1.0,
                         "per_level_above_first": 0.5
                     }
+                },
+                "requirements":
+                {
+                    "condition": "minecraft:damage_source_properties",
+                        "predicate":
+                        {
+                            "is_direct": true
+                        }
                 }
             }
         ]
-    },
-    "exclusive_set": "#minecraft:exclusive_set/damage",
-    "max_cost": {
-        "base": 21,
-        "per_level_above_first": 11
-    },
-    "max_level": 5,
-    "min_cost": {
-        "base": 1,
-        "per_level_above_first": 11
-    },
-    "primary_items": "golden_sword",
-    "slots": [
-        "mainhand"
-    ],
-    "supported_items": "golden_sword",
-    "weight": 5
+    }
 }
