@@ -1,9 +1,7 @@
 {
     "description": "Heaving",
-    "supported_items":
-    [
-        "golden_sword"
-    ],
+    "primary_items": "#prop:enchantable/polearm",
+    "supported_items": "#prop:enchantable/polearm",
     "slots":
     [
         "mainhand"
