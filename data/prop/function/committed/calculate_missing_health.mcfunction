@@ -10,4 +10,4 @@ scoreboard players operation @s prop.missingHealth /= @s prop.health
 scoreboard players operation @s prop.missingHealth /= 1000 const
 
 particle enchanted_hit ~ ~1 ~ 0.25 0.75 0.25 0.125 16
-execute if score @s prop.missingHealth >= 5 const run function prop:committed_extra_particles
+execute if score @s prop.missingHealth >= 5 const run function prop:committed/wounded_particles

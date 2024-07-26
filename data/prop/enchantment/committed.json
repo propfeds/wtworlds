@@ -52,7 +52,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "prop:committed"
+                    "function": "prop:committed/calculate_missing_health"
                 }
             },
             {
