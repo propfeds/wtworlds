@@ -1,9 +1,9 @@
-tellraw @p {"text": "Welcome."}
+tellraw @p {"text": "Welcome to prop's Weapon Additions!"}
 
-scoreboard objectives add prop.const dummy
-scoreboard players set -1 prop.const -1
-scoreboard players set 1000 prop.const 1000
-scoreboard players set 10000 prop.const 10000
+scoreboard objectives add const dummy
+scoreboard players set 5 const 5
+scoreboard players set 1000 const 1000
+scoreboard players set 10000 const 10000
 
 # scoreboard objectives add prop.var dummy
 
@@ -14,4 +14,4 @@ scoreboard players reset * prop.health
 # scoreboard objectives add prop.notHealth dummy
 scoreboard objectives add prop.parryTime dummy
 
-scoreboard objectives setdisplay sidebar prop.missingHealth
+# scoreboard objectives setdisplay sidebar prop.missingHealth
