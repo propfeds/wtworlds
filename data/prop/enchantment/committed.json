@@ -1,0 +1,570 @@
+{
+    "description": "Committed",
+    "primary_items": "golden_sword",
+    "supported_items": "golden_sword",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "weight": 5,
+    "max_level": 3,
+    "min_cost":
+    {
+        "base": 10,
+        "per_level_above_first": 15
+    },
+    "max_cost":
+    {
+        "base": 30,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "prop:committed"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 1
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.2
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.2
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 2
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.4,
+                        "per_level_above_first": 0.4
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.4,
+                        "per_level_above_first": 0.4
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 3
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.6,
+                        "per_level_above_first": 0.6
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.6,
+                        "per_level_above_first": 0.6
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 4
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.8,
+                        "per_level_above_first": 0.8
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.8,
+                        "per_level_above_first": 0.8
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 5
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 6
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.2,
+                        "per_level_above_first": 1.2
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.2,
+                        "per_level_above_first": 1.2
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 7
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.4,
+                        "per_level_above_first": 1.4
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.4,
+                        "per_level_above_first": 1.4
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 8
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.6,
+                        "per_level_above_first": 1.6
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.6,
+                        "per_level_above_first": 1.6
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 9
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.8,
+                        "per_level_above_first": 1.8
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.8,
+                        "per_level_above_first": 1.8
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "prop.missingHealth": 10
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "prop:committed",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 2,
+                        "per_level_above_first": 2
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 2,
+                        "per_level_above_first": 2
+                    }
+                }
+            }
+        ]
+    }
+}
