@@ -56,7 +56,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "prop:heaving"
+                    "function": "prop:heaving/lift"
                 }
             }
         ]
