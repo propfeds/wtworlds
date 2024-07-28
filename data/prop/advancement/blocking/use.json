@@ -1,0 +1,20 @@
+{
+    "criteria":
+    {
+        "tooting_horn":
+        {
+            "trigger": "using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": "minecraft:goat_horn"
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "prop:blocking/use"
+    }
+}
