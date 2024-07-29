@@ -8,7 +8,11 @@
             {
                 "item":
                 {
-                    "items": "minecraft:goat_horn"
+                    "items": "minecraft:goat_horn",
+                    "components":
+                    {
+                        "custom_model_data": 1752001
+                    }
                 }
             }
         }

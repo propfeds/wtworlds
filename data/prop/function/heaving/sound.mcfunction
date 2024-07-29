@@ -1,1 +1,1 @@
-playsound entity.player.attack.heaving player @a ~ ~ ~
+playsound entity.player.attack.heaving
