@@ -3,3 +3,4 @@ execute if score @s prop.impulse matches 1.. run return run advancement revoke @
 scoreboard players reset @s prop.impulse
 scoreboard players reset @s prop.blockFrame
 effect clear @s resistance
+attribute @s generic.fall_damage_multiplier modifier remove block_compensation_fall_damage
