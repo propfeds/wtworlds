@@ -95,14 +95,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 0.2,
-                        "per_level_above_first": 0.2
+                        "base": 0.25,
+                        "per_level_above_first": 0.25
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 0.2,
-                        "per_level_above_first": 0.2
+                        "base": 0.25,
+                        "per_level_above_first": 0.25
                     }
                 }
             },
@@ -146,14 +146,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 0.4,
-                        "per_level_above_first": 0.4
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 0.4,
-                        "per_level_above_first": 0.4
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
                     }
                 }
             },
@@ -197,14 +197,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 0.6,
-                        "per_level_above_first": 0.6
+                        "base": 0.75,
+                        "per_level_above_first": 0.75
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 0.6,
-                        "per_level_above_first": 0.6
+                        "base": 0.75,
+                        "per_level_above_first": 0.75
                     }
                 }
             },
@@ -248,14 +248,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 0.8,
-                        "per_level_above_first": 0.8
+                        "base": 1,
+                        "per_level_above_first": 1
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 0.8,
-                        "per_level_above_first": 0.8
+                        "base": 1,
+                        "per_level_above_first": 1
                     }
                 }
             },
@@ -299,14 +299,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 1,
-                        "per_level_above_first": 1
+                        "base": 1.25,
+                        "per_level_above_first": 1.25
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 1,
-                        "per_level_above_first": 1
+                        "base": 1.25,
+                        "per_level_above_first": 1.25
                     }
                 }
             },
@@ -350,14 +350,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 1.2,
-                        "per_level_above_first": 1.2
+                        "base": 1.5,
+                        "per_level_above_first": 1.5
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 1.2,
-                        "per_level_above_first": 1.2
+                        "base": 1.5,
+                        "per_level_above_first": 1.5
                     }
                 }
             },
@@ -401,14 +401,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 1.4,
-                        "per_level_above_first": 1.4
+                        "base": 1.75,
+                        "per_level_above_first": 1.75
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 1.4,
-                        "per_level_above_first": 1.4
+                        "base": 1.75,
+                        "per_level_above_first": 1.75
                     }
                 }
             },
@@ -452,14 +452,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 1.6,
-                        "per_level_above_first": 1.6
+                        "base": 2,
+                        "per_level_above_first": 2
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 1.6,
-                        "per_level_above_first": 1.6
+                        "base": 2,
+                        "per_level_above_first": 2
                     }
                 }
             },
@@ -503,14 +503,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 1.8,
-                        "per_level_above_first": 1.8
+                        "base": 2.25,
+                        "per_level_above_first": 2.25
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 1.8,
-                        "per_level_above_first": 1.8
+                        "base": 2.25,
+                        "per_level_above_first": 2.25
                     }
                 }
             },
@@ -554,14 +554,14 @@
                     "min_damage":
                     {
                         "type": "linear",
-                        "base": 2,
-                        "per_level_above_first": 2
+                        "base": 2.5,
+                        "per_level_above_first": 2.5
                     },
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 2,
-                        "per_level_above_first": 2
+                        "base": 2.5,
+                        "per_level_above_first": 2.5
                     }
                 }
             }
