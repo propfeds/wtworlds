@@ -86,6 +86,7 @@
             },
             "lore":
             [
+                "{\"text\": \"\"}",
                 "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
                 "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 5 Attack Damage\"}",
                 "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.8 Attack Speed\"}",
