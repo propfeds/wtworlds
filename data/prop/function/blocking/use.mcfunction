@@ -6,4 +6,4 @@ scoreboard players set @s prop.impulse 2
 scoreboard players add @s prop.blockFrame 1
 execute if score @s prop.blockFrame matches 26.. run scoreboard players remove @s prop.blockFrame 25
 execute if score @s prop.blockFrame matches 1 run function prop:blocking/perfect_block
-execute if score @s prop.blockFrame matches 7 run function prop:blocking/imperfect_block
+execute if score @s prop.blockFrame matches 6 run function prop:blocking/imperfect_block
