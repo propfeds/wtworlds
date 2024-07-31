@@ -4,7 +4,7 @@
     "supported_items": "#prop:enchantable/blocking",
     "slots":
     [
-        "offhand"
+        "hand"
     ],
     "weight": 1,
     "max_level": 2,
@@ -34,36 +34,48 @@
                     {
                         "prop.blockFrame":
                         {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "thorns",
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 4,
+                        "per_level_above_first": 2
+                    },
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 2,
+                        "per_level_above_first": 2
+                    }
+                }
+            },
+            {
+                "enchanted": "victim",
+                "affected": "attacker",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.blockFrame":
+                        {
                             "min": 1
                         }
                     }
                 },
                 "effect":
                 {
-                    "type": "all_of",
-                    "effects":
-                    [
-                        {
-                            "type": "damage_entity",
-                            "damage_type": "thorns",
-                            "max_damage":
-                            {
-                                "type": "linear",
-                                "base": 4,
-                                "per_level_above_first": 2
-                            },
-                            "min_damage":
-                            {
-                                "type": "linear",
-                                "base": 2,
-                                "per_level_above_first": 2
-                            }
-                        },
-                        {
-                            "type": "damage_item",
-                            "amount": 2
-                        }
-                    ]
+                    "type": "damage_item",
+                    "amount": 2
                 }
             }
         ]
