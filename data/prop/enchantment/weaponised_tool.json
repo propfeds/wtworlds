@@ -1,7 +1,7 @@
 {
-    "description": "Brittle",
-    "primary_items": "#prop:enchantable/blocking",
-    "supported_items": "#prop:enchantable/blocking",
+    "description": "",
+    "primary_items": "#prop:enchantable/weaponised_tool",
+    "supported_items": "#prop:enchantable/weaponised_tool",
     "slots":
     [
         "mainhand"
