@@ -1,1 +1,1 @@
-execute anchored eyes run particle end_rod ^ ^ ^0.75 0.0 0.0 0.0 0.25 12
+execute anchored eyes run particle item{item:"bone"} ^ ^ ^0.75 0.0 0.0 0.0 0.24 6
