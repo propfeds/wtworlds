@@ -1,6 +1,3 @@
-# execute store result score @s prop.notHealth run data get entity @s Health
-# scoreboard players operation @s prop.notHealth *= 10000 const
-
 execute store result score @s prop.missingHealth run attribute @s generic.max_health get
 execute store result score @s prop.health run data get entity @s Health
 scoreboard players operation @s prop.missingHealth -= @s prop.health

@@ -6,13 +6,11 @@ scoreboard players set 8 const 8
 scoreboard players set 1000 const 1000
 scoreboard players set 10000 const 10000
 
-# scoreboard objectives add prop.var dummy
-
 scoreboard objectives add prop.missingHealth dummy
 scoreboard players reset * prop.missingHealth
 scoreboard objectives add prop.health dummy
 scoreboard players reset * prop.health
-# scoreboard objectives add prop.notHealth dummy
-scoreboard objectives add prop.parryTime dummy
+scoreboard objectives add prop.impulse dummy
+scoreboard objectives add prop.blockFrame dummy
 
-# scoreboard objectives setdisplay sidebar prop.missingHealth
+scoreboard objectives setdisplay sidebar prop.blockFrame

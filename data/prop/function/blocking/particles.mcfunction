@@ -1,0 +1,1 @@
+execute anchored eyes run particle item{item:"bone"} ^ ^ ^0.75 0.0 0.0 0.0 0.24 6

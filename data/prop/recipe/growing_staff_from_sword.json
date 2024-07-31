@@ -3,8 +3,8 @@
     "category": "equipment",
     "pattern":
     [
-        " g",
-        "/ "
+        "g",
+        "/"
     ],
     "key":
     {
@@ -25,7 +25,7 @@
         {
             "minecraft:custom_model_data": 1752000,
             "minecraft:item_name": "\"Battlestaff\"",
-            "minecraft:max_damage": 168,
+            "minecraft:max_damage": 234,
             "minecraft:attribute_modifiers":
             {
                 "modifiers":
