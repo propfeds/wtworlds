@@ -41,32 +41,20 @@
                 },
                 "effect":
                 {
-                    "type": "all_of",
-                    "effects":
-                    [
-                        {
-                            "type": "damage_entity",
-                            "damage_type": "thorns",
-                            "max_damage":
-                            {
-                                "type": "linear",
-                                "base": 4,
-                                "per_level_above_first": 2
-                            },
-                            "min_damage":
-                            {
-                                "type": "linear",
-                                "base": 2,
-                                "per_level_above_first": 2
-                            }
-                        },
-                        {
-                            "type": "play_sound",
-                            "sound": "item.shield.block",
-                            "volume": 0.6,
-                            "pitch": 1.5
-                        }
-                    ]
+                    "type": "damage_entity",
+                    "damage_type": "thorns",
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 4,
+                        "per_level_above_first": 2
+                    },
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 2,
+                        "per_level_above_first": 2
+                    }
                 }
             },
             {

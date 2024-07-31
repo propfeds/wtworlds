@@ -1,5 +1,5 @@
-playsound block.bone_block.hit player
-playsound block.bone_block.break player
-playsound block.bone_block.hit player
-playsound block.bone_block.break player
-playsound block.bone_block.hit player
+playsound item.dagger.block player
+playsound item.dagger.block.layer_2 player
+playsound item.dagger.block.layer_1 player
+playsound item.dagger.block.layer_2 player
+playsound item.dagger.block.layer_1 player
