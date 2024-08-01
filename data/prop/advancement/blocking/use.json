@@ -19,6 +19,6 @@
     },
     "rewards":
     {
-        "function": "prop:blocking/use"
+        "function": "prop:blocking/use_loop"
     }
 }
