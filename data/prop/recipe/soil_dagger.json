@@ -47,6 +47,16 @@
                         "blocks": "#mineable/hoe",
                         "speed": 3,
                         "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "bamboo",
+                        "speed": 5,
+                        "correct_for_drops": true
+                    },
+                    {
+                        "blocks": "cobweb",
+                        "speed": 15,
+                        "correct_for_drops": true
                     }
                 ]
             },
