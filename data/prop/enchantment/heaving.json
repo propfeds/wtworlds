@@ -55,8 +55,23 @@
                 },
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "prop:heaving/lift"
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "prop:heaving/lift"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "prop:heaving/particles"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "prop:heaving/sound"
+                        }
+
+                    ]
                 }
             }
         ]
