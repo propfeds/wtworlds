@@ -51,8 +51,18 @@
                 },
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "prop:committed/calculate_missing_health"
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "prop:committed/calculate_missing_health"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "prop:committed/particles"
+                        }
+                    ]
                 }
             },
             {
