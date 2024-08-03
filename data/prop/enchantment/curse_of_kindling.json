@@ -1,6 +1,6 @@
 {
     "description": "Curse of Kindling",
-    "primary_items": "#minecraft:enchantable/chest_armor",
+    "primary_items": "#minecraft:enchantable/leg_armor",
     "supported_items": "#minecraft:enchantable/armor",
     "slots":
     [
