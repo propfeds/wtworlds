@@ -51,12 +51,50 @@
                             {
                                 "type": "linear",
                                 "base": 2,
-                                "per_level_above_first": 2
+                                "per_level_above_first": 1
                             }
                         },
                         {
                             "type": "minecraft:damage_item",
-                            "amount": 2
+                            "amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance":
+                    {
+                        "type": "minecraft:enchantment_level",
+                        "amount":
+                        {
+                            "type": "minecraft:linear",
+                            "base": 0.3,
+                            "per_level_above_first": 0.15
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "minecraft:all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "ignite",
+                            "duration":
+                            {
+                                "type": "linear",
+                                "base": 2,
+                                "per_level_above_first": 1
+                            }
+                        },
+                        {
+                            "type": "minecraft:damage_item",
+                            "amount": 1
                         }
                     ]
                 }
