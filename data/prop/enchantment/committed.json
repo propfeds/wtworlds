@@ -60,6 +60,10 @@
                         },
                         {
                             "type": "run_function",
+                            "function": "prop:committed/tag"
+                        },
+                        {
+                            "type": "run_function",
                             "function": "prop:committed/particles"
                         }
                     ]
@@ -70,33 +74,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 1
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 1
+                    }
                 },
                 "effect":
                 {
@@ -121,33 +108,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 2
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 2
+                    }
                 },
                 "effect":
                 {
@@ -172,33 +142,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 3
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 3
+                    }
                 },
                 "effect":
                 {
@@ -223,33 +176,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 4
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 4
+                    }
                 },
                 "effect":
                 {
@@ -274,33 +210,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 5
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 5
+                    }
                 },
                 "effect":
                 {
@@ -325,33 +244,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 6
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 6
+                    }
                 },
                 "effect":
                 {
@@ -376,33 +278,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 7
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 7
+                    }
                 },
                 "effect":
                 {
@@ -427,33 +312,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 8
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 8
+                    }
                 },
                 "effect":
                 {
@@ -478,33 +346,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 9
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 9
+                    }
                 },
                 "effect":
                 {
@@ -529,33 +380,16 @@
                 "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
                         {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "prop.missingHealth": 10
-                            }
+                            "min": 1
                         },
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
-                        }
-                    ]
+                        "prop.missingHealth": 10
+                    }
                 },
                 "effect":
                 {
@@ -573,6 +407,27 @@
                         "base": 2.5,
                         "per_level_above_first": 2.5
                     }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "prop.committed":
+                        {
+                            "min": 1
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "prop:committed/tag_remove"
                 }
             }
         ]
