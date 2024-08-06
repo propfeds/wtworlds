@@ -4,6 +4,7 @@
     "pattern":
     [
         "b",
+        "b",
         "/"
     ],
     "key":
@@ -45,7 +46,7 @@
                     },
                     {
                         "blocks": "#mineable/hoe",
-                        "speed": 3,
+                        "speed": 2,
                         "correct_for_drops": true
                     },
                     {
