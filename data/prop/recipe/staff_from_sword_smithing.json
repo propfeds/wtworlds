@@ -21,6 +21,7 @@
             "minecraft:custom_model_data": 1752000,
             "minecraft:item_name": "\"Staff\"",
             "minecraft:max_damage": 234,
+            "!tool": {},
             "minecraft:attribute_modifiers":
             {
                 "modifiers":
