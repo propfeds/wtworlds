@@ -11,12 +11,12 @@
     "min_cost":
     {
         "base": 10,
-        "per_level_above_first": 20
+        "per_level_above_first": 25
     },
     "max_cost":
     {
         "base": 60,
-        "per_level_above_first": 20
+        "per_level_above_first": 25
     },
     "anvil_cost": 6,
     "effects":
@@ -73,7 +73,7 @@
                         "amount":
                         {
                             "type": "minecraft:linear",
-                            "base": 0.3,
+                            "base": 0.15,
                             "per_level_above_first": 0.15
                         }
                     }

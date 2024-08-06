@@ -8,8 +8,8 @@ scoreboard objectives add prop.missingHealth dummy
 scoreboard players reset * prop.missingHealth
 scoreboard objectives add prop.health dummy
 scoreboard players reset * prop.health
-scoreboard objectives add prop.committed dummy
-scoreboard players reset * prop.committed
+scoreboard objectives add prop.finishing dummy
+scoreboard players reset * prop.finishing
 
 scoreboard objectives add prop.impulse dummy
 scoreboard players reset * prop.impulse
