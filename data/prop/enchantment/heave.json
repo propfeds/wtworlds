@@ -60,17 +60,28 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "prop:heave/lift"
+                            "function": "prop:heave/sound"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.1,
+                            "radius": 0.125,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "gust"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound": "block.bamboo.fall"
                         },
                         {
                             "type": "run_function",
                             "function": "prop:heave/particles"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "prop:heave/sound"
                         }
-
                     ]
                 }
             }
