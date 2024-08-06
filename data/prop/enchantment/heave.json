@@ -60,15 +60,15 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "prop:heaving/lift"
+                            "function": "prop:heave/lift"
                         },
                         {
                             "type": "run_function",
-                            "function": "prop:heaving/particles"
+                            "function": "prop:heave/particles"
                         },
                         {
                             "type": "run_function",
-                            "function": "prop:heaving/sound"
+                            "function": "prop:heave/sound"
                         }
 
                     ]
