@@ -65,9 +65,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.1,
+                            "knockback_multiplier": 0.125,
                             "radius": 0.125,
-                            "offset": [0, 0, 0],
                             "large_particle":
                             {
                                 "type": "gust"
