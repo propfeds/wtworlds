@@ -1,0 +1,15 @@
+{
+    "criteria":
+    {
+        "impossible":
+        {
+            "trigger": "impossible"
+        }
+    },
+    "requirements":
+    [
+        [
+            "impossible"
+        ]
+    ]
+}
