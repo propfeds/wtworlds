@@ -66,7 +66,7 @@
                             "type": "explode",
                             "block_interaction": "none",
                             "knockback_multiplier": 0.125,
-                            "radius": 0.125,
+                            "radius": 0.25,
                             "large_particle":
                             {
                                 "type": "gust"
