@@ -1,0 +1,13 @@
+{
+	"criteria":
+    {
+        "tick":
+        {
+            "trigger": "minecraft:tick"
+	    }
+    },
+	"rewards":
+    {
+        "function": "wtworlds:blocking/impulse_cooldown"
+    }
+}

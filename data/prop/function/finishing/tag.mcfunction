@@ -1,1 +1,0 @@
-scoreboard players add @s prop.finishing 1

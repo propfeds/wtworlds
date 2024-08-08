@@ -1,0 +1,24 @@
+{
+    "criteria":
+    {
+        "tooting_horn":
+        {
+            "trigger": "using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": "minecraft:goat_horn",
+                    "components":
+                    {
+                        "custom_model_data": 1752001
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "wtworlds:blocking/use_loop"
+    }
+}

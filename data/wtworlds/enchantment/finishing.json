@@ -1,0 +1,438 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.finishing"
+    },
+    "primary_items": "golden_sword",
+    "supported_items": "golden_sword",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "weight": 10,
+    "max_level": 4,
+    "min_cost":
+    {
+        "base": 5,
+        "per_level_above_first": 15
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate":
+                            {
+                                "is_direct": true
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "nbt": "{HurtTime:10s}"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:finishing/calculate_missing_health"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:finishing/tag"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:finishing/particles"
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.25,
+                        "per_level_above_first": 0.25
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.25,
+                        "per_level_above_first": 0.25
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 2
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 3
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.75,
+                        "per_level_above_first": 0.75
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 0.75,
+                        "per_level_above_first": 0.75
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 4
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 5
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.25,
+                        "per_level_above_first": 1.25
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.25,
+                        "per_level_above_first": 1.25
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 6
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.5,
+                        "per_level_above_first": 1.5
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.5,
+                        "per_level_above_first": 1.5
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 7
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.75,
+                        "per_level_above_first": 1.75
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 1.75,
+                        "per_level_above_first": 1.75
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 8
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 2,
+                        "per_level_above_first": 2
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 2,
+                        "per_level_above_first": 2
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 9
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 2.25,
+                        "per_level_above_first": 2.25
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 2.25,
+                        "per_level_above_first": 2.25
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        },
+                        "wtworlds.missingHealth": 10
+                    }
+                },
+                "effect":
+                {
+                    "type": "damage_entity",
+                    "damage_type": "wtworlds:finishing",
+                    "min_damage":
+                    {
+                        "type": "linear",
+                        "base": 2.5,
+                        "per_level_above_first": 2.5
+                    },
+                    "max_damage":
+                    {
+                        "type": "linear",
+                        "base": 2.5,
+                        "per_level_above_first": 2.5
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.finishing":
+                        {
+                            "min": 1
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:finishing/tag_remove"
+                }
+            }
+        ]
+    }
+}

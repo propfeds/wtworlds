@@ -1,0 +1,1 @@
+scoreboard players add @s wtworlds.finishing 1

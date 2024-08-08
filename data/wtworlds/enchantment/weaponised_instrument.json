@@ -1,0 +1,40 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.weaponised_instrument"
+    },
+    "primary_items": "#wtworlds:enchantable/weaponised_instrument",
+    "supported_items": "#wtworlds:enchantable/weaponised_instrument",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 30,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "effects":
+    {
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect":
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                }
+            }
+        ]
+    }
+}
