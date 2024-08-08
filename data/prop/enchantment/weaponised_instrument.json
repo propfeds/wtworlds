@@ -1,7 +1,10 @@
 {
-    "description": "Weaponised",
-    "primary_items": "#prop:enchantable/weaponised_instrument",
-    "supported_items": "#prop:enchantable/weaponised_instrument",
+    "description":
+    {
+        "translate": "enchantment.wtworlds.weaponised_instrument"
+    },
+    "primary_items": "#wtworlds:enchantable/weaponised_instrument",
+    "supported_items": "#wtworlds:enchantable/weaponised_instrument",
     "slots":
     [
         "mainhand"

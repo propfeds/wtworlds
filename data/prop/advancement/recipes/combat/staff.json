@@ -1,5 +1,5 @@
 {
-    "parent": "prop:recipes/root",
+    "parent": "wtworlds:recipes/root",
     "criteria":
     {
         "has_gold_ingot":
@@ -20,7 +20,7 @@
             "trigger": "recipe_crafted",
             "conditions":
             {
-                "recipe_id": "prop:staff"
+                "recipe_id": "wtworlds:staff"
             }
         }
     },
@@ -35,7 +35,7 @@
     {
         "recipes":
         [
-            "prop:staff"
+            "wtworlds:staff"
         ]
     }
 }

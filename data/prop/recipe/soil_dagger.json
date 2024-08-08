@@ -63,8 +63,8 @@
             },
             "enchantments":
             {
-                "prop:retaliation": 1,
-                "prop:weaponised_instrument": 1
+                "wtworlds:retaliation": 1,
+                "wtworlds:weaponised_instrument": 1
             },
             "enchantment_glint_override": false,
             "minecraft:attribute_modifiers":

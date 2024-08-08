@@ -1,5 +1,5 @@
 {
-    "parent": "prop:recipes/root",
+    "parent": "wtworlds:recipes/root",
     "criteria":
     {
         "has_bone":
@@ -20,7 +20,7 @@
             "trigger": "recipe_crafted",
             "conditions":
             {
-                "recipe_id": "prop:soil_dagger"
+                "recipe_id": "wtworlds:soil_dagger"
             }
         }
     },
@@ -35,7 +35,7 @@
     {
         "recipes":
         [
-            "prop:soil_dagger"
+            "wtworlds:soil_dagger"
         ]
     }
 }

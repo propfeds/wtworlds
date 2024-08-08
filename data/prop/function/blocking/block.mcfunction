@@ -1,4 +1,4 @@
-advancement revoke @s only prop:blocking/block
-function prop:blocking/sound
-function prop:blocking/particles
-execute if score @s prop.blockFrame matches ..5 run function prop:blocking/particles_perfect_block
+advancement revoke @s only wtworlds:blocking/block
+function wtworlds:blocking/sound
+function wtworlds:blocking/particles
+execute if score @s wtworlds.blockFrame matches ..5 run function wtworlds:blocking/particles_perfect_block

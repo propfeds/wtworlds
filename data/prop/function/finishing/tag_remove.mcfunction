@@ -1,1 +1,1 @@
-scoreboard players reset @s prop.finishing
+scoreboard players reset @s wtworlds.finishing

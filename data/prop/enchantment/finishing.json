@@ -1,5 +1,8 @@
 {
-    "description": "Finishing",
+    "description":
+    {
+        "translate": "enchantment.wtworlds.finishing"
+    },
     "primary_items": "golden_sword",
     "supported_items": "golden_sword",
     "slots":
@@ -56,15 +59,15 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "prop:finishing/calculate_missing_health"
+                            "function": "wtworlds:finishing/calculate_missing_health"
                         },
                         {
                             "type": "run_function",
-                            "function": "prop:finishing/tag"
+                            "function": "wtworlds:finishing/tag"
                         },
                         {
                             "type": "run_function",
-                            "function": "prop:finishing/particles"
+                            "function": "wtworlds:finishing/particles"
                         }
                     ]
                 }
@@ -78,17 +81,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 1
+                        "wtworlds.missingHealth": 1
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -112,17 +115,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 2
+                        "wtworlds.missingHealth": 2
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -146,17 +149,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 3
+                        "wtworlds.missingHealth": 3
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -180,17 +183,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 4
+                        "wtworlds.missingHealth": 4
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -214,17 +217,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 5
+                        "wtworlds.missingHealth": 5
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -248,17 +251,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 6
+                        "wtworlds.missingHealth": 6
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -282,17 +285,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 7
+                        "wtworlds.missingHealth": 7
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -316,17 +319,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 8
+                        "wtworlds.missingHealth": 8
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -350,17 +353,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 9
+                        "wtworlds.missingHealth": 9
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -384,17 +387,17 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         },
-                        "prop.missingHealth": 10
+                        "wtworlds.missingHealth": 10
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "prop:finishing",
+                    "damage_type": "wtworlds:finishing",
                     "min_damage":
                     {
                         "type": "linear",
@@ -418,7 +421,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "prop.finishing":
+                        "wtworlds.finishing":
                         {
                             "min": 1
                         }
@@ -427,7 +430,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "prop:finishing/tag_remove"
+                    "function": "wtworlds:finishing/tag_remove"
                 }
             }
         ]

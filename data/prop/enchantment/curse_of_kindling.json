@@ -1,5 +1,8 @@
 {
-    "description": "Curse of Kindling",
+    "description":
+    {
+        "translate": "enchantment.wtworlds.curse_of_kindling"
+    },
     "primary_items": "#minecraft:enchantable/leg_armor",
     "supported_items": "#minecraft:enchantable/armor",
     "slots":

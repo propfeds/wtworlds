@@ -1,1 +1,1 @@
-scoreboard players add @s prop.finishing 1
+scoreboard players add @s wtworlds.finishing 1
