@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern":
+    [
+        "iii",
+        " A "
+    ],
+    "key":
+    {
+        "i":
+        {
+            "item": "iron_ingot"
+        },
+        "A":
+        {
+            "item": "chipped_anvil"
+        }
+    },
+    "result":
+    {
+        "id": "anvil"
+    }
+}
