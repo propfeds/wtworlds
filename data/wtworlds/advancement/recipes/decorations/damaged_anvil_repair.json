@@ -1,0 +1,55 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_damaged_anvil":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "damaged_anvil"
+                    }
+                ]
+            }
+        },
+        "has_anvil":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "anvil"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:damaged_anvil_repair"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_damaged_anvil",
+            "has_anvil"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:damaged_anvil_repair"
+        ]
+    }
+}
