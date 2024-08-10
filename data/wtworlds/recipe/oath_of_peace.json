@@ -1,0 +1,42 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "pattern":
+    [
+        "#iP",
+        "_ _",
+        "#_#"
+    ],
+    "key":
+    {
+        "#":
+        {
+            "item": "minecraft:string"
+        },
+        "i":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "P":
+        {
+            "item": "minecraft:poppy"
+        },
+        "_":
+        {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result":
+    {
+        "id": "iron_ingot",
+        "count": 1,
+        "components":
+        {
+            "custom_model_data": 1752002,
+            "item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.oath_of_peace\"}",
+            "max_stack_size": 1,
+            "max_damage": 60,
+            "damage": 0
+        }
+    }
+}

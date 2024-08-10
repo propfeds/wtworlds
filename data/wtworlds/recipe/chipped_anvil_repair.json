@@ -19,6 +19,7 @@
     },
     "result":
     {
-        "id": "anvil"
+        "id": "anvil",
+        "count": 1
     }
 }
