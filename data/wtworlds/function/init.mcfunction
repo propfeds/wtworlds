@@ -1,8 +1,12 @@
-tellraw @p {"text": "Welcome to Prop's Weapon Additions!"}
+tellraw @p {"text": "Welcome to Weathered Worlds."}
 
 scoreboard objectives add const dummy
 scoreboard players set 1000 const 1000
 scoreboard players set 10000 const 10000
+
+scoreboard players set wtworlds.blocking.dur const 24
+scoreboard players set wtworlds.blocking.perfectBlockStart const 1
+scoreboard players set wtworlds.blocking.imperfectBlockStart const 7
 
 scoreboard objectives add wtworlds.missingHealth dummy
 scoreboard players reset * wtworlds.missingHealth

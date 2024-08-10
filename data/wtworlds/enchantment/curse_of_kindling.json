@@ -21,7 +21,7 @@
         "base": 60,
         "per_level_above_first": 25
     },
-    "anvil_cost": 6,
+    "anvil_cost": 4,
     "effects":
     {
         "minecraft:post_attack":
@@ -53,8 +53,8 @@
                             "duration":
                             {
                                 "type": "linear",
-                                "base": 2,
-                                "per_level_above_first": 1
+                                "base": 3,
+                                "per_level_above_first": 3
                             }
                         },
                         {
@@ -92,7 +92,7 @@
                             {
                                 "type": "linear",
                                 "base": 2,
-                                "per_level_above_first": 1
+                                "per_level_above_first": 2
                             }
                         },
                         {

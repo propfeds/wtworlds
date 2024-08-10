@@ -31,7 +31,7 @@
             "instrument":
             {
                 "sound_event": "block.bone_block.fall",
-                "use_duration": 25,
+                "use_duration": 24,
                 "range": 8
             },
             "tool":
