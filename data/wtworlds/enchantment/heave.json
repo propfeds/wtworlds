@@ -3,7 +3,6 @@
     {
         "translate": "enchantment.wtworlds.heave"
     },
-    "primary_items": "#wtworlds:enchantable/polearm",
     "supported_items": "#wtworlds:enchantable/polearm",
     "slots":
     [
@@ -63,7 +62,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/sound"
+                            "function": "wtworlds:heave/slow"
                         },
                         {
                             "type": "explode",
@@ -79,6 +78,10 @@
                                 "type": "small_gust"
                             },
                             "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:heave/sound"
                         },
                         {
                             "type": "run_function",

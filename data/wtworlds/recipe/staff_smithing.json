@@ -1,21 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern":
-    [
-        "g",
-        "/"
-    ],
-    "key":
+    "type": "minecraft:smithing_transform",
+    "template":
     {
-        "g":
-        {
-            "item": "minecraft:golden_sword"
-        },
-        "/":
-        {
-            "item": "minecraft:stick"
-        }
+        "item": "minecraft:stick"
+    },
+    "base":
+    {
+        "item": "minecraft:golden_sword"
+    },
+    "addition":
+    {
+        "item": "minecraft:gold_ingot"
     },
     "result":
     {
@@ -69,7 +64,7 @@
                     {
                         "id": "entity_interaction_range",
                         "type": "minecraft:player.entity_interaction_range",
-                        "amount": 0.25,
+                        "amount": 0.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -78,7 +73,7 @@
             },
             "lore":
             [
-                "{\"text\": \"\"}",
+                "\"\"",
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
@@ -86,7 +81,7 @@
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.4 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.generic.attack_speed\"}]}",
 
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"+0.25 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.player.entity_interaction_range\"}]}"
+                "{\"color\": \"blue\", \"italic\": false, \"text\": \"+0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.player.entity_interaction_range\"}]}"
             ]
         }
     }

@@ -39,7 +39,7 @@
                         {
                             "type": "minecraft:linear",
                             "base": 0.3,
-                            "per_level_above_first": 0.15
+                            "per_level_above_first": 0.3
                         }
                     }
                 },
