@@ -1,2 +1,0 @@
-scoreboard players remove @s[scores={wtworlds.oath_of_peace.countdown=1..}] wtworlds.oath_of_peace.countdown 1
-execute as @s[scores={wtworlds.oath_of_peace.countdown=0}] run function wtworlds:oath_of_peace/reveal
