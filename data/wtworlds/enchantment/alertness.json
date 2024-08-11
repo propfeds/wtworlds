@@ -31,17 +31,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:oath_of_peace/reveal_singular"
-                }
-            }
-        ],
-        "tick":
-        [
-            {
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:oath_of_peace/countdown"
+                    "function": "wtworlds:promise_of_peace/reveal"
                 }
             }
         ]

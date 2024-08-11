@@ -17,7 +17,4 @@ scoreboard objectives add wtworlds.finishing dummy
 scoreboard objectives add wtworlds.impulse dummy
 scoreboard objectives add wtworlds.block_frame dummy
 
-# Oath of Peace revealing
-scoreboard objectives add wtworlds.oath_of_peace.countdown dummy
-
-scoreboard objectives setdisplay sidebar wtworlds.oath_of_peace.countdown
+scoreboard objectives setdisplay sidebar const
