@@ -33,7 +33,7 @@
         "components":
         {
             "custom_model_data": 1752002,
-            "item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.oath_of_peace\"}",
+            "item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.promise_of_peace\"}",
             "!food": {},
             "max_damage": 144,
             "damage": 0,

@@ -31,7 +31,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:oath_of_peace/reveal"
+                    "function": "wtworlds:promise_of_peace/reveal"
                 }
             }
         ]
