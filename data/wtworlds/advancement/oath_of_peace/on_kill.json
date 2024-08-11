@@ -13,9 +13,15 @@
                         "mainhand":
                         {
                             "items": "beetroot_soup",
-                            "components":
+                            "predicates":
                             {
-                                "custom_model_data": 1752002
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantments": "wtworlds:alertness",
+                                        "levels": 1
+                                    }
+                                ]
                             }
                         }
                     }
@@ -34,24 +40,27 @@
                         "offhand":
                         {
                             "items": "beetroot_soup",
-                            "components":
+                            "predicates":
                             {
-                                "custom_model_data": 1752002
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantments": "wtworlds:alertness",
+                                        "levels": 1
+                                    }
+                                ]
                             }
                         }
                     }
                 }
             }
-        },
-        "impossible":
-        {
-            "trigger": "impossible"
         }
     },
     "requirements":
     [
         [
-            "impossible"
+            "on_kill_mainhand",
+            "on_kill_offhand"
         ]
     ],
     "rewards":

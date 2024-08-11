@@ -84,7 +84,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 1
+                        "wtworlds.missing_health": 1
                     }
                 },
                 "effect":
@@ -118,7 +118,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 2
+                        "wtworlds.missing_health": 2
                     }
                 },
                 "effect":
@@ -152,7 +152,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 3
+                        "wtworlds.missing_health": 3
                     }
                 },
                 "effect":
@@ -186,7 +186,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 4
+                        "wtworlds.missing_health": 4
                     }
                 },
                 "effect":
@@ -220,7 +220,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 5
+                        "wtworlds.missing_health": 5
                     }
                 },
                 "effect":
@@ -254,7 +254,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 6
+                        "wtworlds.missing_health": 6
                     }
                 },
                 "effect":
@@ -288,7 +288,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 7
+                        "wtworlds.missing_health": 7
                     }
                 },
                 "effect":
@@ -322,7 +322,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 8
+                        "wtworlds.missing_health": 8
                     }
                 },
                 "effect":
@@ -356,7 +356,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 9
+                        "wtworlds.missing_health": 9
                     }
                 },
                 "effect":
@@ -390,7 +390,7 @@
                         {
                             "min": 1
                         },
-                        "wtworlds.missingHealth": 10
+                        "wtworlds.missing_health": 10
                     }
                 },
                 "effect":
