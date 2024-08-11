@@ -42,13 +42,16 @@
                     }
                 }
             }
+        },
+        "impossible":
+        {
+            "trigger": "impossible"
         }
     },
     "requirements":
     [
         [
-            "on_kill_mainhand",
-            "on_kill_offhand"
+            "impossible"
         ]
     ],
     "rewards":

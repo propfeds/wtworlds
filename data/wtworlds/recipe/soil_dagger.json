@@ -97,7 +97,7 @@
             },
             "lore":
             [
-                "{\"text\": \"\"}",
+                "\"\"",
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 

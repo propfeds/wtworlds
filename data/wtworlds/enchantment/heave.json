@@ -62,7 +62,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/sound"
+                            "function": "wtworlds:heave/slow"
                         },
                         {
                             "type": "explode",
@@ -78,6 +78,10 @@
                                 "type": "small_gust"
                             },
                             "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:heave/sound"
                         },
                         {
                             "type": "run_function",
