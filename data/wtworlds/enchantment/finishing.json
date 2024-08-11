@@ -3,8 +3,7 @@
     {
         "translate": "enchantment.wtworlds.finishing"
     },
-    "primary_items": "golden_sword",
-    "supported_items": "golden_sword",
+    "supported_items": "#wtworlds:enchantable/polearm",
     "slots":
     [
         "mainhand"

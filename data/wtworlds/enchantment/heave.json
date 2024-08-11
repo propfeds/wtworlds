@@ -3,7 +3,6 @@
     {
         "translate": "enchantment.wtworlds.heave"
     },
-    "primary_items": "#wtworlds:enchantable/polearm",
     "supported_items": "#wtworlds:enchantable/polearm",
     "slots":
     [

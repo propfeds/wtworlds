@@ -1,0 +1,55 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_iron_ingot":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "iron_ingot"
+                    }
+                ]
+            }
+        },
+        "has_poppy":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "poppy"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:oath_of_peace"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_iron_ingot",
+            "has_poppy"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:oath_of_peace"
+        ]
+    }
+}

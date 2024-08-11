@@ -1,0 +1,40 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.curse_of_attrition"
+    },
+    "primary_items": "beetroot_soup",
+    "supported_items": "#minecraft:enchantable/durability",
+    "slots":
+    [
+        "any"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "minecraft:post_attack":
+        [
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "effect":
+                {
+                    "type": "minecraft:damage_item",
+                    "amount": 1
+                }
+            }
+        ]
+    }
+}

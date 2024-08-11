@@ -11,32 +11,55 @@
     {
         "#":
         {
-            "item": "minecraft:string"
+            "item": "string"
         },
         "i":
         {
-            "item": "minecraft:iron_ingot"
+            "item": "iron_ingot"
         },
         "P":
         {
-            "item": "minecraft:poppy"
+            "item": "poppy"
         },
         "_":
         {
-            "tag": "minecraft:wooden_slabs"
+            "tag": "wooden_slabs"
         }
     },
     "result":
     {
-        "id": "iron_ingot",
+        "id": "beetroot_soup",
         "count": 1,
         "components":
         {
             "custom_model_data": 1752002,
             "item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.oath_of_peace\"}",
-            "max_stack_size": 1,
-            "max_damage": 60,
-            "damage": 0
+            "!food": {},
+            "max_damage": 172,
+            "damage": 0,
+            "enchantments":
+            {
+                "wtworlds:alertness": 1,
+                "wtworlds:curse_of_attrition": 1
+            },
+            "enchantment_glint_override": false,
+            "attribute_modifiers":
+            [
+                {
+                    "id": "attack_damage",
+                    "type": "generic.attack_damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "hand"
+                },
+                {
+                    "id": "knockback",
+                    "type": "generic.attack_knockback",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "hand"
+                }
+            ]
         }
     }
 }

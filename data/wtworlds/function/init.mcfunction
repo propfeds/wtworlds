@@ -20,4 +20,6 @@ scoreboard players reset * wtworlds.impulse
 scoreboard objectives add wtworlds.blockFrame dummy
 scoreboard players reset * wtworlds.blockFrame
 
-scoreboard objectives setdisplay sidebar wtworlds.blockFrame
+scoreboard objectives add wtworlds.oathofPeace.countdown dummy
+
+scoreboard objectives setdisplay sidebar wtworlds.oathofPeace.countdown

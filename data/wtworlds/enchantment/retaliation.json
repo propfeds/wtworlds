@@ -3,7 +3,6 @@
     {
         "translate": "enchantment.wtworlds.retaliation"
     },
-    "primary_items": "#wtworlds:enchantable/blocking",
     "supported_items": "#wtworlds:enchantable/blocking",
     "slots":
     [
@@ -21,7 +20,7 @@
         "base": 60,
         "per_level_above_first": 20
     },
-    "anvil_cost": 1,
+    "anvil_cost": 2,
     "effects":
     {
         "post_attack":
