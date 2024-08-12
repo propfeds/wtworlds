@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.heave"
+        "translate": "enchantment.wtworlds.vault"
     },
     "supported_items": "#wtworlds:enchantable/staff",
     "exclusive_set": "#wtworlds:exclusive_set/staff",
@@ -13,48 +13,31 @@
     "max_level": 1,
     "min_cost":
     {
-        "base": 15,
+        "base": 1,
         "per_level_above_first": 0
     },
     "max_cost":
     {
-        "base": 45,
+        "base": 21,
         "per_level_above_first": 0
     },
     "anvil_cost": 4,
     "effects":
     {
-        "post_attack":
+        "hit_block":
         [
             {
-                "enchanted": "attacker",
-                "affected": "victim",
                 "requirements":
                 {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "flags":
                         {
-                            "condition": "entity_properties",
-                            "entity": "attacker",
-                            "predicate":
-                            {
-                                "flags":
-                                {
-                                    "is_sneaking": true,
-                                    "is_on_ground": true
-                                }
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
+                            "is_sneaking": true
                         }
-                    ]
+                    }
                 },
                 "effect":
                 {
@@ -62,14 +45,11 @@
                     "effects":
                     [
                         {
-                            "type": "run_function",
-                            "function": "wtworlds:heave/slow"
-                        },
-                        {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.125,
-                            "radius": 0.25,
+                            "knockback_multiplier": 0.75,
+                            "radius": 1.5,
+                            "offset": [0, 1, 0],
                             "large_particle":
                             {
                                 "type": "gust"
