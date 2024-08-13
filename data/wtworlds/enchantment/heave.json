@@ -62,10 +62,6 @@
                     "effects":
                     [
                         {
-                            "type": "run_function",
-                            "function": "wtworlds:heave/slow"
-                        },
-                        {
                             "type": "explode",
                             "block_interaction": "none",
                             "knockback_multiplier": 0.125,
@@ -79,6 +75,10 @@
                                 "type": "small_gust"
                             },
                             "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:heave/slow"
                         },
                         {
                             "type": "run_function",
