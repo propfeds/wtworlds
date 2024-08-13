@@ -29,15 +29,33 @@
             {
                 "requirements":
                 {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate":
-                    {
-                        "flags":
+                    "condition": "all_of",
+                    "terms":
+                    [
                         {
-                            "is_sneaking": true
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "flags":
+                                {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.vault.cooldown":
+                                {
+                                    "max": 0
+                                }
+                            }
                         }
-                    }
+                    ]
+                    
                 },
                 "effect":
                 {
@@ -45,26 +63,34 @@
                     "effects":
                     [
                         {
+                            "type": "run_function",
+                            "function": "wtworlds:vault/init_cooldown"
+                        },
+                        {
+                            "type": "damage_item",
+                            "amount": 2
+                        },
+                        {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
-                            "radius": 1,
+                            "knockback_multiplier": 0,
+                            "radius": 0,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
-                                "type": "gust_emitter_small"
+                                "type": "gust_emitter_large"
                             },
                             "small_particle":
                             {
-                                "type": "gust"
+                                "type": "gust_emitter_small"
                             },
                             "sound": "block.bamboo.fall"
                         },
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.15,
-                            "radius": 0.5,
+                            "knockback_multiplier": 0.18,
+                            "radius": 0.75,
                             "offset": [1, 0, 0],
                             "large_particle":
                             {
@@ -83,8 +109,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.15,
-                            "radius": 0.5,
+                            "knockback_multiplier": 0.18,
+                            "radius": 0.75,
                             "offset": [-1, 0, 0],
                             "large_particle":
                             {
@@ -103,8 +129,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.15,
-                            "radius": 0.5,
+                            "knockback_multiplier": 0.18,
+                            "radius": 0.75,
                             "offset": [0, 1, 0],
                             "large_particle":
                             {
@@ -123,8 +149,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.15,
-                            "radius": 0.5,
+                            "knockback_multiplier": 0.18,
+                            "radius": 0.75,
                             "offset": [0, -1, 0],
                             "large_particle":
                             {
@@ -143,8 +169,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.15,
-                            "radius": 0.5,
+                            "knockback_multiplier": 0.18,
+                            "radius": 0.75,
                             "offset": [0, 0, 1],
                             "large_particle":
                             {
@@ -163,8 +189,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.15,
-                            "radius": 0.5,
+                            "knockback_multiplier": 0.18,
+                            "radius": 0.75,
                             "offset": [0, 0, -1],
                             "large_particle":
                             {
@@ -183,7 +209,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [1, 0, -1],
                             "large_particle":
@@ -203,7 +229,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [-1, 0, -1],
                             "large_particle":
@@ -223,7 +249,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [1, 0, 1],
                             "large_particle":
@@ -243,7 +269,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [-1, 0, 1],
                             "large_particle":
@@ -263,7 +289,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [1, 1, 0],
                             "large_particle":
@@ -283,7 +309,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [1, -1, 0],
                             "large_particle":
@@ -303,7 +329,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [-1, 1, 0],
                             "large_particle":
@@ -323,7 +349,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [-1, -1, 0],
                             "large_particle":
@@ -343,7 +369,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [0, 1, 1],
                             "large_particle":
@@ -363,7 +389,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [0, 1, -1],
                             "large_particle":
@@ -383,7 +409,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [0, -1, 1],
                             "large_particle":
@@ -403,7 +429,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
+                            "knockback_multiplier": 0.18,
                             "radius": 1,
                             "offset": [0, -1, -1],
                             "large_particle":
@@ -419,6 +445,10 @@
                                 "sound_id": "block.amethyst.hit",
                                 "range": 0
                             }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:vault/sound"
                         },
                         {
                             "type": "run_function",
