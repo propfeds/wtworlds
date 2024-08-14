@@ -55,7 +55,7 @@
                 {
                     "id": "movement_speed",
                     "type": "generic.movement_speed",
-                    "amount": 0.03,
+                    "amount": 0.025,
                     "operation": "add_value",
                     "slot": "hand"
                 },
