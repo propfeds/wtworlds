@@ -65,7 +65,7 @@
                             "type": "explode",
                             "block_interaction": "none",
                             "knockback_multiplier": 0.125,
-                            "radius": 0.25,
+                            "radius": 0.5,
                             "large_particle":
                             {
                                 "type": "gust"
@@ -87,6 +87,81 @@
                         {
                             "type": "run_function",
                             "function": "wtworlds:heave/particles"
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 0.875
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1,
+                                "movement_scale": 3
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0.0625
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 1.125
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1,
+                                "movement_scale": 3
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0.0625
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 1.25
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1,
+                                "movement_scale": 3
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0.0625
+                            }
                         }
                     ]
                 }
