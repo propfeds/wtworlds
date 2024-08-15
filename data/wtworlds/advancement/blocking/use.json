@@ -19,6 +19,6 @@
     },
     "rewards":
     {
-        "function": "wtworlds:blocking/use_loop"
+        "function": "wtworlds:blocking/use_tick"
     }
 }
