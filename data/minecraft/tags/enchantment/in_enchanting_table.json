@@ -1,7 +1,8 @@
 {
     "values":
     [
-	    "wtworlds:heave",
+        "wtworlds:heave",
+        "wtworlds:vault",
         "wtworlds:finishing",
         "wtworlds:curse_of_kindling"
     ]

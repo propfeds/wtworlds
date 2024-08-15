@@ -13,7 +13,7 @@
                         "entity": "this",
                         "scores":
                         {
-                            "wtworlds.block_frame":
+                            "wtworlds.blocking.frame":
                             {
                                 "min": 1
                             }

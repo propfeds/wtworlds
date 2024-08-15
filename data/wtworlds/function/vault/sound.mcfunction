@@ -1,0 +1,1 @@
+playsound item.staff.use player @a
