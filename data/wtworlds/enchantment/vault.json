@@ -68,7 +68,7 @@
                         },
                         {
                             "type": "damage_item",
-                            "amount": 2
+                            "amount": 1
                         },
                         {
                             "type": "explode",
