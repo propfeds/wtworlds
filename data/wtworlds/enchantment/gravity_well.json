@@ -56,7 +56,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "gust_emitter_small"
+                                "type": "sonic_boom"
                             },
                             "sound": "block.beacon.activate"
                         }
