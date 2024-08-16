@@ -9,14 +9,8 @@
     ],
     "key":
     {
-        "b":
-        {
-            "item": "minecraft:bone"
-        },
-        "/":
-        {
-            "item": "minecraft:stick"
-        }
+        "b": "minecraft:bone",
+        "/": "minecraft:stick"
     },
     "result":
     {
@@ -28,12 +22,11 @@
             "minecraft:item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.soil_dagger\"}",
             "damage": 0,
             "minecraft:max_damage": 152,
-            "instrument":
+            "repairable":
             {
-                "sound_event": "block.bone_block.fall",
-                "use_duration": 24,
-                "range": 8
+                "items": "bone"
             },
+            "instrument": "wtworlds:soil_dagger",
             "tool":
             {
                 "damage_per_block": 1,
@@ -61,6 +54,10 @@
                     }
                 ]
             },
+            "enchantable":
+            {
+                "value": 9
+            },
             "enchantments":
             {
                 "wtworlds:retaliation": 1,
@@ -73,21 +70,21 @@
                 [
                     {
                         "id": "attack_damage",
-                        "type": "minecraft:generic.attack_damage",
+                        "type": "minecraft:attack_damage",
                         "amount": 3.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "attack_speed",
-                        "type": "minecraft:generic.attack_speed",
+                        "type": "minecraft:attack_speed",
                         "amount": -2.2,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "entity_interaction_range",
-                        "type": "minecraft:player.entity_interaction_range",
+                        "type": "minecraft:entity_interaction_range",
                         "amount": -0.25,
                         "operation": "add_value",
                         "slot": "mainhand"
@@ -101,11 +98,11 @@
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 4.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.generic.attack_damage\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 4.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.generic.attack_speed\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
 
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.25 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.player.entity_interaction_range\"}]}"
+                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.25 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
             ]
         }
     }

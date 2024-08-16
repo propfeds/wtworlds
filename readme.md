@@ -4,6 +4,11 @@ Planned:
 - Enemies
 - World-gen (structures only, no biomes)
 
+## Please
+
+finishing particles anchored eyes
+spawn end rod particle when finishing >= 8
+
 remodel staff to be breeze?
 
 upgrade goat horn to dagger?

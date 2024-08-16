@@ -9,22 +9,10 @@
     ],
     "key":
     {
-        "#":
-        {
-            "item": "string"
-        },
-        "i":
-        {
-            "item": "iron_ingot"
-        },
-        "P":
-        {
-            "item": "poppy"
-        },
-        "_":
-        {
-            "tag": "wooden_buttons"
-        }
+        "#": "string",
+        "i": "iron_ingot",
+        "P": "poppy",
+        "_": "#wooden_buttons"
     },
     "result":
     {
@@ -37,6 +25,10 @@
             "!food": {},
             "max_damage": 116,
             "damage": 0,
+            "repairable":
+            {
+                "items": "#wooden_buttons"
+            },
             "enchantments":
             {
                 "wtworlds:alertness": 1,
@@ -47,21 +39,21 @@
             [
                 {
                     "id": "knockback",
-                    "type": "generic.attack_knockback",
+                    "type": "attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "hand"
                 },
                 {
                     "id": "movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.025,
                     "operation": "add_value",
                     "slot": "hand"
                 },
                 {
                     "id": "fall_height",
-                    "type": "generic.safe_fall_distance",
+                    "type": "safe_fall_distance",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "hand"

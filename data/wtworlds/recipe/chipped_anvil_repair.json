@@ -8,14 +8,8 @@
     ],
     "key":
     {
-        "i":
-        {
-            "item": "iron_ingot"
-        },
-        "A":
-        {
-            "item": "chipped_anvil"
-        }
+        "i": "iron_ingot",
+        "A": "chipped_anvil"
     },
     "result":
     {
