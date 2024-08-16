@@ -67,7 +67,7 @@
                     {
                         "id": "attack_damage",
                         "type": "minecraft:attack_damage",
-                        "amount": 3.5,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -94,7 +94,7 @@
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 4.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 4 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
 
