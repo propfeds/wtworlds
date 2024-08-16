@@ -66,7 +66,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:finishing/particles"
+                            "function": "wtworlds:finishing/particles_anchored_eyes"
                         }
                     ]
                 }
