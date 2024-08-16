@@ -1,2 +1,2 @@
-give @s bone 2
+give @s bone 1
 give @s stick 1
