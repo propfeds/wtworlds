@@ -1,12 +1,6 @@
 {
     "description": "Gravity Well (Test)",
-    "supported_items":
-    [
-        "wooden_sword",
-        "arrow",
-        "bow",
-        "crossbow"
-    ],
+    "supported_items": "arrow",
     "slots":
     [
         "any"
@@ -26,22 +20,7 @@
     "anvil_cost": 4,
     "effects":
     {
-        "attributes":
-        [
-            {
-                "id": "range",
-                "amount": 8,
-                "attribute": "block_interaction_range",
-                "operation": "add_value"
-            },
-            {
-                "id": "breaking_speed",
-                "amount": -1,
-                "attribute": "block_break_speed",
-                "operation": "add_multiplied_total"
-            }
-        ],
-        "hit_block":
+        "projectile_spawned":
         [
             {
                 "effect":
@@ -53,9 +32,9 @@
                             "type": "explode",
                             "attribute_to_user": false,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.5,
-                            "radius": 6,
-                            "offset": [0, 1, 0],
+                            "knockback_multiplier": 1,
+                            "radius": 0.25,
+                            "offset": [0, 0, 0],
                             "large_particle":
                             {
                                 "type": "explosion_emitter"

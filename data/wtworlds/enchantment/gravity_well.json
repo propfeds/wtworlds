@@ -56,7 +56,11 @@
                             {
                                 "type": "sonic_boom"
                             },
-                            "sound": "block.beacon.activate"
+                            "sound":
+                            {
+                                "sound_id": "enchant.gravity_well.activate",
+                                "range": 16
+                            }
                         },
                         {
                             "type": "explode",
