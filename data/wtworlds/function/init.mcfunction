@@ -1,4 +1,5 @@
-tellraw @p {"text": "Welcome to Weathered Worlds."}
+# tellraw @p {"text": "Welcome to Weathered Worlds."}
+title @a subtitle {"text": "Welcome to Withered Worlds."}
 
 scoreboard objectives add const dummy
 scoreboard players set 1000 const 1000
@@ -18,4 +19,4 @@ scoreboard players set wtworlds.blocking.imperfect_block_start const 7
 # Vault
 scoreboard objectives add wtworlds.vault.cooldown dummy
 
-scoreboard objectives setdisplay sidebar wtworlds.missing_health
+scoreboard objectives setdisplay sidebar const
