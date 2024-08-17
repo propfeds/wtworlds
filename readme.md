@@ -1,4 +1,4 @@
-# Weathered Worlds
+# Withered Worlds
 
 Planned:
 - Enemies

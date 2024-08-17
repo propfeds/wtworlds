@@ -1,9 +1,10 @@
 {
-    "description": "Gravity Well (Test)",
-    "supported_items": "arrow",
+    "description": "Rainbow",
+    "primary_items": "crossbow",
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
     [
-        "any"
+        "hand"
     ],
     "weight": 2,
     "max_level": 1,
@@ -20,6 +21,45 @@
     "anvil_cost": 4,
     "effects":
     {
+        "projectile_count":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": 12
+                }
+            }
+        ],
+        "projectile_spread":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": 12
+                }
+            }
+        ],
+        "damage":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": -1
+                },
+                "requirements":
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate":
+                    {
+                        "type": "#minecraft:arrows"
+                    }
+                }
+            }
+        ],
         "projectile_spawned":
         [
             {
@@ -32,8 +72,8 @@
                             "type": "explode",
                             "attribute_to_user": false,
                             "block_interaction": "none",
-                            "knockback_multiplier": 1,
-                            "radius": 0.25,
+                            "knockback_multiplier": 0.03125,
+                            "radius": 0.01,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -41,9 +81,13 @@
                             },
                             "small_particle":
                             {
-                                "type": "sonic_boom"
+                                "type": "ash"
                             },
-                            "sound": "block.beacon.activate"
+                            "sound":
+                            {
+                                "sound_id": "block.amethyst.hit",
+                                "range": 0
+                            }
                         }
                     ]
                 }
