@@ -1,40 +1,29 @@
 {
-    "description": "Gravity Well (Test!)",
-    "supported_items": "wooden_sword",
+    "description":
+    {
+        "translate": "enchantment.wtworlds.gravity_well"
+    },
+    "primary_items": "crossbow",
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
     [
-        "mainhand"
+        "any"
     ],
-    "weight": 2,
+    "weight": 1,
     "max_level": 1,
     "min_cost":
     {
-        "base": 5,
+        "base": 20,
         "per_level_above_first": 0
     },
     "max_cost":
     {
-        "base": 25,
+        "base": 40,
         "per_level_above_first": 0
     },
     "anvil_cost": 4,
     "effects":
     {
-        "attributes":
-        [
-            {
-                "id": "range",
-                "amount": 8,
-                "attribute": "block_interaction_range",
-                "operation": "add_value"
-            },
-            {
-                "id": "breaking_speed",
-                "amount": -1,
-                "attribute": "block_break_speed",
-                "operation": "add_multiplied_total"
-            }
-        ],
         "hit_block":
         [
             {
@@ -47,18 +36,120 @@
                             "type": "explode",
                             "attribute_to_user": false,
                             "block_interaction": "none",
-                            "knockback_multiplier": -1,
-                            "radius": 6,
-                            "offset": [0, 1, 0],
+                            "knockback_multiplier": 0,
+                            "radius": 0,
+                            "offset": [0, 0, 0],
                             "large_particle":
                             {
-                                "type": "gust_emitter_large"
+                                "type": "gust_emitter_small"
                             },
                             "small_particle":
                             {
                                 "type": "sonic_boom"
                             },
                             "sound": "block.beacon.activate"
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": -1,
+                            "radius": 5,
+                            "offset": [1, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": {"sound_id": "block.amethyst.hit","range": 0}
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": -1,
+                            "radius": 5,
+                            "offset": [-1, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": {"sound_id": "block.amethyst.hit","range": 0}
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": -1,
+                            "radius": 5,
+                            "offset": [0, 1, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": {"sound_id": "block.amethyst.hit","range": 0}
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": -1,
+                            "radius": 5,
+                            "offset": [0, -1, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": {"sound_id": "block.amethyst.hit","range": 0}
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": -1,
+                            "radius": 5,
+                            "offset": [0, 0, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": {"sound_id": "block.amethyst.hit","range": 0}
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": -1,
+                            "radius": 5,
+                            "offset": [0, 0, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": {"sound_id": "block.amethyst.hit","range": 0}
                         }
                     ]
                 }

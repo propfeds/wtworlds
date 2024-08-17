@@ -6,6 +6,8 @@ Planned:
 
 ## Please
 
+finish peace sprite
+
 remodel staff to be breeze?
 
 upgrade goat horn to dagger?
@@ -14,8 +16,6 @@ dagger change to a rare weapon dropped by an enemy
 - increase damage & durability
 
 finishing works without sweeping edge for some reason
-
-gravity enchantment that explodes negatively?
 
 kanji enchantment numbers
 

@@ -4,6 +4,7 @@
     "pattern":
     [
         "b",
+        "b",
         "/"
     ],
     "key":
@@ -21,7 +22,7 @@
             "minecraft:item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.soil_dagger\"}",
             "rarity": "common",
             "damage": 0,
-            "minecraft:max_damage": 152,
+            "minecraft:max_damage": 164,
             "repairable":
             {
                 "items": "bone"
