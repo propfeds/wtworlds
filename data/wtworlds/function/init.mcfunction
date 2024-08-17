@@ -1,5 +1,5 @@
 # tellraw @p {"text": "Welcome to Weathered Worlds."}
-title @a subtitle {"text": "Welcome to Withered Worlds."}
+title @a actionbar {"text": "Welcome to Withered Worlds."}
 
 scoreboard objectives add const dummy
 scoreboard players set 1000 const 1000
