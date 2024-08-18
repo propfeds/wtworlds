@@ -1,0 +1,241 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.curse_of_withering"
+    },
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "slots":
+    [
+        "feet"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "location_changed":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "replace_block",
+                            "offset": [0, -1, 0],
+                            "predicate":
+                            {
+                                "type": "all_of",
+                                "predicates":
+                                [
+                                    {
+                                        "type": "matching_block_tag",
+                                        "offset": [0, 1, 0],
+                                        "tag": "air"
+                                    },
+                                    {
+                                        "type": "matching_blocks",
+                                        "blocks": "dirt"
+                                    },
+                                    {
+                                        "type": "unobstructed"
+                                    }
+                                ]
+                            },
+                            "block_state":
+                            {
+                                "type": "simple_state_provider",
+                                "state":
+                                {
+                                    "Name": "coarse_dirt"
+                                }
+                            },
+                            "trigger_game_event": "block_place"
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "dust_plume"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 0.5
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "random_chance",
+                    "chance": 0.6
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "replace_block",
+                            "offset": [0, -1, 0],
+                            "predicate":
+                            {
+                                "type": "all_of",
+                                "predicates":
+                                [
+                                    {
+                                        "type": "any_of",
+                                        "predicates":
+                                        [
+                                            {
+                                                "type": "matching_block_tag",
+                                                "offset": [0, 1, 0],
+                                                "tag": "air"
+                                            },
+                                            {
+                                                "type": "matching_blocks",
+                                                "offset": [0, 1, 0],
+                                                "blocks":
+                                                [
+                                                    "short_grass",
+                                                    "tall_grass"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "matching_blocks",
+                                        "blocks":
+                                        [
+                                            "grass_block",
+                                            "mud"
+                                        ]
+                                    },
+                                    {
+                                        "type": "unobstructed"
+                                    }
+                                ]
+                            },
+                            "block_state":
+                            {
+                                "type": "simple_state_provider",
+                                "state":
+                                {
+                                    "Name": "dirt"
+                                }
+                            },
+                            "trigger_game_event": "block_place"
+                        },
+                        {
+                            "type": "replace_block",
+                            "offset": [0, 0, 0],
+                            "predicate":
+                            {
+                                "type": "all_of",
+                                "predicates":
+                                [
+                                    {
+                                        "type": "matching_blocks",
+                                        "blocks":
+                                        [
+                                            "short_grass",
+                                            "tall_grass"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "block_state":
+                            {
+                                "type": "simple_state_provider",
+                                "state":
+                                {
+                                    "Name": "air"
+                                }
+                            },
+                            "trigger_game_event": "block_destroy"
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "white_ash"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 0.5
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "ash"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 0.5
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

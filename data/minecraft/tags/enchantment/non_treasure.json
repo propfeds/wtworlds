@@ -4,7 +4,6 @@
         "wtworlds:heave",
         "wtworlds:vault",
         "wtworlds:finishing",
-        "wtworlds:gravity_well",
-        "wtworlds:curse_of_kindling"
+        "wtworlds:gravity_well"
     ]
 }

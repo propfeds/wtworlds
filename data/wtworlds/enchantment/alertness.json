@@ -6,7 +6,7 @@
     "supported_items": "beetroot_soup",
     "slots":
     [
-        "any"
+        "hand"
     ],
     "weight": 1,
     "max_level": 1,

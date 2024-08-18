@@ -17,11 +17,12 @@ dagger change to a rare weapon dropped by an enemy
 
 finishing works without sweeping edge for some reason
 
-kanji enchantment numbers
-
 retaliation uses damage_immunity component
 
-curse of bone mealing feet
+curse of withering
+- falling gives you wither 2 for 1 second and splashes the decay effect onto nearby blocks
+- walking turns nearby grass into dirt, dirt into coarse dirt
+- enemies that attack you are affected by wither
 curse of growing (chestplate)
 mother of all curses (helmet) cusses when getting hit
 

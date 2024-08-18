@@ -28,17 +28,7 @@
                 "rules":
                 [
                     {
-                        "blocks":
-                        [
-                            "bamboo",
-                            "cobweb",
-                            "cocoa",
-                            "hay_block",
-                            "jack_o_lantern",
-                            "melon",
-                            "pumpkin",
-                            "vine"
-                        ],
+                        "blocks": "#sword_efficient",
                         "speed": 1
                     }
                 ]

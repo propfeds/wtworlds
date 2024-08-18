@@ -7,7 +7,7 @@
     "supported_items": "#minecraft:enchantable/armor",
     "slots":
     [
-        "any"
+        "armor"
     ],
     "weight": 1,
     "max_level": 2,
@@ -18,7 +18,7 @@
     },
     "max_cost":
     {
-        "base": 60,
+        "base": 30,
         "per_level_above_first": 25
     },
     "anvil_cost": 4,
