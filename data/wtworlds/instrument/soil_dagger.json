@@ -4,6 +4,9 @@
         "translate": "instrument.wtworlds.soil_dagger"
     },
     "range": 16.0,
-    "sound_event": "block.bone_block.fall",
+    "sound_event":
+    {
+        "sound_id": "wtworlds:item.soil_dagger.use"
+    },
     "use_duration": 1.2
 }
