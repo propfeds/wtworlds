@@ -1,7 +1,8 @@
 {
     "description": "Rainbow",
-    "primary_items": "crossbow",
+    "primary_items": "bow",
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "exclusive_set": ["power"],
     "slots":
     [
         "hand"
@@ -38,25 +39,6 @@
                 {
                     "type": "add",
                     "value": 12
-                }
-            }
-        ],
-        "damage":
-        [
-            {
-                "effect":
-                {
-                    "type": "add",
-                    "value": -1
-                },
-                "requirements":
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "direct_attacker",
-                    "predicate":
-                    {
-                        "type": "#minecraft:arrows"
-                    }
                 }
             }
         ],

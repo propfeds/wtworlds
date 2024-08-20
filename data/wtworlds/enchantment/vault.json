@@ -24,6 +24,15 @@
     "anvil_cost": 4,
     "effects":
     {
+        "attributes":
+        [
+            {
+                "id": "fall_height",
+                "attribute": "safe_fall_distance",
+                "amount": 1,
+                "operation": "add_value"
+            }
+        ],
         "hit_block":
         [
             {
