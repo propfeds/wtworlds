@@ -27,6 +27,11 @@
             {
                 "items": "bone"
             },
+            "use_cooldown":
+            {
+                "seconds": 0.75,
+                "cooldown_group": "wtworlds:soil_dagger"
+            },
             "instrument": "wtworlds:soil_dagger",
             "tool":
             {
