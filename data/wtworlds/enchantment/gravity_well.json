@@ -79,7 +79,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "block.amethyst.hit",
+                                "sound_id": "none",
                                 "range": 0
                             }
                         },
@@ -100,7 +100,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "block.amethyst.hit",
+                                "sound_id": "none",
                                 "range": 0
                             }
                         },
@@ -121,7 +121,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "block.amethyst.hit",
+                                "sound_id": "none",
                                 "range": 0
                             }
                         },
@@ -142,7 +142,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "block.amethyst.hit",
+                                "sound_id": "none",
                                 "range": 0
                             }
                         },
@@ -163,7 +163,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "block.amethyst.hit",
+                                "sound_id": "none",
                                 "range": 0
                             }
                         },
@@ -184,7 +184,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "block.amethyst.hit",
+                                "sound_id": "none",
                                 "range": 0
                             }
                         }
