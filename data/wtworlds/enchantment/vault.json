@@ -27,7 +27,7 @@
         "attributes":
         [
             {
-                "id": "fall_height",
+                "id": "wtworlds:enchantment.vault.fall_threshold",
                 "attribute": "safe_fall_distance",
                 "amount": 1,
                 "operation": "add_value"

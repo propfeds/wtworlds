@@ -29,21 +29,21 @@
                 "modifiers":
                 [
                     {
-                        "id": "attack_damage",
+                        "id": "wtworlds:staff.attack_damage",
                         "type": "minecraft:attack_damage",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "attack_speed",
+                        "id": "wtworlds:staff.attack_speed",
                         "type": "minecraft:attack_speed",
                         "amount": -2.6,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "entity_interaction_range",
+                        "id": "wtworlds:staff.attack_range",
                         "type": "minecraft:entity_interaction_range",
                         "amount": 0.5,
                         "operation": "add_value",

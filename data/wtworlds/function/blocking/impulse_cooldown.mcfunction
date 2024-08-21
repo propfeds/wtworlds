@@ -5,5 +5,5 @@ execute if score @s wtworlds.blocking.impulse matches 1.. run return run advance
 scoreboard players reset @s wtworlds.blocking.impulse
 scoreboard players reset @s wtworlds.blocking.frame
 effect clear @s resistance
-attribute @s fall_damage_multiplier modifier remove wtworlds.blocking.fall_damage
-attribute @s knockback_resistance modifier remove wtworlds.blocking.knockback_resistance
+attribute @s fall_damage_multiplier modifier remove wtworlds:soil_dagger.blocking.fall_damage
+attribute @s knockback_resistance modifier remove wtworlds:soil_dagger.blocking.knockback_resistance

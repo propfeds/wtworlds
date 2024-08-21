@@ -66,21 +66,21 @@
                 "modifiers":
                 [
                     {
-                        "id": "attack_damage",
+                        "id": "wtworlds:soil_dagger.attack_damage",
                         "type": "minecraft:attack_damage",
                         "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "attack_speed",
+                        "id": "wtworlds:soil_dagger.attack_speed",
                         "type": "minecraft:attack_speed",
                         "amount": -2.2,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "entity_interaction_range",
+                        "id": "wtworlds:soil_dagger.attack_range",
                         "type": "minecraft:entity_interaction_range",
                         "amount": -0.25,
                         "operation": "add_value",

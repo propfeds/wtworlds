@@ -3,8 +3,11 @@
 Planned:
 - Enemies
 - World-gen (structures only, no biomes)
+- Nushu (no magic, just lore)
 
 ## Please
+
+update to 50
 
 finish peace sprite
 

@@ -38,21 +38,21 @@
             "attribute_modifiers":
             [
                 {
-                    "id": "knockback",
+                    "id": "wtworlds:promise_of_peace.knockback",
                     "type": "attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "hand"
                 },
                 {
-                    "id": "movement_speed",
+                    "id": "wtworlds:promise_of_peace.movement_speed",
                     "type": "movement_speed",
                     "amount": 0.025,
                     "operation": "add_value",
                     "slot": "hand"
                 },
                 {
-                    "id": "fall_height",
+                    "id": "wtworlds:promise_of_peace.fall_threshold",
                     "type": "safe_fall_distance",
                     "amount": 2,
                     "operation": "add_value",
