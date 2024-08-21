@@ -58,7 +58,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "enchant.gravity_well.activate",
+                                "sound_id": "wtworlds:enchant.gravity_well.activate",
                                 "range": 16
                             }
                         },
