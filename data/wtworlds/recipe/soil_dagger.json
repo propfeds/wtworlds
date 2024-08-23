@@ -55,10 +55,14 @@
                     },
                     {
                         "blocks": "cobweb",
-                        "speed": 15,
+                        "speed": 10,
                         "correct_for_drops": true
                     }
                 ]
+            },
+            "enchantable":
+            {
+                "value": 8
             },
             "enchantments":
             {

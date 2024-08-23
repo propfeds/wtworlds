@@ -5,6 +5,7 @@
         "wtworlds:heave",
         "wtworlds:vault",
         "wtworlds:finishing",
-        "wtworlds:gravity_well"
+        "wtworlds:gravity_well",
+        "wtworlds:retaliation"
     ]
 }
