@@ -7,10 +7,6 @@ Planned:
 
 ## Please
 
-update to 50
-
-finish peace sprite
-
 remodel staff to be breeze?
 
 upgrade goat horn to dagger?
@@ -44,5 +40,6 @@ promises
 - prosperity: brush a block to detect ores nearby
 - intimacy: drain dur to heal allies and self, replenish by trading XP
 - return: prismarine, grows crops faster in a chunk but deteriorates when leaving the sim radius
+- perpetuity: resists poison, harming and wither
 
 enderite: (joke) used to craft the enderong (ender gong)
