@@ -90,7 +90,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -124,7 +124,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -158,7 +158,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -192,7 +192,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -226,7 +226,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -260,7 +260,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -294,7 +294,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -328,7 +328,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -362,7 +362,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -396,7 +396,7 @@
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
