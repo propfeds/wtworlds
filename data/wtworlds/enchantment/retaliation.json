@@ -8,16 +8,16 @@
     [
         "hand"
     ],
-    "weight": 1,
-    "max_level": 2,
+    "weight": 10,
+    "max_level": 3,
     "min_cost":
     {
-        "base": 10,
+        "base": 1,
         "per_level_above_first": 20
     },
     "max_cost":
     {
-        "base": 60,
+        "base": 21,
         "per_level_above_first": 20
     },
     "anvil_cost": 2,
@@ -48,7 +48,7 @@
                     "max_damage":
                     {
                         "type": "linear",
-                        "base": 3,
+                        "base": 4,
                         "per_level_above_first": 2
                     },
                     "min_damage":
