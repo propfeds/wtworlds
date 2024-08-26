@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.finishing"
     },
-    "supported_items": "#wtworlds:enchantable/polearm",
+    "supported_items": "#wtworlds:enchantable/finishing",
     "slots":
     [
         "mainhand"
