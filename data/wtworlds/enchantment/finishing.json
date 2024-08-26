@@ -14,12 +14,12 @@
     "min_cost":
     {
         "base": 5,
-        "per_level_above_first": 15
+        "per_level_above_first": 12
     },
     "max_cost":
     {
         "base": 25,
-        "per_level_above_first": 15
+        "per_level_above_first": 12
     },
     "anvil_cost": 2,
     "effects":
