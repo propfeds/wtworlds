@@ -26,6 +26,8 @@ bone needle
 
 armadillo scute -> caestus (does it need parrying?)
 
+wisteria trees
+
 chorus fruit -> end clef/staff/point/ chorus stave / the conductor \ counterpoint/fleuret (french for foil)
 has three enchantments:
 - increase damage while in the air
