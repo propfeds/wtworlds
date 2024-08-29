@@ -7,14 +7,14 @@ Planned:
 
 ## Please
 
-remodel staff to be breeze?
+try making a fake spear
+
+mess around with vault explosion radii
 
 upgrade goat horn to dagger?
 
 dagger change to a rare weapon dropped by an enemy
 - increase damage & durability
-
-finishing works without sweeping edge for some reason
 
 retaliation uses damage_immunity component
 
@@ -26,8 +26,6 @@ bone needle
 
 armadillo scute -> caestus (does it need parrying?)
 
-wisteria trees
-
 chorus fruit -> end clef/staff/point/ chorus stave / the conductor \ counterpoint/fleuret (french for foil)
 has three enchantments:
 - increase damage while in the air
@@ -37,6 +35,16 @@ has three enchantments:
 (joke) giant spider on fire mob
 
 raindeers that are modelled after sheep and summon rain when dead, and summon invisible bees when alive to aid crops
+
+wisteria trees
+
+refuges:
+- like a village, but also with a school
+- redstone acts like chalk, written on the ground
+- Nushu lessons take place outdoors
+- Chairs = logs? stairs?
+- Teachers wear and sell redstone hats
+- Poem books as chest loot
 
 promises
 - prosperity: brush a block to detect ores nearby

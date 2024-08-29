@@ -1,0 +1,57 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.stitching"
+    },
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "slots":
+    [
+        "any"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "projectile_piercing":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": 1
+                }
+            }
+        ],
+        "post_attack":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate":
+                    {
+                        "is_direct": false
+                    }
+                },
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:stitching/leash"
+                }
+            }
+        ]
+    }
+}

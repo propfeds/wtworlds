@@ -1,10 +1,11 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.gravity_well"
+        "translate": "enchantment.wtworlds.attraction"
     },
     "primary_items": "crossbow",
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "exclusive_set": "#wtworlds:exclusive_set/ranged_crowd_control",
     "slots":
     [
         "hand"
@@ -58,7 +59,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "wtworlds:enchant.gravity_well.activate",
+                                "sound_id": "wtworlds:enchant.attraction.activate",
                                 "range": 16
                             }
                         },
@@ -66,8 +67,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 5,
+                            "knockback_multiplier": -0.6,
+                            "radius": 4,
                             "offset": [1, 0, 0],
                             "large_particle":
                             {
@@ -87,8 +88,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 5,
+                            "knockback_multiplier": -0.6,
+                            "radius": 4,
                             "offset": [-1, 0, 0],
                             "large_particle":
                             {
@@ -108,8 +109,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 5,
+                            "knockback_multiplier": -0.6,
+                            "radius": 4,
                             "offset": [0, 1, 0],
                             "large_particle":
                             {
@@ -129,8 +130,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 5,
+                            "knockback_multiplier": -0.6,
+                            "radius": 4,
                             "offset": [0, -1, 0],
                             "large_particle":
                             {
@@ -150,8 +151,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 5,
+                            "knockback_multiplier": -0.6,
+                            "radius": 4,
                             "offset": [0, 0, 1],
                             "large_particle":
                             {
@@ -171,8 +172,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 5,
+                            "knockback_multiplier": -0.6,
+                            "radius": 4,
                             "offset": [0, 0, -1],
                             "large_particle":
                             {

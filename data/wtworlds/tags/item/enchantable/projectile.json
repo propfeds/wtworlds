@@ -1,0 +1,12 @@
+{
+    "values":
+    [
+        "#minecraft:arrows",
+        "#enchantable/trident",
+        "snowball",
+        "wind_charge",
+        "egg",
+        "fire_charge",
+        "firework_rocket"
+    ]
+}
