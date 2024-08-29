@@ -23,29 +23,9 @@
     "anvil_cost": 4,
     "effects":
     {
-        "projectile_piercing":
+        "projectile_spawned":
         [
             {
-                "effect":
-                {
-                    "type": "add",
-                    "value": 1
-                }
-            }
-        ],
-        "post_attack":
-        [
-            {
-                "requirements":
-                {
-                    "condition": "minecraft:damage_source_properties",
-                    "predicate":
-                    {
-                        "is_direct": false
-                    }
-                },
-                "enchanted": "attacker",
-                "affected": "victim",
                 "effect":
                 {
                     "type": "run_function",
