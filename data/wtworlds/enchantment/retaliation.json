@@ -36,7 +36,6 @@
                     {
                         "wtworlds.blocking.frame":
                         {
-                            "min": 1,
                             "max": 9
                         }
                     }

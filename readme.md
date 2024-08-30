@@ -1,4 +1,4 @@
-# Withered Worlds
+# Weathered Worlds
 
 Planned:
 - Enemies
@@ -17,6 +17,8 @@ dagger change to a rare weapon dropped by an enemy
 - increase damage & durability
 
 retaliation uses damage_immunity component
+
+retaliation knocks projectiles
 
 mother of all curses (helmet) cusses when getting hit
 

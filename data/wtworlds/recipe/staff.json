@@ -21,18 +21,7 @@
             "minecraft:custom_model_data": 1752000,
             "minecraft:item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.staff\"}",
             "minecraft:max_damage": 234,
-            "tool":
-            {
-                "default_mining_speed": 1,
-                "damage_per_block": 1,
-                "rules":
-                [
-                    {
-                        "blocks": "#sword_efficient",
-                        "speed": 1
-                    }
-                ]
-            },
+            "!tool": {},
             "minecraft:attribute_modifiers":
             {
                 "modifiers":

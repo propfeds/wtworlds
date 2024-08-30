@@ -1,5 +1,5 @@
 scoreboard players remove @s wtworlds.blocking.impulse 1
-execute if score @s wtworlds.blocking.impulse matches 1.. run return run advancement revoke @s only wtworlds:blocking/impulse_cooldown
+execute if score @s wtworlds.blocking.impulse matches 1.. run return run advancement revoke @s only wtworlds:blocking/impulse
 
 # This block happens when the player releases right click
 scoreboard players reset @s wtworlds.blocking.impulse

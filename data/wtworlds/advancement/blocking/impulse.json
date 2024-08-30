@@ -8,6 +8,6 @@
     },
     "rewards":
     {
-        "function": "wtworlds:blocking/impulse_cooldown"
+        "function": "wtworlds:blocking/impulse"
     }
 }
