@@ -36,6 +36,8 @@ has three enchantments:
 
 (joke) giant spider on fire mob
 
+dragonfly
+
 raindeers that are modelled after sheep and summon rain when dead, and summon invisible bees when alive to aid crops
 
 wisteria trees
