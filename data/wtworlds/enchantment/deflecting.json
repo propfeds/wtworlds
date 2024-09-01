@@ -1,0 +1,37 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.deflecting"
+    },
+    "supported_items": "#wtworlds:enchantable/blocking",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 10,
+    "max_level": 3,
+    "min_cost":
+    {
+        "base": 1,
+        "per_level_above_first": 20
+    },
+    "max_cost":
+    {
+        "base": 21,
+        "per_level_above_first": 20
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:deflecting/main"
+                }
+            }
+        ]
+    }
+}

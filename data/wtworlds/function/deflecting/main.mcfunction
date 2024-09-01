@@ -1,0 +1,1 @@
+execute at @s anchored eyes positioned ^ ^ ^0.5 as @e[type=arrow, distance=..3, tag=!wtworlds.deflected] run function wtworlds:deflecting/deflect

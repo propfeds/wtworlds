@@ -19,7 +19,7 @@
         "components":
         {
             "minecraft:custom_model_data": 1752001,
-            "minecraft:item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.soil_dagger\"}",
+            "minecraft:item_name": "{\"type\": \"translatable\",\"translate\": \"item.wtworlds.soil_dagger\"}",
             "rarity": "common",
             "damage": 0,
             "minecraft:max_damage": 164,
