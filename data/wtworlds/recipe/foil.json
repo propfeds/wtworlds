@@ -23,11 +23,19 @@
         "count": 1,
         "components":
         {
-            "custom_model_data": 1752003,
-            "item_name": "{\"type\": \"translatable\",\"translate\": \"item.wtworlds.foil\"}",
+            "custom_model_data": 1752000,
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.foil\"}",
             "max_damage": 1500,
             "!tool": {},
             "rarity": "rare",
+            "repairable":
+            {
+                "items": "end_rod"
+            },
+            "enchantable":
+            {
+                "value": 15
+            },
             "attribute_modifiers":
             {
                 "modifiers":

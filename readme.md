@@ -11,10 +11,9 @@ try making a fake spear
 
 mess around with vault explosion radii
 
-upgrade goat horn to dagger?
-
 dagger change to a rare weapon dropped by an enemy
-- increase damage & durability
+- increase damage & durability & enchantability
+- change normal dagger recipe to one cobble
 
 push all custom model data back
 

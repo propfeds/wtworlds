@@ -1,6 +1,13 @@
 {
+    "goat_horn":
+    {
+        "1752000": "dagger",
+        "1752001": "soil_dagger"
+    },
     "1752000": "staff",
-    "1752001": "soil_dagger",
     "1752002": "promise_of_peace",
-    "1752003": "foil"
+    "stone_pickaxe":
+    {
+        "1752000": "foil"
+    }
 }
