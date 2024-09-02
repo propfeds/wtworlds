@@ -16,10 +16,6 @@ upgrade goat horn to dagger?
 dagger change to a rare weapon dropped by an enemy
 - increase damage & durability
 
-retaliation uses damage_immunity component
-
-retaliation knocks projectiles
-
 push all custom model data back
 
 tutorialise anvil repair recipes
