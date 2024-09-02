@@ -57,10 +57,7 @@
                             "entity": "this",
                             "scores":
                             {
-                                "wtworlds.vault.cooldown":
-                                {
-                                    "max": 0
-                                }
+                                "wtworlds.vault.cooldown": 0
                             }
                         }
                     ]

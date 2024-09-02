@@ -15,8 +15,10 @@ scoreboard objectives add wtworlds.blocking.frame dummy
 # scoreboard players set wtworlds.blocking.duration const 24
 scoreboard players set wtworlds.blocking.perfect_block_start const 1
 scoreboard players set wtworlds.blocking.imperfect_block_start const 7
+# Soil Dagger deflecting
+scoreboard objectives add wtworlds.deflecting dummy
 
 # Vault
 scoreboard objectives add wtworlds.vault.cooldown dummy
 
-scoreboard objectives setdisplay sidebar wtworlds.blocking.impulse
+scoreboard objectives setdisplay sidebar wtworlds.deflecting

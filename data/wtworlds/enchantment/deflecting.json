@@ -8,28 +8,99 @@
     [
         "hand"
     ],
-    "weight": 10,
-    "max_level": 3,
+    "weight": 1,
+    "max_level": 1,
     "min_cost":
     {
-        "base": 1,
-        "per_level_above_first": 20
+        "base": 15,
+        "per_level_above_first": 0
     },
     "max_cost":
     {
-        "base": 21,
-        "per_level_above_first": 20
+        "base": 35,
+        "per_level_above_first": 0
     },
-    "anvil_cost": 2,
+    "anvil_cost": 4,
     "effects":
     {
         "tick":
         [
             {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.blocking.frame":
+                        {
+                            "min": 2,
+                            "max": 6
+                        }
+                    }
+                },
                 "effect":
                 {
                     "type": "run_function",
                     "function": "wtworlds:deflecting/main"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.blocking.frame":
+                        {
+                            "min": 2,
+                            "max": 6
+                        },
+                        "wtworlds.deflecting":
+                        {
+                            "min": 1
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.75,
+                            "radius": 2.3,
+                            "offset": [0, 1, 0],
+                            "large_particle":
+                            {
+                                "type": "gust_emitter_small"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:enchant.deflecting.activate"
+                            }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:blocking/sound"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:deflecting/tag_remove"
+                        },
+                        {
+                            "type": "damage_item",
+                            "amount": 1
+                        }
+                    ]
                 }
             }
         ]
