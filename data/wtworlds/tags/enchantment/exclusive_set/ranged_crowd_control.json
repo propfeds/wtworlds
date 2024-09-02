@@ -2,7 +2,6 @@
     "values":
     [
         "wtworlds:attraction",
-        "wtworlds:light_attraction",
-        "wtworlds:stitching"
+        "wtworlds:light_attraction"
     ]
 }

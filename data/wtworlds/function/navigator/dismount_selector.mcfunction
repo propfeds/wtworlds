@@ -1,0 +1,1 @@
+execute on passengers run function wtworlds:navigator/dismount

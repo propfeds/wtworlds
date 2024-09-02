@@ -1,3 +1,12 @@
-damage @s 10 player_attack by @p
-particle explosion
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+damage @s 0.001 wtworlds:deflection at ~ ~ ~
+execute at @s run particle explosion
 function wtworlds:deflecting/tag

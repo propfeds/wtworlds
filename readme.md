@@ -20,6 +20,12 @@ retaliation uses damage_immunity component
 
 retaliation knocks projectiles
 
+push all custom model data back
+
+tutorialise anvil repair recipes
+
+foil currently takes 2 durability when attacking
+
 mother of all curses (helmet) cusses when getting hit
 
 obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)
@@ -51,7 +57,7 @@ refuges:
 - Poem books as chest loot
 
 promises
-- prosperity: brush a block to detect ores nearby
+- prosperity/plenty/providence: channel to advance crop/grass growth nearby, but offers blood sacrifice in the form of cattle (it will damage you if there's no cattle)
 - intimacy: drain dur to heal allies and self, replenish by trading XP
 - return: prismarine, grows crops faster in a chunk but deteriorates when leaving the sim radius
 - perpetuity: resists poison, harming and wither

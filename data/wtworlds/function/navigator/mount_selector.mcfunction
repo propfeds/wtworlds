@@ -1,0 +1,1 @@
+execute on origin run function wtworlds:navigator/mount
