@@ -9,8 +9,6 @@ Planned:
 
 try making a fake spear
 
-decrease deflection radius until it's reasonable
-
 dagger change to a rare weapon dropped by an enemy
 - increase damage & durability & enchantability
 - change normal dagger recipe to one cobble
