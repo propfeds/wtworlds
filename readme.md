@@ -9,7 +9,7 @@ Planned:
 
 try making a fake spear
 
-mess around with vault explosion radii
+decrease deflection radius until it's reasonable
 
 dagger change to a rare weapon dropped by an enemy
 - increase damage & durability & enchantability
