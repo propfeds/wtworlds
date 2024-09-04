@@ -53,7 +53,7 @@
                 {
                     "id": "wtworlds:promise_of_peace.fall_threshold",
                     "type": "safe_fall_distance",
-                    "amount": 2,
+                    "amount": 3,
                     "operation": "add_value",
                     "slot": "hand"
                 }

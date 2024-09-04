@@ -1,0 +1,228 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.vault"
+    },
+    "supported_items": "#wtworlds:enchantable/staff",
+    "exclusive_set": "#wtworlds:exclusive_set/staff",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 5,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 5,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "attributes":
+        [
+            {
+                "id": "wtworlds:enchantment.vault.fall_threshold",
+                "attribute": "safe_fall_distance",
+                "amount": 1.5,
+                "operation": "add_value"
+            }
+        ],
+        "hit_block":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "flags":
+                                {
+                                    "is_sneaking": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.vault.cooldown": 0
+                            }
+                        }
+                    ]
+                    
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:vault/init_cooldown"
+                        },
+                        {
+                            "type": "damage_item",
+                            "amount": 1
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "trigger",
+                            "knockback_multiplier": 0,
+                            "radius": 1,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "small_particle":
+                            {
+                                "type": "gust"
+                            },
+                            "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3125,
+                            "radius": 1.5,
+                            "offset": [1, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3125,
+                            "radius": 1.5,
+                            "offset": [-1, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3125,
+                            "radius": 1.5,
+                            "offset": [0, 1, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3125,
+                            "radius": 1.5,
+                            "offset": [0, -1, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3125,
+                            "radius": 1.5,
+                            "offset": [0, 0, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3125,
+                            "radius": 1.5,
+                            "offset": [0, 0, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:vault/sound"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:vault/particles"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
