@@ -47,7 +47,7 @@
                             "damage_type": "player_explosion",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.125,
+                            "knockback_multiplier": 0,
                             "radius": 1,
                             "offset": [0, 0, 0],
                             "large_particle":
