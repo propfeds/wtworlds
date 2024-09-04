@@ -34,6 +34,7 @@
                     {
                         "wtworlds.blocking.frame":
                         {
+                            "min": 2,
                             "max": 6
                         }
                     }
@@ -53,6 +54,7 @@
                     {
                         "wtworlds.blocking.frame":
                         {
+                            "min": 2,
                             "max": 6
                         },
                         "wtworlds.deflecting":
@@ -85,6 +87,10 @@
                             {
                                 "sound_id": "wtworlds:enchant.deflecting.activate"
                             }
+                        },
+                        {
+                            "type": "damage_item",
+                            "amount": 0.5
                         },
                         {
                             "type": "run_function",

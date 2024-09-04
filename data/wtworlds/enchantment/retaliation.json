@@ -20,7 +20,7 @@
         "base": 21,
         "per_level_above_first": 20
     },
-    "anvil_cost": 2,
+    "anvil_cost": 4,
     "effects":
     {
         "damage_protection":
@@ -63,7 +63,7 @@
                     "value":
                     {
                         "type": "linear",
-                        "base": 12,
+                        "base": 8,
                         "per_level_above_first": 4
                     }
                 }
