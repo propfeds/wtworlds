@@ -28,7 +28,6 @@
         "post_attack":
         [
             {
-                
                 "requirements":
                 {
                     "condition": "minecraft:damage_source_properties",

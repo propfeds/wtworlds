@@ -33,6 +33,26 @@
                 }
             }
         ],
+        "post_attack":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate":
+                    {
+                        "is_direct": false
+                    }
+                },
+                "enchanted": "damaging_entity",
+                "affected": "damaging_entity",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:navigator/dismount_selector"
+                }
+            }
+        ],
         "hit_block":
         [
             {

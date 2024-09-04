@@ -6,6 +6,19 @@
             "trigger": "entity_hurt_player",
             "conditions":
             {
+                "damage":
+                {
+                    "type":
+                    {
+                        "tags":
+                        [
+                            {
+                                "id": "bypasses_shield",
+                                "expected": false
+                            }
+                        ]
+                    }
+                },
                 "player":
                 [
                     {
