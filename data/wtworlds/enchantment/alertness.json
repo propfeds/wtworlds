@@ -33,6 +33,15 @@
                     "type": "run_function",
                     "function": "wtworlds:promise_of_peace/reveal"
                 }
+            },
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "effect":
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                }
             }
         ]
     }

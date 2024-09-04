@@ -4,8 +4,14 @@
         "1752000": "dagger",
         "1752001": "soil_dagger"
     },
-    "1752000": "staff",
-    "1752002": "promise_of_peace",
+    "golden_sword":
+    {
+        "1752000": "staff"
+    },
+    "beetroot_soup":
+    {
+        "1752002": "promise_of_peace"
+    },
     "stone_pickaxe":
     {
         "1752000": "foil"
