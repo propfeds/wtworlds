@@ -18,7 +18,7 @@
         "count": 1,
         "components":
         {
-            "minecraft:custom_model_data": 1752000,
+            "item_model": "wtworlds:staff",
             "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.staff\"}",
             "minecraft:max_damage": 234,
             "!tool": {},

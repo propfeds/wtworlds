@@ -23,7 +23,7 @@
         "count": 1,
         "components":
         {
-            "custom_model_data": 1752000,
+            "item_model": "wtworlds:foil",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.foil\"}",
             "max_damage": 1500,
             "!tool": {},
