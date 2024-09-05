@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.navigator"
     },
-    "supported_items": ["bow", "crossbow"],
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
     [
         "any"
