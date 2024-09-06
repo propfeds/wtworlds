@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.vault"
+        "translate": "enchantment.wtworlds.vault_9"
     },
     "supported_items": "#wtworlds:enchantable/staff",
     "exclusive_set": "#wtworlds:exclusive_set/staff",
@@ -95,48 +95,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.3125,
-                            "radius": 1.5,
-                            "offset": [1, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.3125,
-                            "radius": 1.5,
-                            "offset": [-1, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.3125,
-                            "radius": 1.5,
+                            "knockback_multiplier": 0.12,
+                            "radius": 0.8,
                             "offset": [0, 1, 0],
                             "large_particle":
                             {
@@ -155,16 +115,16 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.3125,
-                            "radius": 1.5,
-                            "offset": [0, -1, 0],
+                            "knockback_multiplier": 0.15,
+                            "radius": 1,
+                            "offset": [1, 1, 0],
                             "large_particle":
                             {
                                 "type": "explosion"
                             },
                             "small_particle":
                             {
-                                "type": "small_gust"
+                                "type": "ash"
                             },
                             "sound":
                             {
@@ -175,16 +135,16 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.3125,
-                            "radius": 1.5,
-                            "offset": [0, 0, 1],
+                            "knockback_multiplier": 0.15,
+                            "radius": 1,
+                            "offset": [-1, 1, 0],
                             "large_particle":
                             {
                                 "type": "explosion"
                             },
                             "small_particle":
                             {
-                                "type": "small_gust"
+                                "type": "ash"
                             },
                             "sound":
                             {
@@ -195,16 +155,116 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.3125,
-                            "radius": 1.5,
-                            "offset": [0, 0, -1],
+                            "knockback_multiplier": 0.15,
+                            "radius": 1,
+                            "offset": [0, 1, 1],
                             "large_particle":
                             {
                                 "type": "explosion"
                             },
                             "small_particle":
                             {
-                                "type": "small_gust"
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.15,
+                            "radius": 1,
+                            "offset": [0, 1, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.09,
+                            "radius": 1.25,
+                            "offset": [1, 1, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.09,
+                            "radius": 1.25,
+                            "offset": [1, 1, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.09,
+                            "radius": 1.25,
+                            "offset": [-1, 1, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "none",
+                                "range": 0
+                            }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.09,
+                            "radius": 1.25,
+                            "offset": [-1, 1, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
                             },
                             "sound":
                             {

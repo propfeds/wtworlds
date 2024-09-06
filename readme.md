@@ -9,12 +9,6 @@ Planned:
 
 try making a fake spear
 
-dagger change to a rare weapon dropped by an enemy
-- increase damage & durability & enchantability
-- change normal dagger recipe to one cobble
-
-push all custom model data back
-
 tutorialise anvil repair recipes
 
 foil currently takes 2 durability when attacking
@@ -27,8 +21,7 @@ bone needle
 
 armadillo scute -> caestus (does it need parrying?)
 
-chorus fruit -> end clef/staff/point/ chorus stave / the conductor \ counterpoint/fleuret (french for foil)
-has three enchantments:
+foil enchantments:
 - increase damage while in the air
 - increase damage according to velocity
 - increase damage after getting hit

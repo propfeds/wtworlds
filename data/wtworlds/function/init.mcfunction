@@ -9,13 +9,13 @@ scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
 scoreboard objectives add wtworlds.finishing dummy
 
-# Soil Dagger blocking
+# Trowel blocking
 scoreboard objectives add wtworlds.blocking.impulse dummy
 scoreboard objectives add wtworlds.blocking.frame dummy
 # scoreboard players set wtworlds.blocking.duration const 24
 scoreboard players set wtworlds.blocking.perfect_block_start const 2
 scoreboard players set wtworlds.blocking.imperfect_block_start const 7
-# Soil Dagger deflecting
+# Trowel deflecting
 scoreboard objectives add wtworlds.deflecting dummy
 
 # Vault
