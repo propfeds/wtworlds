@@ -1,0 +1,1 @@
+playsound wtworlds:enchant.whirlpool.ambient player @a[distance=..16]

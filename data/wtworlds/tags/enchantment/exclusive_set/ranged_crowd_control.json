@@ -1,7 +1,7 @@
 {
     "values":
     [
-        "wtworlds:attraction",
-        "wtworlds:light_attraction"
+        "wtworlds:whirlpool",
+        "wtworlds:test/light_attraction"
     ]
 }

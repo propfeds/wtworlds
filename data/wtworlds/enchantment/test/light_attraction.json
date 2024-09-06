@@ -60,7 +60,7 @@
                             },
                             "sound":
                             {
-                                "sound_id": "wtworlds:enchant.attraction.activate",
+                                "sound_id": "wtworlds:enchant.whirlpool.activate",
                                 "range": 16
                             }
                         }
