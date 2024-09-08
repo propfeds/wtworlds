@@ -48,11 +48,11 @@
                         },
                         {
                             "type": "explode",
-                            "damage_type": "player_explosion",
+                            "damage_type": "drown",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 0.75,
+                            "radius": 1,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
