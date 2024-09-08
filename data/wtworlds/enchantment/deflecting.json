@@ -71,7 +71,7 @@
                             "block_interaction": "none",
                             "knockback_multiplier": 1.25,
                             "radius": 2.15,
-                            "offset": [0, 1, 0],
+                            "offset": [0, 1.5, 0],
                             "large_particle":
                             {
                                 "type": "gust_emitter_small"
