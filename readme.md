@@ -7,10 +7,6 @@ Planned:
 
 ## Please
 
-test after scoreboard changes
-- deflecting
-- finishing
-
 try making a fake spear
 
 tutorialise anvil repair recipes
