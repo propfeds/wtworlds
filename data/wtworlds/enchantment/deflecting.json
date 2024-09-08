@@ -57,10 +57,7 @@
                             "min": 2,
                             "max": 6
                         },
-                        "wtworlds.deflecting":
-                        {
-                            "min": 1
-                        }
+                        "wtworlds.deflecting": 1
                     }
                 },
                 "effect":

@@ -21,6 +21,14 @@ scoreboard objectives add wtworlds.deflecting dummy
 # Vault
 scoreboard objectives add wtworlds.vault.cooldown dummy
 
+# Whirlpool
+scoreboard objectives add wtworlds.whirlpool.x+ dummy
+scoreboard objectives add wtworlds.whirlpool.x- dummy
+scoreboard objectives add wtworlds.whirlpool.y+ dummy
+scoreboard objectives add wtworlds.whirlpool.y- dummy
+scoreboard objectives add wtworlds.whirlpool.z+ dummy
+scoreboard objectives add wtworlds.whirlpool.z- dummy
+
 # Motion
 # scoreboard objectives add wtworlds.motion.x dummy
 # scoreboard objectives add wtworlds.motion.y dummy

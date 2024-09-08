@@ -1,1 +1,1 @@
-scoreboard players add @s wtworlds.finishing 1
+scoreboard players set @s wtworlds.finishing 1

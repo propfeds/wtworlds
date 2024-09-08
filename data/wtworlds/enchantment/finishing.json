@@ -80,10 +80,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 1
                     }
                 },
@@ -114,10 +111,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 2
                     }
                 },
@@ -148,10 +142,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 3
                     }
                 },
@@ -182,10 +173,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 4
                     }
                 },
@@ -216,10 +204,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 5
                     }
                 },
@@ -250,10 +235,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 6
                     }
                 },
@@ -284,10 +266,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 7
                     }
                 },
@@ -318,10 +297,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 8
                     }
                 },
@@ -352,10 +328,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 9
                     }
                 },
@@ -386,10 +359,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
+                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 10
                     }
                 },
@@ -420,10 +390,7 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        }
+                        "wtworlds.finishing": 1
                     }
                 },
                 "effect":

@@ -43,16 +43,20 @@
                     "effects":
                     [
                         {
+                            "type": "run_function",
+                            "function": "wtworlds:whirlpool/test_block_face"
+                        },
+                        {
                             "type": "explode",
                             "damage_type": "player_explosion",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1,
+                            "radius": 0.75,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
-                                "type": "gust_emitter_small"
+                                "type": "explosion"
                             },
                             "small_particle":
                             {
@@ -63,134 +67,233 @@
                                 "sound_id": "none",
                                 "range": 0
                             }
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": -0.45,
-                            "radius": 3,
-                            "offset": [1, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "rain"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": -0.45,
-                            "radius": 3,
-                            "offset": [-1, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "rain"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": -0.45,
-                            "radius": 3,
-                            "offset": [0, 1, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "rain"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": -0.45,
-                            "radius": 3,
-                            "offset": [0, -1, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "rain"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": -0.45,
-                            "radius": 3,
-                            "offset": [0, 0, 1],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "rain"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": -0.45,
-                            "radius": 3,
-                            "offset": [0, 0, -1],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "rain"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
                         }
                     ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.x+": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0.25, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound":
+                    {
+                        "sound_id": "none",
+                        "range": 0
+                    }
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.x-": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [-0.25, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound":
+                    {
+                        "sound_id": "none",
+                        "range": 0
+                    }
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.y+": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, 0.25, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound":
+                    {
+                        "sound_id": "none",
+                        "range": 0
+                    }
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.y-": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, -0.25, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound":
+                    {
+                        "sound_id": "none",
+                        "range": 0
+                    }
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.z+": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, 0, 0.25],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound":
+                    {
+                        "sound_id": "none",
+                        "range": 0
+                    }
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.z-": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, 0, -0.25],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound":
+                    {
+                        "sound_id": "none",
+                        "range": 0
+                    }
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#impact_projectiles"
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:whirlpool/tag_remove"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:whirlpool/particles"
+                        }
+                    ]
+                    
                 }
             },
             {
