@@ -28,21 +28,133 @@
             {
                 "requirements":
                 {
-                    "condition": "entity_scores",
-                    "entity": "this",
-                    "scores":
-                    {
-                        "wtworlds.blocking.frame":
+                    "condition": "all_of",
+                    "terms":
+                    [
                         {
-                            "min": 2,
-                            "max": 6
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.blocking.frame":
+                                {
+                                    "min": 2,
+                                    "max": 6
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "flags":
+                                {
+                                    "is_sneaking": false,
+                                    "is_flying": false,
+                                    "is_swimming": false
+                                }
+                            }
                         }
-                    }
+                    ]
                 },
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:deflecting/main"
+                    "function": "wtworlds:deflecting/standing/main"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.blocking.frame":
+                                {
+                                    "min": 2,
+                                    "max": 6
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "flags":
+                                {
+                                    "is_sneaking": true
+                                }
+                            }
+                        }
+                    ]
+                    
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:deflecting/sneaking/main"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "all_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.blocking.frame":
+                                {
+                                    "min": 2,
+                                    "max": 6
+                                }
+                            }
+                        },
+                        {
+                            "condition": "any_of",
+                            "terms":
+                            [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate":
+                                    {
+                                        "flags":
+                                        {
+                                            "is_flying": true
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate":
+                                    {
+                                        "flags":
+                                        {
+                                            "is_swimming": true
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                    
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:deflecting/swimming/main"
                 }
             },
             {
@@ -52,12 +164,36 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.blocking.frame":
+                        "wtworlds.deflecting.mode":
                         {
-                            "min": 2,
-                            "max": 6
+                            "min": 1
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "damage_item",
+                            "amount": 1
                         },
-                        "wtworlds.deflecting": 1
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:blocking/sound"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 1
                     }
                 },
                 "effect":
@@ -86,16 +222,92 @@
                             }
                         },
                         {
-                            "type": "damage_item",
-                            "amount": 0.5
+                            "type": "run_function",
+                            "function": "wtworlds:deflecting/standing/tag_remove"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 2
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 1.25,
+                            "radius": 2.15,
+                            "offset": [0, 1, 0],
+                            "large_particle":
+                            {
+                                "type": "gust_emitter_small"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:enchant.deflecting.activate"
+                            }
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:blocking/sound"
+                            "function": "wtworlds:deflecting/sneaking/tag_remove"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 3
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 1.25,
+                            "radius": 2.15,
+                            "offset": [0, 0.5, 0],
+                            "large_particle":
+                            {
+                                "type": "gust_emitter_small"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:enchant.deflecting.activate"
+                            }
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:deflecting/tag_remove"
+                            "function": "wtworlds:deflecting/swimming/tag_remove"
                         }
                     ]
                 }

@@ -7,6 +7,8 @@ Planned:
 
 ## Please
 
+bug: deflecting doesn't detect crawling in trapdoor
+
 try making a fake spear
 
 tutorialise anvil repair recipes

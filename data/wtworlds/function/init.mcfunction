@@ -16,7 +16,7 @@ scoreboard objectives add wtworlds.blocking.frame dummy
 scoreboard players set wtworlds.blocking.perfect_block_start const 2
 scoreboard players set wtworlds.blocking.imperfect_block_start const 7
 # Trowel deflecting
-scoreboard objectives add wtworlds.deflecting dummy
+scoreboard objectives add wtworlds.deflecting.mode dummy
 
 # Vault
 scoreboard objectives add wtworlds.vault.cooldown dummy
@@ -34,4 +34,4 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 # scoreboard objectives add wtworlds.motion.y dummy
 # scoreboard objectives add wtworlds.motion.z dummy
 
-scoreboard objectives setdisplay sidebar wtworlds.deflecting
+scoreboard objectives setdisplay sidebar wtworlds.deflecting.mode
