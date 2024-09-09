@@ -1,1 +1,1 @@
-playsound wtworlds:enchant.alertness.activate player @a[distance=..16]
+playsound wtworlds:enchant.alertness.activate player @a[distance=..32]
