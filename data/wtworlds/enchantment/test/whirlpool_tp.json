@@ -38,25 +38,13 @@
                 },
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "wtworlds:whirlpool/teleport_backwards"
-                }
-            },
-            {
-                "requirements":
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate":
-                    {
-                        "type": "#impact_projectiles"
-                    }
-                },
-                "effect":
-                {
                     "type": "all_of",
                     "effects":
                     [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:whirlpool/teleport_backwards"
+                        },
                         {
                             "type": "explode",
                             "damage_type": "drown",
