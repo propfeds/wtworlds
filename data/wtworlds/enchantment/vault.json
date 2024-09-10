@@ -80,7 +80,7 @@
                             "type": "explode",
                             "block_interaction": "trigger",
                             "knockback_multiplier": 0,
-                            "radius": 1,
+                            "radius": 0.7,
                             "offset": [0, 0.5, 0],
                             "large_particle":
                             {
