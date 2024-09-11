@@ -27,7 +27,7 @@
                     {
                         "id": "wtworlds:staff.attack_speed",
                         "type": "minecraft:attack_speed",
-                        "amount": -2.6,
+                        "amount": -2.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -49,7 +49,7 @@
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.4 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
 
                 "{\"color\": \"blue\", \"italic\": false, \"text\": \"+0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
             ]
