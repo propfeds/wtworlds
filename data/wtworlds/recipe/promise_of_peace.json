@@ -23,8 +23,13 @@
             "item_model": "wtworlds:promise_of_peace",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_peace\"}",
             "!consumable": {},
-            "max_damage": 120,
+            "!use_remainder": {},
+            "max_damage": 172,
             "damage": 0,
+            "equippable":
+            {
+                "slot": "head"
+            },
             "repairable":
             {
                 "items": "#wooden_buttons"
@@ -37,25 +42,39 @@
             "attribute_modifiers":
             [
                 {
+                    "id": "wtworlds:promise_of_peace.armour",
+                    "type": "armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                },
+                {
+                    "id": "wtworlds:promise_of_peace.attack_damage",
+                    "type": "attack_damage",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                },
+                {
                     "id": "wtworlds:promise_of_peace.knockback",
                     "type": "attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
-                    "slot": "hand"
+                    "slot": "head"
                 },
                 {
                     "id": "wtworlds:promise_of_peace.movement_speed",
                     "type": "movement_speed",
                     "amount": 0.025,
                     "operation": "add_value",
-                    "slot": "hand"
+                    "slot": "any"
                 },
                 {
                     "id": "wtworlds:promise_of_peace.fall_threshold",
                     "type": "safe_fall_distance",
                     "amount": 3,
                     "operation": "add_value",
-                    "slot": "hand"
+                    "slot": "any"
                 }
             ]
         }

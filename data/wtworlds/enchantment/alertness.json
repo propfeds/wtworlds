@@ -6,7 +6,7 @@
     "supported_items": "beetroot_soup",
     "slots":
     [
-        "hand"
+        "any"
     ],
     "weight": 1,
     "max_level": 1,
@@ -42,15 +42,6 @@
                             "function": "wtworlds:alertness/sound"
                         }
                     ]
-                }
-            },
-            {
-                "enchanted": "victim",
-                "affected": "victim",
-                "effect":
-                {
-                    "type": "damage_item",
-                    "amount": 1
                 }
             }
         ]
