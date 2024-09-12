@@ -91,7 +91,7 @@
                     {
                         "id": "wtworlds:soil_dagger.attack_range",
                         "type": "entity_interaction_range",
-                        "amount": -0.25,
+                        "amount": -0.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -108,7 +108,7 @@
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
 
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.25 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
+                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
             ]
         }
     }
