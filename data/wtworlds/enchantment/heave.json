@@ -78,7 +78,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/slow"
+                            "function": "wtworlds:heave/effect_slowness"
                         },
                         {
                             "type": "run_function",
@@ -127,31 +127,6 @@
                             {
                                 "type": "entity_position",
                                 "offset": 1.125
-                            },
-                            "vertical_velocity":
-                            {
-                                "base": 1,
-                                "movement_scale": 3
-                            },
-                            "horizontal_velocity":
-                            {
-                                "base": 0.0625
-                            }
-                        },
-                        {
-                            "type": "spawn_particles",
-                            "particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "horizontal_position":
-                            {
-                                "type": "in_bounding_box"
-                            },
-                            "vertical_position":
-                            {
-                                "type": "entity_position",
-                                "offset": 1.25
                             },
                             "vertical_velocity":
                             {

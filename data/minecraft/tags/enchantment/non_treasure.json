@@ -5,7 +5,6 @@
         "wtworlds:vault",
         "wtworlds:finishing",
         "wtworlds:whirlpool",
-        "wtworlds:retaliation",
-        "wtworlds:deflecting"
+        "wtworlds:retaliation"
     ]
 }

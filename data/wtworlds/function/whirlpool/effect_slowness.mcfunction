@@ -1,0 +1,1 @@
+effect give @e[distance=..2, nbt={HurtTime:10s}] slowness 3 1
