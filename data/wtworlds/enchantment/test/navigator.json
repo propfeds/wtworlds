@@ -44,7 +44,7 @@
                         "is_direct": false
                     }
                 },
-                "enchanted": "damaging_entity",
+                "enchanted": "attacker",
                 "affected": "damaging_entity",
                 "effect":
                 {

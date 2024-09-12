@@ -8,8 +8,6 @@ try making a fake spear
 
 tutorialise anvil repair recipes
 
-foil currently takes 2 durability when attacking
-
 mother of all curses (helmet) cusses when getting hit
 
 obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)

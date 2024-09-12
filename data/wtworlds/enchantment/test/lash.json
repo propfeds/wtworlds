@@ -1,0 +1,112 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.lash"
+    },
+    "supported_items": "bow",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "ammo_use":
+        [
+            {
+                "effect":
+                {
+                    "type": "set",
+                    "value": 0
+                }
+            }
+        ],
+        "damage":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate":
+                    {
+                        "type": "#arrows"
+                    }
+                },
+                "effect":
+                {
+                    "type": "add",
+                    "value": -0.5
+                }
+            }
+        ],
+        "projectile_spawned":
+        [
+            {
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:lash/leash"
+                        }
+                    ]
+                }
+            }
+        ],
+        "post_attack":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate":
+                    {
+                        "type": "#arrows"
+                    }
+                },
+                "enchanted": "attacker",
+                "affected": "damaging_entity",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:lash/unleash"
+                }
+            }
+        ],
+        "hit_block":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#arrows"
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:lash/unleash"
+                }
+            }
+        ]
+    }
+}
