@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "ingredients":
+    [
+        "lava_bucket",
+        "stick",
+        [
+            "cobblestone",
+            "cobbled_deepslate",
+            "blackstone"
+        ],
+        "iron_block"
+    ],
+    "result":
+    {
+        "id": "brush",
+        "count": 1,
+        "components":
+        {
+            "item_model": "wtworlds:anvil_restoration_kit",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.anvil_restoration_kit\"}",
+            "custom_data":
+            {
+                "can_repair_anvil": true
+            }
+        }
+    }
+}

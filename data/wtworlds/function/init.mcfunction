@@ -34,4 +34,7 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 # scoreboard objectives add wtworlds.motion.y dummy
 # scoreboard objectives add wtworlds.motion.z dummy
 
+# Raycasting
+scoreboard objectives add wtworlds.raycast dummy
+
 scoreboard objectives setdisplay sidebar wtworlds.deflecting.mode

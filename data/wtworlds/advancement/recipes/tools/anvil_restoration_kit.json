@@ -2,19 +2,6 @@
     "parent": "wtworlds:recipes/root",
     "criteria":
     {
-        "has_chipped_anvil":
-        {
-            "trigger": "inventory_changed",
-            "conditions":
-            {
-                "items":
-                [
-                    {
-                        "items": "chipped_anvil"
-                    }
-                ]
-            }
-        },
         "has_anvil":
         {
             "trigger": "inventory_changed",
@@ -23,7 +10,7 @@
                 "items":
                 [
                     {
-                        "items": "anvil"
+                        "items": "#anvil"
                     }
                 ]
             }
@@ -33,7 +20,7 @@
             "trigger": "recipe_crafted",
             "conditions":
             {
-                "recipe_id": "wtworlds:chipped_anvil_repair"
+                "recipe_id": "wtworlds:anvil_restoration_kit"
             }
         }
     },
@@ -41,7 +28,6 @@
     [
         [
             "has_the_recipe",
-            "has_chipped_anvil",
             "has_anvil"
         ]
     ],
@@ -49,7 +35,7 @@
     {
         "recipes":
         [
-            "wtworlds:chipped_anvil_repair"
+            "wtworlds:anvil_restoration_kit"
         ]
     }
 }

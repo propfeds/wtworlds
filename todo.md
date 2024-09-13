@@ -1,12 +1,16 @@
 # To-do List
 
+draw model for anvil restoration kit
+
 bug: deflecting doesn't detect crawling in trapdoor
+
+make trowel blocking not delete resistance effects
+
+is peace on head too small?
 
 try making fake whip (rope dart) (fishing rod)
 
-try making a fake spear
-
-tutorialise anvil repair recipes
+try making a fake spear (hoe???)
 
 mother of all curses (helmet) cusses when getting hit
 
