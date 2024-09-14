@@ -47,14 +47,7 @@
                             {
                                 "flags":
                                 {
-                                    "is_on_ground": false
-                                },
-                                "movement":
-                                {
-                                    "y":
-                                    {
-                                        "min": 9.999999747378752E-6
-                                    }
+                                    "is_sneaking": true
                                 }
                             }
                         },
@@ -67,7 +60,6 @@
                             }
                         }
                     ]
-                    
                 },
                 "effect":
                 {
@@ -101,8 +93,8 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.09,
-                            "radius": 0.75,
+                            "knockback_multiplier": 0.15,
+                            "radius": 1,
                             "offset": [0, 1, 0],
                             "large_particle":
                             {
@@ -121,9 +113,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.21,
+                            "knockback_multiplier": 0.225,
                             "radius": 1,
-                            "offset": [1, 0.75, 0],
+                            "offset": [1, 1.5, 0],
                             "large_particle":
                             {
                                 "type": "explosion"
@@ -141,9 +133,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.21,
+                            "knockback_multiplier": 0.225,
                             "radius": 1,
-                            "offset": [-1, 0.75, 0],
+                            "offset": [-1, 1.5, 0],
                             "large_particle":
                             {
                                 "type": "explosion"
@@ -161,9 +153,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.21,
+                            "knockback_multiplier": 0.225,
                             "radius": 1,
-                            "offset": [0, 0.75, 1],
+                            "offset": [0, 1.5, 1],
                             "large_particle":
                             {
                                 "type": "explosion"
@@ -181,9 +173,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.21,
+                            "knockback_multiplier": 0.225,
                             "radius": 1,
-                            "offset": [0, 0.75, -1],
+                            "offset": [0, 1.5, -1],
                             "large_particle":
                             {
                                 "type": "explosion"
