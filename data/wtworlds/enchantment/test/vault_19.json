@@ -4,7 +4,6 @@
         "translate": "enchantment.wtworlds.vault_19"
     },
     "supported_items": "#wtworlds:enchantable/staff",
-    "exclusive_set": "#wtworlds:exclusive_set/staff",
     "slots":
     [
         "mainhand"
@@ -48,7 +47,7 @@
                             {
                                 "flags":
                                 {
-                                    "is_sneaking": true
+                                    "is_on_ground": false
                                 }
                             }
                         },

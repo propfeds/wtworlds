@@ -4,7 +4,6 @@
         "translate": "enchantment.wtworlds.heave"
     },
     "supported_items": "#wtworlds:enchantable/staff",
-    "exclusive_set": "#wtworlds:exclusive_set/staff",
     "slots":
     [
         "mainhand"

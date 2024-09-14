@@ -5,7 +5,6 @@
     },
     "primary_items": "crossbow",
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
-    "exclusive_set": "#wtworlds:exclusive_set/ranged_crowd_control",
     "slots":
     [
         "hand"
