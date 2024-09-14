@@ -2,6 +2,10 @@
 
 draw model for anvil restoration kit
 
+make teacher's pointer stick with foil model and spear right click
+
+peace on head looks too small
+
 bug: deflecting doesn't detect crawling in trapdoor
 
 make trowel blocking not delete resistance effects
@@ -40,6 +44,11 @@ refuges:
 - Chairs = logs? stairs?
 - Teachers wear and sell redstone hats
 - Poem books as chest loot
+
+hermit homes:
+- in cliffside
+- drawers with letters
+- goat horns & trowels
 
 promises
 - prosperity/plenty/providence: channel to advance crop/grass growth nearby, but offers blood sacrifice in the form of cattle (it will damage you if there's no cattle)

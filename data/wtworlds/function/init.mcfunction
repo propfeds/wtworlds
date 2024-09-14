@@ -13,7 +13,7 @@ scoreboard objectives add wtworlds.finishing dummy
 scoreboard objectives add wtworlds.blocking.impulse dummy
 scoreboard objectives add wtworlds.blocking.frame dummy
 # scoreboard players set wtworlds.blocking.duration const 24
-scoreboard players set wtworlds.blocking.perfect_block_start const 2
+scoreboard players set wtworlds.blocking.perfect_block_start const 1
 scoreboard players set wtworlds.blocking.imperfect_block_start const 7
 # Trowel deflecting
 scoreboard objectives add wtworlds.deflecting.mode dummy
@@ -36,5 +36,3 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 
 # Raycasting
 scoreboard objectives add wtworlds.raycast dummy
-
-scoreboard objectives setdisplay sidebar wtworlds.deflecting.mode

@@ -1,1 +1,1 @@
-playsound wtworlds:item.staff.use player @a[distance=..32]
+playsound wtworlds:item.staff.use player

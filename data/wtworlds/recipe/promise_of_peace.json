@@ -65,14 +65,7 @@
                 {
                     "id": "wtworlds:promise_of_peace.movement_speed",
                     "type": "movement_speed",
-                    "amount": 0.025,
-                    "operation": "add_value",
-                    "slot": "any"
-                },
-                {
-                    "id": "wtworlds:promise_of_peace.fall_threshold",
-                    "type": "safe_fall_distance",
-                    "amount": 3,
+                    "amount": 0.03,
                     "operation": "add_value",
                     "slot": "any"
                 }

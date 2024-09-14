@@ -1,2 +1,2 @@
-playsound block.fire.extinguish
-playsound block.anvil.place
+playsound block.fire.extinguish block
+playsound block.anvil.place block
