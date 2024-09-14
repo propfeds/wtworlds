@@ -48,6 +48,13 @@
                                 "flags":
                                 {
                                     "is_on_ground": false
+                                },
+                                "movement":
+                                {
+                                    "y":
+                                    {
+                                        "min": 9.999999747378752E-6
+                                    }
                                 }
                             }
                         },
