@@ -1,16 +1,17 @@
 # To-do List
 
-draw model for anvil restoration kit
+condense all all_of requirements
+
+unbreaking not working with anvil kit
 
 make teacher's pointer stick with foil model and spear right click
 
 peace on head looks too small
+is peace on head too small?
 
 bug: deflecting doesn't detect crawling in trapdoor
 
 make trowel blocking not delete resistance effects
-
-is peace on head too small?
 
 try making fake whip (rope dart) (fishing rod)
 
