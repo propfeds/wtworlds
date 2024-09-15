@@ -100,32 +100,28 @@
             },
             {
                 "requirements":
-                {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "type": "#impact_projectiles"
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
                         {
                             "condition": "entity_properties",
                             "entity": "this",
                             "predicate":
                             {
-                                "type": "#impact_projectiles"
-                            }
-                        },
-                        {
-                            "condition": "inverted",
-                            "term":
-                            {
-                                "condition": "entity_properties",
-                                "entity": "this",
-                                "predicate":
-                                {
-                                    "type": "trident"
-                                }
+                                "type": "trident"
                             }
                         }
-                    ]
-                },
+                    }
+                ],
                 "effect":
                 {
                     "type": "run_function",

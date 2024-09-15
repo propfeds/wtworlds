@@ -51,6 +51,23 @@
                     "type": "run_function",
                     "function": "wtworlds:test/say_ascending"
                 }
+            },
+            {
+                "enchanted": "damaging_entity",
+                "affected": "damaging_entity",
+                "requirements":
+                {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate":
+                    {
+                        "is_direct": false
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:test/say_vault"
+                }
             }
         ]
     }

@@ -36,31 +36,27 @@
         [
             {
                 "requirements":
-                {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
                         {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
+                            "flags":
                             {
-                                "flags":
-                                {
-                                    "is_sneaking": true
-                                }
-                            }
-                        },
-                        {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "wtworlds.vault.cooldown": 0
+                                "is_sneaking": true
                             }
                         }
-                    ]
-                },
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.vault.cooldown": 0
+                        }
+                    }
+                ],
                 "effect":
                 {
                     "type": "all_of",

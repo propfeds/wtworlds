@@ -1,6 +1,7 @@
 # To-do List
 
-condense all all_of requirements
+rework deflecting
+
 
 unbreaking not working with anvil kit
 
