@@ -32,13 +32,6 @@
                                 "custom_data":
                                 {
                                     "can_repair_anvil": true
-                                },
-                                "damage":
-                                {
-                                    "damage":
-                                    {
-                                        "max": 63
-                                    }
                                 }
                             }
                         }

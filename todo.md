@@ -2,9 +2,6 @@
 
 rework deflecting
 
-
-unbreaking not working with anvil kit
-
 make teacher's pointer stick with foil model and spear right click
 
 peace on head looks too small

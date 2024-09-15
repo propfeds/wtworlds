@@ -1,0 +1,24 @@
+{
+    "function": "set_damage",
+    "conditions":
+    [
+        {
+            "condition": "random_chance_with_enchanted_bonus",
+            "enchantment": "unbreaking",
+            "unenchanted_chance": 1,
+            "enchanted_chance":
+            {
+                "type": "fraction",
+                "numerator": 1,
+                "denominator":
+                {
+                    "type": "minecraft:linear",
+                    "base": 2.0,
+                    "per_level_above_first": 1.0
+                }
+            }
+        }
+    ],
+    "damage": -0.015625,
+    "add": true
+}

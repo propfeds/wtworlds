@@ -1,2 +1,2 @@
-execute if predicate wtworlds:anvil_repair/mainhand run return run item modify entity @s weapon.mainhand wtworlds:damage_1_4th_durability
-execute if predicate wtworlds:anvil_repair/offhand run item modify entity @s weapon.offhand wtworlds:damage_1_4th_durability
+execute if predicate wtworlds:anvil_repair/mainhand run return run function wtworlds:anvil_repair/set_damage/mainhand
+execute if predicate wtworlds:anvil_repair/offhand run function wtworlds:anvil_repair/set_damage/offhand

@@ -36,3 +36,6 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 
 # Raycasting
 scoreboard objectives add wtworlds.raycast dummy
+
+# Anvil durability loss
+scoreboard objectives add wtworlds.anvil_restoration_kit.damage dummy

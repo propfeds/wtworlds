@@ -1,0 +1,23 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "equipment":
+        {
+            "offhand":
+            {
+                "predicates":
+                {
+                    "enchantments":
+                    [
+                        {
+                            "enchantments": "unbreaking",
+                            "levels": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
