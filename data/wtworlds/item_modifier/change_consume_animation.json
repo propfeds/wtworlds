@@ -1,0 +1,12 @@
+{
+    "function": "set_components",
+    "components":
+    {
+        "consumable":
+        {
+            "consume_seconds": 107374182,
+            "animation": "spear",
+            "has_consume_particles": false
+        }
+    }
+}

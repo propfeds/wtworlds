@@ -2,7 +2,10 @@
 
 rework deflecting
 
-make teacher's pointer stick with foil model and spear right click
+axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)
+- either summon shulker at feet or reduce gravity
+
+normal staff upgrades to golden staff?
 
 bug: deflecting doesn't detect crawling in trapdoor
 
@@ -45,6 +48,7 @@ hermit homes:
 - in cliffside
 - drawers with letters
 - goat horns & trowels
+- book hidden inside fish barrels or well
 
 promises
 - prosperity/plenty/providence: channel to advance crop/grass growth nearby, but offers blood sacrifice in the form of cattle (it will damage you if there's no cattle)
