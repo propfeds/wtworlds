@@ -1,0 +1,65 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "pattern":
+    [
+        "/",
+        "/"
+    ],
+    "key":
+    {
+        "/": "stick"
+    },
+    "result":
+    {
+        "id": "stick",
+        "count": 1,
+        "components":
+        {
+            "item_model": "wtworlds:pointer",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+            "consumable":
+            {
+                "consume_seconds": 107374182,
+                "animation": "spear",
+                "has_consume_particles": false
+            },
+            "use_remainder":
+            {
+                "id": "stick",
+                "count": 2
+            },
+            "attribute_modifiers":
+            {
+                "modifiers":
+                [
+                    {
+                        "id": "wtworlds:soil_dagger.attack_damage",
+                        "type": "attack_damage",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "wtworlds:soil_dagger.attack_speed",
+                        "type": "attack_speed",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "lore":
+            [
+                "\"\"",
+
+                "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
+
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 3 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
+
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
+            ]
+        }
+    }
+}

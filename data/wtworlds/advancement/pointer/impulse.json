@@ -1,0 +1,13 @@
+{
+    "criteria":
+    {
+        "tick":
+        {
+            "trigger": "tick"
+        }
+    },
+    "rewards":
+    {
+        "function": "wtworlds:pointer/impulse"
+    }
+}

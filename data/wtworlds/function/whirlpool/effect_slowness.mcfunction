@@ -1,1 +1,1 @@
-effect give @e[distance=..2, nbt={HurtTime:10s}] slowness 3 1
+effect give @e[distance=..2.5, nbt={HurtTime:10s}] slowness 3 1

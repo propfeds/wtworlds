@@ -34,8 +34,11 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 # scoreboard objectives add wtworlds.motion.y dummy
 # scoreboard objectives add wtworlds.motion.z dummy
 
-# Raycasting
+# Raycasting (please don't use this 'channel' for continuous applications)
 scoreboard objectives add wtworlds.raycast dummy
 
 # Anvil durability loss
 scoreboard objectives add wtworlds.anvil_restoration_kit.damage dummy
+
+# Teacher's pointer
+scoreboard objectives add wtworlds.pointer.impulse dummy
