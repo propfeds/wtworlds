@@ -43,8 +43,8 @@ scoreboard objectives add wtworlds.anvil_restoration_kit.damage dummy
 # Teacher's pointer
 scoreboard objectives add wtworlds.pointer.impulse dummy
 scoreboard objectives add wtworlds.pointer.frame dummy
-scoreboard players set wtworlds.pointer.raycast_range const 90
-scoreboard players set wtworlds.pointer.entity_raycast_start const 5
+scoreboard players set wtworlds.pointer.raycast_range const 80
+scoreboard players set wtworlds.pointer.entity_raycast_start const 6
 
 # Firecracker
 scoreboard objectives add wtworlds.firecracker dummy

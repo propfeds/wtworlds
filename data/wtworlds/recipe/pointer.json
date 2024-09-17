@@ -19,6 +19,7 @@
         {
             "item_model": "wtworlds:pointer",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+            "!food": {},
             "consumable":
             {
                 "consume_seconds": 107374182,
