@@ -8,7 +8,7 @@
             {
                 "item":
                 {
-                    "items": "stick",
+                    "items": "beetroot_soup",
                     "components":
                     {
                         "item_model": "wtworlds:pointer"

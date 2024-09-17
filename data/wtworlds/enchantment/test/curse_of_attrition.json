@@ -3,7 +3,6 @@
     {
         "translate": "enchantment.wtworlds.curse_of_attrition"
     },
-    "primary_items": "beetroot_soup",
     "supported_items": "#minecraft:enchantable/durability",
     "slots":
     [
