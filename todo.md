@@ -3,8 +3,6 @@
 refactor function folders
 - group all enchantments into 1 folder
 
-trowel reduce hoe effectiveness to 2?
-
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)

@@ -3,12 +3,13 @@
     "category": "equipment",
     "pattern":
     [
-        "/",
+        ".",
         "/"
     ],
     "key":
     {
-        "/": "stick"
+        "/": "stick",
+        ".": "#wooden_buttons"
     },
     "result":
     {
