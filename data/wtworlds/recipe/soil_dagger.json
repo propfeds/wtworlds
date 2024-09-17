@@ -49,11 +49,6 @@
                         "correct_for_drops": true
                     },
                     {
-                        "blocks": "#sword_efficient",
-                        "speed": 1.5,
-                        "correct_for_drops": true
-                    },
-                    {
                         "blocks": "cobweb",
                         "speed": 10,
                         "correct_for_drops": true
