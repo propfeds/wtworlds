@@ -36,7 +36,7 @@
                     {
                         "id": "wtworlds:soil_dagger.attack_damage",
                         "type": "attack_damage",
-                        "amount": 2,
+                        "amount": 1.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -56,7 +56,7 @@
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 3 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
             ]

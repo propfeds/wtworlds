@@ -1,9 +1,16 @@
 # To-do List
 
+refactor function folders
+- group all enchantments into 1 folder
+
+trowel reduce hoe effectiveness to 2?
+
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)
 - either summon shulker at feet or reduce gravity
+
+axe enchantment that restores saturation on kill (battle hunger)
 
 normal staff upgrades to golden staff?
 
@@ -22,6 +29,13 @@ obsidian dagger (high damage, dimension tear - turns piglins into zombies, or sc
 bone needle
 
 armadillo scute -> caestus (does it need parrying?)
+
+meteor hammer mobs to farm chain
+
+vault clears score when off cooldown
+
+try piston spam machine with whirlpool
+
 
 foil enchantments:
 - increase damage while in the air

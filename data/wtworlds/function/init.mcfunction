@@ -2,12 +2,12 @@
 title @a actionbar {"text": "Welcome to Weathered Worlds."}
 
 scoreboard objectives add const dummy
-scoreboard players set 1000 const 1000
 
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
 scoreboard objectives add wtworlds.finishing dummy
+scoreboard players set 1000 const 1000
 
 # Trowel blocking
 scoreboard objectives add wtworlds.blocking.impulse dummy
@@ -43,4 +43,8 @@ scoreboard objectives add wtworlds.anvil_restoration_kit.damage dummy
 # Teacher's pointer
 scoreboard objectives add wtworlds.pointer.impulse dummy
 scoreboard objectives add wtworlds.pointer.frame dummy
+scoreboard players set wtworlds.pointer.raycast_range const 90
 scoreboard players set wtworlds.pointer.entity_raycast_start const 5
+
+# Firecracker
+scoreboard objectives add wtworlds.firecracker dummy

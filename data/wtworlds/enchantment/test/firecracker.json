@@ -1,0 +1,56 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.firecracker"
+    },
+    "supported_items": "#wtworlds:enchantable/projectile",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 35,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "projectile_spawned":
+        [
+            {
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:firecracker/init"
+                }
+            }
+        ],
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.firecracker": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:test/say_ascending"
+                }
+            }
+        ]
+    }
+}
