@@ -1,7 +1,5 @@
 # To-do List
 
-vault clears score when off cooldown
-
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)

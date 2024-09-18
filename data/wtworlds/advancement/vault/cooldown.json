@@ -8,6 +8,6 @@
     },
     "rewards":
     {
-        "function": "wtworlds:vault/cooldown"
+        "function": "wtworlds:enchantment/vault/cooldown"
     }
 }

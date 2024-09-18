@@ -49,11 +49,18 @@
                         }
                     },
                     {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores":
+                        "condition": "inverted",
+                        "term":
                         {
-                            "wtworlds.vault.cooldown": 0
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.vault.cooldown":
+                                {
+                                    "min": 1
+                                }
+                            }
                         }
                     }
                 ],
