@@ -57,7 +57,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:deflecting/standing/main"
+                    "function": "wtworlds:enchantment/deflecting/standing/main"
                 }
             },
             {
@@ -90,7 +90,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:deflecting/sneaking/main"
+                    "function": "wtworlds:enchantment/deflecting/sneaking/main"
                 }
             },
             {
@@ -140,7 +140,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:deflecting/swimming/main"
+                    "function": "wtworlds:enchantment/deflecting/swimming/main"
                 }
             },
             {
@@ -209,7 +209,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:deflecting/standing/tag_remove"
+                            "function": "wtworlds:enchantment/deflecting/standing/tag_remove"
                         }
                     ]
                 }
@@ -251,7 +251,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:deflecting/sneaking/tag_remove"
+                            "function": "wtworlds:enchantment/deflecting/sneaking/tag_remove"
                         }
                     ]
                 }
@@ -293,7 +293,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:deflecting/swimming/tag_remove"
+                            "function": "wtworlds:enchantment/deflecting/swimming/tag_remove"
                         }
                     ]
                 }

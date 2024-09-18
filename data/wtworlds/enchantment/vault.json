@@ -64,7 +64,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:vault/init_cooldown"
+                            "function": "wtworlds:enchantment/vault/init_cooldown"
                         },
                         {
                             "type": "damage_item",
@@ -188,11 +188,11 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:vault/sound"
+                            "function": "wtworlds:enchantment/vault/sound"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:vault/particles"
+                            "function": "wtworlds:enchantment/vault/particles"
                         }
                     ]
                 }

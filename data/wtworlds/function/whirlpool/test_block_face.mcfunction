@@ -1,1 +1,0 @@
-execute align xyz run function wtworlds:whirlpool/test_block_face_aligned

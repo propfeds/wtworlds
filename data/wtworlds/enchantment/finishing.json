@@ -54,15 +54,15 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:finishing/calculate_missing_health"
+                            "function": "wtworlds:enchantment/finishing/calculate_missing_health"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:finishing/tag"
+                            "function": "wtworlds:enchantment/finishing/tag"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:finishing/particles_anchored_eyes"
+                            "function": "wtworlds:enchantment/finishing/particles_anchored_eyes"
                         }
                     ]
                 }
@@ -392,7 +392,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:finishing/tag_remove"
+                    "function": "wtworlds:enchantment/finishing/tag_remove"
                 }
             }
         ]

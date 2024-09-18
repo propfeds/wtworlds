@@ -29,7 +29,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:firecracker/init"
+                    "function": "wtworlds:enchantment/firecracker/init"
                 }
             }
         ],

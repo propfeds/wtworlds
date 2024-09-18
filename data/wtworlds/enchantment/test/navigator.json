@@ -29,7 +29,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:navigator/mount_selector"
+                    "function": "wtworlds:enchantment/navigator/mount_selector"
                 }
             }
         ],
@@ -49,7 +49,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:navigator/dismount_selector"
+                    "function": "wtworlds:enchantment/navigator/dismount_selector"
                 }
             }
         ],
@@ -68,7 +68,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:navigator/dismount_selector"
+                    "function": "wtworlds:enchantment/navigator/dismount_selector"
                 }
             }
         ]

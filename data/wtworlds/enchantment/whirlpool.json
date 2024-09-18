@@ -46,7 +46,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:whirlpool/test_block_face"
+                            "function": "wtworlds:enchantment/whirlpool/test_block_face"
                         }
                     ]
                 }
@@ -398,11 +398,11 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:whirlpool/effect_slowness"
+                            "function": "wtworlds:enchantment/whirlpool/effect_slowness"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:whirlpool/particles_large"
+                            "function": "wtworlds:enchantment/whirlpool/particles_large"
                         }
                     ]
                 }
@@ -424,15 +424,15 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:whirlpool/tag_remove"
+                            "function": "wtworlds:enchantment/whirlpool/tag_remove"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:whirlpool/particles"
+                            "function": "wtworlds:enchantment/whirlpool/particles"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:whirlpool/sound"
+                            "function": "wtworlds:enchantment/whirlpool/sound"
                         }
                     ]
                 }

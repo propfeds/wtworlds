@@ -73,15 +73,15 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/effect_slowness"
+                            "function": "wtworlds:enchantment/heave/effect_slowness"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/sound"
+                            "function": "wtworlds:enchantment/heave/sound"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/particles"
+                            "function": "wtworlds:enchantment/heave/particles"
                         },
                         {
                             "type": "spawn_particles",

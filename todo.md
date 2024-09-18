@@ -1,7 +1,6 @@
 # To-do List
 
-refactor function folders
-- group all enchantments into 1 folder
+vault clears score when off cooldown
 
 rework deflecting
 
@@ -29,16 +28,6 @@ bone needle
 armadillo scute -> caestus (does it need parrying?)
 
 meteor hammer mobs to farm chain
-
-vault clears score when off cooldown
-
-try piston spam machine with whirlpool
-
-
-foil enchantments:
-- increase damage while in the air
-- increase damage according to velocity
-- increase damage after getting hit
 
 (joke) giant spider on fire mob
 

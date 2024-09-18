@@ -62,7 +62,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:lash/leash"
+                            "function": "wtworlds:enchantment/lash/leash"
                         }
                     ]
                 }
@@ -85,7 +85,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:lash/unleash"
+                    "function": "wtworlds:enchantment/lash/unleash"
                 }
             }
         ],
@@ -104,7 +104,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:lash/unleash"
+                    "function": "wtworlds:enchantment/lash/unleash"
                 }
             }
         ]

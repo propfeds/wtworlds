@@ -35,11 +35,11 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:alertness/reveal"
+                            "function": "wtworlds:enchantment/alertness/reveal"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:alertness/sound"
+                            "function": "wtworlds:enchantment/alertness/sound"
                         }
                     ]
                 }
