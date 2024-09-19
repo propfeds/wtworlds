@@ -1,5 +1,11 @@
 # To-do List
 
+remove snow from taglib and move it to new tag raycast_passes_through that contains things like chains and lanterns
+
+foil: check out Han dynasty fencing swords
+
+change staff model when sitting down
+
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)

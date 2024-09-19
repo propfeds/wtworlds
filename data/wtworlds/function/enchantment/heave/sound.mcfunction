@@ -1,1 +1,1 @@
-playsound wtworlds:entity.player.attack.heave player @a[distance=..16]
+playsound wtworlds:entity.player.attack.heave player @a

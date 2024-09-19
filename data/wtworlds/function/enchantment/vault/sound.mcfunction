@@ -1,1 +1,1 @@
-playsound wtworlds:item.staff.use player
+playsound wtworlds:item.staff.use player @a
