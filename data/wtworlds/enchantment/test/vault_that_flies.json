@@ -32,6 +32,81 @@
                 "operation": "add_value"
             }
         ],
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_flying": true
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
+                        {
+                            "condition": "entity_scores",
+                            "entity": "attacker",
+                            "scores":
+                            {
+                                "wtworlds.vault.cooldown":
+                                {
+                                    "min": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/init_cooldown"
+                        },
+                        {
+                            "type": "damage_item",
+                            "amount": 1
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "trigger",
+                            "knockback_multiplier": 1,
+                            "radius": 1,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "small_particle":
+                            {
+                                "type": "gust"
+                            },
+                            "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/sound"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/particles"
+                        }
+                    ]
+                }
+            }
+        ],
         "hit_block":
         [
             {
