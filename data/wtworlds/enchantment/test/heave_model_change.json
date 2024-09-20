@@ -23,6 +23,53 @@
     "anvil_cost": 4,
     "effects":
     {
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "flags":
+                        {
+                            "is_sneaking": true,
+                            "is_on_ground": true
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/heave/change_model_sneaking"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "inverted",
+                    "term":
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_sneaking": true,
+                                "is_on_ground": true
+                            }
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/heave/change_model"
+                }
+            }
+        ],
         "post_attack":
         [
             {
@@ -59,7 +106,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.16,
+                            "knockback_multiplier": 0.15,
                             "radius": 0.5,
                             "large_particle":
                             {

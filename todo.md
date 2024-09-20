@@ -9,7 +9,7 @@ change staff model when sitting down
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)
-- either summon shulker at feet or reduce gravity
+- either summon shulker at feet or reduce gravity for a few seconds
 
 axe enchantment that restores saturation on kill (battle hunger)
 
