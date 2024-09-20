@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.lash"
     },
-    "supported_items": "bow",
+    "supported_items": "fishing_rod",
     "slots":
     [
         "hand"
@@ -73,11 +73,10 @@
             {
                 "requirements":
                 {
-                    "condition": "entity_properties",
-                    "entity": "direct_attacker",
+                    "condition": "damage_source_properties",
                     "predicate":
                     {
-                        "type": "#arrows"
+                        "is_direct": false
                     }
                 },
                 "enchanted": "attacker",
@@ -92,15 +91,6 @@
         "hit_block":
         [
             {
-                "requirements":
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate":
-                    {
-                        "type": "#arrows"
-                    }
-                },
                 "effect":
                 {
                     "type": "run_function",

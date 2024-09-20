@@ -3,8 +3,8 @@
     "category": "equipment",
     "pattern":
     [
-        "#_P",
-        "_ i",
+        "P_#",
+        "i _",
         "#_#"
     ],
     "key":
