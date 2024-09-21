@@ -1,12 +1,12 @@
 {
     "description":
     {
-        "translate": "instrument.wtworlds.soil_dagger"
+        "translate": "instrument.wtworlds.trowel"
     },
     "range": 16.0,
     "sound_event":
     {
-        "sound_id": "wtworlds:item.soil_dagger.use"
+        "sound_id": "wtworlds:item.trowel.use"
     },
     "use_duration": 107374182
 }

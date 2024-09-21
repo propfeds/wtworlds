@@ -11,7 +11,7 @@
                     "items": "minecraft:goat_horn",
                     "components":
                     {
-                        "item_model": "wtworlds:soil_dagger"
+                        "item_model": "wtworlds:trowel"
                     }
                 }
             }

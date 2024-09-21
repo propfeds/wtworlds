@@ -20,7 +20,7 @@
             "trigger": "recipe_crafted",
             "conditions":
             {
-                "recipe_id": "wtworlds:soil_dagger"
+                "recipe_id": "wtworlds:trowel"
             }
         }
     },
@@ -35,7 +35,7 @@
     {
         "recipes":
         [
-            "wtworlds:soil_dagger"
+            "wtworlds:trowel"
         ]
     }
 }

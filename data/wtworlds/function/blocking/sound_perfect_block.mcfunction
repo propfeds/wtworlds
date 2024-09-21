@@ -1,1 +1,1 @@
-playsound wtworlds:item.soil_dagger.perfect_block player @a
+playsound wtworlds:item.trowel.perfect_block player @a

@@ -36,14 +36,14 @@
                 "modifiers":
                 [
                     {
-                        "id": "wtworlds:soil_dagger.attack_damage",
+                        "id": "wtworlds:pointer.attack_damage",
                         "type": "attack_damage",
                         "amount": 1.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:soil_dagger.attack_speed",
+                        "id": "wtworlds:pointer.attack_speed",
                         "type": "attack_speed",
                         "amount": -2,
                         "operation": "add_value",

@@ -20,8 +20,8 @@
         "count": 1,
         "components":
         {
-            "item_model": "wtworlds:promise_of_peace",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_peace\"}",
+            "item_model": "wtworlds:promise_of_protection",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_protection\"}",
             "!consumable": {},
             "!use_remainder": {},
             "max_damage": 150,
@@ -42,28 +42,28 @@
             "attribute_modifiers":
             [
                 {
-                    "id": "wtworlds:promise_of_peace.armour",
+                    "id": "wtworlds:promise_of_protection.armour",
                     "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
-                    "id": "wtworlds:promise_of_peace.attack_damage",
+                    "id": "wtworlds:promise_of_protection.attack_damage",
                     "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
-                    "id": "wtworlds:promise_of_peace.knockback",
+                    "id": "wtworlds:promise_of_protection.knockback",
                     "type": "attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
-                    "id": "wtworlds:promise_of_peace.movement_speed",
+                    "id": "wtworlds:promise_of_protection.movement_speed",
                     "type": "movement_speed",
                     "amount": 0.025,
                     "operation": "add_value",

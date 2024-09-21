@@ -18,8 +18,8 @@
         "count": 1,
         "components":
         {
-            "item_model": "wtworlds:soil_dagger",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.soil_dagger\"}",
+            "item_model": "wtworlds:trowel",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.trowel\"}",
             "rarity": "common",
             "damage": 0,
             "max_damage": 172,
@@ -30,9 +30,9 @@
             "use_cooldown":
             {
                 "seconds": 0.6,
-                "cooldown_group": "wtworlds:soil_dagger"
+                "cooldown_group": "wtworlds:trowel"
             },
-            "instrument": "wtworlds:soil_dagger",
+            "instrument": "wtworlds:trowel",
             "tool":
             {
                 "damage_per_block": 2,
@@ -70,21 +70,21 @@
                 "modifiers":
                 [
                     {
-                        "id": "wtworlds:soil_dagger.attack_damage",
+                        "id": "wtworlds:trowel.attack_damage",
                         "type": "attack_damage",
                         "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:soil_dagger.attack_speed",
+                        "id": "wtworlds:trowel.attack_speed",
                         "type": "attack_speed",
                         "amount": -2.2,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:soil_dagger.attack_range",
+                        "id": "wtworlds:trowel.attack_range",
                         "type": "entity_interaction_range",
                         "amount": -0.5,
                         "operation": "add_value",
