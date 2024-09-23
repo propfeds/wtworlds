@@ -19,6 +19,8 @@
         {
             "item_model": "wtworlds:pointer",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+            "damage": 0,
+            "max_damage": 30,
             "!food": {},
             "consumable":
             {
@@ -31,6 +33,10 @@
                 "id": "stick",
                 "count": 2
             },
+            "enchantments":
+            {
+                "wtworlds:weaponised_instrument": 1
+            },
             "attribute_modifiers":
             {
                 "modifiers":
@@ -38,7 +44,7 @@
                     {
                         "id": "wtworlds:pointer.attack_damage",
                         "type": "attack_damage",
-                        "amount": 1.5,
+                        "amount": 1,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -58,7 +64,7 @@
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
             ]

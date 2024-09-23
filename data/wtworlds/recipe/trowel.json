@@ -22,7 +22,7 @@
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.trowel\"}",
             "rarity": "common",
             "damage": 0,
-            "max_damage": 172,
+            "max_damage": 156,
             "repairable":
             {
                 "items": "bone"
