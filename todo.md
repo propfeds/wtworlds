@@ -5,8 +5,6 @@ rename scoreboard to anvil_restoration (no more kit)
 
 foil: check out Han dynasty fencing swords
 
-change staff model when sitting down
-
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)

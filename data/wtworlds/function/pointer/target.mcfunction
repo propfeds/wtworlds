@@ -1,1 +1,1 @@
-execute positioned ~-0.125 ~-0.125 ~-0.125 as @n[dx=0, dy=0, dz=0] run execute positioned ~-0.75 ~-0.75 ~-0.75 if entity @s[dx=0, dy=0, dz=0] run return run function wtworlds:pointer/target_tag
+execute positioned ~-0.125 ~-0.125 ~-0.125 as @n[dx=0, dy=0, dz=0, tag=!wtworlds.self] run execute positioned ~-0.75 ~-0.75 ~-0.75 if entity @s[dx=0, dy=0, dz=0] run return run function wtworlds:pointer/target_tag

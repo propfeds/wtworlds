@@ -2,7 +2,7 @@ scoreboard players remove @s wtworlds.raycast 1
 
 function wtworlds:pointer/particles_raycast
 
-execute unless function wtworlds:pointer/target_self if function wtworlds:pointer/target run function wtworlds:pointer/hit_entity
+execute if function wtworlds:pointer/target run function wtworlds:pointer/hit_entity
 
 execute unless block ~ ~ ~ #taglib:walk_through unless block ~ ~ ~ #wtworlds:raycast_passes_through positioned ^ ^ ^-0.1 run function wtworlds:pointer/hit_block
 

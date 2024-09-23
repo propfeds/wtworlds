@@ -33,6 +33,11 @@
                 "id": "stick",
                 "count": 2
             },
+            "tool":
+            {
+                "damage_per_block": 1,
+                "rules": []
+            },
             "enchantments":
             {
                 "wtworlds:weaponised_instrument": 1
