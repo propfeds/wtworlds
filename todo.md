@@ -1,6 +1,7 @@
 # To-do List
 
-remove snow from taglib and move it to new tag raycast_passes_through that contains things like chains and lanterns
+rename anvil_repair folder to anvil_restoration
+rename scoreboard to anvil_restoration (no more kit)
 
 foil: check out Han dynasty fencing swords
 
