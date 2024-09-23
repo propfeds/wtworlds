@@ -3,6 +3,8 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
+trowels dropped by skellies don't have glint override
+
 foil: check out Han dynasty fencing swords
 
 rework deflecting
