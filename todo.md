@@ -3,7 +3,7 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
-trowels dropped by skellies don't have glint override
+whirlpool pulls everyone in by knocking back with /damage?
 
 foil: check out Han dynasty fencing swords
 
@@ -55,6 +55,7 @@ hermit homes:
 - drawers with letters
 - goat horns & trowels
 - book hidden inside fish barrels or well
+- https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
 promises
 - prosperity/plenty/providence: channel to advance crop/grass growth nearby, but offers blood sacrifice in the form of cattle (it will damage you if there's no cattle)
