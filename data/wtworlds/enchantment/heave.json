@@ -59,7 +59,7 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.16,
+                            "knockback_multiplier": 0.175,
                             "radius": 0.5,
                             "large_particle":
                             {
