@@ -19,8 +19,6 @@
         {
             "item_model": "wtworlds:pointer",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
-            "damage": 0,
-            "max_damage": 30,
             "!food": {},
             "consumable":
             {
@@ -31,49 +29,8 @@
             "use_remainder":
             {
                 "id": "stick",
-                "count": 2
-            },
-            "tool":
-            {
-                "damage_per_block": 1,
-                "rules": []
-            },
-            "enchantments":
-            {
-                "wtworlds:weaponised_instrument": 1
-            },
-            "enchantment_glint_override": false,
-            "attribute_modifiers":
-            {
-                "modifiers":
-                [
-                    {
-                        "id": "wtworlds:pointer.attack_damage",
-                        "type": "attack_damage",
-                        "amount": 1,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:pointer.attack_speed",
-                        "type": "attack_speed",
-                        "amount": -2,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ],
-                "show_in_tooltip": false
-            },
-            "lore":
-            [
-                "\"\"",
-
-                "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 2 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
-            ]
+                "count": 1
+            }
         }
     }
 }
