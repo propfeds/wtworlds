@@ -1,5 +1,8 @@
 {
-    "description": "Rainbow",
+    "description":
+    {
+        "translate": "enchantment.wtworlds.rainbow"
+    },
     "primary_items": "bow",
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "exclusive_set": ["power"],
