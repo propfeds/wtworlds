@@ -3,6 +3,8 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
+for dx selectors, instead of using `@n`, use `@e[limit=1]`
+
 whirlpool pulls everyone in by knocking back with /damage?
 
 foil: check out Han dynasty fencing swords
@@ -58,7 +60,9 @@ hermit homes:
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
 promises
-- prosperity/plenty/providence: channel to advance crop/grass growth nearby, but offers blood sacrifice in the form of cattle (it will damage you if there's no cattle)
+- prosperity/plenty/providence: channel to get bone meal, but offers blood sacrifice from nearby cattle (don't damage babies)
+  - recipe: piglins are the only mobs that hunt cattle though? or maybe entirely new civ
+  - damage type: instant damage
 - intimacy: drain dur to heal allies and self, replenish by trading XP
 - return: prismarine, grows crops faster in a chunk but deteriorates when leaving the sim radius
 - perpetuity: resists poison, harming and wither
