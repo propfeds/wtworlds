@@ -70,21 +70,21 @@
                 "modifiers":
                 [
                     {
-                        "id": "wtworlds:trowel.attack_damage",
+                        "id": "wtworlds:trowel",
                         "type": "attack_damage",
                         "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:trowel.attack_speed",
+                        "id": "wtworlds:trowel",
                         "type": "attack_speed",
                         "amount": -2.2,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:trowel.attack_range",
+                        "id": "wtworlds:trowel",
                         "type": "entity_interaction_range",
                         "amount": -0.5,
                         "operation": "add_value",

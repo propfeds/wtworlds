@@ -42,28 +42,28 @@
             "attribute_modifiers":
             [
                 {
-                    "id": "wtworlds:promise_of_protection.armour",
+                    "id": "wtworlds:promise_of_protection",
                     "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
-                    "id": "wtworlds:promise_of_protection.attack_damage",
+                    "id": "wtworlds:promise_of_protection",
                     "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
-                    "id": "wtworlds:promise_of_protection.knockback",
+                    "id": "wtworlds:promise_of_protection",
                     "type": "attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
-                    "id": "wtworlds:promise_of_protection.movement_speed",
+                    "id": "wtworlds:promise_of_protection",
                     "type": "movement_speed",
                     "amount": 0.024,
                     "operation": "add_value",

@@ -64,21 +64,21 @@
                 "modifiers":
                 [
                     {
-                        "id": "wtworlds:dagger.attack_damage",
+                        "id": "wtworlds:dagger",
                         "type": "minecraft:attack_damage",
                         "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:dagger.attack_speed",
+                        "id": "wtworlds:dagger",
                         "type": "minecraft:attack_speed",
                         "amount": -2.2,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "wtworlds:dagger.attack_range",
+                        "id": "wtworlds:dagger",
                         "type": "minecraft:entity_interaction_range",
                         "amount": -0.25,
                         "operation": "add_value",
