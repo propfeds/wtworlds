@@ -58,10 +58,6 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/finishing/tag"
-                        },
-                        {
-                            "type": "run_function",
                             "function": "wtworlds:enchantment/finishing/particles_anchored_eyes"
                         }
                     ]
@@ -76,7 +72,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 1
                     }
                 },
@@ -107,7 +102,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 2
                     }
                 },
@@ -138,7 +132,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 3
                     }
                 },
@@ -169,7 +162,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 4
                     }
                 },
@@ -200,7 +192,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 5
                     }
                 },
@@ -231,7 +222,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 6
                     }
                 },
@@ -262,7 +252,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 7
                     }
                 },
@@ -293,7 +282,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 8
                     }
                 },
@@ -324,7 +312,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 9
                     }
                 },
@@ -355,7 +342,6 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing": 1,
                         "wtworlds.missing_health": 10
                     }
                 },
@@ -375,24 +361,6 @@
                         "base": 2.5,
                         "per_level_above_first": 2.5
                     }
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "requirements":
-                {
-                    "condition": "entity_scores",
-                    "entity": "this",
-                    "scores":
-                    {
-                        "wtworlds.finishing": 1
-                    }
-                },
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/finishing/tag_remove"
                 }
             }
         ]

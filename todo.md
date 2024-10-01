@@ -3,16 +3,22 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
-for dx selectors, instead of using `@n`, use `@e[limit=1]`
+perform heave in air?
+
+propel on hit using vault
 
 whirlpool pulls everyone in by knocking back with /damage?
+whirlpool changes crossbow charge sound?
 
 foil: check out Han dynasty fencing swords
 
 rework deflecting
 
 axe enchantment that allows scaling trees and leaves (pickaxe that allows scaling stone)
+- decrease interaction range
 - either summon shulker at feet or reduce gravity for a few seconds
+- could use location_changed/movement check and post_attack to delete the gravity attribute
+- use input predicate and explosion to jump in the air
 
 axe enchantment that restores saturation on kill (battle hunger)
 

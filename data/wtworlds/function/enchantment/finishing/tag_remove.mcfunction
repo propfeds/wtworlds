@@ -1,1 +1,1 @@
-scoreboard players reset @s wtworlds.finishing
+# scoreboard players reset @s wtworlds.finishing

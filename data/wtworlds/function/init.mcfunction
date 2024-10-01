@@ -6,7 +6,7 @@ scoreboard objectives add const dummy
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
-scoreboard objectives add wtworlds.finishing dummy
+# scoreboard objectives add wtworlds.finishing dummy
 scoreboard players set 10000 const 10000
 
 # Trowel blocking
