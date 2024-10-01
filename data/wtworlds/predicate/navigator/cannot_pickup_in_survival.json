@@ -1,0 +1,22 @@
+{
+    "condition": "any_of",
+    "terms":
+    [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "nbt": "{pickup:0b}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "nbt": "{pickup:2b}"
+            }
+        }
+    ]
+}

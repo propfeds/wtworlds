@@ -3,10 +3,6 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
-perform heave in air?
-
-propel on hit using vault
-
 whirlpool pulls everyone in by knocking back with /damage?
 whirlpool changes crossbow charge sound?
 
