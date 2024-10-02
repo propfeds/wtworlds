@@ -3,9 +3,6 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
-whirlpool pulls everyone in by knocking back with /damage?
-whirlpool changes crossbow charge sound?
-
 foil: check out Han dynasty fencing swords
 
 rework deflecting

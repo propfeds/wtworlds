@@ -6,7 +6,7 @@
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
     [
-        "any"
+        "hand"
     ],
     "weight": 2,
     "max_level": 1,

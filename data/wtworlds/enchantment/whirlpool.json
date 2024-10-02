@@ -423,6 +423,10 @@
                     "effects":
                     [
                         {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/tag_raining"
+                        },
+                        {
                             "type": "explode",
                             "damage_type": "wtworlds:whirlpool",
                             "attribute_to_user": true,
@@ -444,6 +448,38 @@
                                 "range": 0
                             }
                         },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/particles_large"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.whirlpool.raining": 1
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "type": "trident"
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
                         {
                             "type": "explode",
                             "damage_type": "wtworlds:whirlpool",
@@ -538,7 +574,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/whirlpool/particles_large"
+                            "function": "wtworlds:enchantment/whirlpool/summon_particle_marker"
                         }
                     ]
                 }
