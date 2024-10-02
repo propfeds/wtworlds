@@ -1,1 +1,1 @@
-scoreboard players add @s wtworlds.firecracker 1
+scoreboard players set @s wtworlds.firecracker 1
