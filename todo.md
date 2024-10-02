@@ -13,8 +13,6 @@ normal staff upgrades to golden staff?
 
 bug: deflecting doesn't detect crawling in trapdoor
 
-make trowel blocking not delete resistance effects
-
 try making fake whip (rope dart) (fishing rod)
 
 try making a fake spear (hoe???)
@@ -25,15 +23,11 @@ obsidian dagger (high damage, dimension tear - turns piglins into zombies, or sc
 
 bone needle
 
-armadillo scute -> caestus (does it need parrying?)
-
 meteor hammer mobs to farm chain
 
-(joke) giant spider on fire mob
+giant spider on fire or spider centipede
 
 dragonfly
-
-raindeers that are modelled after sheep and summon rain when dead, and summon invisible bees when alive to aid crops
 
 wisteria trees
 

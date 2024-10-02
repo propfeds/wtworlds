@@ -12,6 +12,8 @@ scoreboard players set 10000 const 10000
 # Trowel blocking
 scoreboard objectives add wtworlds.blocking.impulse dummy
 scoreboard objectives add wtworlds.blocking.frame dummy
+scoreboard objectives add wtworlds.blocking.resistance.amplifier dummy
+scoreboard objectives add wtworlds.blocking.resistance.duration dummy
 # scoreboard players set wtworlds.blocking.duration const 24
 scoreboard players set wtworlds.blocking.perfect_block_start const 1
 scoreboard players set wtworlds.blocking.imperfect_block_start const 7
@@ -55,3 +57,5 @@ scoreboard objectives add wtworlds.firecracker dummy
 
 # Navigator
 scoreboard objectives add wtworlds.navigator dummy
+
+scoreboard objectives add test dummy
