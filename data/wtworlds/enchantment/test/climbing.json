@@ -27,12 +27,6 @@
         [
             {
                 "id": "wtworlds:enchantment.climbing",
-                "attribute": "block_interaction_range",
-                "amount": -1,
-                "operation": "add_value"
-            },
-            {
-                "id": "wtworlds:enchantment.climbing",
                 "attribute": "safe_fall_distance",
                 "amount": 2,
                 "operation": "add_value"
@@ -43,6 +37,32 @@
             {
                 "requirements":
                 [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_on_ground": false
+                            },
+                            "distance":
+                            {
+                                "x":
+                                {
+                                    "max": 2
+                                },
+                                "y":
+                                {
+                                    "max": 3
+                                },
+                                "z":
+                                {
+                                    "max": 2
+                                }
+                            }
+                        }
+                    },
                     {
                         "condition": "inverted",
                         "term":
@@ -101,6 +121,16 @@
                                         "blocks": "#wtworlds:giant_mushrooms"
                                     }
                                 }
+                            },
+                            {
+                                "condition": "location_check",
+                                "predicate":
+                                {
+                                    "block":
+                                    {
+                                        "blocks": "mangrove_roots"
+                                    }
+                                }
                             }
                         ]
                     }
@@ -121,9 +151,13 @@
                         },
                         {
                             "type": "play_sound",
-                            "sound": "entity.zombie.attack_wooden_door",
+                            "sound": "item.axe.strip",
                             "pitch": 1,
                             "volume": 1
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/navigator/particles"
                         },
                         {
                             "type": "run_function",
@@ -201,7 +235,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "dust_plume"
+                                "type": "ash"
                             },
                             "sound":
                             {
