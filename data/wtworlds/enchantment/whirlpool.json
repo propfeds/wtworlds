@@ -424,7 +424,7 @@
                     [
                         {
                             "type": "explode",
-                            "damage_type": "wtworlds:post_attack",
+                            "damage_type": "wtworlds:whirlpool",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
@@ -446,7 +446,7 @@
                         },
                         {
                             "type": "explode",
-                            "damage_type": "wtworlds:post_attack",
+                            "damage_type": "wtworlds:whirlpool",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
@@ -468,7 +468,7 @@
                         },
                         {
                             "type": "explode",
-                            "damage_type": "wtworlds:post_attack",
+                            "damage_type": "wtworlds:whirlpool",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
@@ -490,7 +490,7 @@
                         },
                         {
                             "type": "explode",
-                            "damage_type": "wtworlds:post_attack",
+                            "damage_type": "wtworlds:whirlpool",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
@@ -512,29 +512,7 @@
                         },
                         {
                             "type": "explode",
-                            "damage_type": "wtworlds:post_attack",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0,
-                            "radius": 1.25,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "bubble"
-                            },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
-                        },
-                        {
-                            "type": "explode",
-                            "damage_type": "wtworlds:post_attack",
+                            "damage_type": "wtworlds:whirlpool",
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,

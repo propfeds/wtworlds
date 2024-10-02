@@ -2,6 +2,7 @@
     "values":
     [
         "wtworlds:post_attack",
-        "wtworlds:pointer"
+        "wtworlds:pointer",
+        "wtworlds:whirlpool"
     ]
 }

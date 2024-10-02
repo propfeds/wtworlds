@@ -1,5 +1,6 @@
 particle sonic_boom ~ ~ ~ 0 0 0 0 1 force
 particle rain ~ ~0.03125 ~ 0.125 0.125 0.125 0 8
+particle splash ~ ~0.03125 ~ 0.875 0.875 0.875 0 12
 
 particle fishing ~1.75 ~ ~ -1 0 0 0.15 0
 particle fishing ~-1.75 ~ ~ 1 -0 0 0.15 0

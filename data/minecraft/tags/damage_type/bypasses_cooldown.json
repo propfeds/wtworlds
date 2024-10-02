@@ -1,6 +1,7 @@
 {
     "values":
     [
-        "wtworlds:post_attack"
+        "wtworlds:post_attack",
+        "wtworlds:whirlpool"
     ]
 }
