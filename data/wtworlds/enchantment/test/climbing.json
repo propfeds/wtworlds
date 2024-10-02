@@ -50,15 +50,15 @@
                             {
                                 "x":
                                 {
-                                    "max": 2
+                                    "max": 2.5
                                 },
                                 "y":
                                 {
-                                    "max": 3
+                                    "max": 3.5
                                 },
                                 "z":
                                 {
-                                    "max": 2
+                                    "max": 2.5
                                 }
                             }
                         }
@@ -181,21 +181,6 @@
                         "entity": "this",
                         "predicate":
                         {
-                            "type_specific":
-                            {
-                                "type": "player",
-                                "input":
-                                {
-                                    "jump": true
-                                }
-                            },
-                            "movement":
-                            {
-                                "y":
-                                {
-                                    "max": 9.999999747378752E-6
-                                }
-                            },
                             "effects":
                             {
                                 "slow_falling":
