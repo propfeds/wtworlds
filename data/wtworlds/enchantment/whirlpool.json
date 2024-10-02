@@ -252,12 +252,170 @@
             {
                 "requirements":
                 {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate":
-                    {
-                        "type": "trident"
-                    }
+                    "condition": "any_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "all_of",
+                            "terms":
+                            [
+                                {
+                                    "condition": "weather_check",
+                                    "raining": true
+                                },
+                                {
+                                    "condition": "any_of",
+                                    "terms":
+                                    [
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": -1,
+                                            "offsetY": 0,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 1,
+                                            "offsetY": 0,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": -1,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": 1,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": 0,
+                                            "offsetZ": -1,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": 0,
+                                            "offsetZ": 1,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "any_of",
+                            "terms":
+                            [
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": -1,
+                                    "offsetY": 0,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 1,
+                                    "offsetY": 0,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": -1,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": 1,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": 0,
+                                    "offsetZ": -1,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": 0,
+                                    "offsetZ": 1,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 "effect":
                 {
@@ -270,7 +428,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1.5,
+                            "radius": 1.25,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -278,7 +436,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "rain"
+                                "type": "bubble"
                             },
                             "sound":
                             {
@@ -292,7 +450,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1.4,
+                            "radius": 1.25,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -300,7 +458,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "rain"
+                                "type": "bubble"
                             },
                             "sound":
                             {
@@ -314,7 +472,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1.3,
+                            "radius": 1.25,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -322,7 +480,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "rain"
+                                "type": "bubble"
                             },
                             "sound":
                             {
@@ -336,7 +494,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1.2,
+                            "radius": 1.25,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -344,7 +502,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "rain"
+                                "type": "bubble"
                             },
                             "sound":
                             {
@@ -358,7 +516,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1.1,
+                            "radius": 1.25,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -366,7 +524,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "rain"
+                                "type": "bubble"
                             },
                             "sound":
                             {
@@ -380,7 +538,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1,
+                            "radius": 1.25,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -388,7 +546,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "rain"
+                                "type": "bubble"
                             },
                             "sound":
                             {

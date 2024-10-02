@@ -29,6 +29,8 @@ scoreboard objectives add wtworlds.whirlpool.y+ dummy
 scoreboard objectives add wtworlds.whirlpool.y- dummy
 scoreboard objectives add wtworlds.whirlpool.z+ dummy
 scoreboard objectives add wtworlds.whirlpool.z- dummy
+# Particle frames
+scoreboard objectives add wtworlds.whirlpool.frame dummy
 
 # Motion
 scoreboard objectives add wtworlds.motion.x dummy
