@@ -76,7 +76,7 @@
                             "function": "wtworlds:enchantment/vault/init_cooldown"
                         },
                         {
-                            "type": "damage_item",
+                            "type": "change_item_damage",
                             "amount": 1
                         },
                         {
@@ -184,7 +184,7 @@
                             "function": "wtworlds:enchantment/vault/init_cooldown"
                         },
                         {
-                            "type": "damage_item",
+                            "type": "change_item_damage",
                             "amount": 1
                         },
                         {

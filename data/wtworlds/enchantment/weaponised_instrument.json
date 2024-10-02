@@ -30,7 +30,7 @@
                 "affected": "attacker",
                 "effect":
                 {
-                    "type": "damage_item",
+                    "type": "change_item_damage",
                     "amount": 1
                 }
             }
