@@ -1,8 +1,8 @@
 {
     "values":
     [
-        "bow",
-        "crossbow",
-        "trident"
+        "#enchantable/bow",
+        "#enchantable/crossbow",
+        "#enchantable/trident"
     ]
 }

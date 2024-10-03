@@ -68,11 +68,7 @@
                             {
                                 "type": "ash"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
+                            "sound": "intentionally_empty"
                         }
                     ]
                 }

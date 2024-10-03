@@ -58,4 +58,8 @@ scoreboard objectives add wtworlds.firecracker dummy
 # Navigator
 scoreboard objectives add wtworlds.navigator dummy
 
+# Climbing
+scoreboard objectives add wtworlds.climbing dummy
+scoreboard objectives add wtworlds.climbing.cooldown dummy
+
 scoreboard objectives add test dummy

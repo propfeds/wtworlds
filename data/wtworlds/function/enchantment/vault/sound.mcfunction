@@ -1,1 +1,1 @@
-playsound wtworlds:item.staff.use player @a
+playsound wtworlds:enchant.vault.activate player @a

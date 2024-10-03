@@ -2,12 +2,13 @@
     "values":
     [
         "wtworlds:weaponised_instrument",
+        "wtworlds:navigator",
         "wtworlds:heave",
         "wtworlds:vault",
-        "wtworlds:navigator",
-        "wtworlds:whirlpool",
+        "wtworlds:climbing",
         "wtworlds:finishing",
         "wtworlds:retaliation",
+        "wtworlds:whirlpool",
         "wtworlds:alertness"
     ]
 }

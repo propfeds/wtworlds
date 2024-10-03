@@ -71,7 +71,7 @@
                             "entity": "this",
                             "scores":
                             {
-                                "wtworlds.vault.cooldown":
+                                "wtworlds.climbing.cooldown":
                                 {
                                     "min": 1
                                 }
@@ -142,30 +142,8 @@
                     "effects":
                     [
                         {
-                            "type": "apply_mob_effect",
-                            "to_apply": "slow_falling",
-                            "min_amplifier": 6,
-                            "max_amplifier": 6,
-                            "min_duration": 1,
-                            "max_duration": 1
-                        },
-                        {
-                            "type": "play_sound",
-                            "sound": "item.axe.strip",
-                            "pitch": 1,
-                            "volume": 1
-                        },
-                        {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/navigator/particles"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/init_cooldown"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/firecracker/init"
+                            "function": "wtworlds:enchantment/climbing/init"
                         }
                     ]
                 }
@@ -177,30 +155,54 @@
                 "requirements":
                 [
                     {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.climbing": 1
+                        }
+                    },
+                    {
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate":
                         {
-                            "effects":
+                            "movement":
                             {
-                                "slow_falling":
+                                "y":
                                 {
-                                    "amplifier": 6,
-                                    "duration":
-                                    {
-                                        "min": 1,
-                                        "max": 20
-                                    }
+                                    "max": -9.999999747378752E-6
                                 }
                             }
                         }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "explode",
+                    "radius": 0.5,
+                    "knockback_multiplier": 0.35,
+                    "block_interaction": "none",
+                    "large_particle":
+                    {
+                        "type": "explosion"
                     },
+                    "small_particle":
+                    {
+                        "type": "ash"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                [
                     {
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores":
                         {
-                            "wtworlds.firecracker": 1
+                            "wtworlds.climbing": 1
                         }
                     }
                 ],
@@ -212,7 +214,7 @@
                         {
                             "type": "explode",
                             "radius": 0.5,
-                            "knockback_multiplier": 0.6,
+                            "knockback_multiplier": 0.35,
                             "block_interaction": "none",
                             "large_particle":
                             {
@@ -222,14 +224,11 @@
                             {
                                 "type": "ash"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none"
-                            }
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:test/clear_slow_falling"
+                            "function": "wtworlds:enchantment/climbing/tag_remove"
                         }
                     ]
                 }

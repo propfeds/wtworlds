@@ -9,8 +9,6 @@ rework deflecting
 
 axe enchantment that restores saturation on kill (battle hunger)
 
-normal staff upgrades to golden staff?
-
 bug: deflecting doesn't detect crawling in trapdoor
 
 try making fake whip (rope dart) (fishing rod)

@@ -1,1 +1,1 @@
-execute unless predicate wtworlds:sneaking run function wtworlds:enchantment/navigator/mount
+execute unless predicate wtworlds:flags/sneaking run function wtworlds:enchantment/navigator/mount

@@ -217,11 +217,7 @@
                             {
                                 "type": "small_gust"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "explode",
@@ -237,11 +233,7 @@
                             {
                                 "type": "ash"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "explode",
@@ -257,11 +249,7 @@
                             {
                                 "type": "ash"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "explode",
@@ -277,11 +265,7 @@
                             {
                                 "type": "ash"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "explode",
@@ -297,11 +281,7 @@
                             {
                                 "type": "ash"
                             },
-                            "sound":
-                            {
-                                "sound_id": "none",
-                                "range": 0
-                            }
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "run_function",

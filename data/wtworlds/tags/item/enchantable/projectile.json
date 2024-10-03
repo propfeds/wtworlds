@@ -1,7 +1,7 @@
 {
     "values":
     [
-        "#minecraft:arrows",
+        "#arrows",
         "#enchantable/trident",
         "snowball",
         "wind_charge",
