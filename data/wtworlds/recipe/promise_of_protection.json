@@ -65,7 +65,7 @@
                 {
                     "id": "wtworlds:promise_of_protection",
                     "type": "movement_speed",
-                    "amount": 0.024,
+                    "amount": 0.02,
                     "operation": "add_value",
                     "slot": "any"
                 }
