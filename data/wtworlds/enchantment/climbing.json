@@ -212,6 +212,10 @@
                     "effects":
                     [
                         {
+                            "type": "change_item_damage",
+                            "amount": 1
+                        },
+                        {
                             "type": "explode",
                             "radius": 0.5,
                             "knockback_multiplier": 0.35,
