@@ -4,4 +4,4 @@ tag @e[dx=0] remove wtworlds.pointer
 damage @s 1 wtworlds:pointer by @p[distance=..12, tag=wtworlds.pointer.self]
 
 effect give @s glowing 1 0 true
-effect give @s darkness 1 0 true
+effect give @s blindness 1 0 true
