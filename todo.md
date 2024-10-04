@@ -3,6 +3,8 @@
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
+figure out how to remove the tick function from climbing
+
 foil: check out Han dynasty fencing swords
 
 rework deflecting
