@@ -48,6 +48,7 @@ hermit homes:
 
 promises
 - prosperity/plenty/providence: channel to get bone meal, but offers blood sacrifice from nearby cattle (don't damage babies)
+  - maybe just gives fortune 1
   - recipe: piglins are the only mobs that hunt cattle though? or maybe entirely new civ
   - damage type: instant damage
 - intimacy: drain dur to heal allies and self, replenish by trading XP
