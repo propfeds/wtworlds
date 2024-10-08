@@ -1,23 +1,23 @@
 # tellraw @p {"text": "Welcome to Weathered Worlds."}
 title @a actionbar {"text": "Welcome to Weathered Worlds."}
 
-scoreboard objectives add const dummy
+scoreboard objectives add wtworlds.const dummy
 scoreboard objectives add wtworlds.tally dummy
 
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
 # scoreboard objectives add wtworlds.finishing dummy
-scoreboard players set 10000 const 10000
+scoreboard players set 10000 wtworlds.const 10000
 
 # Trowel blocking
 scoreboard objectives add wtworlds.blocking.impulse dummy
 scoreboard objectives add wtworlds.blocking.frame dummy
 scoreboard objectives add wtworlds.blocking.resistance.amplifier dummy
 scoreboard objectives add wtworlds.blocking.resistance.duration dummy
-# scoreboard players set wtworlds.blocking.duration const 24
-scoreboard players set wtworlds.blocking.perfect_block_start const 1
-scoreboard players set wtworlds.blocking.imperfect_block_start const 7
+# scoreboard players set blocking.duration wtworlds.const 24
+scoreboard players set blocking.perfect_block_start wtworlds.const 1
+scoreboard players set blocking.imperfect_block_start wtworlds.const 7
 # Resistance lasts for 6 ticks but Retaliation's physical protection lasts for 7
 # Trowel deflecting
 scoreboard objectives add wtworlds.deflecting.mode dummy
@@ -35,7 +35,7 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 # Particle markers
 scoreboard objectives add wtworlds.whirlpool.raining dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
-scoreboard players add wtworlds.whirlpool.particles wtworlds.tally 0
+scoreboard players add marker.whirlpool.particles wtworlds.tally 0
 
 # Motion
 scoreboard objectives add wtworlds.motion.x dummy
@@ -51,8 +51,8 @@ scoreboard objectives add wtworlds.anvil_restoration_kit.damage dummy
 # Teacher's pointer
 scoreboard objectives add wtworlds.pointer.impulse dummy
 scoreboard objectives add wtworlds.pointer.frame dummy
-scoreboard players set wtworlds.pointer.raycast_range const 80
-scoreboard players set wtworlds.pointer.entity_raycast_start const 6
+scoreboard players set pointer.raycast_range wtworlds.const 80
+scoreboard players set pointer.entity_raycast_start wtworlds.const 6
 
 # Firecracker
 scoreboard objectives add wtworlds.firecracker dummy

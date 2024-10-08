@@ -1,8 +1,5 @@
 # To-do List
 
-change scheduled global functions into a tally system
-scores the number of markers left to process
-
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
 
