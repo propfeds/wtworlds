@@ -2,6 +2,7 @@
 title @a actionbar {"text": "Welcome to Weathered Worlds."}
 
 scoreboard objectives add const dummy
+scoreboard objectives add wtworlds.tally dummy
 
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
@@ -31,9 +32,10 @@ scoreboard objectives add wtworlds.whirlpool.y+ dummy
 scoreboard objectives add wtworlds.whirlpool.y- dummy
 scoreboard objectives add wtworlds.whirlpool.z+ dummy
 scoreboard objectives add wtworlds.whirlpool.z- dummy
-# Particle frames
+# Particle markers
 scoreboard objectives add wtworlds.whirlpool.raining dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
+scoreboard players add wtworlds.whirlpool.particles wtworlds.tally 0
 
 # Motion
 scoreboard objectives add wtworlds.motion.x dummy

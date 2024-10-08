@@ -1,7 +1,8 @@
 {
     "pack":
     {
-        "description": "There lie ancient lands, torn by a promise.",
-        "pack_format": 56
+        "pack_format": 57,
+        "supported_formats": [56, 57],
+        "description": "There lie ancient lands, torn by a promise."
     }
 }
