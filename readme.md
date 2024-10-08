@@ -1,6 +1,5 @@
 # Weathered Worlds
 
-Planned:
-- Enemies
-- World-gen (structures only, no biomes)
-- Nushu (no magic, just lore)
+Experience unique weapons and abilities. Eventually I will add enemies and structures.
+
+> There lie ancient worlds, torn by a promise.
