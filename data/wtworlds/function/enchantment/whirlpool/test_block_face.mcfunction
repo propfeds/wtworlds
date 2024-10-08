@@ -1,0 +1,1 @@
+execute align xyz run function wtworlds:enchantment/whirlpool/test_block_face_aligned

@@ -1,1 +1,0 @@
-effect give @s glowing 8 1 true

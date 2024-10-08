@@ -1,0 +1,41 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_bone":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "bone"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:trowel"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_bone"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:trowel"
+        ]
+    }
+}

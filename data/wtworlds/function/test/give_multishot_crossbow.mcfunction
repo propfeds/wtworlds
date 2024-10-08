@@ -1,0 +1,1 @@
+give @s crossbow[enchantments={quick_charge: 3, multishot: 1, unbreaking: 3, mending: 1}]

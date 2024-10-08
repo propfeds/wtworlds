@@ -1,0 +1,570 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.whirlpool"
+    },
+    "primary_items":
+    [
+        "trident"
+    ],
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "hit_block":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#impact_projectiles"
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/test_block_face"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.x+": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0.5, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.x-": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [-0.5, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.y+": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, 0.5, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.y-": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, -0.5, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.z+": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, 0, 0.5],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.whirlpool.z-": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": true,
+                    "block_interaction": "none",
+                    "knockback_multiplier": -0.45,
+                    "radius": 3,
+                    "offset": [0, 0, -0.5],
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "rain"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "any_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "all_of",
+                            "terms":
+                            [
+                                {
+                                    "condition": "weather_check",
+                                    "raining": true
+                                },
+                                {
+                                    "condition": "any_of",
+                                    "terms":
+                                    [
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": -1,
+                                            "offsetY": 0,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 1,
+                                            "offsetY": 0,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": -1,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": 1,
+                                            "offsetZ": 0,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": 0,
+                                            "offsetZ": -1,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "offsetX": 0,
+                                            "offsetY": 0,
+                                            "offsetZ": 1,
+                                            "predicate":
+                                            {
+                                                "can_see_sky": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "any_of",
+                            "terms":
+                            [
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": -1,
+                                    "offsetY": 0,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 1,
+                                    "offsetY": 0,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": -1,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": 1,
+                                    "offsetZ": 0,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": 0,
+                                    "offsetZ": -1,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "offsetX": 0,
+                                    "offsetY": 0,
+                                    "offsetZ": 1,
+                                    "predicate":
+                                    {
+                                        "fluid":
+                                        {
+                                            "fluids": "#water"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/tag_raining"
+                        },
+                        {
+                            "type": "explode",
+                            "damage_type": "wtworlds:whirlpool",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0,
+                            "radius": 1.25,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "bubble"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/particles_large"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.whirlpool.raining": 1
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "type": "trident"
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "damage_type": "wtworlds:whirlpool",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0,
+                            "radius": 1.25,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "bubble"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "damage_type": "wtworlds:whirlpool",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0,
+                            "radius": 1.25,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "bubble"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "damage_type": "wtworlds:whirlpool",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0,
+                            "radius": 1.25,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "bubble"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "damage_type": "wtworlds:whirlpool",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0,
+                            "radius": 1.25,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "bubble"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/effect_slowness"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/summon_particle_marker"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#impact_projectiles"
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/tag_remove"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/particles"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/sound"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

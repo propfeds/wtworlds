@@ -1,0 +1,12 @@
+{
+    "description":
+    {
+        "translate": "instrument.wtworlds.trowel"
+    },
+    "range": 16.0,
+    "sound_event":
+    {
+        "sound_id": "wtworlds:item.trowel.use"
+    },
+    "use_duration": 107374182
+}

@@ -3,7 +3,6 @@
     {
         "translate": "enchantment.wtworlds.weaponised_instrument"
     },
-    "primary_items": "#wtworlds:enchantable/weaponised_instrument",
     "supported_items": "#wtworlds:enchantable/weaponised_instrument",
     "slots":
     [
@@ -31,7 +30,7 @@
                 "affected": "attacker",
                 "effect":
                 {
-                    "type": "damage_item",
+                    "type": "change_item_damage",
                     "amount": 1
                 }
             }

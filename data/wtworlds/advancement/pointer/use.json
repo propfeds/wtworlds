@@ -1,0 +1,24 @@
+{
+    "criteria":
+    {
+        "tooting_horn":
+        {
+            "trigger": "using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": "beetroot_soup",
+                    "components":
+                    {
+                        "item_model": "wtworlds:pointer"
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "wtworlds:pointer/use_tick"
+    }
+}

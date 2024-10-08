@@ -1,0 +1,26 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "equipment":
+        {
+            "mainhand":
+            {
+                "predicates":
+                {
+                    "enchantments":
+                    [
+                        {
+                            "enchantments": "unbreaking",
+                            "levels":
+                            {
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

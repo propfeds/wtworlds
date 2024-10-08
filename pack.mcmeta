@@ -1,7 +1,8 @@
 {
     "pack":
     {
-        "description": "Weathered Worlds.",
-        "pack_format": 48
+        "pack_format": 57,
+        "supported_formats": [56, 57],
+        "description": "There lie ancient worlds, torn by a promise."
     }
 }

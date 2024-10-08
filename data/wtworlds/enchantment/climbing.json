@@ -1,0 +1,242 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.climbing"
+    },
+    "supported_items": "#axes",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 5,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 5,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "attributes":
+        [
+            {
+                "id": "wtworlds:enchantment.climbing",
+                "attribute": "safe_fall_distance",
+                "amount": 2,
+                "operation": "add_value"
+            }
+        ],
+        "hit_block":
+        [
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_on_ground": false
+                            },
+                            "distance":
+                            {
+                                "x":
+                                {
+                                    "max": 2.5
+                                },
+                                "y":
+                                {
+                                    "max": 3.5
+                                },
+                                "z":
+                                {
+                                    "max": 2.5
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.climbing.cooldown":
+                                {
+                                    "min": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "any_of",
+                        "terms":
+                        [
+                            {
+                                "condition": "location_check",
+                                "predicate":
+                                {
+                                    "block":
+                                    {
+                                        "blocks": "#logs"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "location_check",
+                                "predicate":
+                                {
+                                    "block":
+                                    {
+                                        "blocks": "#leaves"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "location_check",
+                                "predicate":
+                                {
+                                    "block":
+                                    {
+                                        "blocks": "#wart_blocks"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "location_check",
+                                "predicate":
+                                {
+                                    "block":
+                                    {
+                                        "blocks": "#wtworlds:giant_mushrooms"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "location_check",
+                                "predicate":
+                                {
+                                    "block":
+                                    {
+                                        "blocks": "mangrove_roots"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+                ,
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/climbing/init"
+                        }
+                    ]
+                }
+            }
+        ],
+        "tick":
+        [
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.climbing": 1
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "movement":
+                            {
+                                "y":
+                                {
+                                    "max": -9.999999747378752E-6
+                                }
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "explode",
+                    "radius": 0.5,
+                    "knockback_multiplier": 0.35,
+                    "block_interaction": "none",
+                    "large_particle":
+                    {
+                        "type": "explosion"
+                    },
+                    "small_particle":
+                    {
+                        "type": "ash"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.climbing": 1
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "change_item_damage",
+                            "amount": 1
+                        },
+                        {
+                            "type": "explode",
+                            "radius": 0.5,
+                            "knockback_multiplier": 0.35,
+                            "block_interaction": "none",
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/climbing/tag_remove"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

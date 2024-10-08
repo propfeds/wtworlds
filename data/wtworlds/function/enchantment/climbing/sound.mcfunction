@@ -1,0 +1,1 @@
+playsound wtworlds:enchant.climbing.activate player @a

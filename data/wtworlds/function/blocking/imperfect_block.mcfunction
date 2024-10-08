@@ -1,3 +1,6 @@
 effect clear @s resistance
-effect give @s resistance 1 2 true
-attribute @s generic.fall_damage_multiplier modifier add wtworlds.blocking.fall_damage 0.5 add_multiplied_total
+function wtworlds:blocking/restore_previous_resistance
+effect give @s resistance infinite 1 true
+
+attribute @s fall_damage_multiplier modifier remove wtworlds:trowel.blocking
+attribute @s fall_damage_multiplier modifier add wtworlds:trowel.blocking 0.66666666667 add_multiplied_total

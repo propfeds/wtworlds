@@ -9,14 +9,8 @@
     ],
     "key":
     {
-        "g":
-        {
-            "item": "minecraft:gold_ingot"
-        },
-        "/":
-        {
-            "item": "minecraft:stick"
-        }
+        "g": "minecraft:gold_ingot",
+        "/": "minecraft:stick"
     },
     "result":
     {
@@ -24,52 +18,31 @@
         "count": 1,
         "components":
         {
-            "minecraft:custom_model_data": 1752000,
-            "minecraft:item_name": "{\"type\":\"translatable\",\"translate\": \"item.wtworlds.staff\"}",
+            "item_model": "wtworlds:staff",
+            "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.staff\"}",
             "minecraft:max_damage": 234,
-            "tool":
-            {
-                "default_mining_speed": 1,
-                "damage_per_block": 1,
-                "rules":
-                [
-                    {
-                        "blocks":
-                        [
-                            "bamboo",
-                            "cobweb",
-                            "cocoa",
-                            "hay_block",
-                            "jack_o_lantern",
-                            "melon",
-                            "pumpkin",
-                            "vine"
-                        ],
-                        "speed": 1
-                    }
-                ]
-            },
+            "!tool": {},
             "minecraft:attribute_modifiers":
             {
                 "modifiers":
                 [
                     {
-                        "id": "attack_damage",
-                        "type": "minecraft:generic.attack_damage",
+                        "id": "wtworlds:staff",
+                        "type": "minecraft:attack_damage",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "attack_speed",
-                        "type": "minecraft:generic.attack_speed",
-                        "amount": -2.6,
+                        "id": "wtworlds:staff",
+                        "type": "minecraft:attack_speed",
+                        "amount": -2.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "id": "entity_interaction_range",
-                        "type": "minecraft:player.entity_interaction_range",
+                        "id": "wtworlds:staff",
+                        "type": "minecraft:entity_interaction_range",
                         "amount": 0.5,
                         "operation": "add_value",
                         "slot": "mainhand"
@@ -83,11 +56,11 @@
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.generic.attack_damage\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.4 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.generic.attack_speed\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
 
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"+0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.player.entity_interaction_range\"}]}"
+                "{\"color\": \"blue\", \"italic\": false, \"text\": \"+0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
             ]
         }
     }

@@ -1,0 +1,42 @@
+{
+    "condition": "any_of",
+    "terms":
+    [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "equipment":
+                {
+                    "mainhand":
+                    {
+                        "items": "beetroot_soup",
+                        "components":
+                        {
+                            "item_model": "wtworlds:pointer"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "equipment":
+                {
+                    "offhand":
+                    {
+                        "items": "beetroot_soup",
+                        "components":
+                        {
+                            "item_model": "wtworlds:pointer"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

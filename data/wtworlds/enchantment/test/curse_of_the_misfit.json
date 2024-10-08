@@ -1,0 +1,59 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.curse_of_the_misfit"
+    },
+    "primary_items": "#minecraft:enchantable/chest_armor",
+    "supported_items": "#minecraft:enchantable/armor",
+    "slots":
+    [
+        "armor"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 10,
+        "per_level_above_first": 25
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "damage_protection":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": 1
+                }
+            }
+        ],
+        "attributes":
+        [
+            {
+                "id": "wtworlds:enchantment.curse_of_the_misfit",
+                "attribute": "scale",
+                "amount": 0.25,
+                "operation": "add_value"
+            },
+            {
+                "id": "wtworlds:enchantment.curse_of_the_misfit",
+                "attribute": "block_interaction_range",
+                "amount": 0.5,
+                "operation": "add_value"
+            },
+            {
+                "id": "wtworlds:enchantment.curse_of_the_misfit",
+                "attribute": "entity_interaction_range",
+                "amount": 0.25,
+                "operation": "add_value"
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_ingredient":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "iron_block"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:raw_iron_block_from_iron_block_stonecutting"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_ingredient"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:raw_iron_block_from_iron_block_stonecutting"
+        ]
+    }
+}

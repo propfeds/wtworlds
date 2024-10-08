@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.finishing"
     },
-    "supported_items": "#wtworlds:enchantable/polearm",
+    "supported_items": "#wtworlds:enchantable/finishing",
     "slots":
     [
         "mainhand"
@@ -14,12 +14,12 @@
     "min_cost":
     {
         "base": 5,
-        "per_level_above_first": 15
+        "per_level_above_first": 12
     },
     "max_cost":
     {
         "base": 25,
-        "per_level_above_first": 15
+        "per_level_above_first": 12
     },
     "anvil_cost": 2,
     "effects":
@@ -30,27 +30,23 @@
                 "enchanted": "attacker",
                 "affected": "victim",
                 "requirements":
-                {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                [
+                    {
+                        "condition": "minecraft:damage_source_properties",
+                        "predicate":
                         {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate":
-                            {
-                                "is_direct": true
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
-                            }
+                            "is_direct": true
                         }
-                    ]
-                },
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "nbt": "{HurtTime:10s}"
+                        }
+                    }
+                ],
                 "effect":
                 {
                     "type": "all_of",
@@ -58,15 +54,11 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:finishing/calculate_missing_health"
+                            "function": "wtworlds:enchantment/finishing/calculate_missing_health"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:finishing/tag"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:finishing/particles"
+                            "function": "wtworlds:enchantment/finishing/particles_anchored_eyes"
                         }
                     ]
                 }
@@ -80,17 +72,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 1
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -114,17 +102,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 2
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -148,17 +132,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 3
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -182,17 +162,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 4
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -216,17 +192,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 5
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -250,17 +222,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 6
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -284,17 +252,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 7
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -318,17 +282,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 8
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -352,17 +312,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 9
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -386,17 +342,13 @@
                     "entity": "this",
                     "scores":
                     {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        },
                         "wtworlds.missing_health": 10
                     }
                 },
                 "effect":
                 {
                     "type": "damage_entity",
-                    "damage_type": "wtworlds:finishing",
+                    "damage_type": "wtworlds:post_attack",
                     "min_damage":
                     {
                         "type": "linear",
@@ -409,27 +361,6 @@
                         "base": 2.5,
                         "per_level_above_first": 2.5
                     }
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "requirements":
-                {
-                    "condition": "entity_scores",
-                    "entity": "this",
-                    "scores":
-                    {
-                        "wtworlds.finishing":
-                        {
-                            "min": 1
-                        }
-                    }
-                },
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:finishing/tag_remove"
                 }
             }
         ]

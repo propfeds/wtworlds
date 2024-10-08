@@ -30,8 +30,18 @@
                 "affected": "attacker",
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "wtworlds:promise_of_peace/reveal"
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/alertness/reveal"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/alertness/sound"
+                        }
+                    ]
                 }
             }
         ]

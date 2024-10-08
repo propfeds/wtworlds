@@ -1,0 +1,299 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.vault"
+    },
+    "supported_items": "#wtworlds:enchantable/staff",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 5,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 5,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "attributes":
+        [
+            {
+                "id": "wtworlds:enchantment.vault",
+                "attribute": "safe_fall_distance",
+                "amount": 2,
+                "operation": "add_value"
+            }
+        ],
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_flying": true
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
+                        {
+                            "condition": "entity_scores",
+                            "entity": "attacker",
+                            "scores":
+                            {
+                                "wtworlds.vault.cooldown":
+                                {
+                                    "min": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/init_cooldown"
+                        },
+                        {
+                            "type": "change_item_damage",
+                            "amount": 1
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "trigger",
+                            "knockback_multiplier": 1,
+                            "radius": 1,
+                            "offset": [0, 0, 0],
+                            "large_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "small_particle":
+                            {
+                                "type": "gust"
+                            },
+                            "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/sound"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/particles"
+                        }
+                    ]
+                }
+            }
+        ],
+        "hit_block":
+        [
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "any_of",
+                        "terms":
+                        [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate":
+                                {
+                                    "flags":
+                                    {
+                                        "is_on_ground": false
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate":
+                                {
+                                    "type_specific":
+                                    {
+                                        "type": "player",
+                                        "input":
+                                        {
+                                            "jump": true
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "movement":
+                            {
+                                "y":
+                                {
+                                    "min": 9.999999747378752E-6
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.vault.cooldown":
+                                {
+                                    "min": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/init_cooldown"
+                        },
+                        {
+                            "type": "change_item_damage",
+                            "amount": 1
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "trigger",
+                            "knockback_multiplier": 0,
+                            "radius": 0.5,
+                            "offset": [0, 0.5, 0],
+                            "large_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "small_particle":
+                            {
+                                "type": "gust"
+                            },
+                            "sound": "block.bamboo.fall"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.175,
+                            "radius": 1.5,
+                            "offset": [0, 0.5, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.275,
+                            "radius": 1.5,
+                            "offset": [1, 0.75, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.275,
+                            "radius": 1.5,
+                            "offset": [-1, 0.75, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.275,
+                            "radius": 1.5,
+                            "offset": [-1, 0.75, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.275,
+                            "radius": 1.5,
+                            "offset": [1, 0.75, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/sound"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/particles"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

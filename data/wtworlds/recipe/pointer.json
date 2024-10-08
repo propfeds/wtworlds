@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "pattern":
+    [
+        ".",
+        "/"
+    ],
+    "key":
+    {
+        "/": "stick",
+        ".": "#wooden_buttons"
+    },
+    "result":
+    {
+        "id": "beetroot_soup",
+        "count": 1,
+        "components":
+        {
+            "item_model": "wtworlds:pointer",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+            "!food": {},
+            "consumable":
+            {
+                "consume_seconds": 107374182,
+                "animation": "spear",
+                "has_consume_particles": false
+            },
+            "use_remainder":
+            {
+                "id": "stick",
+                "count": 1
+            }
+        }
+    }
+}

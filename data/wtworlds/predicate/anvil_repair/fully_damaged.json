@@ -1,0 +1,16 @@
+{
+    "condition": "match_tool",
+    "predicate":
+    {
+        "predicates":
+        {
+            "damage":
+            {
+                "durability":
+                {
+                    "max": 0
+                }
+            }
+        }
+    }
+}

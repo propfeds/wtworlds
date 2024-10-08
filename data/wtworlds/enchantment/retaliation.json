@@ -8,21 +8,58 @@
     [
         "hand"
     ],
-    "weight": 1,
-    "max_level": 2,
+    "weight": 10,
+    "max_level": 3,
     "min_cost":
     {
-        "base": 10,
+        "base": 1,
         "per_level_above_first": 20
     },
     "max_cost":
     {
-        "base": 60,
+        "base": 21,
         "per_level_above_first": 20
     },
-    "anvil_cost": 2,
+    "anvil_cost": 4,
     "effects":
     {
+        "damage_protection":
+        [
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.blocking.frame":
+                            {
+                                "max": 7
+                            }
+                        }
+                    },
+                    {
+                        "condition": "damage_source_properties",
+                        "predicate":
+                        {
+                            "tags":
+                            [
+                                {
+                                    "id": "bypasses_shield",
+                                    "expected": false
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "add",
+                    "value": 12
+                }
+            }
+        ],
         "post_attack":
         [
             {
@@ -36,27 +73,37 @@
                     {
                         "wtworlds.blocking.frame":
                         {
-                            "min": 1,
                             "max": 9
                         }
                     }
                 },
                 "effect":
                 {
-                    "type": "damage_entity",
-                    "damage_type": "thorns",
-                    "max_damage":
-                    {
-                        "type": "linear",
-                        "base": 3,
-                        "per_level_above_first": 2
-                    },
-                    "min_damage":
-                    {
-                        "type": "linear",
-                        "base": 2,
-                        "per_level_above_first": 2
-                    }
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "damage_entity",
+                            "damage_type": "thorns",
+                            "max_damage":
+                            {
+                                "type": "linear",
+                                "base": 4,
+                                "per_level_above_first": 1
+                            },
+                            "min_damage":
+                            {
+                                "type": "linear",
+                                "base": 2,
+                                "per_level_above_first": 2
+                            }
+                        },
+                        {
+                            "type": "change_item_damage",
+                            "amount": 1
+                        }
+                    ]
+                    
                 }
             },
             {
@@ -70,13 +117,13 @@
                     {
                         "wtworlds.blocking.frame":
                         {
-                            "min": 1
+                            "min": 10
                         }
                     }
                 },
                 "effect":
                 {
-                    "type": "damage_item",
+                    "type": "change_item_damage",
                     "amount": 2
                 }
             }

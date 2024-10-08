@@ -1,0 +1,53 @@
+{
+    "criteria":
+    {
+        "example":
+        {
+            "trigger": "item_used_on_block",
+            "conditions":
+            {
+                "location":
+                [
+                    {
+                        "condition": "location_check",
+                        "predicate":
+                        {
+                            "block":
+                            {
+                                "blocks":
+                                [
+                                    "chipped_anvil",
+                                    "damaged_anvil"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "match_tool",
+                        "predicate":
+                        {
+                            "items": "brush",
+                            "predicates":
+                            {
+                                "custom_data":
+                                {
+                                    "can_repair_anvil": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "example"
+        ]
+    ],
+    "rewards":
+    {
+        "function": "wtworlds:anvil_repair/init_raycast"
+    }
+}

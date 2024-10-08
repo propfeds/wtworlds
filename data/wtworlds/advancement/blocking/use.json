@@ -11,7 +11,7 @@
                     "items": "minecraft:goat_horn",
                     "components":
                     {
-                        "custom_model_data": 1752001
+                        "item_model": "wtworlds:trowel"
                     }
                 }
             }

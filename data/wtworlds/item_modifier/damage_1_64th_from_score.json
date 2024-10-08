@@ -1,0 +1,11 @@
+{
+    "function": "set_damage",
+    "damage":
+    {
+        "type": "score",
+        "target": "this",
+        "score": "wtworlds.anvil_restoration_kit.damage",
+        "scale": -0.015625
+    },
+    "add": true
+}

@@ -1,0 +1,1 @@
+playsound wtworlds:enchant.vault.activate player @a

@@ -4,7 +4,6 @@
         "translate": "enchantment.wtworlds.heave"
     },
     "supported_items": "#wtworlds:enchantable/staff",
-    "exclusive_set": "#wtworlds:exclusive_set/staff",
     "slots":
     [
         "mainhand"
@@ -13,7 +12,7 @@
     "max_level": 1,
     "min_cost":
     {
-        "base": 15,
+        "base": 25,
         "per_level_above_first": 0
     },
     "max_cost":
@@ -30,32 +29,28 @@
                 "enchanted": "attacker",
                 "affected": "victim",
                 "requirements":
-                {
-                    "condition": "all_of",
-                    "terms":
-                    [
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate":
                         {
-                            "condition": "entity_properties",
-                            "entity": "attacker",
-                            "predicate":
+                            "flags":
                             {
-                                "flags":
-                                {
-                                    "is_sneaking": true,
-                                    "is_on_ground": true
-                                }
-                            }
-                        },
-                        {
-                            "condition": "entity_properties",
-                            "entity": "this",
-                            "predicate":
-                            {
-                                "nbt": "{HurtTime:10s}"
+                                "is_sneaking": true,
+                                "is_on_ground": true
                             }
                         }
-                    ]
-                },
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "nbt": "{HurtTime:10s}"
+                        }
+                    }
+                ],
                 "effect":
                 {
                     "type": "all_of",
@@ -64,7 +59,12 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.125,
+                            "knockback_multiplier":
+                            {
+                                "type": "linear",
+                                "base": 0.175,
+                                "per_level_above_first": 0.075
+                            },
                             "radius": 0.5,
                             "large_particle":
                             {
@@ -78,15 +78,15 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/slow"
+                            "function": "wtworlds:enchantment/heave/effect_slowness"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/sound"
+                            "function": "wtworlds:enchantment/heave/sound"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:heave/particles"
+                            "function": "wtworlds:enchantment/heave/particles"
                         },
                         {
                             "type": "spawn_particles",
@@ -127,31 +127,6 @@
                             {
                                 "type": "entity_position",
                                 "offset": 1.125
-                            },
-                            "vertical_velocity":
-                            {
-                                "base": 1,
-                                "movement_scale": 3
-                            },
-                            "horizontal_velocity":
-                            {
-                                "base": 0.0625
-                            }
-                        },
-                        {
-                            "type": "spawn_particles",
-                            "particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "horizontal_position":
-                            {
-                                "type": "in_bounding_box"
-                            },
-                            "vertical_position":
-                            {
-                                "type": "entity_position",
-                                "offset": 1.25
                             },
                             "vertical_velocity":
                             {

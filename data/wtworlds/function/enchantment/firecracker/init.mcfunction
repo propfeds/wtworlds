@@ -1,0 +1,1 @@
+scoreboard players set @s wtworlds.firecracker 1

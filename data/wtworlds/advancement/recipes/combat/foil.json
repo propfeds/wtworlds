@@ -1,0 +1,55 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_end_rod":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "barrier"
+                    }
+                ]
+            }
+        },
+        "has_nether_star":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "nether_star"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:foil"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_end_rod",
+            "has_nether_star"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:foil"
+        ]
+    }
+}

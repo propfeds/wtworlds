@@ -1,0 +1,41 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_anvil":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "#anvil"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:anvil_restoration_kit"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_anvil"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:anvil_restoration_kit"
+        ]
+    }
+}

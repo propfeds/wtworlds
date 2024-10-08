@@ -1,0 +1,303 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.deflecting"
+    },
+    "supported_items": "#wtworlds:enchantable/blocking",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 35,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.blocking.frame":
+                            {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_sneaking": false,
+                                "is_flying": false,
+                                "is_swimming": false
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/deflecting/standing/main"
+                }
+            },
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.blocking.frame":
+                            {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_sneaking": true
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/deflecting/sneaking/main"
+                }
+            },
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "wtworlds.blocking.frame":
+                            {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    },
+                    {
+                        "condition": "any_of",
+                        "terms":
+                        [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate":
+                                {
+                                    "flags":
+                                    {
+                                        "is_flying": true
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate":
+                                {
+                                    "flags":
+                                    {
+                                        "is_swimming": true
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/deflecting/swimming/main"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode":
+                        {
+                            "min": 1
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "change_item_damage",
+                            "amount": 1
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:blocking/sound"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 1.25,
+                            "radius": 2.15,
+                            "offset": [0, 1.5, 0],
+                            "large_particle":
+                            {
+                                "type": "gust_emitter_small"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:enchant.deflecting.activate"
+                            }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/deflecting/standing/tag_remove"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 2
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 1.25,
+                            "radius": 2.15,
+                            "offset": [0, 1, 0],
+                            "large_particle":
+                            {
+                                "type": "gust_emitter_small"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:enchant.deflecting.activate"
+                            }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/deflecting/sneaking/tag_remove"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 3
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "attribute_to_user": true,
+                            "block_interaction": "none",
+                            "knockback_multiplier": 1.25,
+                            "radius": 2.15,
+                            "offset": [0, 0.5, 0],
+                            "large_particle":
+                            {
+                                "type": "gust_emitter_small"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:enchant.deflecting.activate"
+                            }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/deflecting/swimming/tag_remove"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
