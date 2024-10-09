@@ -3,8 +3,8 @@
     "category": "equipment",
     "pattern":
     [
-        "A ",
-        "c ",
+        " A",
+        " c",
         "ss"
     ],
     "key":
@@ -20,34 +20,28 @@
         "components":
         {
             "item_model": "wtworlds:rope_dart",
-            "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.rope_dart\"}",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.rope_dart\"}",
+            "max_damage": 312,
             "enchantments":
             {
                 "wtworlds:blade_dance": 1,
                 "infinity": 1
             },
-            "minecraft:attribute_modifiers":
+            "attribute_modifiers":
             {
                 "modifiers":
                 [
                     {
                         "id": "wtworlds:rope_dart",
-                        "type": "minecraft:attack_damage",
+                        "type": "attack_damage",
                         "amount": 4,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "wtworlds:rope_dart",
-                        "type": "minecraft:attack_speed",
-                        "amount": -2.2,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:rope_dart",
-                        "type": "entity_interaction_range",
-                        "amount": -0.25,
+                        "type": "attack_speed",
+                        "amount": -2.4,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -62,9 +56,7 @@
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
-
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.25 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
             ]
         }
     }

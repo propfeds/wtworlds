@@ -43,8 +43,8 @@
                     "type": "apply_mob_effect",
                     "min_duration": 2,
                     "max_duration": 2,
-                    "min_amplifier": 2,
-                    "max_amplifier": 2,
+                    "min_amplifier": 1,
+                    "max_amplifier": 1,
                     "to_apply": "speed"
                 }
             }
