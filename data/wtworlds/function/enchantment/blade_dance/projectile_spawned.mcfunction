@@ -1,0 +1,1 @@
+data modify entity @s crit set value 1b

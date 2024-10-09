@@ -65,3 +65,7 @@ scoreboard objectives add wtworlds.climbing dummy
 scoreboard objectives add wtworlds.climbing.cooldown dummy
 
 scoreboard objectives add test dummy
+
+# Rope Dart
+scoreboard objectives add wtworlds.rope_dart.impulse dummy
+scoreboard objectives add wtworlds.rope_dart.frame dummy

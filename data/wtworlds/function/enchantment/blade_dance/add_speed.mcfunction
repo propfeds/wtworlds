@@ -1,0 +1,1 @@
+attribute @s movement_speed modifier add wtworlds:blade_dance 0.04 add_value

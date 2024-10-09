@@ -1,0 +1,53 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.blade_dance"
+    },
+    "supported_items": "#minecraft:enchantable/bow",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "projectile_spawned":
+        [
+            {
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/blade_dance/projectile_spawned"
+                }
+            }
+        ],
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "min_duration": 2,
+                    "max_duration": 2,
+                    "min_amplifier": 2,
+                    "max_amplifier": 2,
+                    "to_apply": "speed"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "pattern":
+    [
+        "A ",
+        "c ",
+        "ss"
+    ],
+    "key":
+    {
+        "A": "arrow",
+        "c": "chain",
+        "s": "string"
+    },
+    "result":
+    {
+        "id": "bow",
+        "count": 1,
+        "components":
+        {
+            "item_model": "wtworlds:rope_dart",
+            "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.rope_dart\"}",
+            "enchantments":
+            {
+                "wtworlds:blade_dance": 1,
+                "infinity": 1
+            },
+            "minecraft:attribute_modifiers":
+            {
+                "modifiers":
+                [
+                    {
+                        "id": "wtworlds:rope_dart",
+                        "type": "minecraft:attack_damage",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "wtworlds:rope_dart",
+                        "type": "minecraft:attack_speed",
+                        "amount": -2.2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "wtworlds:rope_dart",
+                        "type": "entity_interaction_range",
+                        "amount": -0.25,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "lore":
+            [
+                "\"\"",
+
+                "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
+
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
+
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
+
+                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.25 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
+            ]
+        }
+    }
+}

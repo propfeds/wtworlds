@@ -1,0 +1,33 @@
+{
+    "criteria":
+    {
+        "twirling":
+        {
+            "trigger": "using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": "bow",
+                    "predicates":
+                    {
+                        "enchantments":
+                        [
+                            {
+                                "enchantments": "wtworlds:blade_dance",
+                                "levels":
+                                {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "wtworlds:enchantment/blade_dance/add_speed"
+    }
+}
