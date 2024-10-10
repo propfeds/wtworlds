@@ -1,1 +1,0 @@
-attribute @s movement_speed modifier remove wtworlds:blade_dance
