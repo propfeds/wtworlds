@@ -35,7 +35,7 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 # Particle markers
 scoreboard objectives add wtworlds.whirlpool.raining dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
-scoreboard players add marker.whirlpool.particles wtworlds.tally 0
+scoreboard players add marker wtworlds.tally 0
 
 # Motion
 scoreboard objectives add wtworlds.motion.x dummy
