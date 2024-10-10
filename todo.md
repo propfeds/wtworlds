@@ -6,7 +6,6 @@ rope dart:
   - rebound
 - when kicked temporarily rides the owner?
 - decrease gravity when spun?
-- test particle with ash/white ash and upward delta
 
 make navigator drop aggro
 
