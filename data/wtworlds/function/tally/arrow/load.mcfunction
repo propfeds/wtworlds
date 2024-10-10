@@ -1,0 +1,1 @@
+execute if entity @s[tag=wtworlds.blade_dance] run scoreboard players add arrow wtworlds.tally 1

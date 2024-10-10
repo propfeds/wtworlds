@@ -1,0 +1,1 @@
+execute if entity @s[tag=wtworlds.blade_dance] run function wtworlds:enchantment/blade_dance/tick

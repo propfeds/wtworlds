@@ -2,9 +2,13 @@
 
 rope dart:
 - sound design
-- range limit
-  - deal with tipped arrows
-  - particles when dead
+  - spinning
+  - rebound
+- when kicked temporarily rides the owner?
+- decrease gravity when spun?
+- test particle with ash/white ash and upward delta
+
+make navigator drop aggro
 
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
@@ -36,6 +40,11 @@ giant spider on fire or spider centipede
 dragonfly
 
 wisteria trees
+
+magical talismans
+
+antiquarians:
+- sells promises
 
 refuges:
 - like a village, but also with a school

@@ -4,6 +4,7 @@
         "translate": "enchantment.wtworlds.blade_dance"
     },
     "supported_items": "#minecraft:enchantable/bow",
+    "exclusive_set": "#wtworlds:exclusive_set/modified_bow",
     "slots":
     [
         "hand"
@@ -37,6 +38,15 @@
         [
             {
                 "enchanted": "attacker",
+                "affected": "damaging_entity",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/blade_dance/hit"
+                }
+            },
+            {
+                "enchanted": "attacker",
                 "affected": "attacker",
                 "effect":
                 {
@@ -46,6 +56,25 @@
                     "min_amplifier": 1,
                     "max_amplifier": 1,
                     "to_apply": "speed"
+                }
+            }
+        ],
+        "hit_block":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#arrows"
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/blade_dance/hit"
                 }
             }
         ]
