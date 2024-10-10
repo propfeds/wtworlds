@@ -1,7 +1,7 @@
 tag @s add wtworlds.blade_dance.self
 
 # If arrow's within range, don't do anything
-execute on origin at @s anchored eyes positioned ^ ^ ^ as @n[type=#arrows, distance=..8, tag=wtworlds.blade_dance.self] if entity @s run return run function wtworlds:enchantment/blade_dance/tag_remove
+execute on origin at @s anchored eyes positioned ^ ^ ^ as @n[type=#arrows, distance=..9, tag=wtworlds.blade_dance.self] if entity @s run return run function wtworlds:enchantment/blade_dance/tag_remove
 # tag @s remove wtworlds.blade_dance.self
 
 # Runs when arrow is out of range
@@ -17,5 +17,7 @@ tag @s add wtworlds.blade_dance.rebound
 execute on origin at @s anchored eyes positioned ^ ^ ^ run rotate @n[type=#arrows, tag=wtworlds.blade_dance.self] facing entity @s
 
 tag @s remove wtworlds.blade_dance.self
+
+execute at @s run function wtworlds:enchantment/blade_dance/sound
 
 # function wtworlds:enchantment/blade_dance/hit

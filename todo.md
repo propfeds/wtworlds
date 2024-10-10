@@ -1,11 +1,7 @@
 # To-do List
 
 rope dart:
-- sound design
-  - spinning
-  - rebound
 - when kicked temporarily rides the owner?
-- decrease gravity when spun?
 
 make navigator drop aggro
 

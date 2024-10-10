@@ -7,8 +7,7 @@ scoreboard players set @s wtworlds.rope_dart.impulse 2
 scoreboard players add @s wtworlds.rope_dart.frame 1
 
 execute if score @s wtworlds.rope_dart.frame matches 17.. run scoreboard players set @s wtworlds.rope_dart.frame 1
-execute anchored eyes positioned ^ ^ ^1 run function wtworlds:rope_dart/particles
 
-execute unless score @s wtworlds.rope_dart.frame matches 2 unless score @s wtworlds.rope_dart.frame matches 10 run return 0
-function wtworlds:rope_dart/sound
-execute anchored eyes positioned ^ ^ ^1.5 run function wtworlds:rope_dart/particles_crosshair
+execute anchored eyes positioned ^ ^ ^1 run function wtworlds:rope_dart/particles
+execute if score @s wtworlds.rope_dart.frame matches 2 run function wtworlds:rope_dart/sound_1
+execute if score @s wtworlds.rope_dart.frame matches 10 run function wtworlds:rope_dart/sound_2

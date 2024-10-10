@@ -1,1 +1,0 @@
-playsound entity.player.attack.sweep player @a
