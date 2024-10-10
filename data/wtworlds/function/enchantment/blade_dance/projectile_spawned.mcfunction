@@ -3,3 +3,5 @@ tag @s add wtworlds.blade_dance
 
 scoreboard players add arrow wtworlds.tally 1
 schedule function wtworlds:tally/arrow 1 replace
+
+# function wtworlds:enchantment/blade_dance/sound_shoot

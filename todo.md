@@ -2,11 +2,13 @@
 
 rope dart:
 - when kicked temporarily rides the owner?
+- sound when fired?
 
-make navigator drop aggro
+make navigator drop infighting
 
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
+breaking sound for anvil kit
 
 figure out how to remove the tick function from climbing
 
