@@ -1,0 +1,24 @@
+{
+    "criteria":
+    {
+        "twirling":
+        {
+            "trigger": "using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": "bow",
+                    "components":
+                    {
+                        "item_model": "wtworlds:rope_dart"
+                    }
+                }
+            }
+        }
+    },
+    "rewards":
+    {
+        "function": "wtworlds:rope_dart/use_tick"
+    }
+}

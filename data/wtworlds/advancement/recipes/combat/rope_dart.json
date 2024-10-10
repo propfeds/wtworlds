@@ -1,0 +1,55 @@
+{
+    "parent": "wtworlds:recipes/root",
+    "criteria":
+    {
+        "has_chain":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "chain"
+                    }
+                ]
+            }
+        },
+        "has_arrow":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "arrow"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe":
+        {
+            "trigger": "recipe_crafted",
+            "conditions":
+            {
+                "recipe_id": "wtworlds:rope_dart"
+            }
+        }
+    },
+    "requirements":
+    [
+        [
+            "has_the_recipe",
+            "has_chain",
+            "has_arrow"
+        ]
+    ],
+    "rewards":
+    {
+        "recipes":
+        [
+            "wtworlds:rope_dart"
+        ]
+    }
+}

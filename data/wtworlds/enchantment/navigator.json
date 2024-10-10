@@ -4,6 +4,7 @@
         "translate": "enchantment.wtworlds.navigator"
     },
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "exclusive_set": "#wtworlds:exclusive_set/modified_bow",
     "slots":
     [
         "hand"

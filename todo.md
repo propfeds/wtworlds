@@ -1,7 +1,14 @@
 # To-do List
 
+rope dart:
+- when kicked temporarily rides the owner?
+- sound when fired?
+
+make navigator drop infighting
+
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
+breaking sound for anvil kit
 
 figure out how to remove the tick function from climbing
 
@@ -30,6 +37,11 @@ giant spider on fire or spider centipede
 dragonfly
 
 wisteria trees
+
+magical talismans
+
+antiquarians:
+- sells promises
 
 refuges:
 - like a village, but also with a school

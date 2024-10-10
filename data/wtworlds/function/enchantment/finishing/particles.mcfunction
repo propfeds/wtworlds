@@ -6,8 +6,8 @@ execute if score @s wtworlds.missing_health matches ..4 run return 0
 # Wounded (5 score or above)
 particle enchanted_hit ~ ~ ~ 0.25 0.25 0.25 0.6 6
 particle dust_color_transition{from_color: [1.0, 0.3, 0.2], scale: 0.35, to_color: [0.3, 0.1, 0.6]} ~ ~ ~ 0.125 0.75 0.125 0 42
-particle dust_color_transition{from_color: [1.0, 0.3, 0.2], scale: 0.35, to_color: [0.3, 0.1, 0.6]} ~ ~ ~ 0.5 0.125 0.5 0 18
-particle crimson_spore ~ ~-0.25 ~ 0.0 0.25 0.0 0 4
+particle dust_color_transition{from_color: [1.0, 0.3, 0.2], scale: 0.35, to_color: [0.3, 0.1, 0.6]} ~ ~ ~ 0.5 0.125 0.5 0 24
+particle crimson_spore ~ ~-0.25 ~ 0.0 0.25 0.0 0 3
 
 execute if score @s wtworlds.missing_health matches ..7 run return 0
 

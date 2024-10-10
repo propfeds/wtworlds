@@ -8,6 +8,6 @@
     },
     "rewards":
     {
-        "function": "wtworlds:blocking/impulse"
+        "function": "wtworlds:rope_dart/impulse"
     }
 }

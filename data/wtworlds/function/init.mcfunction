@@ -1,13 +1,16 @@
 # tellraw @p {"text": "Welcome to Weathered Worlds."}
 title @a actionbar {"text": "Welcome to Weathered Worlds."}
 
+scoreboard objectives add test dummy
+
 scoreboard objectives add wtworlds.const dummy
+
 scoreboard objectives add wtworlds.tally dummy
+schedule function wtworlds:tally/load 1t replace
 
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
-# scoreboard objectives add wtworlds.finishing dummy
 scoreboard players set 10000 wtworlds.const 10000
 
 # Trowel blocking
@@ -15,10 +18,9 @@ scoreboard objectives add wtworlds.blocking.impulse dummy
 scoreboard objectives add wtworlds.blocking.frame dummy
 scoreboard objectives add wtworlds.blocking.resistance.amplifier dummy
 scoreboard objectives add wtworlds.blocking.resistance.duration dummy
-# scoreboard players set blocking.duration wtworlds.const 24
 scoreboard players set blocking.perfect_block_start wtworlds.const 1
-scoreboard players set blocking.imperfect_block_start wtworlds.const 7
 # Resistance lasts for 6 ticks but Retaliation's physical protection lasts for 7
+scoreboard players set blocking.imperfect_block_start wtworlds.const 7
 # Trowel deflecting
 scoreboard objectives add wtworlds.deflecting.mode dummy
 
@@ -32,10 +34,9 @@ scoreboard objectives add wtworlds.whirlpool.y+ dummy
 scoreboard objectives add wtworlds.whirlpool.y- dummy
 scoreboard objectives add wtworlds.whirlpool.z+ dummy
 scoreboard objectives add wtworlds.whirlpool.z- dummy
-# Particle markers
+# Particle markers (uses tally)
 scoreboard objectives add wtworlds.whirlpool.raining dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
-scoreboard players add marker.whirlpool.particles wtworlds.tally 0
 
 # Motion
 scoreboard objectives add wtworlds.motion.x dummy
@@ -64,4 +65,6 @@ scoreboard objectives add wtworlds.navigator dummy
 scoreboard objectives add wtworlds.climbing dummy
 scoreboard objectives add wtworlds.climbing.cooldown dummy
 
-scoreboard objectives add test dummy
+# Rope Dart
+scoreboard objectives add wtworlds.rope_dart.impulse dummy
+scoreboard objectives add wtworlds.rope_dart.frame dummy

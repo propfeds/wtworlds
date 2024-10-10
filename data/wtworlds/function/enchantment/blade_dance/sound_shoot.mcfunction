@@ -1,0 +1,1 @@
+playsound entity.breeze.shoot player @a

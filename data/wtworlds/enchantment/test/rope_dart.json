@@ -1,0 +1,37 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.rope_dart"
+    },
+    "supported_items": "#minecraft:enchantable/bow",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:mob/rope_dart/use_tick"
+                }
+            }
+        ]
+    }
+}
