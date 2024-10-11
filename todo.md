@@ -4,6 +4,8 @@ rope dart:
 - when kicked temporarily rides the owner?
 - mobs to farm chain
 
+change pointer to paintbrush
+
 make navigator drop infighting
 
 rename anvil_repair folder to anvil_restoration

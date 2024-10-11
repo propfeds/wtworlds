@@ -1,0 +1,59 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.mother_of_all_curses"
+    },
+    "primary_items": "#minecraft:enchantable/head_armor",
+    "supported_items": "#minecraft:enchantable/armor",
+    "slots":
+    [
+        "armor"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 10,
+        "per_level_above_first": 25
+    },
+    "max_cost":
+    {
+        "base": 30,
+        "per_level_above_first": 25
+    },
+    "anvil_cost": 6,
+    "effects":
+    {
+        "minecraft:post_attack":
+        [
+            {
+                "enchanted": "victim",
+                "affected": "attacker",
+                "requirements":
+                {
+                    "condition": "random_chance",
+                    "chance": 0.5
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/mother_of_all_curses/layer_0"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "random_chance",
+                    "chance": 0.5
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/mother_of_all_curses/layer_0"
+                }
+            }
+        ]
+    }
+}
