@@ -4,9 +4,7 @@ execute unless score @s wtworlds.rope_dart.impulse matches 1.. run attribute @s 
 advancement revoke @s only wtworlds:rope_dart/use
 advancement revoke @s only wtworlds:rope_dart/impulse
 scoreboard players set @s wtworlds.rope_dart.impulse 2
-scoreboard players add @s wtworlds.rope_dart.frame 1
-
-execute if score @s wtworlds.rope_dart.frame matches 17.. run scoreboard players set @s wtworlds.rope_dart.frame 1
+function wtworlds:rope_dart/frame
 
 execute anchored eyes positioned ^ ^ ^1 run function wtworlds:rope_dart/particles
 execute if score @s wtworlds.rope_dart.frame matches 2 run function wtworlds:rope_dart/sound_1

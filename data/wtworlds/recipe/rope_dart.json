@@ -3,15 +3,15 @@
     "category": "equipment",
     "pattern":
     [
-        " A",
-        " c",
-        "ss"
+        "A",
+        "c",
+        "l"
     ],
     "key":
     {
         "A": "arrow",
         "c": "chain",
-        "s": "string"
+        "l": "lead"
     },
     "result":
     {
