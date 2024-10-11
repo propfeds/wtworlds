@@ -8,4 +8,3 @@ particle mycelium ^0.980 ^0.195 ^ 0 1 0 10 0
 particle mycelium ^0.995 ^0.098 ^ 0 1 0 10 0
 
 execute positioned ^1.000 ^0.000 ^ run function wtworlds:rope_dart/particles_extra
-execute positioned ^ ^ ^0.5 run function wtworlds:rope_dart/particles_crosshair

@@ -7,5 +7,5 @@ scoreboard players set @s wtworlds.rope_dart.impulse 2
 function wtworlds:rope_dart/frame
 
 execute anchored eyes positioned ^ ^ ^1 run function wtworlds:rope_dart/particles
-execute if score @s wtworlds.rope_dart.frame matches 2 run function wtworlds:rope_dart/sound_1
-execute if score @s wtworlds.rope_dart.frame matches 10 run function wtworlds:rope_dart/sound_2
+execute if predicate wtworlds:flags/on_ground run return run function wtworlds:rope_dart/effects_on_ground
+function wtworlds:rope_dart/effects_in_air
