@@ -1,0 +1,52 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "pattern":
+    [
+        "e#e",
+        "e e",
+        "ege"
+    ],
+    "key":
+    {
+        "#": "string",
+        "e": "emerald",
+        "g": "gold_ingot"
+    },
+    "result":
+    {
+        "id": "beetroot_soup",
+        "count": 1,
+        "components":
+        {
+            "item_model": "wtworlds:promise_of_prosperity",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_prosperity\"}",
+            "!consumable": {},
+            "!use_remainder": {},
+            "max_damage": 128,
+            "damage": 0,
+            "equippable":
+            {
+                "slot": "head"
+            },
+            "repairable":
+            {
+                "items": "emerald"
+            },
+            "enchantments":
+            {
+                "fortune": 1
+            },
+            "attribute_modifiers":
+            [
+                {
+                    "id": "wtworlds:promise_of_prosperity",
+                    "type": "luck",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "any"
+                }
+            ]
+        }
+    }
+}

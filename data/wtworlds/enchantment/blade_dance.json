@@ -57,6 +57,15 @@
                     "max_amplifier": 1,
                     "to_apply": "speed"
                 }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/blade_dance/sound_shoot"
+                }
             }
         ],
         "hit_block":

@@ -2,7 +2,7 @@
 
 rope dart:
 - when kicked temporarily rides the owner?
-- sound when fired?
+- mobs to farm chain
 
 make navigator drop infighting
 
@@ -16,8 +16,6 @@ foil: check out Han dynasty fencing swords
 
 rework deflecting
 
-axe enchantment that restores saturation on kill (battle hunger)
-
 bug: deflecting doesn't detect crawling in trapdoor
 
 try making fake whip (rope dart) (fishing rod)
@@ -27,10 +25,6 @@ try making a fake spear (hoe???)
 mother of all curses (helmet) cusses when getting hit
 
 obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)
-
-bone needle
-
-meteor hammer mobs to farm chain
 
 giant spider on fire or spider centipede
 

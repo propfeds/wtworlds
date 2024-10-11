@@ -1,1 +1,1 @@
-playsound entity.breeze.shoot player @a
+playsound wtworlds:enchant.blade_dance.shoot player @a
