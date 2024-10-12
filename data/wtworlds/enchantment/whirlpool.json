@@ -227,172 +227,182 @@
             },
             {
                 "requirements":
-                {
-                    "condition": "any_of",
-                    "terms":
-                    [
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
                         {
-                            "condition": "all_of",
-                            "terms":
-                            [
-                                {
-                                    "condition": "weather_check",
-                                    "raining": true
-                                },
-                                {
-                                    "condition": "any_of",
-                                    "terms":
-                                    [
-                                        {
-                                            "condition": "location_check",
-                                            "offsetX": -1,
-                                            "offsetY": 0,
-                                            "offsetZ": 0,
-                                            "predicate":
-                                            {
-                                                "can_see_sky": true
-                                            }
-                                        },
-                                        {
-                                            "condition": "location_check",
-                                            "offsetX": 1,
-                                            "offsetY": 0,
-                                            "offsetZ": 0,
-                                            "predicate":
-                                            {
-                                                "can_see_sky": true
-                                            }
-                                        },
-                                        {
-                                            "condition": "location_check",
-                                            "offsetX": 0,
-                                            "offsetY": -1,
-                                            "offsetZ": 0,
-                                            "predicate":
-                                            {
-                                                "can_see_sky": true
-                                            }
-                                        },
-                                        {
-                                            "condition": "location_check",
-                                            "offsetX": 0,
-                                            "offsetY": 1,
-                                            "offsetZ": 0,
-                                            "predicate":
-                                            {
-                                                "can_see_sky": true
-                                            }
-                                        },
-                                        {
-                                            "condition": "location_check",
-                                            "offsetX": 0,
-                                            "offsetY": 0,
-                                            "offsetZ": -1,
-                                            "predicate":
-                                            {
-                                                "can_see_sky": true
-                                            }
-                                        },
-                                        {
-                                            "condition": "location_check",
-                                            "offsetX": 0,
-                                            "offsetY": 0,
-                                            "offsetZ": 1,
-                                            "predicate":
-                                            {
-                                                "can_see_sky": true
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "condition": "any_of",
-                            "terms":
-                            [
-                                {
-                                    "condition": "location_check",
-                                    "offsetX": -1,
-                                    "offsetY": 0,
-                                    "offsetZ": 0,
-                                    "predicate":
-                                    {
-                                        "fluid":
-                                        {
-                                            "fluids": "#water"
-                                        }
-                                    }
-                                },
-                                {
-                                    "condition": "location_check",
-                                    "offsetX": 1,
-                                    "offsetY": 0,
-                                    "offsetZ": 0,
-                                    "predicate":
-                                    {
-                                        "fluid":
-                                        {
-                                            "fluids": "#water"
-                                        }
-                                    }
-                                },
-                                {
-                                    "condition": "location_check",
-                                    "offsetX": 0,
-                                    "offsetY": -1,
-                                    "offsetZ": 0,
-                                    "predicate":
-                                    {
-                                        "fluid":
-                                        {
-                                            "fluids": "#water"
-                                        }
-                                    }
-                                },
-                                {
-                                    "condition": "location_check",
-                                    "offsetX": 0,
-                                    "offsetY": 1,
-                                    "offsetZ": 0,
-                                    "predicate":
-                                    {
-                                        "fluid":
-                                        {
-                                            "fluids": "#water"
-                                        }
-                                    }
-                                },
-                                {
-                                    "condition": "location_check",
-                                    "offsetX": 0,
-                                    "offsetY": 0,
-                                    "offsetZ": -1,
-                                    "predicate":
-                                    {
-                                        "fluid":
-                                        {
-                                            "fluids": "#water"
-                                        }
-                                    }
-                                },
-                                {
-                                    "condition": "location_check",
-                                    "offsetX": 0,
-                                    "offsetY": 0,
-                                    "offsetZ": 1,
-                                    "predicate":
-                                    {
-                                        "fluid":
-                                        {
-                                            "fluids": "#water"
-                                        }
-                                    }
-                                }
-                            ]
+                            "type": "#impact_projectiles"
                         }
-                    ]
-                },
+                    },
+                    {
+                        "condition": "any_of",
+                        "terms":
+                        [
+                            {
+                                "condition": "all_of",
+                                "terms":
+                                [
+                                    {
+                                        "condition": "weather_check",
+                                        "raining": true
+                                    },
+                                    {
+                                        "condition": "any_of",
+                                        "terms":
+                                        [
+                                            {
+                                                "condition": "location_check",
+                                                "offsetX": -1,
+                                                "offsetY": 0,
+                                                "offsetZ": 0,
+                                                "predicate":
+                                                {
+                                                    "can_see_sky": true
+                                                }
+                                            },
+                                            {
+                                                "condition": "location_check",
+                                                "offsetX": 1,
+                                                "offsetY": 0,
+                                                "offsetZ": 0,
+                                                "predicate":
+                                                {
+                                                    "can_see_sky": true
+                                                }
+                                            },
+                                            {
+                                                "condition": "location_check",
+                                                "offsetX": 0,
+                                                "offsetY": -1,
+                                                "offsetZ": 0,
+                                                "predicate":
+                                                {
+                                                    "can_see_sky": true
+                                                }
+                                            },
+                                            {
+                                                "condition": "location_check",
+                                                "offsetX": 0,
+                                                "offsetY": 1,
+                                                "offsetZ": 0,
+                                                "predicate":
+                                                {
+                                                    "can_see_sky": true
+                                                }
+                                            },
+                                            {
+                                                "condition": "location_check",
+                                                "offsetX": 0,
+                                                "offsetY": 0,
+                                                "offsetZ": -1,
+                                                "predicate":
+                                                {
+                                                    "can_see_sky": true
+                                                }
+                                            },
+                                            {
+                                                "condition": "location_check",
+                                                "offsetX": 0,
+                                                "offsetY": 0,
+                                                "offsetZ": 1,
+                                                "predicate":
+                                                {
+                                                    "can_see_sky": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "any_of",
+                                "terms":
+                                [
+                                    {
+                                        "condition": "location_check",
+                                        "offsetX": -1,
+                                        "offsetY": 0,
+                                        "offsetZ": 0,
+                                        "predicate":
+                                        {
+                                            "fluid":
+                                            {
+                                                "fluids": "#water"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "location_check",
+                                        "offsetX": 1,
+                                        "offsetY": 0,
+                                        "offsetZ": 0,
+                                        "predicate":
+                                        {
+                                            "fluid":
+                                            {
+                                                "fluids": "#water"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "location_check",
+                                        "offsetX": 0,
+                                        "offsetY": -1,
+                                        "offsetZ": 0,
+                                        "predicate":
+                                        {
+                                            "fluid":
+                                            {
+                                                "fluids": "#water"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "location_check",
+                                        "offsetX": 0,
+                                        "offsetY": 1,
+                                        "offsetZ": 0,
+                                        "predicate":
+                                        {
+                                            "fluid":
+                                            {
+                                                "fluids": "#water"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "location_check",
+                                        "offsetX": 0,
+                                        "offsetY": 0,
+                                        "offsetZ": -1,
+                                        "predicate":
+                                        {
+                                            "fluid":
+                                            {
+                                                "fluids": "#water"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "location_check",
+                                        "offsetX": 0,
+                                        "offsetY": 0,
+                                        "offsetZ": 1,
+                                        "predicate":
+                                        {
+                                            "fluid":
+                                            {
+                                                "fluids": "#water"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
                 "effect":
                 {
                     "type": "all_of",
