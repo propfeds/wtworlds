@@ -21,7 +21,7 @@
         "base": 30,
         "per_level_above_first": 25
     },
-    "anvil_cost": 6,
+    "anvil_cost": 8,
     "effects":
     {
         "minecraft:post_attack":

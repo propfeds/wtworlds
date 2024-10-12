@@ -20,7 +20,7 @@
         "base": 21,
         "per_level_above_first": 20
     },
-    "anvil_cost": 4,
+    "anvil_cost": 2,
     "effects":
     {
         "damage_protection":

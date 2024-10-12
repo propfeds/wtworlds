@@ -4,6 +4,8 @@ rope dart:
 - when kicked temporarily rides the owner?
 - mobs to farm chain
 
+make curses a different scale
+
 change pointer to paintbrush
 
 make navigator drop infighting

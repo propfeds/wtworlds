@@ -21,7 +21,6 @@
         {
             "item_model": "wtworlds:rope_dart",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.rope_dart\"}",
-            "max_damage": 312,
             "enchantments":
             {
                 "wtworlds:blade_dance": 1,
