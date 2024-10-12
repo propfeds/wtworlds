@@ -74,11 +74,15 @@
                         "entity": "this",
                         "predicate":
                         {
-                            "movement":
+                            "distance":
                             {
+                                "horizontal":
+                                {
+                                    "max": 3
+                                },
                                 "y":
                                 {
-                                    "min": 9.999999747378752E-6
+                                    "max": 2.5
                                 }
                             }
                         }
