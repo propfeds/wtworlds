@@ -48,17 +48,13 @@
                             },
                             "distance":
                             {
-                                "x":
+                                "horizontal":
                                 {
-                                    "max": 2.5
+                                    "max": 3
                                 },
                                 "y":
                                 {
                                     "max": 3.5
-                                },
-                                "z":
-                                {
-                                    "max": 2.5
                                 }
                             }
                         }
