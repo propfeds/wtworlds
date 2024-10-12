@@ -1,4 +1,4 @@
-execute at @s run particle bubble_pop ~ ~ ~ 1.25 1.25 1.25 0 3
+execute at @s run particle bubble_pop ~ ~ ~ 1.5 1.5 1.5 0 4
 # execute at @s run particle bubble ~ ~ ~ 1 1 1 0 1
 
 scoreboard players add @s wtworlds.whirlpool.frame 1
