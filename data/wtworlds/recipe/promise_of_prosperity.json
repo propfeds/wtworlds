@@ -43,7 +43,7 @@
                 {
                     "id": "wtworlds:promise_of_prosperity",
                     "type": "luck",
-                    "amount": 2,
+                    "amount": 3,
                     "operation": "add_value",
                     "slot": "any"
                 }

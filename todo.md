@@ -57,12 +57,10 @@ hermit homes:
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
 promises
-- prosperity/plenty/providence: channel to get bone meal, but offers blood sacrifice from nearby cattle (don't damage babies)
-  - maybe just gives fortune 1
-  - recipe: piglins are the only mobs that hunt cattle though? or maybe entirely new civ
-  - damage type: instant damage
+- don't make them craftable, instead put them in village loot chests or trades
+- providence: provide building bonuses?
 - intimacy: drain dur to heal allies and self, replenish by trading XP
-- return: prismarine, grows crops faster in a chunk but deteriorates when leaving the sim radius
+- return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
 - perpetuity: resists poison, harming and wither
 
 enderite: (joke) used to craft the enderong (ender gong)

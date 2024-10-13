@@ -44,23 +44,23 @@
                 {
                     "id": "wtworlds:promise_of_protection",
                     "type": "armor",
-                    "amount": 1,
+                    "amount": 2,
                     "operation": "add_value",
                     "slot": "head"
                 },
                 {
                     "id": "wtworlds:promise_of_protection",
                     "type": "attack_damage",
-                    "amount": 1,
+                    "amount": 1.5,
                     "operation": "add_value",
-                    "slot": "head"
+                    "slot": "any"
                 },
                 {
                     "id": "wtworlds:promise_of_protection",
                     "type": "attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
-                    "slot": "head"
+                    "slot": "any"
                 },
                 {
                     "id": "wtworlds:promise_of_protection",
