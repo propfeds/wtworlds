@@ -27,7 +27,8 @@
             "damage": 0,
             "equippable":
             {
-                "slot": "head"
+                "slot": "head",
+                "swappable": false
             },
             "repairable":
             {
