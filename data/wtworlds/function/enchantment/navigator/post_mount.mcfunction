@@ -1,0 +1,1 @@
+tag @s remove wtworlds.navigator.mounting

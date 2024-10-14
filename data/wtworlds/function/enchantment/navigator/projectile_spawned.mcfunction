@@ -1,13 +1,7 @@
-# execute store result entity @s Motion[0] double 0.000005 run data get entity @s Motion[0] 100000
-# execute store result entity @s Motion[1] double 0.000005 run data get entity @s Motion[1] 100000
-# execute store result entity @s Motion[2] double 0.000005 run data get entity @s Motion[2] 100000
+execute on origin if predicate wtworlds:flags/sneaking run return 0
 
-tag @s add wtworlds.navigator.mounting
-execute on origin run tag @s add wtworlds.navigator.mounting
+execute on origin run function wtworlds:enchantment/navigator/pre_mount
 
-# scoreboard players set @s wtworlds.navigator 1
-# execute on origin run scoreboard players set @s wtworlds.navigator 1
+execute positioned ~-0.5 ~-0.5 ~-0.5 run ride @n[type=!#impact_projectiles, dx=0, tag=wtworlds.navigator.mounting] mount @s
 
-# schedule function wtworlds:enchantment/navigator/global_mount 2
-
-execute on origin run function wtworlds:enchantment/navigator/mount_selector
+execute on passengers run function wtworlds:enchantment/navigator/post_mount
