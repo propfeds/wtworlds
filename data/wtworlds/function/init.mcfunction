@@ -59,7 +59,7 @@ scoreboard players set pointer.entity_raycast_start wtworlds.const 6
 scoreboard objectives add wtworlds.firecracker dummy
 
 # Navigator
-scoreboard objectives add wtworlds.navigator dummy
+# scoreboard objectives add wtworlds.navigator dummy
 
 # Climbing
 scoreboard objectives add wtworlds.climbing dummy

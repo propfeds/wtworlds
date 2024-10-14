@@ -8,6 +8,3 @@ ride @s dismount
 
 execute at @s facing entity @n[type=#impact_projectiles, distance=..0.25] eyes run tp ^ ^ ^-0.125
 # execute unless block ~ ~ ~ #air run function wtworlds:navigator/post_dismount_unstuck
-
-# scoreboard players reset @s wtworlds.navigator
-# execute on vehicle run scoreboard players reset @s wtworlds.navigator
