@@ -1,0 +1,1 @@
+playsound wtworlds:enchant.blade_dance.hit player @a

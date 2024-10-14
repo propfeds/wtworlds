@@ -1,1 +1,0 @@
-playsound wtworlds:enchant.blade_dance.shoot player @a
