@@ -1,1 +1,1 @@
-particle white_ash ~ ~ ~ 0.25 0.25 0.25 0 4
+particle white_ash ~ ~ ~ 0.25 0.25 0.25 0.125 4
