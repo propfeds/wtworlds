@@ -1,10 +1,9 @@
-particle mycelium ^-0.750 ^-0.000 ^ 0 1 0 10 0
-particle mycelium ^-0.734 ^0.072 ^ 0 1 0 10 0
-particle mycelium ^-0.712 ^0.142 ^ 0 1 0 10 0
-particle mycelium ^-0.683 ^0.207 ^ 0 1 0 10 0
-particle mycelium ^-0.648 ^0.268 ^ 0 1 0 10 0
-particle mycelium ^-0.608 ^0.325 ^ 0 1 0 10 0
-particle mycelium ^-0.563 ^0.376 ^ 0 1 0 10 0
-particle mycelium ^-0.515 ^0.422 ^ 0 1 0 10 0
-
-execute positioned ^-0.463 ^0.463 ^ run function wtworlds:rope_dart/particles_extra
+execute positioned ^-0.639 ^0.639 ^-0.383 run function wtworlds:rope_dart/particles_extra
+particle mycelium ^-1.000 ^-0.000 ^-0.707 0 1 0 10 0
+particle mycelium ^-0.983 ^0.097 ^-0.672 0 1 0 10 0
+particle mycelium ^-0.957 ^0.190 ^-0.634 0 1 0 10 0
+particle mycelium ^-0.922 ^0.280 ^-0.596 0 1 0 10 0
+particle mycelium ^-0.879 ^0.364 ^-0.556 0 1 0 10 0
+particle mycelium ^-0.828 ^0.443 ^-0.514 0 1 0 10 0
+particle mycelium ^-0.771 ^0.515 ^-0.471 0 1 0 10 0
+particle mycelium ^-0.708 ^0.581 ^-0.428 0 1 0 10 0

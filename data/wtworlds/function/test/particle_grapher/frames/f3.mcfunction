@@ -1,9 +1,9 @@
 
-particle crit ^0.367 ^-0.367 ^0.750 0 0 0 0 1
-particle crit ^0.332 ^-0.405 ^0.750 0 0 0 0 1
-particle crit ^0.294 ^-0.440 ^0.750 0 0 0 0 1
-particle crit ^0.252 ^-0.472 ^0.750 0 0 0 0 1
-particle crit ^0.207 ^-0.501 ^0.750 0 0 0 0 1
-particle crit ^0.159 ^-0.526 ^0.750 0 0 0 0 1
-particle crit ^0.109 ^-0.546 ^0.750 0 0 0 0 1
-particle crit ^0.055 ^-0.562 ^0.750 0 0 0 0 1
+particle mycelium ^0.544 ^-0.544 ^0.924 0 1 0 10 0
+particle mycelium ^0.491 ^-0.598 ^0.942 0 1 0 10 0
+particle mycelium ^0.433 ^-0.648 ^0.957 0 1 0 10 0
+particle mycelium ^0.370 ^-0.693 ^0.970 0 1 0 10 0
+particle mycelium ^0.303 ^-0.732 ^0.981 0 1 0 10 0
+particle mycelium ^0.232 ^-0.765 ^0.989 0 1 0 10 0
+particle mycelium ^0.157 ^-0.791 ^0.995 0 1 0 10 0
+particle mycelium ^0.080 ^-0.811 ^0.999 0 1 0 10 0
