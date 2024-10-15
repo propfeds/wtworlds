@@ -29,8 +29,30 @@
             {
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/blade_dance/projectile_spawned"
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/blade_dance/projectile_spawned"
+                        },
+                        {
+                            "type": "explode",
+                            "offset": [0, -1.75, 0],
+                            "radius": 0.25,
+                            "knockback_multiplier": 0.35,
+                            "block_interaction": "none",
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "white_ash"
+                            },
+                            "sound": "intentionally_empty"
+                        }
+                    ]
                 }
             }
         ],
