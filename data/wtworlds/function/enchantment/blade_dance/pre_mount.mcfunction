@@ -1,0 +1,1 @@
+tag @s add wtworlds.blade_dance.mounting

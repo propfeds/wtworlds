@@ -64,7 +64,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:enchantment/blade_dance/sound_shoot"
+                    "function": "wtworlds:enchantment/blade_dance/sound_hit"
                 }
             }
         ],

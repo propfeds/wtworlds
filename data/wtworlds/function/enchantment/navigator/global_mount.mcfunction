@@ -1,1 +1,0 @@
-execute as @e[type=!#impact_projectiles, scores={wtworlds.navigator=1}] at @s run function wtworlds:enchantment/navigator/mount_selector

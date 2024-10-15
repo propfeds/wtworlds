@@ -60,7 +60,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/navigator/dismount_selector"
+                            "function": "wtworlds:enchantment/navigator/hit"
                         },
                         {
                             "type": "run_function",
@@ -89,7 +89,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:enchantment/navigator/dismount_selector"
+                    "function": "wtworlds:enchantment/navigator/hit"
                 }
             }
         ]
