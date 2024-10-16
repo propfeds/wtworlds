@@ -1,0 +1,56 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.affinity"
+    },
+    "supported_items": "beetroot_soup",
+    "slots":
+    [
+        "any"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value":
+                    {
+                        "min": 0,
+                        "max":
+                        {
+                            "type": "enchantment_level",
+                            "amount":
+                            {
+                                "type": "linear",
+                                "base": 0,
+                                "per_level_above_first": 1
+                            }
+                        }
+                    },
+                    "period": 20
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/affinity/tick_second"
+                }
+            }
+        ]
+    }
+}

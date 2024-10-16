@@ -33,7 +33,7 @@
                     {
                         "id": "wtworlds:rope_dart",
                         "type": "attack_damage",
-                        "amount": 4,
+                        "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -53,7 +53,7 @@
 
                 "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
 
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
+                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
 
                 "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
             ]

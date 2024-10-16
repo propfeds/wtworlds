@@ -23,6 +23,8 @@
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_prosperity\"}",
             "!consumable": {},
             "!use_remainder": {},
+            "max_damage": 128,
+            "damage": 0,
             "equippable":
             {
                 "slot": "head",
@@ -34,7 +36,8 @@
             },
             "enchantments":
             {
-                "fortune": 1
+                "fortune": 1,
+                "wtworlds:affinity": 1
             },
             "attribute_modifiers":
             [

@@ -1,17 +1,14 @@
 # To-do List
 
+prosperity increases xp gain
+
 rope dart:
-- when kicked temporarily rides the owner?
-  - fix hitting urself
 - add small hitbox to spinning?
 - mobs to farm chain
 
-navigator:
-- store xyz motion at once in storage?
-
-make curses a different scale
-
-change pointer to paintbrush
+paintbrush (brush):
+- store experience (mending)
+- spit sculk out with right click
 
 make navigator drop infighting
 
