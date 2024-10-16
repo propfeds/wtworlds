@@ -28,7 +28,7 @@
         [
             {
                 "enchanted": "victim",
-                "affected": "attacker",
+                "affected": "victim",
                 "requirements":
                 {
                     "condition": "random_chance",
@@ -42,7 +42,7 @@
             },
             {
                 "enchanted": "attacker",
-                "affected": "victim",
+                "affected": "attacker",
                 "requirements":
                 {
                     "condition": "random_chance",
