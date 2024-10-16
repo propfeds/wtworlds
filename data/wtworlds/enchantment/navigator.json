@@ -35,10 +35,6 @@
                         {
                             "type": "run_function",
                             "function": "wtworlds:enchantment/navigator/projectile_spawned"
-                        },
-                        {
-                            "type": "change_item_damage",
-                            "amount": 7
                         }
                     ]
                 }
