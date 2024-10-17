@@ -88,8 +88,14 @@
                 },
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/navigator/hit"
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/navigator/hit"
+                        }
+                    ]
                 }
             }
         ]

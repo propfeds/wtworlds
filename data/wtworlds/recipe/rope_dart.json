@@ -23,8 +23,7 @@
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.rope_dart\"}",
             "enchantments":
             {
-                "wtworlds:blade_dance": 1,
-                "infinity": 1
+                "wtworlds:blade_dance": 1
             },
             "attribute_modifiers":
             {

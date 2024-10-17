@@ -24,6 +24,16 @@
     "anvil_cost": 4,
     "effects":
     {
+        "projectile_piercing":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": 1
+                }
+            }
+        ],
         "projectile_spawned":
         [
             {
@@ -61,10 +71,18 @@
             {
                 "enchanted": "attacker",
                 "affected": "damaging_entity",
+                "requirements":
+                {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate":
+                    {
+                        "is_direct": false
+                    }
+                },
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:enchantment/blade_dance/hit"
+                    "function": "wtworlds:enchantment/blade_dance/hit_entity"
                 }
             },
             {
