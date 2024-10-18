@@ -1,0 +1,168 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.entity.leaper"
+    },
+    "primary_items": "#minecraft:enchantable/head_armor",
+    "supported_items": "#minecraft:enchantable/armor",
+    "slots":
+    [
+        "armor"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 10,
+        "per_level_above_first": 25
+    },
+    "max_cost":
+    {
+        "base": 30,
+        "per_level_above_first": 25
+    },
+    "anvil_cost": 8,
+    "effects":
+    {
+        "attributes":
+        [
+            {
+                "attribute": "movement_speed",
+                "id": "wtworlds:enchantment.entity.leaper",
+                "amount": 0.07,
+                "operation": "add_value"
+            },
+            {
+                "attribute": "gravity",
+                "id": "wtworlds:enchantment.entity.leaper",
+                "amount": -0.25,
+                "operation": "add_multiplied_base"
+            },
+            {
+                "attribute": "safe_fall_distance",
+                "id": "wtworlds:enchantment.entity.leaper",
+                "amount": 3,
+                "operation": "add_value"
+            }
+        ],
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 0,
+                    "period": 25
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "radius": 0.25,
+                            "knockback_multiplier": 0.4,
+                            "block_interaction": "none",
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "dust_plume"
+                            },
+                            "speed": 0.5,
+                            "horizontal_position":
+                            {
+                                "type": "entity_position"
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -1
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position"
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -0.5
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "dust_plume"
+                            },
+                            "speed": 0.5,
+                            "horizontal_position":
+                            {
+                                "type": "entity_position"
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -1
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position"
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -0.5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 90,
+                    "period": 240
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "levitation",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 0.5,
+                    "max_duration": 0.5
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 90,
+                    "period": 120
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "speed",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 2.5,
+                    "max_duration": 2.5
+                }
+            }
+        ]
+    }
+}
