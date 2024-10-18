@@ -36,11 +36,7 @@ rework deflecting
 
 bug: deflecting doesn't detect crawling in trapdoor
 
-try making fake whip (rope dart) (fishing rod)
-
 try making a fake spear (hoe???)
-
-mother of all curses (helmet) cusses when getting hit
 
 obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)
 

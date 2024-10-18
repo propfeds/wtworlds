@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.blade_dance"
     },
-    "supported_items": "#minecraft:enchantable/bow",
+    "supported_items": "#wtworlds:enchantable/rope_dart",
     "exclusive_set": "#wtworlds:exclusive_set/modified_bow",
     "slots":
     [
