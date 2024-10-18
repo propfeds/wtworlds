@@ -1,5 +1,7 @@
 # To-do List
 
+split the raw block recipes into an entirely different pack idea 'resurrection'
+
 prosperity increases xp gain
 
 rope dart:
@@ -9,6 +11,20 @@ rope dart:
 paintbrush (brush):
 - store experience (mending)
 - spit sculk out with right click
+- or maybe do an invoker style: earth, man, sky
+  - how to get paint?
+  - two colour system: 9 spells
+    - First element determines the kind, second element determines the target
+    - How is sky selection performed?
+    - Ee: shockwave
+    - Em: 
+    - Es: 
+    - Me: summon snow golem or iron golem?
+    - Mm: slow enemy hit or link two together?
+    - Ms
+    - Se: summon meteor at the block brushed (earth)
+    - Sm
+    - Ss
 
 make navigator drop infighting
 

@@ -3,7 +3,7 @@ execute if entity @s[tag=wtworlds.blade_dance] run scoreboard players remove arr
 tag @s remove wtworlds.blade_dance
 
 # Piercing itself is bugged (MC-173476 etc.)
-kill @s
+# kill @s
 
 # function wtworlds:enchantment/blade_dance/particles
 # execute if predicate wtworlds:nbt/cannot_pickup_in_survival run data modify entity @s life set value 1193
