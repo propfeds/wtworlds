@@ -1,9 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": "gold_block",
-    "result":
-    {
-        "id": "raw_gold_block",
-        "count": 1
-    }
-}

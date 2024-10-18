@@ -1,9 +1,5 @@
 # To-do List
 
-split the raw block recipes into an entirely different pack idea 'resurrection'
-
-prosperity increases xp gain
-
 rope dart:
 - add small hitbox to spinning?
 - mobs to farm chain

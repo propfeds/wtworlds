@@ -1,9 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": "iron_block",
-    "result":
-    {
-        "id": "raw_iron_block",
-        "count": 1
-    }
-}
