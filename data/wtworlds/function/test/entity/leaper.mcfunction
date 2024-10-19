@@ -1,1 +1,1 @@
-summon minecraft:zombie ~ ~ ~ {ArmorItems: [{id: leather_boots}, {id: leather_leggings}, {id: leather_chestplate}, {id: leather_helmet, components:{enchantments:{"wtworlds:entity/leaper":1}}}]}
+summon minecraft:zombie ~ ~ ~ {ArmorItems: [{id: leather_boots}, {id: leather_leggings}, {id: leather_chestplate}, {id: leather_helmet, components:{enchantments:{"wtworlds:entity/leaper":1}}}], ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f], HandDropChances: [0.0f, 0.0f]}
