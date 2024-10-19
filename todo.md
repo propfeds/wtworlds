@@ -1,5 +1,8 @@
 # To-do List
 
+leaper:
+- add sounds to hopping
+
 rope dart:
 - add small hitbox to spinning?
 - mobs to farm chain

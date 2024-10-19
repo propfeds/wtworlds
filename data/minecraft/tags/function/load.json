@@ -1,6 +1,7 @@
 {
     "values":
     [
-        "wtworlds:init"
+        "wtworlds:init",
+        "wtworlds:tally/load"
     ]
 }

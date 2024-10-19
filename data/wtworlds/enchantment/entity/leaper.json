@@ -61,7 +61,7 @@
                     [
                         {
                             "type": "explode",
-                            "radius": 0.25,
+                            "radius": 0.5,
                             "knockback_multiplier": 0.4,
                             "block_interaction": "none",
                             "large_particle":
@@ -133,34 +133,63 @@
                 "requirements":
                 {
                     "condition": "time_check",
-                    "value": 90,
+                    "value": 85,
                     "period": 240
                 },
                 "effect":
                 {
-                    "type": "apply_mob_effect",
-                    "to_apply": "levitation",
-                    "min_amplifier": 0,
-                    "max_amplifier": 0,
-                    "min_duration": 0.5,
-                    "max_duration": 0.5
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/face_target"
+                        },
+                        {
+                            "type": "apply_mob_effect",
+                            "to_apply": "levitation",
+                            "min_amplifier": 1,
+                            "max_amplifier": 1,
+                            "min_duration": 0.5,
+                            "max_duration": 0.5
+                        }
+                    ]
                 }
             },
             {
                 "requirements":
                 {
                     "condition": "time_check",
-                    "value": 90,
+                    "value":
+                    {
+                        "min": 86,
+                        "max": 100
+                    },
+                    "period": 240
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/particles/glow_eyes"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 70,
                     "period": 120
                 },
                 "effect":
                 {
-                    "type": "apply_mob_effect",
-                    "to_apply": "speed",
-                    "min_amplifier": 0,
-                    "max_amplifier": 0,
-                    "min_duration": 2.5,
-                    "max_duration": 2.5
+                    "type": "run_function",
+                    "function": "wtworlds:entity/leaper/effect_speed"
                 }
             }
         ]

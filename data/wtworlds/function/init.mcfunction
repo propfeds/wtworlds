@@ -6,7 +6,7 @@ scoreboard objectives add test dummy
 scoreboard objectives add wtworlds.const dummy
 
 scoreboard objectives add wtworlds.tally dummy
-schedule function wtworlds:tally/load 1t replace
+# schedule function wtworlds:tally/load 1t replace
 
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
