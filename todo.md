@@ -1,7 +1,7 @@
 # To-do List
 
 leaper:
-- add sounds to hopping
+- add sounds to hopping and flying
 
 rope dart:
 - add small hitbox to spinning?
