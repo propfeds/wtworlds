@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.entity.leaper"
+        "translate": "enchantment.wtworlds.entity.initiate"
     },
     "primary_items": "#minecraft:enchantable/head_armor",
     "supported_items": "#minecraft:enchantable/armor",
@@ -28,25 +28,25 @@
         [
             {
                 "attribute": "movement_speed",
-                "id": "wtworlds:enchantment.entity.leaper",
+                "id": "wtworlds:enchantment.entity.initiate",
                 "amount": 0.07,
                 "operation": "add_value"
             },
             {
                 "attribute": "gravity",
-                "id": "wtworlds:enchantment.entity.leaper",
+                "id": "wtworlds:enchantment.entity.initiate",
                 "amount": -0.25,
                 "operation": "add_multiplied_base"
             },
             {
                 "attribute": "safe_fall_distance",
-                "id": "wtworlds:enchantment.entity.leaper",
+                "id": "wtworlds:enchantment.entity.initiate",
                 "amount": 6,
                 "operation": "add_value"
             },
             {
                 "attribute": "scale",
-                "id": "wtworlds:enchantment.entity.leaper",
+                "id": "wtworlds:enchantment.entity.initiate",
                 "amount": -0.125,
                 "operation": "add_multiplied_base"
             }
@@ -79,6 +79,18 @@
                                 "is_on_ground": true
                             }
                         }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.initiate.fly": -1
+                            }
+                        }
                     }
                 ],
                 "effect":
@@ -99,7 +111,10 @@
                             {
                                 "type": "ash"
                             },
-                            "sound": "intentionally_empty"
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:entity.initiate.jump"
+                            }
                         },
                         {
                             "type": "spawn_particles",
@@ -169,7 +184,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:entity/leaper/chase"
+                    "function": "wtworlds:entity/initiate/chase"
                 }
             },
             {
@@ -189,7 +204,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:entity/leaper/fly"
+                            "function": "wtworlds:entity/initiate/fly"
                         }
                     ]
                 }

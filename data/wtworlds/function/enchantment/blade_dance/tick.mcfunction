@@ -8,9 +8,9 @@ execute on origin at @s anchored eyes positioned ^ ^ ^ as @n[type=#arrows, dista
 # If already rebound then do nothing, else rebound
 execute if entity @s[tag=wtworlds.blade_dance.rebound] run return run tag @s remove wtworlds.blade_dance.self
 
-execute store result entity @s Motion[0] double -0.000005 run data get entity @s Motion[0] 100000
-execute store result entity @s Motion[1] double -0.000005 run data get entity @s Motion[1] 100000
-execute store result entity @s Motion[2] double -0.000005 run data get entity @s Motion[2] 100000
+execute store result entity @s Motion[0] double -0.000004 run data get entity @s Motion[0] 100000
+execute store result entity @s Motion[1] double -0.000004 run data get entity @s Motion[1] 100000
+execute store result entity @s Motion[2] double -0.000004 run data get entity @s Motion[2] 100000
 
 tag @s add wtworlds.blade_dance.rebound
 

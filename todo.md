@@ -1,6 +1,6 @@
 # To-do List
 
-leaper:
+initiate:
 - add sounds to hopping and flying
 
 rope dart:

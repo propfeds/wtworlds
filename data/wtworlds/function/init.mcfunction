@@ -1,6 +1,14 @@
 # tellraw @p {"text": "Welcome to Weathered Worlds."}
 title @a actionbar {"text": "Welcome to Weathered Worlds."}
 
+# Teams
+
+# Defiled Temple (initiate, Navigator)
+team add wtworlds.temple
+team modify wtworlds.temple nametagVisibility never
+
+# Scoreboards
+
 scoreboard objectives add test dummy
 
 scoreboard objectives add wtworlds.const dummy
@@ -71,5 +79,5 @@ scoreboard objectives add wtworlds.rope_dart.frame dummy
 # Pierce count (has to be a score)
 scoreboard objectives add wtworlds.blade_dance.pierced dummy
 
-# Leaper AI
-scoreboard objectives add wtworlds.leaper.fly dummy
+# initiate AI
+scoreboard objectives add wtworlds.initiate.fly dummy
