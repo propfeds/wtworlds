@@ -3,18 +3,27 @@
 Defiled Temple:
 - was something else, now rebuilt to worship the wither (storm)
 - mix between nether fortress and shaolin temple (impossible)
-- has one blaze rod to enable weakness-brewing before nether
+- loot:
+  - has blaze rod to enable weakness-brewing before nether
+  - weapon room
+    - rope dart
+    - golden staff and normal staff
+    - sabres
+  - other tools and equipmen room
+    - promise of protection (disable recipe)
+    - promise of perpetuity?
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
-  - Navigator?: a practitioner that kicks
-  - Performer?: a practitioner that fires rope darts
+  - Navigator? Seeker?: a practitioner that kicks
+  - Performer?: a practitioner that fires rope darts or has sabres or chain whips or nunchucks?
+    - drops chains to be farmed
   - Master: obsessed with milk
+    - drops milk
+
+think of ways to get leather
 
 initiate:
 - vampirism? bandages?
-
-rope dart:
-- mob to farm chain
 
 custom shears
 - cut hair to form wigs xd
@@ -27,6 +36,8 @@ figure out how to remove the tick function from climbing
 
 foil: check out Han dynasty fencing swords
 
+magical talismans
+
 rework deflecting
 
 bug: deflecting doesn't detect crawling in trapdoor
@@ -35,13 +46,11 @@ try making a fake spear (hoe???)
 
 obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)
 
-giant spider on fire or spider centipede
-
-dragonfly
+enemies:
+- cave spider centipede
+- dragonfly (bees?)
 
 wisteria and willow trees
-
-magical talismans
 
 paintbrush (brush):
 - store experience (mending)
@@ -63,6 +72,7 @@ paintbrush (brush):
 
 antiquarians:
 - sells promises
+- fixed trades, can't be bred
 
 refuges:
 - like a village, but also with a school
@@ -77,6 +87,7 @@ hermit homes:
 - drawers with letters
 - goat horns & trowels
 - book hidden inside fish barrels or well
+- whirlpool crossbow
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
 promises
@@ -86,8 +97,6 @@ promises
 - intimacy: drain dur to heal allies and self, replenish by trading XP
 - return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
 - perpetuity: resists poison, harming and wither
-
-enderite: (joke) used to craft the enderong (ender gong)
 
 pitch reference:
 - -12: 0.5
