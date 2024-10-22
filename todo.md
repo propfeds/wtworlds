@@ -1,29 +1,23 @@
 # To-do List
 
+Defiled Temple:
+- was something else, now rebuilt to worship the wither (storm)
+- mix between nether fortress and shaolin temple (impossible)
+- has one blaze rod to enable weakness-brewing before nether
+- enemies: totally undead, bring your smites and splash health pots here
+  - Initiate: a practitioner that runs and jumps (even flies)
+  - Navigator?: a practitioner that kicks
+  - Performer?: a practitioner that fires rope darts
+  - Master: obsessed with milk
+
+initiate:
+- vampirism? bandages?
+
 rope dart:
-- add small hitbox to spinning?
-- mobs to farm chain
+- mob to farm chain
 
 custom shears
 - cut hair to form wigs xd
-
-paintbrush (brush):
-- store experience (mending)
-- spit sculk out with right click
-- or maybe do an invoker style: earth, man, sky
-  - how to get paint?
-  - two colour system: 9 spells
-    - First element determines the kind, second element determines the target
-    - How is sky selection performed?
-    - Ee: shockwave
-    - Em: 
-    - Es: 
-    - Me: summon snow golem or iron golem?
-    - Mm: slow enemy hit or link two together?
-    - Ms
-    - Se: summon meteor at the block brushed (earth)
-    - Sm
-    - Ss
 
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)
@@ -45,9 +39,27 @@ giant spider on fire or spider centipede
 
 dragonfly
 
-wisteria trees
+wisteria and willow trees
 
 magical talismans
+
+paintbrush (brush):
+- store experience (mending)
+- spit sculk out with right click
+- or maybe do an invoker style: earth, man, sky
+  - how to get paint?
+  - two colour system: 9 spells
+    - First element determines the kind, second element determines the target
+    - How is sky selection performed?
+    - Ee: shockwave
+    - Em: 
+    - Es: 
+    - Me: summon snow golem or iron golem?
+    - Mm: slow enemy hit or link two together?
+    - Ms
+    - Se: summon meteor at the block brushed (earth)
+    - Sm
+    - Ss
 
 antiquarians:
 - sells promises

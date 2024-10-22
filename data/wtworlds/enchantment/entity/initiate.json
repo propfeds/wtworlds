@@ -102,6 +102,10 @@
                     "effects":
                     [
                         {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/initiate/reset_flight"
+                        },
+                        {
                             "type": "explode",
                             "radius": 0.5,
                             "knockback_multiplier": 0.4,
@@ -170,10 +174,6 @@
                                 "base": 0,
                                 "movement_scale": -0.5
                             }
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:entity/face_target"
                         }
                     ]
                 }

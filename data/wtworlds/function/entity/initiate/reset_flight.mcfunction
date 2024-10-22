@@ -1,0 +1,1 @@
+scoreboard players reset @s wtworlds.initiate.fly
