@@ -10,7 +10,7 @@
         "hand"
     ],
     "weight": 2,
-    "max_level": 1,
+    "max_level": 2,
     "min_cost":
     {
         "base": 20,
@@ -91,10 +91,42 @@
                 "effect":
                 {
                     "type": "apply_mob_effect",
-                    "min_amplifier": 0,
-                    "max_amplifier": 0,
-                    "min_duration": 5,
-                    "max_duration": 5,
+                    "min_amplifier":
+                    {
+                        "type": "linear",
+                        "base": 0,
+                        "per_level_above_first": 1
+                    },
+                    "max_amplifier":
+                    {
+                        "type": "linear",
+                        "base": 0,
+                        "per_level_above_first": 1
+                    },
+                    "min_duration":
+                    {
+                        "type": "clamped",
+                        "value":
+                        {
+                            "type": "linear",
+                            "base": 5,
+                            "per_level_above_first": -1
+                        },
+                        "min": 3,
+                        "max": 5
+                    },
+                    "max_duration":
+                    {
+                        "type": "clamped",
+                        "value":
+                        {
+                            "type": "linear",
+                            "base": 5,
+                            "per_level_above_first": -1
+                        },
+                        "min": 3,
+                        "max": 5
+                    },
                     "to_apply": "speed"
                 }
             },
