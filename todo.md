@@ -1,11 +1,11 @@
 # To-do List
 
-initiate:
-- add sounds to hopping and flying
-
 rope dart:
 - add small hitbox to spinning?
 - mobs to farm chain
+
+custom shears
+- cut hair to form wigs xd
 
 paintbrush (brush):
 - store experience (mending)
@@ -24,8 +24,6 @@ paintbrush (brush):
     - Se: summon meteor at the block brushed (earth)
     - Sm
     - Ss
-
-make navigator drop infighting
 
 rename anvil_repair folder to anvil_restoration
 rename scoreboard to anvil_restoration (no more kit)

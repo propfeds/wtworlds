@@ -1,9 +1,8 @@
-# tellraw @p {"text": "Welcome to Weathered Worlds."}
-title @a actionbar {"text": "Welcome to Weathered Worlds."}
+tellraw @a {"text": "Welcome to Weathered Worlds."}
 
 # Teams
 
-# Defiled Temple (initiate, Navigator)
+# Defiled Temple (Initiate, Navigator, Master)
 team add wtworlds.temple
 team modify wtworlds.temple nametagVisibility never
 

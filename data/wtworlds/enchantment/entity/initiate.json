@@ -13,13 +13,13 @@
     "max_level": 1,
     "min_cost":
     {
-        "base": 10,
-        "per_level_above_first": 25
+        "base": 0,
+        "per_level_above_first": 0
     },
     "max_cost":
     {
-        "base": 30,
-        "per_level_above_first": 25
+        "base": 0,
+        "per_level_above_first": 0
     },
     "anvil_cost": 8,
     "effects":
@@ -43,12 +43,6 @@
                 "id": "wtworlds:enchantment.entity.initiate",
                 "amount": 6,
                 "operation": "add_value"
-            },
-            {
-                "attribute": "scale",
-                "id": "wtworlds:enchantment.entity.initiate",
-                "amount": -0.125,
-                "operation": "add_multiplied_base"
             }
         ],
         "tick":
@@ -88,7 +82,10 @@
                             "entity": "this",
                             "scores":
                             {
-                                "wtworlds.initiate.fly": -1
+                                "wtworlds.initiate.fly":
+                                {
+                                    "min": 1
+                                }
                             }
                         }
                     }
@@ -167,6 +164,10 @@
                                 "base": 0,
                                 "movement_scale": -0.5
                             }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/face_target"
                         }
                     ]
                 }
@@ -194,7 +195,7 @@
                     "entity": "this",
                     "predicate":
                     {
-                        "periodic_tick": 24
+                        "periodic_tick": 18
                     }
                 },
                 "effect":

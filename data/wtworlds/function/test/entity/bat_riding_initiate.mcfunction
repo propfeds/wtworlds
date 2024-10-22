@@ -1,0 +1,2 @@
+summon minecraft:zombie ~ ~ ~ {Team: wtworlds.temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.initiate\"}", CustomNameVisible: false, ArmorItems: [{}, {}, {}, {id: leather_helmet, components:{enchantments:{"wtworlds:entity/initiate":1}}}], ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f], HandDropChances: [0.0f, 0.0f]}
+execute summon bat run ride @n[type=zombie, distance=..1] mount @s
