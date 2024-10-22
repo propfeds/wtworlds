@@ -27,6 +27,12 @@
         "attributes":
         [
             {
+                "attribute": "max_health",
+                "id": "wtworlds:enchantment.entity.initiate",
+                "amount": 5,
+                "operation": "add_value"
+            },
+            {
                 "attribute": "movement_speed",
                 "id": "wtworlds:enchantment.entity.initiate",
                 "amount": 0.07,
