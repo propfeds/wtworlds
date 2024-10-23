@@ -3,6 +3,11 @@
 Defiled Temple:
 - was something else, now rebuilt to worship the wither (storm)
 - mix between nether fortress and shaolin temple (impossible)
+- lore: long ago, it was a normal buddhism temple. then, they found power in immortality through the repeated use of withering, and started worshipping the wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple.
+- structure:
+  - yard: has willow trees and holes and cracks in yard
+  - back yard: has cows
+  - 
 - loot:
   - has blaze rod to enable weakness-brewing before nether
   - weapon room
@@ -12,6 +17,8 @@ Defiled Temple:
   - other tools and equipmen room
     - promise of protection (disable recipe)
     - promise of perpetuity?
+  - other storage:
+    - leather
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
   - Navigator? Seeker?: a practitioner that kicks
