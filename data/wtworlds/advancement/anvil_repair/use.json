@@ -27,12 +27,9 @@
                         "predicate":
                         {
                             "items": "brush",
-                            "predicates":
+                            "components":
                             {
-                                "custom_data":
-                                {
-                                    "can_repair_anvil": true
-                                }
+                                "item_model": "wtworlds:anvil_restoration_kit"
                             }
                         }
                     }
