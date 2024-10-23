@@ -1,0 +1,16 @@
+{
+    "fallback": "empty",
+    "elements":
+    [
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:test/nushu_square",
+                "projection": "rigid",
+                "processors": "empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "structures":
+    [
+        {
+            "structure": "wtworlds:nushu_square",
+            "weight": 1
+        }
+    ],
+    "placement":
+    {
+        "type": "random_spread",
+        "spacing": 5,
+        "separation": 2,
+        "salt": 1646207470
+    }
+}
