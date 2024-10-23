@@ -1,0 +1,40 @@
+{
+    "type": "generic",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "beetroot_soup",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:pointer",
+                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+                                "!food": {},
+                                "consumable":
+                                {
+                                    "consume_seconds": 107374182,
+                                    "animation": "spear",
+                                    "has_consume_particles": false
+                                },
+                                "use_remainder":
+                                {
+                                    "id": "stick",
+                                    "count": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

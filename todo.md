@@ -1,11 +1,10 @@
 # To-do List
 
 Defiled Temple:
-- was something else, now rebuilt to worship the wither (storm)
 - mix between nether fortress and shaolin temple (impossible)
 - lore: long ago, it was a normal buddhism temple. then, they found power in immortality through the repeated use of withering, and started worshipping the wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple.
 - structure:
-  - yard: has willow trees and holes and cracks in yard
+  - central yard: has willow trees and holes and cracks in yard
   - back yard: has cows
   - 
 - loot:
@@ -21,9 +20,12 @@ Defiled Temple:
     - leather
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
+    - Their weakness is the sun, as it breaks their helmets (therefore their AI)
   - Navigator? Seeker?: a practitioner that kicks
   - Performer?: a practitioner that fires rope darts or has sabres or chain whips or nunchucks?
     - drops chains to be farmed
+  - Gardener: tends to the backyard
+    - drops unenchanted trowel
   - Master: obsessed with milk
     - drops milk
 
