@@ -3,9 +3,9 @@
     "category": "equipment",
     "pattern":
     [
-        "g",
         "/",
-        "g"
+        "g",
+        "/"
     ],
     "key":
     {
@@ -20,7 +20,7 @@
         {
             "item_model": "wtworlds:staff",
             "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.staff\"}",
-            "minecraft:max_damage": 234,
+            "minecraft:max_damage": 210,
             "!tool": {},
             "minecraft:attribute_modifiers":
             {

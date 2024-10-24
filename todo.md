@@ -5,7 +5,7 @@ Defiled Temple:
 - generation:
   - windswept hills/forests (horizontal variant?) (maybe this could be reserved for abandoned refuges)
   - stony peaks (vertical variant?) (maybe this should be reserved for hermit homes) (although no passive mobs spawn on stoney peaks)
-- lore: long ago, it was a normal buddhism temple. then, they found power in immortality through the repeated use of withering, and started worshipping the wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple. now, the gardener tends to all within the temple, and will do anything to undo their curse.
+- lore: long ago, it was a normal buddhism temple. then, they found power in immortality through the repeated use of withering, and started worshipping the wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple. now, the gardeners tend to all within the temple, and will do anything to undo their curse.
 - structure:
   - gate
   - central yard: has willow trees and holes and cracks in yard
@@ -14,6 +14,7 @@ Defiled Temple:
   - living quarters (for concubines): has letters?
   - secret portal/lab
 - building palette:
+  - instead of the often used red in painted wood and shingles, this temple is highlighted with dashes of yellow and blue (mainly the lighting lmao). it is a cold biome structure though, so...
   - wood: spruce, oak
   - stone, andesite
   - fences for barricade
@@ -40,7 +41,7 @@ Defiled Temple:
     - drops unenchanted trowel
   - Master: obsessed with milk
     - drops milk
-  - 
+  - silverfish?
 
 think of ways to get leather
 
