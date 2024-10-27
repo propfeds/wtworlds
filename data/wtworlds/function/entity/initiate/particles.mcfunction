@@ -1,1 +1,1 @@
-particle dust_plume ~ ~ ~ 0.125 0 0.125 0.0625 6
+particle dust_plume ~ ~-0.25 ~ 0.125 0 0.125 0.0625 6

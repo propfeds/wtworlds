@@ -5,7 +5,7 @@ Defiled Temple:
 - generation:
   - windswept hills/forests (horizontal variant?) (maybe this could be reserved for abandoned refuges)
   - stony peaks (vertical variant?) (maybe this should be reserved for hermit homes) (although no passive mobs spawn on stoney peaks)
-- lore: long ago, it was a normal buddhism temple. then, they found power in immortality through the repeated use of withering, and started worshipping the wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple. now, the gardeners tend to all within the temple, and will do anything to undo their curse.
+- lore: The temple had long stood as a refuge for wayward souls seeking protection and guidance. But then one day, the newly elected leadership found power in immortality through the repeated use of withering, and started worshipping a figure, now only known as the Proto-wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple. now, the gardeners tend to all within the temple, while the exorcists will do anything to undo the temple's curse.
 - structure:
   - gate
   - central yard: has willow trees and holes and cracks in yard
@@ -34,14 +34,16 @@ Defiled Temple:
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
     - Their weakness is the sun, as it breaks their helmets (therefore their AI)
-  - Navigator? Seeker?: a practitioner that kicks
+  - Navigator? Seeker? Guide?: a practitioner that kicks
   - Performer?: a practitioner that fires rope darts or has willow sabres (knocks yourself back from the enemy when hitting) or chain whips (sweeping edge) or nunchucks (knockback)?
     - drops chains to be farmed
   - Gardener: tends to the backyard
     - drops unenchanted trowel
+    - can dig you a grave
   - Master: obsessed with milk
     - drops milk
-  - silverfish?
+  - Proto-blaze: Performer? Methodist/Exorcist?
+  - Proto-wither
 
 think of ways to get leather
 

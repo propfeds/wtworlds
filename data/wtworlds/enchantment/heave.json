@@ -62,8 +62,8 @@
                             "knockback_multiplier":
                             {
                                 "type": "linear",
-                                "base": 0.175,
-                                "per_level_above_first": 0.075
+                                "base": 0.1,
+                                "per_level_above_first": 0.05
                             },
                             "radius": 0.5,
                             "large_particle":
@@ -77,8 +77,22 @@
                             "sound": "block.bamboo.fall"
                         },
                         {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/heave/effect_slowness"
+                            "type": "apply_mob_effect",
+                            "to_apply": "levitation",
+                            "min_amplifier":
+                            {
+                                "type": "linear",
+                                "base": 0,
+                                "per_level_above_first": 1
+                            },
+                            "max_amplifier":
+                            {
+                                "type": "linear",
+                                "base": 0,
+                                "per_level_above_first": 1
+                            },
+                            "min_duration": 0.45,
+                            "max_duration": 0.45
                         },
                         {
                             "type": "run_function",

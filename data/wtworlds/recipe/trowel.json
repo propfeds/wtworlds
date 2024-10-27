@@ -29,7 +29,7 @@
             },
             "use_cooldown":
             {
-                "seconds": 0.3,
+                "seconds": 0.25,
                 "cooldown_group": "wtworlds:trowel"
             },
             "instrument": "wtworlds:trowel",
