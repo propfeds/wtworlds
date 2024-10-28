@@ -78,5 +78,5 @@ scoreboard objectives add wtworlds.rope_dart.frame dummy
 # Pierce count (has to be a score)
 scoreboard objectives add wtworlds.blade_dance.pierced dummy
 
-# initiate AI
+# Initiate AI
 scoreboard objectives add wtworlds.initiate.fly dummy

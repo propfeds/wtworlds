@@ -66,7 +66,7 @@
                     "type": "explode",
                     "attribute_to_user": true,
                     "block_interaction": "none",
-                    "knockback_multiplier": -0.45,
+                    "knockback_multiplier": -0.5,
                     "radius": 3,
                     "offset": [0.5, 0, 0],
                     "large_particle":
@@ -95,7 +95,7 @@
                     "type": "explode",
                     "attribute_to_user": true,
                     "block_interaction": "none",
-                    "knockback_multiplier": -0.45,
+                    "knockback_multiplier": -0.5,
                     "radius": 3,
                     "offset": [-0.5, 0, 0],
                     "large_particle":
@@ -124,7 +124,7 @@
                     "type": "explode",
                     "attribute_to_user": true,
                     "block_interaction": "none",
-                    "knockback_multiplier": -0.45,
+                    "knockback_multiplier": -0.5,
                     "radius": 3,
                     "offset": [0, 0.5, 0],
                     "large_particle":
@@ -153,7 +153,7 @@
                     "type": "explode",
                     "attribute_to_user": true,
                     "block_interaction": "none",
-                    "knockback_multiplier": -0.45,
+                    "knockback_multiplier": -0.5,
                     "radius": 3,
                     "offset": [0, -0.5, 0],
                     "large_particle":
@@ -182,7 +182,7 @@
                     "type": "explode",
                     "attribute_to_user": true,
                     "block_interaction": "none",
-                    "knockback_multiplier": -0.45,
+                    "knockback_multiplier": -0.5,
                     "radius": 3,
                     "offset": [0, 0, 0.5],
                     "large_particle":
@@ -211,7 +211,7 @@
                     "type": "explode",
                     "attribute_to_user": true,
                     "block_interaction": "none",
-                    "knockback_multiplier": -0.45,
+                    "knockback_multiplier": -0.5,
                     "radius": 3,
                     "offset": [0, 0, -0.5],
                     "large_particle":

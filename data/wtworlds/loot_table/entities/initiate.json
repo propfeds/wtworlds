@@ -1,0 +1,51 @@
+{
+    "type": "entity",
+    "random_sequence": "wtworlds:entities/initiate",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "entities/zombie"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "conditions":
+            [
+                {
+                    "condition": "random_chance_with_enchanted_bonus",
+                    "enchantment": "looting",
+                    "unenchanted_chance": 0.1,
+                    "enchanted_chance":
+                    {
+                        "type": "linear",
+                        "base": 0.12,
+                        "per_level_above_first": 0.02
+                    }
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "leather",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

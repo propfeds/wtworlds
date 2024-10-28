@@ -1,5 +1,8 @@
 # To-do List
 
+initiate:
+- test out loot table
+
 Defiled Temple:
 - mix between nether fortress and shaolin temple (impossible)
 - generation:
