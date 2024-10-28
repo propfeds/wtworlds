@@ -1,0 +1,40 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.burying"
+    },
+    "primary_items": "goat_horn",
+    "supported_items": "#wtworlds:enchantable/burying",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 45,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/burying/hit"
+                }
+            }
+        ]
+    }
+}

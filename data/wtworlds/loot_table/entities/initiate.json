@@ -46,6 +46,45 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "conditions":
+            [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "effects":
+                        {
+                            "levitation":
+                            {
+                                "amplifier":
+                                {
+                                    "min": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "feather",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": false
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

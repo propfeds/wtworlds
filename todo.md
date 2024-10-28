@@ -1,7 +1,14 @@
 # To-do List
 
-initiate:
-- test out loot table
+on descent:
+- draw texture
+
+gardener:
+- make hat with AI in it
+- finish AI implementation
+
+firecracker:
+- implement (summons armour stands with hats enchanted with explosion)
 
 Defiled Temple:
 - mix between nether fortress and shaolin temple (impossible)

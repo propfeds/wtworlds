@@ -1,5 +1,5 @@
 execute on target unless entity @s run return 0
-function wtworlds:entity/face_target
+function wtworlds:entity/face_target_eyes
 # Check if the target is above the initiate (wrong logic but please)
 execute unless score @s wtworlds.initiate.fly matches 1.. if entity @s[x_rotation=-30..90] run return 0
 

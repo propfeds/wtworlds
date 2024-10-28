@@ -1,0 +1,36 @@
+{
+    "type": "generic",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "beetroot_soup",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:music_disc_on_descent",
+                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.music_disc_on_descent\"}",
+                                "rarity": "uncommon",
+                                "!food": {},
+                                "!consumable": {},
+                                "jukebox_playable":
+                                {
+                                    "song": "wtworlds:on_descent",
+                                    "show_in_tooltip": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

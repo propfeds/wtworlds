@@ -1,0 +1,12 @@
+{
+    "description":
+    {
+        "translate": "jukebox_song.wtworlds.on_descent"
+    },
+    "sound_event":
+    {
+        "sound_id": "wtworlds:music_disc.on_descent"
+    },
+    "comparator_output": 7,
+    "length_in_seconds": 137
+}
