@@ -1,0 +1,99 @@
+{
+    "type": "entity",
+    "random_sequence": "wtworlds:entities/gardener",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "bone",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "enchanted_count_increase",
+                            "enchantment": "looting",
+                            "count":
+                            {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "wheat",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "enchanted_count_increase",
+                            "enchantment": "looting",
+                            "count":
+                            {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:item/trowel_unenchanted",
+                    "conditions":
+                    [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_enchanted_bonus",
+                            "enchantment": "looting",
+                            "unenchanted_chance": 0.08,
+                            "enchanted_chance":
+                            {
+                                "type": "linear",
+                                "base": 0.09,
+                                "per_level_above_first": 0.01
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

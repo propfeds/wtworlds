@@ -1,7 +1,6 @@
 # To-do List
 
 gardener:
-- make hat with AI in it
 - finish AI implementation
 
 firecracker:
