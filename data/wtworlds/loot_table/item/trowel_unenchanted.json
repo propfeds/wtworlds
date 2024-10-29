@@ -18,7 +18,7 @@
                             {
                                 "item_model": "wtworlds:trowel",
                                 "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.trowel\"}",
-                                "rarity": "common",
+                                "rarity": "uncommon",
                                 "damage": 0,
                                 "max_damage": 156,
                                 "repairable":
