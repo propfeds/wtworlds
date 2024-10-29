@@ -1,8 +1,5 @@
 # To-do List
 
-on descent:
-- draw texture
-
 gardener:
 - make hat with AI in it
 - finish AI implementation
