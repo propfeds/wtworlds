@@ -1,0 +1,67 @@
+{
+    "type": "chest",
+    "random_sequence": "wtworlds:chests/defiled_temple/bedroom",
+    "pools":
+    [
+        {
+            "rolls":
+            {
+                "min": 6,
+                "max": 8
+            },
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "emerald",
+                    "weight": 6,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 3,
+                                "max": 6
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "gold_ingot",
+                    "weight": 6,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 3,
+                                "max": 5
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "enchanted_book",
+                    "weight": 1,
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:heave": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

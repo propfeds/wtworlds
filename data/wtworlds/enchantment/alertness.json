@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.alertness"
     },
-    "supported_items": "beetroot_soup",
+    "supported_items": "#minecraft:enchantable/head_armor",
     "slots":
     [
         "any"

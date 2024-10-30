@@ -47,7 +47,7 @@
             {
                 "attribute": "safe_fall_distance",
                 "id": "wtworlds:enchantment.entity.initiate",
-                "amount": 6,
+                "amount": 5,
                 "operation": "add_value"
             }
         ],
