@@ -7,7 +7,7 @@
             "rolls":
             {
                 "min": 6,
-                "max": 8
+                "max": 9
             },
             "bonus_rolls": 0,
             "entries":
@@ -39,10 +39,64 @@
                             "function": "set_count",
                             "count":
                             {
-                                "min": 3,
-                                "max": 5
+                                "min": 2,
+                                "max": 4
                             },
                             "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "candle",
+                    "weight": 3,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 6,
+                                "max": 9
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "book",
+                    "weight": 3,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "blaze_rod",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "enchanted_book",
+                    "weight": 1,
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:heave": 1
+                            }
                         }
                     ]
                 },
@@ -56,7 +110,26 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:heave": 1
+                                "wtworlds:affinity": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "enchanted_book",
+                    "weight": 1,
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:finishing":
+                                {
+                                    "min": 3,
+                                    "max": 4
+                                }
                             }
                         }
                     ]

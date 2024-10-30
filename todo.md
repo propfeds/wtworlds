@@ -1,5 +1,8 @@
 # To-do List
 
+temple:
+- lore: where do they get wax for candles
+
 gardener:
 - finish AI implementation
 
