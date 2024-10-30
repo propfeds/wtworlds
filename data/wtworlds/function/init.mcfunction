@@ -3,8 +3,8 @@ tellraw @a {"text": "Welcome to Weathered Worlds."}
 # Teams
 
 # Defiled Temple (Initiate, Navigator, Master)
-team add wtworlds.temple
-team modify wtworlds.temple nametagVisibility never
+team add wtworlds.defiled_temple
+team modify wtworlds.defiled_temple nametagVisibility never
 
 # Scoreboards
 

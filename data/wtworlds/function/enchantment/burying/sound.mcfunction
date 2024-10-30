@@ -1,0 +1,1 @@
+playsound wtworlds:enchant.burying.hit hostile @a

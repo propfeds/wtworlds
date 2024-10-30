@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.entity.initiate"
+        "translate": "entity.wtworlds.initiate"
     },
     "primary_items": "#minecraft:enchantable/head_armor",
     "supported_items": "#minecraft:enchantable/armor",

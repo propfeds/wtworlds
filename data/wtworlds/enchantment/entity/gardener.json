@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.entity.gardener"
+        "translate": "entity.wtworlds.gardener"
     },
     "primary_items": "#minecraft:enchantable/head_armor",
     "supported_items": "#minecraft:enchantable/armor",
@@ -24,6 +24,15 @@
     "anvil_cost": 8,
     "effects":
     {
+        "attributes":
+        [
+            {
+                "attribute": "movement_speed",
+                "id": "wtworlds:enchantment.entity.gardener",
+                "amount": -0.025,
+                "operation": "add_value"
+            }
+        ],
         "tick":
         [
             {

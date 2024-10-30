@@ -1,6 +1,7 @@
 # To-do List
 
 temple:
+- processors: turn stone into cobble
 - lore: where do they get wax for candles
 
 gardener:
@@ -131,6 +132,12 @@ promises
 - intimacy: drain dur to heal allies and self, replenish by trading XP
 - return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
 - perpetuity: resists poison, harming and wither
+
+item reference:
+- beetroot soup: used for headgear
+- mushroom stew:
+- suspicious stew: (remember to get rid of effects component)
+- poisonous potato: used for pointer, music disc
 
 pitch reference:
 - -12: 0.5

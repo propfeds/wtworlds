@@ -31,8 +31,18 @@
                 "affected": "victim",
                 "effect":
                 {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/burying/hit"
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/burying/hit"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/burying/sound"
+                        }
+                    ]
                 }
             }
         ]

@@ -11,7 +11,7 @@
                 {
                     "mainhand":
                     {
-                        "items": "rabbit_stew",
+                        "items": "poisonous_potato",
                         "components":
                         {
                             "item_model": "wtworlds:pointer"
@@ -29,7 +29,7 @@
                 {
                     "offhand":
                     {
-                        "items": "rabbit_stew",
+                        "items": "poisonous_potato",
                         "components":
                         {
                             "item_model": "wtworlds:pointer"
