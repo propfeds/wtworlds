@@ -1,1 +1,0 @@
-execute if score @s wtworlds.whirlpool.frame matches -2147483648..2147483647 run scoreboard players add marker wtworlds.tally 1
