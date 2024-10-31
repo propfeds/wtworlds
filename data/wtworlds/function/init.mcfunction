@@ -2,18 +2,16 @@ tellraw @a {"text": "Welcome to Weathered Worlds."}
 
 # Teams
 
-# Defiled Temple (Initiate, Navigator, Master)
+## Defiled Temple (Initiate, Navigator, Master)
 team add wtworlds.defiled_temple
 team modify wtworlds.defiled_temple nametagVisibility never
 
 # Scoreboards
 
-scoreboard objectives add test dummy
-
+# Constants
 scoreboard objectives add wtworlds.const dummy
-
+# Tally (entity ticking) system
 scoreboard objectives add wtworlds.tally dummy
-# schedule function wtworlds:tally/load 1t replace
 
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
@@ -41,7 +39,7 @@ scoreboard objectives add wtworlds.whirlpool.y+ dummy
 scoreboard objectives add wtworlds.whirlpool.y- dummy
 scoreboard objectives add wtworlds.whirlpool.z+ dummy
 scoreboard objectives add wtworlds.whirlpool.z- dummy
-# Particle markers (uses tally)
+# Whirlpool particle markers
 scoreboard objectives add wtworlds.whirlpool.raining dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
 
@@ -50,7 +48,7 @@ scoreboard objectives add wtworlds.motion.x dummy
 scoreboard objectives add wtworlds.motion.y dummy
 scoreboard objectives add wtworlds.motion.z dummy
 
-# Raycasting (please don't use this 'channel' for continuous applications)
+# Raycasting (don't use this 'channel' for continuous applications)
 scoreboard objectives add wtworlds.raycast dummy
 
 # Anvil durability loss
@@ -61,12 +59,6 @@ scoreboard objectives add wtworlds.pointer.impulse dummy
 scoreboard objectives add wtworlds.pointer.frame dummy
 scoreboard players set pointer.raycast_range wtworlds.const 80
 scoreboard players set pointer.entity_raycast_start wtworlds.const 6
-
-# Firecracker
-scoreboard objectives add wtworlds.firecracker dummy
-
-# Navigator
-# scoreboard objectives add wtworlds.navigator dummy
 
 # Climbing
 scoreboard objectives add wtworlds.climbing dummy

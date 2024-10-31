@@ -23,7 +23,7 @@
                         },
                         {
                             "id": "movement_speed",
-                            "base": 0.3
+                            "base": 0.28
                         },
                         {
                             "id": "gravity",
