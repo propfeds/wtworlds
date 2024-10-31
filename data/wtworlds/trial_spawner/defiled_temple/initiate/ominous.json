@@ -1,0 +1,57 @@
+{
+    "loot_tables_to_eject":
+    [
+        {
+            "data": "minecraft:spawners/ominous/trial_chamber/key",
+            "weight": 3
+        },
+        {
+            "data": "minecraft:spawners/ominous/trial_chamber/consumables",
+            "weight": 7
+        }
+    ],
+    "simultaneous_mobs": 3,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "ticks_between_spawn": 20,
+    "spawn_potentials":
+    [
+        {
+            "weight": 1,
+            "data":
+            {
+                "entity":
+                {
+                    "id": "zombie",
+                    "Team": "wtworlds.defiled_temple",
+                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.initiate\"}",
+                    "CustomNameVisible": false,
+                    "DeathLootTable": "wtworlds:entities/initiate",
+                    "attributes":
+                    [
+                        {
+                            "id": "armor",
+                            "base": 6
+                        },
+                        {
+                            "id": "movement_speed",
+                            "base": 0.3
+                        },
+                        {
+                            "id": "gravity",
+                            "base": 0.06
+                        },
+                        {
+                            "id": "safe_fall_distance",
+                            "base": 8
+                        }
+                    ]
+                },
+                "equipment":
+                {
+                    "loot_table": "wtworlds:equipment/initiate/ominous",
+                    "slot_drop_chances": 0
+                }
+            }
+        }
+    ]
+}

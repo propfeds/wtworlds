@@ -29,7 +29,7 @@
             {
                 "attribute": "movement_speed",
                 "id": "wtworlds:enchantment.entity.gardener",
-                "amount": -0.025,
+                "amount": -0.02,
                 "operation": "add_value"
             }
         ],

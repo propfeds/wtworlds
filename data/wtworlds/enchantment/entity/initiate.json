@@ -24,33 +24,6 @@
     "anvil_cost": 8,
     "effects":
     {
-        "attributes":
-        [
-            {
-                "attribute": "max_health",
-                "id": "wtworlds:enchantment.entity.initiate",
-                "amount": 5,
-                "operation": "add_value"
-            },
-            {
-                "attribute": "movement_speed",
-                "id": "wtworlds:enchantment.entity.initiate",
-                "amount": 0.07,
-                "operation": "add_value"
-            },
-            {
-                "attribute": "gravity",
-                "id": "wtworlds:enchantment.entity.initiate",
-                "amount": -0.25,
-                "operation": "add_multiplied_base"
-            },
-            {
-                "attribute": "safe_fall_distance",
-                "id": "wtworlds:enchantment.entity.initiate",
-                "amount": 5,
-                "operation": "add_value"
-            }
-        ],
         "tick":
         [
             {

@@ -1,0 +1,130 @@
+{
+    "type": "equipment",
+    "random_sequence": "wtworlds:equipment/initiate/ominous",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/head",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/initiate": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "sentry",
+                                    "material": "redstone"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": -0.7,
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/legs",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "sentry",
+                                    "material": "iron"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/feet",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "wooden_sword",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:vampirism": 1
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
