@@ -72,7 +72,7 @@
                             },
                             "small_particle":
                             {
-                                "type": "small_gust"
+                                "type": "gust"
                             },
                             "sound": "block.bamboo.fall"
                         },
@@ -115,7 +115,7 @@
                             "vertical_position":
                             {
                                 "type": "entity_position",
-                                "offset": 0.875
+                                "offset": 1
                             },
                             "vertical_velocity":
                             {
@@ -140,7 +140,7 @@
                             "vertical_position":
                             {
                                 "type": "entity_position",
-                                "offset": 1.125
+                                "offset": 1.25
                             },
                             "vertical_velocity":
                             {
