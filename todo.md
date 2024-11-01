@@ -9,12 +9,12 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
-- processors: turn stone into cobble
+- processors: turn stone into cobble, stripped log into planks
 - lore: where do they get wax for candles
 - ferns in garden, lotus pools
 
-gardener:
-- test out the trial spawner
+treasurer:
+- make
 
 firecracker:
 - implement (summons armour stands with hats enchanted with explosion)

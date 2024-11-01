@@ -49,26 +49,6 @@
             [
                 {
                     "type": "item",
-                    "name": "poppy"
-                },
-                {
-                    "type": "item",
-                    "name": "dandelion"
-                },
-                {
-                    "type": "item",
-                    "name": "flower_pot"
-                },
-                {
-                    "type": "item",
-                    "name": "fern"
-                },
-                {
-                    "type": "item",
-                    "name": "vine"
-                },
-                {
-                    "type": "item",
                     "name": "dead_bush"
                 }
             ]
