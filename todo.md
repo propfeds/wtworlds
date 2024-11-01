@@ -16,6 +16,7 @@ gardener:
 
 firecracker:
 - implement (summons armour stands with hats enchanted with explosion)
+- add score instead of tag (to denote lifetime)
 
 Defiled Temple:
 - mix between nether fortress and shaolin temple (impossible)

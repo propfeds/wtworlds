@@ -24,15 +24,6 @@
     "anvil_cost": 8,
     "effects":
     {
-        "attributes":
-        [
-            {
-                "attribute": "movement_speed",
-                "id": "wtworlds:enchantment.entity.gardener",
-                "amount": -0.02,
-                "operation": "add_value"
-            }
-        ],
         "tick":
         [
             {
