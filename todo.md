@@ -1,11 +1,18 @@
 # To-do List
 
+before release:
+- trailer
+- post other stuff on curse forge
+- tutorial (advancements)
+
 temple:
 - processors: turn stone into cobble
 - lore: where do they get wax for candles
+- ferns in garden, lotus pools
 
 gardener:
 - finish AI implementation
+- remember to nerf their trowel damage to 0
 
 firecracker:
 - implement (summons armour stands with hats enchanted with explosion)

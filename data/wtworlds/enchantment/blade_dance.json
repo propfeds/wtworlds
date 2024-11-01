@@ -70,23 +70,6 @@
         [
             {
                 "enchanted": "attacker",
-                "affected": "damaging_entity",
-                "requirements":
-                {
-                    "condition": "minecraft:damage_source_properties",
-                    "predicate":
-                    {
-                        "is_direct": false
-                    }
-                },
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/blade_dance/hit_entity"
-                }
-            },
-            {
-                "enchanted": "attacker",
                 "affected": "attacker",
                 "effect":
                 {

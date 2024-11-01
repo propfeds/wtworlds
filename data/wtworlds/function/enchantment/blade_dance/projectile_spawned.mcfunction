@@ -1,7 +1,7 @@
 data modify entity @s crit set value 1b
 tag @s add wtworlds.blade_dance
 
-schedule function wtworlds:tally/arrow 1 replace
+schedule function wtworlds:tally/arrow/tick 1 replace
 
 # If the user is already riding something like a horse, don't run the next block
 # execute on origin on vehicle if entity @s run return 0
