@@ -48,195 +48,6 @@
                                 {
                                     "flags":
                                     {
-                                        "is_sneaking": true
-                                    }
-                                }
-                            },
-                            {
-                                "condition": "entity_properties",
-                                "entity": "this",
-                                "predicate":
-                                {
-                                    "type_specific":
-                                    {
-                                        "type": "player",
-                                        "input":
-                                        {
-                                            "sneak": true
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "condition": "entity_properties",
-                        "entity": "this",
-                        "predicate":
-                        {
-                            "distance":
-                            {
-                                "horizontal":
-                                {
-                                    "max": 1
-                                },
-                                "y":
-                                {
-                                    "max": 1
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "inverted",
-                        "term":
-                        {
-                            "condition": "entity_scores",
-                            "entity": "this",
-                            "scores":
-                            {
-                                "wtworlds.vault.cooldown":
-                                {
-                                    "min": 1
-                                }
-                            }
-                        }
-                    }
-                ],
-                "effect":
-                {
-                    "type": "all_of",
-                    "effects":
-                    [
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/init_cooldown"
-                        },
-                        {
-                            "type": "change_item_damage",
-                            "amount": 1
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "trigger",
-                            "knockback_multiplier": 0,
-                            "radius": 0.5,
-                            "offset": [0, 0.5, 0],
-                            "large_particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "small_particle":
-                            {
-                                "type": "gust"
-                            },
-                            "sound": "block.bamboo.fall"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
-                            "radius": 1,
-                            "offset": [0, 0.5, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1,
-                            "offset": [0.5, 0.5, 0.5],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1,
-                            "offset": [-0.5, 0.5, -0.5],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1,
-                            "offset": [-0.5, 0.5, 0.5],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1,
-                            "offset": [0.5, 0.5, -0.5],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/sound"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/particles"
-                        }
-                    ]
-                }
-            },
-            {
-                "requirements":
-                [
-                    {
-                        "condition": "any_of",
-                        "terms":
-                        [
-                            {
-                                "condition": "entity_properties",
-                                "entity": "this",
-                                "predicate":
-                                {
-                                    "flags":
-                                    {
                                         "is_on_ground": false
                                     }
                                 }
@@ -309,7 +120,7 @@
                             "type": "explode",
                             "block_interaction": "trigger",
                             "knockback_multiplier": 0,
-                            "radius": 0.5,
+                            "radius": 0.75,
                             "offset": [0, 0.5, 0],
                             "large_particle":
                             {
@@ -340,9 +151,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
+                            "knockback_multiplier": 0.3,
                             "radius": 1.5,
-                            "offset": [1, 0.75, 1],
+                            "offset": [1, 1.5, 1],
                             "large_particle":
                             {
                                 "type": "explosion"
@@ -356,9 +167,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
+                            "knockback_multiplier": 0.3,
                             "radius": 1.5,
-                            "offset": [-1, 0.75, -1],
+                            "offset": [-1, 1.5, -1],
                             "large_particle":
                             {
                                 "type": "explosion"
@@ -372,9 +183,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
+                            "knockback_multiplier": 0.3,
                             "radius": 1.5,
-                            "offset": [-1, 0.75, 1],
+                            "offset": [-1, 1.5, 1],
                             "large_particle":
                             {
                                 "type": "explosion"
@@ -388,9 +199,9 @@
                         {
                             "type": "explode",
                             "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
+                            "knockback_multiplier": 0.3,
                             "radius": 1.5,
-                            "offset": [1, 0.75, -1],
+                            "offset": [1, 1.5, -1],
                             "large_particle":
                             {
                                 "type": "explosion"
