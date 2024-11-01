@@ -1,0 +1,125 @@
+{
+    "type": "equipment",
+    "random_sequence": "wtworlds:equipment/gardener/ominous",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/head",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/gardener": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "sentry",
+                                    "material": "redstone"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/chest",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "sentry",
+                                    "material": "iron"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/legs",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "sentry",
+                                    "material": "iron"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:item/gardener_trowel"
+                }
+            ]
+        }
+    ]
+}

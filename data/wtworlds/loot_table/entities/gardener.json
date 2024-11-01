@@ -38,32 +38,38 @@
         {
             "rolls": 1,
             "bonus_rolls": 0,
+            "conditions":
+            [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.25
+                }
+            ],
             "entries":
             [
                 {
                     "type": "item",
-                    "name": "poppy",
-                    "functions":
-                    [
-                        {
-                            "function": "set_count",
-                            "count":
-                            {
-                                "min": 0,
-                                "max": 2
-                            },
-                            "add": false
-                        },
-                        {
-                            "function": "enchanted_count_increase",
-                            "enchantment": "looting",
-                            "count":
-                            {
-                                "min": 0,
-                                "max": 1
-                            }
-                        }
-                    ]
+                    "name": "poppy"
+                },
+                {
+                    "type": "item",
+                    "name": "dandelion"
+                },
+                {
+                    "type": "item",
+                    "name": "flower_pot"
+                },
+                {
+                    "type": "item",
+                    "name": "fern"
+                },
+                {
+                    "type": "item",
+                    "name": "vine"
+                },
+                {
+                    "type": "item",
+                    "name": "dead_bush"
                 }
             ]
         },
@@ -74,7 +80,7 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:item/trowel_unenchanted",
+                    "value": "wtworlds:item/unenchanted_trowel",
                     "conditions":
                     [
                         {
