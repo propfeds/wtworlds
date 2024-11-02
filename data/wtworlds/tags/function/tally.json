@@ -1,0 +1,8 @@
+{
+    "values":
+    [
+        "wtworlds:tally/arrow/tick",
+        "wtworlds:tally/firework_rocket/tick",
+        "wtworlds:tally/marker/tick"
+    ]
+}

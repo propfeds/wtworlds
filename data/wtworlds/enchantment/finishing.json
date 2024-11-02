@@ -208,6 +208,15 @@
                         "per_level_above_first": 0.5
                     }
                 }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/finishing/clear_missing_health"
+                }
             }
         ]
     }

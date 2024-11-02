@@ -9,7 +9,8 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
-- processors: turn stone into cobble, stripped log into planks
+- processors: turn stone into cobble, stripped log into planks, polished andesite to unpolished, fence to air, dirt into coarse?
+- 
 - lore: where do they get wax for candles
 - ferns in garden, lotus pools
 
@@ -21,7 +22,7 @@ firecracker:
 - add score instead of tag (to denote lifetime)
 
 Defiled Temple:
-- mix between nether fortress and shaolin temple (impossible)
+- mix between nether fortress and buddhist temple (impossible)
 - generation:
   - windswept hills/forests (horizontal variant?) (maybe this could be reserved for abandoned refuges)
   - stony peaks (vertical variant?) (maybe this should be reserved for hermit homes) (although no passive mobs spawn on stoney peaks)
