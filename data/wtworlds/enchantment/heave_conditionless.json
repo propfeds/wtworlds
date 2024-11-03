@@ -9,7 +9,7 @@
         "mainhand"
     ],
     "weight": 2,
-    "max_level": 1,
+    "max_level": 2,
     "min_cost":
     {
         "base": 25,
@@ -23,6 +23,16 @@
     "anvil_cost": 4,
     "effects":
     {
+        "knockback":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value": -1
+                }
+            }
+        ],
         "post_attack":
         [
             {

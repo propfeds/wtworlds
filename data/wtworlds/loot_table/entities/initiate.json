@@ -5,7 +5,6 @@
     [
         {
             "rolls": 1,
-            "bonus_rolls": 0,
             "entries":
             [
                 {
@@ -16,7 +15,6 @@
         },
         {
             "rolls": 1,
-            "bonus_rolls": 0,
             "conditions":
             [
                 {
@@ -49,7 +47,6 @@
         },
         {
             "rolls": 1,
-            "bonus_rolls": 0,
             "conditions":
             [
                 {

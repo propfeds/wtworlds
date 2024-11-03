@@ -1,0 +1,27 @@
+{
+    "type": "entity",
+    "random_sequence": "wtworlds:entities/treasurer",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "entities/wither_skeleton"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "milk_bucket"
+                }
+            ]
+        }
+    ]
+}
