@@ -405,13 +405,53 @@
                 ],
                 "effect":
                 {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/whirlpool/tag_raining"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "any_of",
+                    "terms":
+                    [
+                        {
+                            "condition": "all_of",
+                            "terms":
+                            [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores":
+                                    {
+                                        "wtworlds.whirlpool.raining": 1
+                                    }
+                                },
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate":
+                                    {
+                                        "type": "#impact_projectiles"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate":
+                            {
+                                "type": "trident"
+                            }
+                        }
+                    ]
+                },
+                "effect":
+                {
                     "type": "all_of",
                     "effects":
                     [
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/whirlpool/tag_raining"
-                        },
                         {
                             "type": "explode",
                             "damage_type": "wtworlds:whirlpool",
@@ -429,6 +469,10 @@
                                 "type": "bubble"
                             },
                             "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/effect_slowness"
                         },
                         {
                             "type": "run_function",
@@ -533,10 +577,6 @@
                                 "type": "bubble"
                             },
                             "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/whirlpool/effect_slowness"
                         },
                         {
                             "type": "run_function",
