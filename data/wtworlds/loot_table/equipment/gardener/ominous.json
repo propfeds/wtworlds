@@ -117,7 +117,18 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:item/gardener_trowel"
+                    "value": "wtworlds:item/unenchanted_trowel",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:burying": 1
+                            },
+                            "add": true
+                        }
+                    ]
                 }
             ]
         }

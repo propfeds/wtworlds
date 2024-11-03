@@ -14,7 +14,14 @@
                     "Team": "wtworlds.defiled_temple",
                     "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.gardener\"}",
                     "CustomNameVisible": false,
-                    "DeathLootTable": "wtworlds:entities/gardener"
+                    "DeathLootTable": "wtworlds:entities/gardener",
+                    "attributes":
+                    [
+                        {
+                            "id": "attack_damage",
+                            "base": 1
+                        }
+                    ]
                 },
                 "equipment":
                 {

@@ -10,7 +10,7 @@ trial spawners:
 
 temple:
 - processors: turn stone into cobble, stripped log into planks, polished andesite to unpolished, fence to air, dirt into coarse?
-- 
+- gate: add planks to barricade
 - lore: where do they get wax for candles
 - ferns in garden, lotus pools
 

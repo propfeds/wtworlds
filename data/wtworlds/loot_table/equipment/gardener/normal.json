@@ -54,7 +54,7 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:item/gardener_trowel"
+                    "value": "wtworlds:item/unenchanted_trowel"
                 }
             ]
         }
