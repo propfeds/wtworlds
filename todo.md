@@ -12,7 +12,10 @@ temple:
 - processors: turn stone into cobble, stripped log into planks, polished andesite to unpolished, fence to air, dirt into coarse?
 - gate: add planks to barricade
 - lore: where do they get wax for candles
-- ferns in garden, lotus pools
+- how to link front and back yard
+- ferns in garden, lotus pools that are frozen
+- decorate paintings
+- water wells like the nether fortress lava wells but frozen into ice
 
 treasurer:
 - make

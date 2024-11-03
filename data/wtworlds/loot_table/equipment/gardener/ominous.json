@@ -55,17 +55,6 @@
                     "functions":
                     [
                         {
-                            "function": "set_components",
-                            "components":
-                            {
-                                "trim":
-                                {
-                                    "pattern": "sentry",
-                                    "material": "iron"
-                                }
-                            }
-                        },
-                        {
                             "function": "set_enchantments",
                             "enchantments":
                             {
@@ -127,6 +116,13 @@
                                 "wtworlds:burying": 1
                             },
                             "add": true
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:trowel_burying"
+                            }
                         }
                     ]
                 }
