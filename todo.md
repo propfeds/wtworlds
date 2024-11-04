@@ -18,15 +18,6 @@ temple:
 - water wells like the nether fortress lava wells but frozen into ice
 
 treasurer:
-- splashes player with milk when the player has positive buffs
-  - `countup` condition: target is within about 4 or 5 blocks, has a positive buff that lasts longer than 30s (be careful with ticks)?
-  - `countup` until it is thrown at 3 (don't check for distance), before `countup` is equal to 1 don't have him hold bucket of milk
-    - throwing and splashing sounds and hit sounds
-    - white splash potion ridden by milk bucket item display?
-    - armour stand holding milk bucket and enchantment that kills when is on ground or touches a target?
-    - rotate to face target's feet or eyes and execute at self eyes to throw
-    - after throwing, assign cooldown (negative value) to `countup`
-- pathfinds towards milk to set `countup` to 2 immediately
 - ~~laser eyes~~ please don't make him like homelander
 
 firecracker:

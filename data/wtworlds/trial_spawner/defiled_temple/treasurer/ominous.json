@@ -1,0 +1,58 @@
+{
+    "loot_tables_to_eject":
+    [
+        {
+            "data": "minecraft:spawners/ominous/trial_chamber/key",
+            "weight": 3
+        },
+        {
+            "data": "minecraft:spawners/ominous/trial_chamber/consumables",
+            "weight": 7
+        }
+    ],
+    "total_mobs": 3,
+    "total_mobs_added_per_player": 1,
+    "simultaneous_mobs": 2,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "ticks_between_spawn": 40,
+    "spawn_potentials":
+    [
+        {
+            "weight": 1,
+            "data":
+            {
+                "entity":
+                {
+                    "id": "wither_skeleton",
+                    "Team": "wtworlds.defiled_temple",
+                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.treasurer\"}",
+                    "CustomNameVisible": false,
+                    "DeathLootTable": "wtworlds:entities/treasurer",
+                    "attributes":
+                    [
+                        {
+                            "id": "max_health",
+                            "base": 40
+                        }
+                    ],
+                    "Health": 40,
+                    "active_effects":
+                    [
+                        {
+                            "id": "wither",
+                            "ambient": false,
+                            "amplifier": 0,
+                            "duration": -1,
+                            "show_particles": true
+                        }
+                    ]
+                },
+                "equipment":
+                {
+                    "loot_table": "wtworlds:equipment/treasurer/ominous",
+                    "slot_drop_chances": 0
+                }
+            }
+        }
+    ]
+}

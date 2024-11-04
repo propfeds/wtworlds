@@ -22,7 +22,11 @@
                         },
                         {
                             "function": "set_damage",
-                            "damage": -0.85,
+                            "damage":
+                            {
+                                "max": -0.8,
+                                "min": -0.9
+                            },
                             "add": true
                         }
                     ]

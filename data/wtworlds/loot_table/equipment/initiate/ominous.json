@@ -41,7 +41,11 @@
                         },
                         {
                             "function": "set_damage",
-                            "damage": -0.7,
+                            "damage":
+                            {
+                                "max": -0.7,
+                                "min": -0.8
+                            },
                             "add": true
                         }
                     ]

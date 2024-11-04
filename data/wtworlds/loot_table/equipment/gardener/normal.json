@@ -1,6 +1,5 @@
 {
     "type": "equipment",
-    "random_sequence": "wtworlds:equipment/gardener/normal",
     "pools":
     [
         {
