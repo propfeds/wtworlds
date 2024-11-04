@@ -18,7 +18,16 @@ temple:
 - water wells like the nether fortress lava wells but frozen into ice
 
 treasurer:
-- make
+- splashes player with milk when the player has positive buffs
+  - `countup` condition: target is within about 4 or 5 blocks, has a positive buff that lasts longer than 30s (be careful with ticks)?
+  - `countup` until it is thrown at 3 (don't check for distance), before `countup` is equal to 1 don't have him hold bucket of milk
+    - throwing and splashing sounds and hit sounds
+    - white splash potion ridden by milk bucket item display?
+    - armour stand holding milk bucket and enchantment that kills when is on ground or touches a target?
+    - rotate to face target's feet or eyes and execute at self eyes to throw
+    - after throwing, assign cooldown (negative value) to `countup`
+- pathfinds towards milk to set `countup` to 2 immediately
+- ~~laser eyes~~ please don't make him like homelander
 
 firecracker:
 - implement (summons armour stands with hats enchanted with explosion)
@@ -64,15 +73,10 @@ Defiled Temple:
   - Gardener: tends to the backyard
     - drops unenchanted trowel
     - can dig you a grave
-  - Master: obsessed with milk
+  - Treasurer: obsessed with milk
     - drops milk
   - Proto-blaze: Performer? Methodist/Exorcist?
-  - Proto-wither
-
-think of ways to get leather
-
-initiate:
-- vampirism? bandages?
+  - Proto-wither: the Contact?
 
 custom shears
 - cut hair to form wigs xd
@@ -91,15 +95,11 @@ rework deflecting
 
 bug: deflecting doesn't detect crawling in trapdoor
 
-try making a fake spear (hoe???)
-
-obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)
-
 enemies:
 - cave spider centipede
 - dragonfly (bees?)
 
-wisteria and willow trees
+wisteria trees
 
 paintbrush (brush):
 - store experience (mending)
@@ -139,6 +139,10 @@ hermit homes:
 - whirlpool crossbow
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
+jungle crypts
+- based on champa stuff?
+- drowned, bogged
+
 promises
 - don't make them craftable, instead put them in village loot chests or trades
 - providence: provide building bonuses?
@@ -151,7 +155,7 @@ item reference:
 - beetroot soup: used for headgear
 - mushroom stew:
 - suspicious stew: (remember to get rid of effects component)
-- poisonous potato: used for pointer, music disc
+- poisonous potato: used for pointer
 
 pitch reference:
 - -12: 0.5

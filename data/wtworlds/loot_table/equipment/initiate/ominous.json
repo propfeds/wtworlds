@@ -114,7 +114,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:vampirism": 1
+                                "wtworlds:entity/initiate/vampirism": 1
                             },
                             "add": true
                         }

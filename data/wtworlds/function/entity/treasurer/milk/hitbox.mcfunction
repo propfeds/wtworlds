@@ -1,0 +1,1 @@
+execute positioned ~-0.25 ~ ~-0.25 as @e[dx=0, team=!wtworlds.defiled_temple] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run return run damage @s 2 mob_attack at ~0.75 ~0.5 ~0.75

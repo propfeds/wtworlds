@@ -15,6 +15,23 @@
         },
         {
             "rolls": 1,
+            "conditions":
+            [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "equipment":
+                        {
+                            "offhand":
+                            {
+                                "items": "milk_bucket"
+                            }
+                        }
+                    }
+                }
+            ],
             "entries":
             [
                 {

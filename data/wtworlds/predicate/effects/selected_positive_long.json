@@ -1,0 +1,193 @@
+{
+    "condition": "any_of",
+    "terms":
+    [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "speed":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "haste":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "strength":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "jump_boost":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "regeneration":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "resistance":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "fire_resistance":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "invisibility":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "absorption":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "luck":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":
+            {
+                "effects":
+                {
+                    "slow_falling":
+                    {
+                        "duration":
+                        {
+                            "min": 600
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

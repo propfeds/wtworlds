@@ -43,6 +43,11 @@ scoreboard objectives add wtworlds.whirlpool.z- dummy
 scoreboard objectives add wtworlds.whirlpool.raining dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
 
+# Position
+scoreboard objectives add wtworlds.pos.x dummy
+scoreboard objectives add wtworlds.pos.y dummy
+scoreboard objectives add wtworlds.pos.z dummy
+
 # Motion
 scoreboard objectives add wtworlds.motion.x dummy
 scoreboard objectives add wtworlds.motion.y dummy
@@ -70,3 +75,9 @@ scoreboard objectives add wtworlds.rope_dart.frame dummy
 
 # Initiate AI
 scoreboard objectives add wtworlds.initiate.fly dummy
+
+# Treasurer AI (ominous only)
+scoreboard objectives add wtworlds.treasurer.milk dummy
+
+# Stupid fucking game
+scoreboard objectives add wtworlds.age dummy
