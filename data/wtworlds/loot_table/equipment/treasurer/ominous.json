@@ -16,7 +16,14 @@
                             "enchantments":
                             {
                                 "wtworlds:mother_of_all_curses": 1,
-                                "wtworlds:entity/treasurer": 1,
+                                "wtworlds:entity/treasurer": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
                                 "protection": 4
                             },
                             "add": true

@@ -18,6 +18,13 @@
                                 "wtworlds:entity/gardener": 1
                             },
                             "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "enchantment_glint_override": false
+                            }
                         }
                     ]
                 }

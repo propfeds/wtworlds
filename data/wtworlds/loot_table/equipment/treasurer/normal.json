@@ -17,7 +17,7 @@
                             {
                                 "wtworlds:mother_of_all_curses": 1
                             },
-                            "add": true
+                            "add": false
                         },
                         {
                             "function": "set_components",

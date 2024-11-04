@@ -108,7 +108,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:burying": 1
+                                "wtworlds:entity/gardener/burying": 1
                             },
                             "add": true
                         },
