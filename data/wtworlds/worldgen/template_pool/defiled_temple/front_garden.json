@@ -21,6 +21,16 @@
                 "projection": "rigid",
                 "processors": "empty"
             }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/front_garden/flowers",
+                "projection": "rigid",
+                "processors": "empty"
+            }
         }
     ]
 }

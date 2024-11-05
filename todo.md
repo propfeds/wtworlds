@@ -4,6 +4,12 @@ before release:
 - trailer
 - post other stuff on curse forge
 - tutorial (advancements)
+- ask youtubers to cover
+
+anvil:
+- test the new sounds/particles
+- rename anvil_repair folder to anvil_restoration
+- rename scoreboard to anvil_restoration (no more kit)
 
 trial spawners:
 - test out different hovering ominous item spawners
@@ -38,12 +44,11 @@ Defiled Temple:
   - living quarters (for concubines): has letters?
   - secret portal/lab
 - building palette:
-  - instead of the often used red in painted wood and shingles, this temple is highlighted with dashes of yellow and blue (mainly the lighting lmao). it is a cold biome structure though, so...
-  - wood: spruce, oak
+  - wood: spruce, oak, mangrove (imported)
   - stone, andesite
-  - fences for barricade
+  - fences
   - trapdoor for windows
-  - lanterns, soul lanterns, torches
+  - soul lanterns, candles
 - loot:
   - has blaze rod to enable weakness-brewing before nether
   - weapon room
@@ -58,29 +63,25 @@ Defiled Temple:
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
     - Their weakness is the sun, as it breaks their helmets (therefore their AI)
-  - Navigator? Seeker? Guide?: a practitioner that kicks
-  - Performer?: a practitioner that fires rope darts or has willow sabres (knocks yourself back from the enemy when hitting) or chain whips (sweeping edge) or nunchucks (knockback)?
-    - drops chains to be farmed
   - Gardener: tends to the backyard
     - drops unenchanted trowel
     - can dig you a grave
   - Treasurer: obsessed with milk
     - drops milk
+  - Navigator? Seeker? Guide?: a practitioner that kicks
+  - Performer?: a practitioner that fires rope darts or has willow sabres (knocks yourself back from the enemy when hitting) or chain whips (sweeping edge) or nunchucks (knockback)?
+    - drops chains to be farmed
   - Proto-blaze: Performer? Methodist/Exorcist?
   - Proto-wither: the Contact?
+- Villagers: trade with gold
+  - Nun: provides clothing, is linked to the teacher
+  - Priest/Priestess: provides talismans, beads (promises of protection)
 
 custom shears
 - cut hair to form wigs xd
 
-rename anvil_repair folder to anvil_restoration
-rename scoreboard to anvil_restoration (no more kit)
-breaking sound for anvil kit
-
-figure out how to remove the tick function from climbing
 
 foil: check out Han dynasty fencing swords
-
-magical talismans
 
 rework deflecting
 
