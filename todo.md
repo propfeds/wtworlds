@@ -21,6 +21,7 @@ temple:
 - gate: add planks to barricade
 - lore: where do they get wax for candles
 - how to link front and back yard
+- garden variants: pruned pines with lots of podzol
 - ferns in garden, lotus pools that are frozen
 - decorate paintings
 - water wells like the nether fortress lava wells but frozen into ice

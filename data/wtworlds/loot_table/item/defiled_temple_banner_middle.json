@@ -1,0 +1,52 @@
+{
+    "type": "generic",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "red_banner",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "banner_patterns":
+                                [
+                                    {
+                                        "color": "white",
+                                        "pattern": "flower"
+                                    },
+                                    {
+                                        "color": "white",
+                                        "pattern": "rhombus"
+                                    },
+                                    {
+                                        "color": "red",
+                                        "pattern": "half_horizontal_bottom"
+                                    },
+                                    {
+                                        "color": "white",
+                                        "pattern": "skull"
+                                    },
+                                    {
+                                        "color": "red",
+                                        "pattern": "circle"
+                                    },
+                                    {
+                                        "color": "red",
+                                        "pattern": "triangle_bottom"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
