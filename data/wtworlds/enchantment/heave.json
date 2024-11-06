@@ -74,7 +74,10 @@
                             {
                                 "type": "gust"
                             },
-                            "sound": "block.bamboo.fall"
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:item.staff.hit"
+                            }
                         },
                         {
                             "type": "apply_mob_effect",

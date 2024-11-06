@@ -7,9 +7,11 @@ before release:
 - ask youtubers to cover
 
 anvil:
-- test the new sounds/particles
 - rename anvil_repair folder to anvil_restoration
 - rename scoreboard to anvil_restoration (no more kit)
+
+trowel:
+- add new model (lower angle) when perfect block runs out
 
 trial spawners:
 - test out different hovering ominous item spawners

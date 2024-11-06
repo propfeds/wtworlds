@@ -116,7 +116,10 @@
                             {
                                 "type": "small_gust"
                             },
-                            "sound": "block.bamboo.fall"
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:item.staff.hit"
+                            }
                         },
                         {
                             "type": "run_function",
