@@ -15,7 +15,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:mother_of_all_curses": 1
+                                "wtworlds:entity/treasurer": 1
                             },
                             "add": false
                         },
@@ -73,7 +73,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:entity/treasurer/heave_conditionless": 2
+                                "wtworlds:entity/treasurer/heave_conditionless": 1
                             },
                             "add": true
                         }

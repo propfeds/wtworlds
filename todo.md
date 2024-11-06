@@ -26,7 +26,7 @@ temple:
 treasurer:
 - ~~laser eyes~~ please don't make him like homelander
 
-firecracker:
+firecracker: named ghastlight
 - implement (summons armour stands with hats enchanted with explosion)
 - add score instead of tag (to denote lifetime)
 
@@ -134,6 +134,7 @@ hermit homes:
 jungle crypts
 - based on champa stuff?
 - drowned, bogged
+- can serve as a way to learn conduits
 
 promises
 - don't make them craftable, instead put them in village loot chests or trades
