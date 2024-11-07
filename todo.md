@@ -137,7 +137,7 @@ jungle crypts
 - whirlpool crossbow
 
 promises
-- don't make them craftable, instead put them in village loot chests or trades
+- prosperity could give random talisman on consumption
 - providence: provide building bonuses?
 - harmony: scan for enemies that are attacking
 - intimacy: drain dur to heal allies and self, replenish by trading XP
