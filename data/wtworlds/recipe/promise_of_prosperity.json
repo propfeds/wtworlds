@@ -15,12 +15,17 @@
     },
     "result":
     {
-        "id": "beetroot_soup",
+        "id": "bread",
         "count": 2,
         "components":
         {
             "item_model": "wtworlds:promise_of_prosperity",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_prosperity\"}",
+            "use_cooldown":
+            {
+                "seconds": 360,
+                "cooldown_group": "wtworlds:promise_of_prosperity"
+            },
             "consumable":
             {
                 "on_consume_effects":
