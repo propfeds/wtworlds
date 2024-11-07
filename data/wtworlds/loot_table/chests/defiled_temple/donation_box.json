@@ -14,7 +14,7 @@
                 {
                     "type": "item",
                     "name": "emerald",
-                    "weight": 5,
+                    "weight": 6,
                     "functions":
                     [
                         {
@@ -30,7 +30,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "oak_button",
+                    "name": "white_wool",
                     "weight": 4,
                     "functions":
                     [
@@ -38,8 +38,8 @@
                             "function": "set_count",
                             "count":
                             {
-                                "min": 4,
-                                "max": 8
+                                "min": 3,
+                                "max": 4
                             },
                             "add": false
                         }
@@ -65,7 +65,7 @@
                 {
                     "type": "item",
                     "name": "leather",
-                    "weight": 5,
+                    "weight": 3,
                     "functions":
                     [
                         {
@@ -95,11 +95,6 @@
                             "add": false
                         }
                     ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "wtworlds:item/promise_of_protection",
-                    "weight": 1
                 }
             ]
         }

@@ -16,11 +16,14 @@
     "result":
     {
         "id": "bread",
-        "count": 2,
+        "count": 1,
         "components":
         {
             "item_model": "wtworlds:promise_of_prosperity",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_prosperity\"}",
+            "max_stack_size": 1,
+            "max_damage": 1,
+            "damage": 0,
             "use_cooldown":
             {
                 "seconds": 360,
@@ -28,6 +31,7 @@
             },
             "consumable":
             {
+                "consume_seconds": 3.2,
                 "on_consume_effects":
                 [
                     {
@@ -48,7 +52,6 @@
                 "id": "paper",
                 "count": 1
             },
-            "max_stack_size": 16,
             "enchantments":
             {
                 "fortune": 1
