@@ -83,6 +83,8 @@ Defiled Temple:
 custom shears
 - cut hair to form wigs xd
 
+heave & vault:
+- use custom model data
 
 foil: check out Han dynasty fencing swords
 
@@ -113,6 +115,9 @@ paintbrush (brush):
     - Se: summon meteor at the block brushed (earth)
     - Sm
     - Ss
+
+navigator's temporary post:
+- forest biomes
 
 refuges:
 - like a village, but also with a school
