@@ -22,9 +22,9 @@ temple:
 - lore: where do they get wax for candles
 - how to link front and back yard
 - garden variants: pruned pines with lots of podzol
-- ferns in garden, lotus pools that are frozen
-- decorate paintings
-- water wells like the nether fortress lava wells but frozen into ice
+- back garden: lotus pools that are frozen, beehives
+- the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
+- water wells/walls like the nether fortress lava wells but frozen into ice
 
 treasurer:
 - ~~laser eyes~~ please don't make him like homelander
@@ -114,10 +114,6 @@ paintbrush (brush):
     - Sm
     - Ss
 
-antiquarians:
-- sells promises
-- fixed trades, can't be bred
-
 refuges:
 - like a village, but also with a school
 - redstone acts like chalk, written on the ground
@@ -125,19 +121,20 @@ refuges:
 - Chairs = logs? stairs?
 - Teachers wear and sell redstone hats
 - Poem books as chest loot
+- Traps to deter enemies
 
 hermit homes:
 - in cliffside
 - drawers with letters
-- goat horns & trowels
+- trowels & other kinds of goat horns
 - book hidden inside fish barrels or well
-- whirlpool crossbow
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
 jungle crypts
 - based on champa stuff?
 - drowned, bogged
 - can serve as a way to learn conduits
+- whirlpool crossbow
 
 promises
 - don't make them craftable, instead put them in village loot chests or trades

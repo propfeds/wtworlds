@@ -15,6 +15,19 @@
                 ]
             }
         },
+        "has_cookie":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "cookie"
+                    }
+                ]
+            }
+        },
         "has_the_recipe":
         {
             "trigger": "recipe_crafted",
@@ -28,7 +41,8 @@
     [
         [
             "has_the_recipe",
-            "has_emerald"
+            "has_emerald",
+            "has_cookie"
         ]
     ],
     "rewards":

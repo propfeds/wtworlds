@@ -3,48 +3,57 @@
     "category": "equipment",
     "pattern":
     [
-        "e#e",
-        "e e",
-        "geg"
+        "ece",
+        "cpc",
+        "ece"
     ],
     "key":
     {
-        "#": "string",
+        "c": "cookie",
         "e": "emerald",
-        "g": "gold_ingot"
+        "p": "paper"
     },
     "result":
     {
         "id": "beetroot_soup",
-        "count": 1,
+        "count": 2,
         "components":
         {
             "item_model": "wtworlds:promise_of_prosperity",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_prosperity\"}",
-            "!consumable": {},
-            "!use_remainder": {},
-            "max_damage": 128,
-            "damage": 0,
-            "equippable":
+            "consumable":
             {
-                "slot": "head",
-                "swappable": false
+                "on_consume_effects":
+                [
+                    {
+                        "type": "apply_effects",
+                        "effects":
+                        [
+                            {
+                                "id": "luck",
+                                "amplifier": 7,
+                                "duration": 7200
+                            }
+                        ]
+                    }
+                ]
             },
-            "repairable":
+            "use_remainder":
             {
-                "items": "emerald"
+                "id": "paper",
+                "count": 1
             },
+            "max_stack_size": 16,
             "enchantments":
             {
-                "fortune": 1,
-                "wtworlds:affinity": 1
+                "fortune": 1
             },
             "attribute_modifiers":
             [
                 {
                     "id": "wtworlds:promise_of_prosperity",
                     "type": "luck",
-                    "amount": 8,
+                    "amount": 6,
                     "operation": "add_value",
                     "slot": "any"
                 }

@@ -109,7 +109,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:affinity": 1
+                                "wtworlds:vault": 1
                             }
                         }
                     ]

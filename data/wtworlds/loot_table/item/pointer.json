@@ -28,6 +28,10 @@
                                 {
                                     "id": "stick",
                                     "count": 1
+                                },
+                                "enchantments":
+                                {
+                                    "wtworlds:passive_learning": 1
                                 }
                             }
                         }

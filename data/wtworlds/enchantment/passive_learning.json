@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.affinity"
+        "translate": "enchantment.wtworlds.passive_learning"
     },
     "supported_items": "#minecraft:enchantable/head_armor",
     "slots":
@@ -48,7 +48,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:enchantment/affinity/tick_second"
+                    "function": "wtworlds:enchantment/passive_learning/tick"
                 }
             }
         ]

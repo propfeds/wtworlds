@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.alertness"
+        "translate": "enchantment.wtworlds.vigilance"
     },
     "supported_items": "#minecraft:enchantable/head_armor",
     "slots":
@@ -35,11 +35,11 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/alertness/reveal"
+                            "function": "wtworlds:enchantment/vigilance/reveal"
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/alertness/sound"
+                            "function": "wtworlds:enchantment/vigilance/sound"
                         }
                     ]
                 }
