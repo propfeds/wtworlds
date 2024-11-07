@@ -9,8 +9,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/front_yard",
                 "projection": "rigid",
-                "processors":
-                "empty"
+                "processors": "empty"
             }
         }
     ]
