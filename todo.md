@@ -6,6 +6,17 @@ before release:
 - tutorial (advancements)
 - ask youtubers to cover
 
+whirlpool:
+- summon armour stand 0.25 blocks backward
+
+heave:
+- merge two heaves? do a conditional sound channel when attacking (execute if @s is player)
+
+navigator:
+- merge two navigators
+
+do the same thing for other enchantments that use sound channels
+
 anvil:
 - rename anvil_repair folder to anvil_restoration
 - rename scoreboard to anvil_restoration (no more kit)
