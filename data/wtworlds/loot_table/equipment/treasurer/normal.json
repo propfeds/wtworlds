@@ -73,7 +73,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:entity/treasurer/heave_conditionless": 1
+                                "wtworlds:entity/treasurer/heave": 1
                             },
                             "add": true
                         }

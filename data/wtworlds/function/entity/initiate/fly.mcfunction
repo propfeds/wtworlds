@@ -1,3 +1,6 @@
+execute store result score @s wtworlds.health run data get entity @s Health 10000
+execute if score @s wtworlds.health matches ..0 run return 0
+
 execute on target unless entity @s[distance=..32] run return 0
 function wtworlds:entity/face_target_feet
 # Check if the target is above the initiate (wrong logic but please)

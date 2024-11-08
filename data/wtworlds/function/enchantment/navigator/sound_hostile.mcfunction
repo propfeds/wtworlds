@@ -1,0 +1,1 @@
+playsound entity.player.attack.crit hostile @a ~ ~ ~ 0.8
