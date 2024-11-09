@@ -134,7 +134,7 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:item/staff",
+                    "value": "wtworlds:item/golden_staff",
                     "functions":
                     [
                         {

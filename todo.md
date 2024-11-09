@@ -9,13 +9,7 @@ before release:
 whirlpool:
 - summon armour stand 0.25 blocks backward
 
-heave:
-- merge two heaves? do a conditional sound channel when attacking (execute if @s is player)
-
-navigator:
-- merge two navigators
-
-do the same thing for other enchantments that use sound channels
+navigator called pathfinder?
 
 anvil:
 - rename anvil_repair folder to anvil_restoration
@@ -36,6 +30,9 @@ temple:
 - back garden: lotus pools that are frozen, beehives
 - the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 - water wells/walls like the nether fortress lava wells but frozen into ice
+
+initiate:
+- use y distance predicates to check for flight
 
 treasurer:
 - ~~laser eyes~~ please don't make him like homelander

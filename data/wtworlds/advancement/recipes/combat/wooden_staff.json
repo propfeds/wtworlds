@@ -2,7 +2,7 @@
     "parent": "wtworlds:recipes/root",
     "criteria":
     {
-        "has_gold_ingot":
+        "has_ingredient":
         {
             "trigger": "inventory_changed",
             "conditions":
@@ -10,7 +10,7 @@
                 "items":
                 [
                     {
-                        "items": "gold_ingot"
+                        "items": "string"
                     }
                 ]
             }
@@ -20,7 +20,7 @@
             "trigger": "recipe_crafted",
             "conditions":
             {
-                "recipe_id": "wtworlds:staff"
+                "recipe_id": "wtworlds:wooden_staff"
             }
         }
     },
@@ -28,14 +28,14 @@
     [
         [
             "has_the_recipe",
-            "has_gold_ingot"
+            "has_ingredient"
         ]
     ],
     "rewards":
     {
         "recipes":
         [
-            "wtworlds:staff"
+            "wtworlds:wooden_staff"
         ]
     }
 }

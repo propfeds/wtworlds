@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.treasurer.heave"
+        "translate": "enchantment.wtworlds.unconditional_heave"
     },
     "supported_items": "#wtworlds:enchantable/staff",
     "slots":
