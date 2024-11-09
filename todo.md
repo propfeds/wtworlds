@@ -66,11 +66,12 @@ Defiled Temple:
     - rope dart
     - golden staff and normal staff
     - sabres
-  - other tools and equipmen room
-    - promise of protection (disable recipe)
+  - other tools and equipment room
+    - promise of protection
     - promise of perpetuity?
   - other storage:
     - leather
+    - old statue of some old deity (maybe the ones in mc dungeons/legends)
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
     - Their weakness is the sun, as it breaks their helmets (therefore their AI)

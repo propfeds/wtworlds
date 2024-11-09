@@ -1,0 +1,1 @@
+execute anchored eyes run damage @s 0.00000001 wtworlds:dashing at ^ ^ ^-1
