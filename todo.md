@@ -6,9 +6,6 @@ before release:
 - tutorial (advancements)
 - ask youtubers to cover
 
-whirlpool:
-- summon armour stand 0.25 blocks backward
-
 navigator called pathfinder?
 
 anvil:

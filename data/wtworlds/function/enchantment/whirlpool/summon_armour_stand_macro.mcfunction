@@ -1,0 +1,1 @@
+$execute anchored eyes run summon armor_stand ~$(x) ~$(y) ~$(z) {Invisible: 1b, Marker: 1b, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:whirlpool/explosion": 1}}}, {}]}
