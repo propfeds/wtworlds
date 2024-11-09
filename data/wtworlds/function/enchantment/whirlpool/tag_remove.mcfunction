@@ -6,11 +6,11 @@
 # execute if score @s wtworlds.whirlpool.z+ matches 1 run say z+
 # execute if score @s wtworlds.whirlpool.z- matches 1 run say z-
 
-scoreboard players reset @s wtworlds.whirlpool.x+
-scoreboard players reset @s wtworlds.whirlpool.x-
-scoreboard players reset @s wtworlds.whirlpool.y+
-scoreboard players reset @s wtworlds.whirlpool.y-
-scoreboard players reset @s wtworlds.whirlpool.z+
-scoreboard players reset @s wtworlds.whirlpool.z-
+# scoreboard players reset @s wtworlds.whirlpool.x+
+# scoreboard players reset @s wtworlds.whirlpool.x-
+# scoreboard players reset @s wtworlds.whirlpool.y+
+# scoreboard players reset @s wtworlds.whirlpool.y-
+# scoreboard players reset @s wtworlds.whirlpool.z+
+# scoreboard players reset @s wtworlds.whirlpool.z-
 
 scoreboard players reset @s wtworlds.whirlpool.raining

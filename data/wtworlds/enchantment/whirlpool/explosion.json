@@ -36,7 +36,7 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.6,
+                            "knockback_multiplier": -0.75,
                             "radius": 3,
                             "offset": [0, 0, 0],
                             "large_particle":
