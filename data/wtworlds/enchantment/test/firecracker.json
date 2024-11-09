@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.firecracker"
     },
-    "supported_items": "#wtworlds:enchantable/projectile",
+    "supported_items": "firework_rocket",
     "slots":
     [
         "hand"

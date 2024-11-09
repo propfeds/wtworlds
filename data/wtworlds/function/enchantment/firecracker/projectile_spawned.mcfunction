@@ -1,2 +1,3 @@
 tag @s add wtworlds.firecracker
-say I'm a cracker
+
+schedule function wtworlds:tally/firework_rocket/tick 1 replace
