@@ -1,1 +1,1 @@
-execute anchored eyes run damage @s 0.00000001 wtworlds:dashing at ^ ^ ^-1
+execute at @s anchored eyes positioned ^ ^ ^-0.25 run summon armor_stand ~ ~-0.25 ~ {Invisible: 1b, Marker: 1b, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:dashing/explosion": 1}}}, {}]}

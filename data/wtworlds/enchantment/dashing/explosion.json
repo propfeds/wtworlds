@@ -1,10 +1,9 @@
 {
     "description":
     {
-        "translate": "entity.wtworlds.firecracker.explosion"
+        "translate": "entity.wtworlds.dashing.explosion"
     },
-    "primary_items": "#minecraft:enchantable/trident",
-    "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "supported_items": "stick",
     "slots":
     [
         "hand"
@@ -34,11 +33,9 @@
                     [
                         {
                             "type": "explode",
-                            "damage_type": "on_fire",
-                            "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0.125,
-                            "radius": 2,
+                            "radius": 1,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
