@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~$(y) ~$(z) run function wtworlds:enchantment/firecracker/summon_armour_stand_for_real

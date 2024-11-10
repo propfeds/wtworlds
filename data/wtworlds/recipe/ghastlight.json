@@ -1,0 +1,35 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "pattern":
+    [
+        " ^ ",
+        "-.-",
+        "-.-"
+    ],
+    "key":
+    {
+        "^": "paper",
+        "-": "blaze_rod",
+        ".": "gunpowder"
+    },
+    "result":
+    {
+        "id": "firework_rocket",
+        "count": 4,
+        "components":
+        {
+            "item_model": "wtworlds:ghastlight",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.ghastlight\"}",
+            "enchantments":
+            {
+                "levels":
+                {
+                    "wtworlds:firecracker": 1
+                },
+                "show_in_tooltip": false
+            },
+            "enchantment_glint_override": false
+        }
+    }
+}

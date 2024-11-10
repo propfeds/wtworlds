@@ -48,8 +48,7 @@
                     {
                         "wtworlds.age":
                         {
-                            "min": 6,
-                            "max": 17
+                            "min": 4
                         }
                     }
                 },
@@ -63,9 +62,9 @@
                             "damage_type": "fireworks",
                             "attribute_to_user": false,
                             "block_interaction": "none",
-                            "create_fire": true,
+                            "create_fire": false,
                             "knockback_multiplier": 0.125,
-                            "radius": 0.8,
+                            "radius": 0.875,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -75,7 +74,18 @@
                             {
                                 "type": "explosion"
                             },
-                            "sound": "entity.firework_rocket.twinkle"
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:item.firecracker.twinkle"
+                            }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/firecracker/set_fire_entities"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/firecracker/particles_explosion"
                         },
                         {
                             "type": "spawn_particles",
@@ -89,7 +99,7 @@
                             },
                             "horizontal_velocity":
                             {
-                                "movement_scale": -1
+                                "movement_scale": 1
                             },
                             "vertical_position":
                             {
@@ -97,31 +107,16 @@
                             },
                             "vertical_velocity":
                             {
-                                "movement_scale": -1,
-                                "base": -3
+                                "movement_scale": 1,
+                                "base": -18
                             },
                             "speed": 0.125
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/kill"
                         }
                     ]
-                }
-            },
-            {
-                "requirements":
-                {
-                    "condition": "entity_scores",
-                    "entity": "this",
-                    "scores":
-                    {
-                        "wtworlds.age":
-                        {
-                            "min": 18
-                        }
-                    }
-                },
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:entity/kill"
                 }
             }
         ]

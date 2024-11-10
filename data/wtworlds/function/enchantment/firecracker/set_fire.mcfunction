@@ -1,0 +1,1 @@
+execute positioned over motion_blocking if block ~ ~ ~ #air run function wtworlds:enchantment/firecracker/set_fire_from_distance

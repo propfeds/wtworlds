@@ -22,8 +22,6 @@ temple:
 - processors: turn stone into cobble, stripped log into planks, polished andesite to unpolished, fence to air, dirt into coarse?
 - gate: add planks to barricade
 - lore: where do they get wax for candles
-- how to link front and back yard
-- garden variants: pruned pines with lots of podzol
 - back garden: lotus pools that are frozen, beehives
 - the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 - water wells/walls like the nether fortress lava wells but frozen into ice
@@ -33,10 +31,6 @@ initiate:
 
 treasurer:
 - ~~laser eyes~~ please don't make him like homelander
-
-firecracker: named ghastlight
-- implement (summons armour stands with hats enchanted with explosion)
-- add score instead of tag (to denote lifetime)
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)

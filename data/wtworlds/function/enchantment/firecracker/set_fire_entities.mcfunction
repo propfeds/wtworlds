@@ -1,0 +1,1 @@
+execute positioned ~-1 ~-3 ~-1 as @e[type=#wtworlds:hostile, dx=1, dy=3, dz=1] run function wtworlds:enchantment/firecracker/add_fire_ticks
