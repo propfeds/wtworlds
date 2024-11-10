@@ -47,7 +47,7 @@
                             {
                                 "trim":
                                 {
-                                    "pattern": "sentry",
+                                    "pattern": "wayfinder",
                                     "material": "quartz"
                                 }
                             }
@@ -79,7 +79,7 @@
                             {
                                 "trim":
                                 {
-                                    "pattern": "sentry",
+                                    "pattern": "wayfinder",
                                     "material": "quartz"
                                 }
                             }
@@ -111,7 +111,7 @@
                             {
                                 "trim":
                                 {
-                                    "pattern": "sentry",
+                                    "pattern": "wayfinder",
                                     "material": "quartz"
                                 }
                             }

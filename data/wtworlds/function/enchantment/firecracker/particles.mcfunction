@@ -1,0 +1,1 @@
+particle white_ash ~ ~ ~ 0.0 0.0 0.0 0 2

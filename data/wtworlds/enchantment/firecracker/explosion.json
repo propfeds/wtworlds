@@ -33,12 +33,39 @@
                     "effects":
                     [
                         {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/firecracker/armour_stand_tick"
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.age":
+                        {
+                            "min": 6,
+                            "max": 17
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
                             "type": "explode",
-                            "damage_type": "on_fire",
-                            "attribute_to_user": true,
+                            "damage_type": "fireworks",
+                            "attribute_to_user": false,
                             "block_interaction": "none",
+                            "create_fire": true,
                             "knockback_multiplier": 0.125,
-                            "radius": 2,
+                            "radius": 0.8,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -48,13 +75,53 @@
                             {
                                 "type": "explosion"
                             },
-                            "sound": "block.campfire.crackle"
+                            "sound": "entity.firework_rocket.twinkle"
                         },
                         {
-                            "type": "run_function",
-                            "function": "wtworlds:entity/kill"
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "lava"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "horizontal_velocity":
+                            {
+                                "movement_scale": -1
+                            },
+                            "vertical_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_velocity":
+                            {
+                                "movement_scale": -1,
+                                "base": -3
+                            },
+                            "speed": 0.125
                         }
                     ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.age":
+                        {
+                            "min": 18
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:entity/kill"
                 }
             }
         ]

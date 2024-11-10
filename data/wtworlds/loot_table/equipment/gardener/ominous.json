@@ -25,7 +25,7 @@
                             {
                                 "trim":
                                 {
-                                    "pattern": "sentry",
+                                    "pattern": "wayfinder",
                                     "material": "redstone"
                                 }
                             }
@@ -78,7 +78,7 @@
                             {
                                 "trim":
                                 {
-                                    "pattern": "sentry",
+                                    "pattern": "wayfinder",
                                     "material": "iron"
                                 }
                             }

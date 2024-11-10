@@ -1,0 +1,3 @@
+function wtworlds:enchantment/firecracker/summon_armour_stand
+function wtworlds:enchantment/firecracker/summon_armour_stand
+function wtworlds:enchantment/firecracker/summon_armour_stand

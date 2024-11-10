@@ -6,7 +6,7 @@ before release:
 - tutorial (advancements)
 - ask youtubers to cover
 
-navigator called pathfinder?
+navigator called pathfinder? although the wayfinder already exists as armour trim
 
 anvil:
 - rename anvil_repair folder to anvil_restoration
