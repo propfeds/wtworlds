@@ -7,5 +7,3 @@ function wtworlds:enchantment/whirlpool/summon_armour_stand_macro with storage w
 data remove storage wtworlds:whirlpool.motion x
 data remove storage wtworlds:whirlpool.motion y
 data remove storage wtworlds:whirlpool.motion z
-
-# execute anchored eyes run summon armor_stand ^ ^ ^0.25 {Invisible: 1b, Marker: 1b, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:whirlpool/explosion": 1}}}, {}]}

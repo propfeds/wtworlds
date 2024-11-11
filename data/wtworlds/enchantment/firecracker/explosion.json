@@ -60,7 +60,7 @@
                         {
                             "type": "explode",
                             "damage_type": "fireworks",
-                            "attribute_to_user": false,
+                            "attribute_to_user": true,
                             "block_interaction": "none",
                             "create_fire": false,
                             "knockback_multiplier": 0.125,

@@ -33,6 +33,7 @@
                     [
                         {
                             "type": "explode",
+                            "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0.125,
                             "radius": 1,

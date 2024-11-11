@@ -81,6 +81,3 @@ scoreboard objectives add wtworlds.treasurer.milk dummy
 
 # Stupid fucking game
 scoreboard objectives add wtworlds.age dummy
-
-# Fire ticks
-scoreboard objectives add wtworlds.fire dummy
