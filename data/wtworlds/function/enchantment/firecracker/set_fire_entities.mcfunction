@@ -1,1 +1,1 @@
-execute positioned ~-1 ~-3 ~-1 as @e[type=#wtworlds:hostile, dx=1, dy=3, dz=1] run function wtworlds:enchantment/firecracker/add_fire_ticks
+execute positioned ~-1 ~-3 ~-1 as @e[type=!#wtworlds:not_lit_by_ghastlight, dx=1, dy=3, dz=1] at @s run summon small_fireball ~ ~0.5 ~ {Motion: [0.0, -0.125, 0.0]}

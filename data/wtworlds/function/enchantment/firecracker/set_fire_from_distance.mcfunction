@@ -1,3 +1,0 @@
-execute if entity @s[distance=..2] if predicate wtworlds:anvil_repair/chances/unbreaking_1 run return run setblock ~ ~ ~ fire[age=15]
-execute if entity @s[distance=..3.5] if predicate wtworlds:anvil_repair/chances/unbreaking_2 run return run setblock ~ ~ ~ fire[age=15]
-execute if entity @s[distance=..5] if predicate wtworlds:anvil_repair/chances/unbreaking_3 run return run setblock ~ ~ ~ fire[age=15]

@@ -16,7 +16,7 @@
     "result":
     {
         "id": "firework_rocket",
-        "count": 4,
+        "count": 3,
         "components":
         {
             "item_model": "wtworlds:ghastlight",

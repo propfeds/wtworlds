@@ -1,0 +1,31 @@
+{
+    "values":
+    [
+        "armor_stand",
+        "#impact_projectiles",
+        "ender_pearl",
+        "experience_bottle",
+        "llama_spit",
+        "potion",
+        "shulker_bullet",
+        "experience_orb",
+        "item",
+        "falling_block",
+        "tnt",
+        "block_display",
+        "item_display",
+        "text_display",
+        "area_effect_cloud",
+        "evoker_fangs",
+        "eye_of_ender",
+        "fishing_bobber",
+        "glow_item_frame",
+        "interaction",
+        "item_frame",
+        "leash_knot",
+        "lightning_bolt",
+        "marker",
+        "painting",
+        "ominous_item_spawner"
+    ]
+}
