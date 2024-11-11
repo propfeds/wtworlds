@@ -1,1 +1,1 @@
-particle ash ~ ~ ~ 0.0 0.0 0.0 0 2
+particle ash ~ ~ ~ 0.125 0.125 0.125 0 2
