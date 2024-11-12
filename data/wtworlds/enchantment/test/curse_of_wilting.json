@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.curse_of_withering"
+        "translate": "enchantment.wtworlds.curse_of_wilting"
     },
     "supported_items": "#minecraft:enchantable/foot_armor",
     "slots":

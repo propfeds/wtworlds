@@ -103,12 +103,12 @@
                             },
                             "vertical_position":
                             {
-                                "type": "in_bounding_box"
+                                "type": "entity_position"
                             },
                             "vertical_velocity":
                             {
                                 "movement_scale": 1,
-                                "base": -18
+                                "base": -5
                             },
                             "speed": 0.125
                         },
