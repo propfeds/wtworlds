@@ -84,6 +84,24 @@
                         ]
                     },
                     {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "distance":
+                            {
+                                "horizontal":
+                                {
+                                    "max": 3
+                                },
+                                "y":
+                                {
+                                    "max": 2.5
+                                }
+                            }
+                        }
+                    },
+                    {
                         "condition": "inverted",
                         "term":
                         {
@@ -113,10 +131,6 @@
                             "amount": 1
                         },
                         {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/summon_armour_stand"
-                        },
-                        {
                             "type": "explode",
                             "block_interaction": "trigger",
                             "knockback_multiplier": 0,
@@ -134,6 +148,86 @@
                             {
                                 "sound_id": "wtworlds:item.staff.hit"
                             }
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.2,
+                            "radius": 1.5,
+                            "offset": [0, 0.5, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3,
+                            "radius": 1.5,
+                            "offset": [1, 1.5, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3,
+                            "radius": 1.5,
+                            "offset": [-1, 1.5, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3,
+                            "radius": 1.5,
+                            "offset": [-1, 1.5, 1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier": 0.3,
+                            "radius": 1.5,
+                            "offset": [1, 1.5, -1],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound": "intentionally_empty"
                         },
                         {
                             "type": "run_function",

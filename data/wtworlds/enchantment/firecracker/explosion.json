@@ -3,7 +3,6 @@
     {
         "translate": "entity.wtworlds.firecracker.explosion"
     },
-    "primary_items": "#minecraft:enchantable/trident",
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
     [

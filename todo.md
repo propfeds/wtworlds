@@ -8,7 +8,7 @@ before release:
 
 navigator called pathfinder? although the wayfinder already exists as armour trim
 
-45 degree armour stand vault and jumping tree climb?
+armour stand jumping tree climb?
 
 anvil:
 - rename anvil_repair folder to anvil_restoration

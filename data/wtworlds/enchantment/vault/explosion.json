@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "entity.wtworlds.whirlpool.explosion"
+        "translate": "entity.wtworlds.vault.explosion"
     },
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
@@ -35,8 +35,8 @@
                             "type": "explode",
                             "attribute_to_user": true,
                             "block_interaction": "none",
-                            "knockback_multiplier": -0.75,
-                            "radius": 3,
+                            "knockback_multiplier": 0.5,
+                            "radius": 1,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {

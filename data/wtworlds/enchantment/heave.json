@@ -9,16 +9,16 @@
         "mainhand"
     ],
     "weight": 2,
-    "max_level": 1,
+    "max_level": 2,
     "min_cost":
     {
         "base": 25,
-        "per_level_above_first": 0
+        "per_level_above_first": 20
     },
     "max_cost":
     {
         "base": 45,
-        "per_level_above_first": 0
+        "per_level_above_first": 20
     },
     "anvil_cost": 4,
     "effects":
