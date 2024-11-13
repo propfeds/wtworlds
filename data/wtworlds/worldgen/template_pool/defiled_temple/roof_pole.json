@@ -7,9 +7,9 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/back_yard",
+                "location": "wtworlds:defiled_temple/roof_pole",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_degradation"
+                "processors": "empty"
             }
         }
     ]
