@@ -66,6 +66,20 @@
                                         }
                                     }
                                 }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate":
+                                {
+                                    "movement":
+                                    {
+                                        "y":
+                                        {
+                                            "max": -9.999999747378752E-6
+                                        }
+                                    }
+                                }
                             }
                         ]
                     },
