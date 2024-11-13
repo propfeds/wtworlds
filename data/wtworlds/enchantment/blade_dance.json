@@ -50,7 +50,7 @@
                             "type": "explode",
                             "offset": [0, -1.75, 0],
                             "radius": 0.25,
-                            "knockback_multiplier": 0.35,
+                            "knockback_multiplier": 0.325,
                             "block_interaction": "none",
                             "large_particle":
                             {

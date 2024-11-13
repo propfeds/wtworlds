@@ -9,6 +9,7 @@ before release:
 navigator called pathfinder? although the wayfinder already exists as armour trim
 
 armour stand jumping tree climb?
+armour stand vault: should they be exploding anchored feet (for consistent radius) or eyes?
 
 anvil:
 - rename anvil_repair folder to anvil_restoration
