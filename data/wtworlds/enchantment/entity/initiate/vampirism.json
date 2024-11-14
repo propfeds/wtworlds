@@ -23,6 +23,43 @@
     "anvil_cost": 8,
     "effects":
     {
+        "location_changed":
+        [
+            {
+                "effect":
+                {
+                    "type": "spawn_particles",
+                    "particle":
+                    {
+                        "type": "entity_effect",
+                        "color":
+                        [
+                            0.66274509803921568627450980392157,
+                            0.3960784313725490196078431372549,
+                            0.41568627450980392156862745098039,
+                            1.0
+                        ]
+                    },
+                    "horizontal_position":
+                    {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity":
+                    {
+                        "base": 0.0625
+                    },
+                    "vertical_position":
+                    {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_velocity":
+                    {
+                        "base": 0.0625
+                    },
+                    "speed": 0.125
+                }
+            }
+        ],
         "post_attack":
         [
             {
