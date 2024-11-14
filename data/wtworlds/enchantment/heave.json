@@ -64,7 +64,7 @@
                     },
                     {
                         "condition": "entity_properties",
-                        "entity": "this",
+                        "entity": "attacker",
                         "predicate":
                         {
                             "flags":
