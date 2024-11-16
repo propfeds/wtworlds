@@ -7,9 +7,9 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:test/nushu_square",
-                "projection": "rigid",
-                "processors": "empty"
+                "location": "wtworlds:defiled_temple/streets/start",
+                "projection": "terrain_matching",
+                "processors": "wtworlds:defiled_temple_street_degradation"
             }
         }
     ]
