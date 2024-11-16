@@ -64,17 +64,6 @@
                     },
                     {
                         "condition": "entity_properties",
-                        "entity": "attacker",
-                        "predicate":
-                        {
-                            "flags":
-                            {
-                                "is_on_ground": true
-                            }
-                        }
-                    },
-                    {
-                        "condition": "entity_properties",
                         "entity": "this",
                         "predicate":
                         {
@@ -185,6 +174,80 @@
                             {
                                 "base": 0.0625
                             }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                [
+                    {
+                        "condition": "any_of",
+                        "terms":
+                        [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "attacker",
+                                "predicate":
+                                {
+                                    "flags":
+                                    {
+                                        "is_sneaking": true
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "attacker",
+                                "predicate":
+                                {
+                                    "type_specific":
+                                    {
+                                        "type": "player",
+                                        "input":
+                                        {
+                                            "sneak": true
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "nbt": "{HurtTime:10s}"
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "block_interaction": "none",
+                            "knockback_multiplier":
+                            {
+                                "type": "linear",
+                                "base": -0.1,
+                                "per_level_above_first": -0.1
+                            },
+                            "radius": 0.25,
+                            "large_particle":
+                            {
+                                "type": "gust"
+                            },
+                            "small_particle":
+                            {
+                                "type": "dust_plume"
+                            },
+                            "sound": "intentionally_empty"
                         }
                     ]
                 }
