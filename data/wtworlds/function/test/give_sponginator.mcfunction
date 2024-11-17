@@ -1,0 +1,1 @@
+give @s crossbow[custom_name="\"Sponginator\"", enchantments={quick_charge: 5, multishot: 1, unbreaking: 3, mending: 1, "wtworlds:test/spongening": 1}]

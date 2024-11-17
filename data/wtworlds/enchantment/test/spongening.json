@@ -23,35 +23,6 @@
     "anvil_cost": 4,
     "effects":
     {
-        "projectile_spawned":
-        [
-            {
-                "effect":
-                {
-                    "type": "all_of",
-                    "effects":
-                    [
-                        {
-                            "type": "explode",
-                            "attribute_to_user": false,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.125,
-                            "radius": 0.01,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion_emitter"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        }
-                    ]
-                }
-            }
-        ],
         "hit_block":
         [
             {
@@ -85,8 +56,26 @@
                                 }
                             },
                             "height": 5,
+                            "radius": 2.5
+                        },
+                        {
+                            "type": "replace_disk",
+                            "predicate":
+                            {
+                                "type": "matching_block_tag",
+                                "tag": "air"
+                            },
+                            "block_state":
+                            {
+                                "type": "simple_state_provider",
+                                "state":
+                                {
+                                    "Name": "sponge"
+                                }
+                            },
+                            "height": 5,
                             "offset": [0, -1, 0],
-                            "radius": 2
+                            "radius": 1.5
                         },
                         {
                             "type": "run_function",
