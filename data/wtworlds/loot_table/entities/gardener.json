@@ -41,11 +41,11 @@
                 {
                     "condition": "random_chance_with_enchanted_bonus",
                     "enchantment": "looting",
-                    "unenchanted_chance": 0.1,
+                    "unenchanted_chance": 0.11,
                     "enchanted_chance":
                     {
                         "type": "linear",
-                        "base": 0.12,
+                        "base": 0.13,
                         "per_level_above_first": 0.02
                     }
                 }
@@ -73,11 +73,11 @@
                         {
                             "condition": "random_chance_with_enchanted_bonus",
                             "enchantment": "looting",
-                            "unenchanted_chance": 0.05,
+                            "unenchanted_chance": 0.055,
                             "enchanted_chance":
                             {
                                 "type": "linear",
-                                "base": 0.06,
+                                "base": 0.065,
                                 "per_level_above_first": 0.01
                             }
                         }

@@ -9,7 +9,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/decor/pine_medium/1",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "empty"
             }
         },
         {
@@ -19,7 +19,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/decor/pine_medium/2",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "empty"
             }
         },
         {
@@ -29,7 +29,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/decor/pine_medium/3",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "empty"
             }
         },
         {
@@ -39,7 +39,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/decor/pine_medium/4",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "empty"
             }
         },
         {
@@ -49,7 +49,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/decor/pine_medium/5",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "empty"
             }
         },
         {
@@ -59,7 +59,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/decor/pine_medium/6",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "empty"
             }
         }
     ]

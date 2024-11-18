@@ -9,7 +9,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/streets/terminator_1",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "wtworlds:defiled_temple_streets"
             }
         },
         {
@@ -19,7 +19,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/streets/terminator_2",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "wtworlds:defiled_temple_streets"
             }
         },
         {
@@ -29,7 +29,17 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/streets/terminator_3",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_street_degradation"
+                "processors": "wtworlds:defiled_temple_streets"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/streets/terminator_4",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_streets"
             }
         }
     ]
