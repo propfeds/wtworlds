@@ -1,5 +1,5 @@
 scoreboard players set @s wtworlds.treasurer.milk -6
-function wtworlds:entity/face_target_eyes
+function wtworlds:entity/rotate/target_eyes
 
 execute anchored eyes positioned ^ ^ ^ run function wtworlds:entity/treasurer/summon_armour_stand
 

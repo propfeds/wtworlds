@@ -15,9 +15,9 @@
                         "predicate_type": "axis_aligned_linear_pos",
                         "axis": "y",
                         "min_dist": 0,
-                        "max_dist": 8,
+                        "max_dist": 12,
                         "min_chance": 0.2,
-                        "max_chance": 0.4
+                        "max_chance": 0.6
                     },
                     "input_predicate":
                     {
@@ -93,7 +93,7 @@
                                 "half": "top"
                             }
                         },
-                        "probability": 0.15
+                        "probability": 0.2
                     },
                     "location_predicate":
                     {
@@ -120,7 +120,7 @@
                                 "half": "bottom"
                             }
                         },
-                        "probability": 0.15
+                        "probability": 0.2
                     },
                     "location_predicate":
                     {

@@ -3,7 +3,7 @@ execute if score @s wtworlds.health matches ..0 run return 0
 
 execute unless function wtworlds:entity/target/32m run return 0
 
-function wtworlds:entity/face_target_feet
+function wtworlds:entity/rotate/target_feet
 # Check if the target is above the initiate (wrong logic but please)
 execute unless score @s wtworlds.initiate.fly matches 1.. if entity @s[x_rotation=-30..90] run return 0
 

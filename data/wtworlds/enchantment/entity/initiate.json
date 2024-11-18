@@ -184,7 +184,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:entity/initiate/fly"
+                            "function": "wtworlds:entity/initiate/consider_flight"
                         }
                     ]
                 }

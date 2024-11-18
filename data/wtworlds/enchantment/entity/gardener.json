@@ -58,7 +58,7 @@
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:entity/gardener/aim_feet"
+                    "function": "wtworlds:entity/gardener/consider_burying"
                 }
             }
         ]
