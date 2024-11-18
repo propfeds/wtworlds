@@ -105,7 +105,7 @@
                             "speed": 0.5,
                             "horizontal_position":
                             {
-                                "type": "entity_position"
+                                "type": "in_bounding_box"
                             },
                             "horizontal_velocity":
                             {
@@ -131,7 +131,7 @@
                             "speed": 0.5,
                             "horizontal_position":
                             {
-                                "type": "entity_position"
+                                "type": "in_bounding_box"
                             },
                             "horizontal_velocity":
                             {
