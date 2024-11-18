@@ -2,6 +2,35 @@
     "fallback": "empty",
     "elements":
     [
-        
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/streets/terminator_1",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_street_degradation"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/streets/terminator_2",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_street_degradation"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/streets/terminator_3",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_street_degradation"
+            }
+        }
     ]
 }

@@ -17,6 +17,7 @@
                             {
                                 "item_model": "wtworlds:golden_staff",
                                 "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.golden_staff\"}",
+                                "rarity": "uncommon",
                                 "minecraft:max_damage": 240,
                                 "!tool": {},
                                 "minecraft:attribute_modifiers":

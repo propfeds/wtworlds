@@ -33,7 +33,26 @@
                     "entity": "this",
                     "predicate":
                     {
-                        "periodic_tick": 10
+                        "periodic_tick": 10,
+                        "equipment":
+                        {
+                            "mainhand":
+                            {
+                                "predicates":
+                                {
+                                    "enchantments":
+                                    [
+                                        {
+                                            "enchantments": "wtworlds:entity/gardener/burying",
+                                            "levels":
+                                            {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
                     }
                 },
                 "effect":

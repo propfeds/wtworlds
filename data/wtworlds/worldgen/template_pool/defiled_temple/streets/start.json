@@ -1,5 +1,5 @@
 {
-    "fallback": "empty",
+    "fallback": "wtworlds:defiled_temple/streets/terminators",
     "elements":
     [
         {

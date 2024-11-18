@@ -9,7 +9,6 @@ before release:
 navigator called pathfinder? although the wayfinder already exists as armour trim
 
 armour stand jumping tree climb?
-armour stand vault: should they be exploding anchored feet (for consistent radius) or eyes?
 
 anvil:
 - rename anvil_repair folder to anvil_restoration
@@ -22,8 +21,7 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
-- processors: turn stone into cobble, stripped log into planks, polished andesite to unpolished, fence to air, dirt into coarse?
-- gate: add planks to barricade
+- processors: make it even more dilapidated
 - lore: where do they get wax for candles
 - back garden: lotus pools that are frozen, beehives
 - the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
@@ -31,6 +29,9 @@ temple:
 
 initiate:
 - use y distance predicates to check for flight
+
+gardener:
+- fire slowing arrows (change them into strays?) (remember to check all trial spawners for the right type)
 
 treasurer:
 - ~~laser eyes~~ please don't make him like homelander
