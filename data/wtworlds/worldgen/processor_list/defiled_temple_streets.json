@@ -14,6 +14,38 @@
                     "location_predicate":
                     {
                         "predicate_type": "block_match",
+                        "block": "stone"
+                    },
+                    "output_state":
+                    {
+                        "Name": "gravel"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "gravel"
+                    },
+                    "output_state":
+                    {
+                        "Name": "gravel"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
                         "block": "water"
                     },
                     "output_state":

@@ -51,6 +51,16 @@
                 "projection": "rigid",
                 "processors": "empty"
             }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/garden/bees",
+                "projection": "rigid",
+                "processors": "empty"
+            }
         }
     ]
 }
