@@ -22,6 +22,10 @@
             "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.wooden_staff\"}",
             "minecraft:max_damage": 90,
             "!tool": {},
+            "enchantments":
+            {
+                "wtworlds:vault": 1
+            },
             "minecraft:attribute_modifiers":
             {
                 "modifiers":
