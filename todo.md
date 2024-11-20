@@ -6,36 +6,37 @@ before release:
 - tutorial (advancements)
 - ask youtubers to cover
 
-navigator called pathfinder? although the wayfinder already exists as armour trim
-
 armour stand jumping tree climb?
 
-anvil:
-- rename anvil_repair folder to anvil_restoration
-- rename scoreboard to anvil_restoration (no more kit)
+nun:
+- please implement her and her trades
+  - promise of protection
+  - spectral arrow
+  - candle
+  - clothing
 
-trowel:
-- add new model (lower angle) when perfect block runs out
+gardener:
+- occasionally changes weapon to bows
+
+treasurer:
+- add spilling sound layer to milk bucket
+- ~~laser eyes~~ please don't make him like homelander
 
 trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
-- think of contents for navigator personal chest (on top of shrine tower)
-- lore: where do they get wax for candles
-- back garden: lotus pools that are frozen, beehives
-- the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
+- backdoor to where?
+- initiate training grounds/living quarters
+  - verticality? underground? prison?
+- garden: dried up lotus pool? more variants?
+- more farm variants?
+- the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 - water wells/walls like the nether fortress lava wells but frozen into ice
+  - how to incorporate into verticality?
 
 initiate:
 - use y distance predicates to check for flight
-
-gardener:
-- fire slowing arrows (change them into strays?) (remember to check all trial spawners for the right type)
-
-treasurer:
-- add spilling sound to milk bucket
-- ~~laser eyes~~ please don't make him like homelander
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)
