@@ -21,6 +21,7 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
+- think of contents for navigator personal chest (on top of shrine tower)
 - lore: where do they get wax for candles
 - back garden: lotus pools that are frozen, beehives
 - the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style

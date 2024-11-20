@@ -11,6 +11,16 @@
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/gazebo",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
         }
     ]
 }
