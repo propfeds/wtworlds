@@ -1,5 +1,5 @@
 {
-    "fallback": "empty",
+    "fallback": "wtworlds:defiled_temple/streets/terminators",
     "elements":
     [
         {
@@ -7,7 +7,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/roof_pole",
+                "location": "wtworlds:defiled_temple/shrine",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }

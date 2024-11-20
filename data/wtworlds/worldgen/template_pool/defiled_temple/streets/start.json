@@ -8,7 +8,7 @@
             {
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/streets/start",
-                "projection": "rigid",
+                "projection": "terrain_matching",
                 "processors": "wtworlds:defiled_temple_streets"
             }
         }

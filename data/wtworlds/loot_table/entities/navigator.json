@@ -1,6 +1,6 @@
 {
     "type": "entity",
-    "random_sequence": "wtworlds:entities/initiate",
+    "random_sequence": "wtworlds:entities/navigator",
     "pools":
     [
         {
@@ -9,7 +9,7 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "entities/zombie"
+                    "value": "entities/skeleton"
                 }
             ]
         },
@@ -20,11 +20,11 @@
                 {
                     "condition": "random_chance_with_enchanted_bonus",
                     "enchantment": "looting",
-                    "unenchanted_chance": 0.10,
+                    "unenchanted_chance": 0.12,
                     "enchanted_chance":
                     {
                         "type": "linear",
-                        "base": 0.12,
+                        "base": 0.14,
                         "per_level_above_first": 0.02
                     }
                 }
@@ -50,20 +50,17 @@
             "conditions":
             [
                 {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate":
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_enchanted_bonus",
+                    "enchantment": "looting",
+                    "unenchanted_chance": 0.085,
+                    "enchanted_chance":
                     {
-                        "effects":
-                        {
-                            "levitation":
-                            {
-                                "amplifier":
-                                {
-                                    "min": 0
-                                }
-                            }
-                        }
+                        "type": "linear",
+                        "base": 0.095,
+                        "per_level_above_first": 0.01
                     }
                 }
             ],
@@ -71,12 +68,24 @@
             [
                 {
                     "type": "item",
-                    "name": "feather",
+                    "name": "arrow",
                     "functions":
                     [
                         {
                             "function": "set_count",
-                            "count": 1,
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 3
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:navigator": 1
+                            },
                             "add": false
                         }
                     ]

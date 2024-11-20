@@ -9,7 +9,19 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:item/promise_of_protection"
+                    "value": "wtworlds:item/promise_of_protection",
+                    "functions":
+                    [
+                        {
+                            "function": "set_damage",
+                            "damage":
+                            {
+                                "min": -0.5,
+                                "max": -0.25
+                            },
+                            "add": true
+                        }
+                    ]
                 }
             ]
         },

@@ -23,13 +23,13 @@
                 {
                     "id": "skeleton",
                     "Team": "wtworlds.defiled_temple",
-                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.gardener\"}",
+                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}",
                     "CustomNameVisible": false,
-                    "DeathLootTable": "wtworlds:entities/gardener"
+                    "DeathLootTable": "wtworlds:entities/navigator"
                 },
                 "equipment":
                 {
-                    "loot_table": "wtworlds:equipment/gardener/ominous",
+                    "loot_table": "wtworlds:equipment/navigator/ominous",
                     "slot_drop_chances": 0
                 }
             }

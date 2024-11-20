@@ -108,6 +108,23 @@
                 },
                 {
                     "type": "item",
+                    "name": "amethyst_shard",
+                    "weight": 1,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 3,
+                                "max": 5
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
                     "name": "enchanted_book",
                     "weight": 1,
                     "functions":

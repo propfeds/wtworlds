@@ -1,15 +1,4 @@
 {
-    "loot_tables_to_eject":
-    [
-        {
-            "data": "minecraft:spawners/ominous/trial_chamber/key",
-            "weight": 3
-        },
-        {
-            "data": "minecraft:spawners/ominous/trial_chamber/consumables",
-            "weight": 7
-        }
-    ],
     "simultaneous_mobs": 2,
     "simultaneous_mobs_added_per_player": 0.5,
     "ticks_between_spawn": 40,
@@ -23,13 +12,13 @@
                 {
                     "id": "skeleton",
                     "Team": "wtworlds.defiled_temple",
-                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.gardener\"}",
+                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}",
                     "CustomNameVisible": false,
-                    "DeathLootTable": "wtworlds:entities/gardener"
+                    "DeathLootTable": "wtworlds:entities/navigator"
                 },
                 "equipment":
                 {
-                    "loot_table": "wtworlds:equipment/gardener/ominous",
+                    "loot_table": "wtworlds:equipment/navigator/normal",
                     "slot_drop_chances": 0
                 }
             }

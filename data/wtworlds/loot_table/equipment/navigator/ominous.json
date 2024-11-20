@@ -1,6 +1,6 @@
 {
     "type": "equipment",
-    "random_sequence": "wtworlds:equipment/initiate/ominous",
+    "random_sequence": "wtworlds:equipment/navigator/ominous",
     "pools":
     [
         {
@@ -12,14 +12,6 @@
                     "value": "wtworlds:equipment/defiled_temple/head",
                     "functions":
                     [
-                        {
-                            "function": "set_enchantments",
-                            "enchantments":
-                            {
-                                "wtworlds:entity/initiate": 1
-                            },
-                            "add": false
-                        },
                         {
                             "function": "set_components",
                             "components":
@@ -38,13 +30,36 @@
                                 "protection": 4
                             },
                             "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/chest",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "iron"
+                                }
+                            }
                         },
                         {
-                            "function": "set_damage",
-                            "damage":
+                            "function": "set_enchantments",
+                            "enchantments":
                             {
-                                "max": -0.7,
-                                "min": -0.8
+                                "protection": 4
                             },
                             "add": true
                         }
@@ -94,6 +109,17 @@
                     "functions":
                     [
                         {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "iron"
+                                }
+                            }
+                        },
+                        {
                             "function": "set_enchantments",
                             "enchantments":
                             {
@@ -110,36 +136,48 @@
             "entries":
             [
                 {
-                    "weight": 1,
                     "type": "item",
-                    "name": "wooden_sword",
+                    "name": "bow",
                     "functions":
                     [
                         {
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:entity/initiate/vampirism": 1
+                                "power": 5,
+                                "punch": 1
                             },
                             "add": true
                         }
                     ]
                 },
                 {
-                    "weight": 1,
                     "type": "item",
-                    "name": "wooden_sword",
+                    "name": "bow",
                     "functions":
                     [
                         {
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:blade_dance": 1
+                                "power": 3,
+                                "punch": 2,
+                                "flame": 1
                             },
                             "add": true
                         }
                     ]
+                }
+            ],
+            "functions":
+            [
+                {
+                    "function": "set_enchantments",
+                    "enchantments":
+                    {
+                        "wtworlds:entity/navigator": 1
+                    },
+                    "add": true
                 }
             ]
         }

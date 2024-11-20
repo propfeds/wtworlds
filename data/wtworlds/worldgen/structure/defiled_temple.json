@@ -11,8 +11,8 @@
         }
     },
     "terrain_adaptation": "beard_thin",
-    "start_pool": "wtworlds:defiled_temple/main/front",
-    "size": 10,
+    "start_pool": "wtworlds:defiled_temple/streets/start",
+    "size": 9,
     "start_height":
     {
         "absolute": 0

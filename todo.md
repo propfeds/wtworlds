@@ -21,7 +21,6 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
-- pluck all grass from gardens
 - lore: where do they get wax for candles
 - back garden: lotus pools that are frozen, beehives
 - the concubine/nun rooms need to be very decorated (inside only, do not change floors or walls), to mimick their friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
@@ -34,6 +33,7 @@ gardener:
 - fire slowing arrows (change them into strays?) (remember to check all trial spawners for the right type)
 
 treasurer:
+- add spilling sound to milk bucket
 - ~~laser eyes~~ please don't make him like homelander
 
 Defiled Temple:

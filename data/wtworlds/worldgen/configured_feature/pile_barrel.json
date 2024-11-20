@@ -1,0 +1,79 @@
+{
+    "type": "block_pile",
+    "config":
+    {
+        "state_provider":
+        {
+            "type": "weighted_state_provider",
+            "entries":
+            [
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "barrel",
+                        "Properties":
+                        {
+                            "facing": "up"
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "barrel",
+                        "Properties":
+                        {
+                            "facing": "down"
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "barrel",
+                        "Properties":
+                        {
+                            "facing": "north"
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "barrel",
+                        "Properties":
+                        {
+                            "facing": "east"
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "barrel",
+                        "Properties":
+                        {
+                            "facing": "south"
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "barrel",
+                        "Properties":
+                        {
+                            "facing": "west"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
