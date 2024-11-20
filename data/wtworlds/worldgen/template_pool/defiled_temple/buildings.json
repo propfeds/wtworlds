@@ -9,7 +9,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/base",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_degradation"
+                "processors": "wtworlds:defiled_temple_light_degradation"
             }
         },
         {
@@ -19,7 +19,7 @@
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/farm",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_degradation"
+                "processors": "wtworlds:defiled_temple_light_degradation"
             }
         }
     ]
