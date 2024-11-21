@@ -117,7 +117,7 @@
                             "function": "set_components",
                             "components":
                             {
-                                "item_model": "wtworlds:trowel_burying"
+                                "item_model": "wtworlds:burying_trowel"
                             }
                         }
                     ]
