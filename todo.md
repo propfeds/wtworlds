@@ -5,8 +5,15 @@ before release:
 - post other stuff on curse forge
 - tutorial (advancements)
 - ask youtubers to cover
+- check all @n selectors to see if they're optimised
 
 armour stand jumping tree climb?
+
+promise of prosperity:
+- remake sprite with better palette
+
+promise of protection:
+- new sprite for wearing on head (custom armour in armour slot? maybe not enough padding)
 
 pointer:
 - move passive learning to 'thought of a companion' (a tea cup or soup bowl)
@@ -86,11 +93,12 @@ Defiled Temple:
     - can dig you a grave
   - Treasurer: obsessed with milk
     - drops milk
-  - Navigator? Seeker? Guide?: a practitioner that kicks
-  - Performer?: a practitioner that fires rope darts or has willow sabres (knocks yourself back from the enemy when hitting) or chain whips (sweeping edge) or nunchucks (knockback)?
+  - Navigator: a practitioner that kicks
+  - Performer/proto-blaze: a practitioner that fires rope darts or has willow sabres (knocks yourself back from the enemy when hitting) or chain whips (sweeping edge) or nunchucks (knockback)?
     - drops chains to be farmed
-  - Proto-blaze: Performer? Methodist/Exorcist?
-  - Proto-wither: the Contact?
+  - Methodist/Exorcist/Contact/Proto-wither: bullet not hell
+    - normal merchant, but enrages when player is holding a nether star
+    - nether reactor with crying obsidian
 - Villagers: trade with gold
   - Nun: provides clothing, is linked to the teacher
   - Priest/Priestess: provides talismans, beads (promises of protection)
@@ -153,6 +161,7 @@ hermit homes:
 jungle crypts
 - based on cham stuff?
 - drowned, bogged
+- bog iron
 - can serve as a way to learn conduits
 - whirlpool crossbow
 

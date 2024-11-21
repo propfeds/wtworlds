@@ -3,11 +3,11 @@ summon villager ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"
 maxUses: 2147483647, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 {buy: {id: "gold_ingot", count: 1}, sell: {id: "candle", count: 3}, \
 maxUses: 2147483647, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
-{buy: {id: "gold_ingot", count: 2}, sell: {id: "flint", count: 6}, \
+{buy: {id: "gold_ingot", count: 1}, sell: {id: "flint", count: 6}, \
 maxUses: 2147483647, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 {buy: {id: "gold_ingot", count: 3}, sell: {id: "soul_lantern", count: 1}, \
 maxUses: 2147483647, priceMultiplier: 0.2, rewardExp: true, xp: 10}, \
-{buy: {id: "string", count: 16}, buyB: {id: "gold_ingot", count: 4}, \
+{buy: {id: "string", count: 16}, buyB: {id: "gold_ingot", count: 1}, \
 sell: {id: "white_wool", count: 5}, \
 maxUses: 2147483647, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
 {buy: {id: "gold_ingot", count: 15}, buyB: {id: "oak_button", count: 8}, sell: {id: "beetroot_soup", "components": {\
