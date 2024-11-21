@@ -3,7 +3,6 @@
     {
         "translate": "enchantment.wtworlds.burying"
     },
-    "primary_items": "goat_horn",
     "supported_items": "#wtworlds:enchantable/burying",
     "slots":
     [
@@ -24,6 +23,25 @@
     "anvil_cost": 4,
     "effects":
     {
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "periodic_tick": 10
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:entity/gardener/consider_burying"
+                }
+            }
+        ],
         "post_attack":
         [
             {

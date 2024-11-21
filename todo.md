@@ -8,25 +8,37 @@ before release:
 
 armour stand jumping tree climb?
 
+pointer:
+- move passive learning to 'thought of a companion' (a tea cup or soup bowl)
+  - new name: mutual understanding/learning
+  - provides passive xp (to both) when you're near a player, pet, or villager
+  - does so until out of durability and then it can only be drank
+
 nun:
-- please implement her and her trades
-  - promise of protection
-  - spectral arrow
-  - candle
+- next update's trades (rewards lots of xp)
   - clothing
+  - map to the refugee village
+  - map to the mountain hermit
+
+initiate:
+- use y distance predicates to check for flight
 
 gardener:
 - occasionally changes weapon to bows
+  - have the weapon swap be normal gardener hat behaviour
+- make villy hat
 
 treasurer:
 - add spilling sound layer to milk bucket
 - ~~laser eyes~~ please don't make him like homelander
+- can they aggro towards witches?
 
 trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
 - backdoor to where?
+- smithy house
 - initiate training grounds/living quarters
   - verticality? underground? prison?
 - garden: dried up lotus pool? more variants?
@@ -34,9 +46,6 @@ temple:
 - the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 - water wells/walls like the nether fortress lava wells but frozen into ice
   - how to incorporate into verticality?
-
-initiate:
-- use y distance predicates to check for flight
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)
@@ -142,7 +151,7 @@ hermit homes:
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
 jungle crypts
-- based on champa stuff?
+- based on cham stuff?
 - drowned, bogged
 - can serve as a way to learn conduits
 - whirlpool crossbow

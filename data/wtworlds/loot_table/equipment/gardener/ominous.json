@@ -1,5 +1,6 @@
 {
     "type": "equipment",
+    "random_sequence": "wtworlds:equipment/gardener/ominous",
     "pools":
     [
         {
@@ -110,7 +111,7 @@
                             {
                                 "wtworlds:entity/gardener/burying": 1
                             },
-                            "add": true
+                            "add": false
                         },
                         {
                             "function": "set_components",
@@ -120,6 +121,10 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "stone_axe"
                 }
             ]
         }
