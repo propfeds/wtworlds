@@ -50,6 +50,7 @@ temple:
   - verticality? underground? prison?
 - garden: dried up lotus pool? more variants?
 - more farm variants?
+- turn pine trees into features
 - the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 - water wells/walls like the nether fortress lava wells but frozen into ice
   - how to incorporate into verticality?

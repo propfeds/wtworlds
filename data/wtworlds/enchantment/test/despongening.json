@@ -1,10 +1,10 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.spongening"
+        "translate": "enchantment.wtworlds.despongening"
     },
     "supported_items": "#wtworlds:enchantable/ranged_weapon",
-    "exclusive_set": "wtworlds:test/despongening",
+    "exclusive_set": "wtworlds:test/spongening",
     "slots":
     [
         "hand"
@@ -45,15 +45,15 @@
                             "type": "replace_disk",
                             "predicate":
                             {
-                                "type": "matching_block_tag",
-                                "tag": "air"
+                                "type": "matching_blocks",
+                                "blocks": "sponge"
                             },
                             "block_state":
                             {
                                 "type": "simple_state_provider",
                                 "state":
                                 {
-                                    "Name": "sponge"
+                                    "Name": "air"
                                 }
                             },
                             "height": 5,
@@ -63,15 +63,15 @@
                             "type": "replace_disk",
                             "predicate":
                             {
-                                "type": "matching_block_tag",
-                                "tag": "air"
+                                "type": "matching_blocks",
+                                "blocks": "sponge"
                             },
                             "block_state":
                             {
                                 "type": "simple_state_provider",
                                 "state":
                                 {
-                                    "Name": "sponge"
+                                    "Name": "air"
                                 }
                             },
                             "height": 5,
