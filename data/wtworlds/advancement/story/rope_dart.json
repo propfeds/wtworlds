@@ -10,10 +10,10 @@
                 "items":
                 [
                     {
-                        "items": "wooden_sword",
+                        "items": "bow",
                         "components":
                         {
-                            "item_model": "wtworlds:wooden_staff"
+                            "item_model": "wtworlds:rope_dart"
                         }
                     }
                 ]
@@ -24,18 +24,18 @@
     {
         "title":
         {
-            "translate": "advancements.wtworlds.wooden_staff.title"
+            "translate": "advancements.wtworlds.rope_dart.title"
         },
         "description":
         {
-            "translate": "advancements.wtworlds.wooden_staff.description"
+            "translate": "advancements.wtworlds.rope_dart.description"
         },
         "icon":
         {
-            "id": "wooden_sword",
+            "id": "bow",
             "components":
             {
-                "item_model": "wtworlds:wooden_staff"
+                "item_model": "wtworlds:rope_dart"
             }
         }
     }

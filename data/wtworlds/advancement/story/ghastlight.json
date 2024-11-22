@@ -10,10 +10,10 @@
                 "items":
                 [
                     {
-                        "items": "wooden_sword",
+                        "items": "firework_rocket",
                         "components":
                         {
-                            "item_model": "wtworlds:wooden_staff"
+                            "item_model": "wtworlds:ghastlight"
                         }
                     }
                 ]
@@ -24,18 +24,18 @@
     {
         "title":
         {
-            "translate": "advancements.wtworlds.wooden_staff.title"
+            "translate": "advancements.wtworlds.ghastlight.title"
         },
         "description":
         {
-            "translate": "advancements.wtworlds.wooden_staff.description"
+            "translate": "advancements.wtworlds.ghastlight.description"
         },
         "icon":
         {
-            "id": "wooden_sword",
+            "id": "firework_rocket",
             "components":
             {
-                "item_model": "wtworlds:wooden_staff"
+                "item_model": "wtworlds:ghastlight"
             }
         }
     }

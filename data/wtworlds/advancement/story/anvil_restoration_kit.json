@@ -10,10 +10,10 @@
                 "items":
                 [
                     {
-                        "items": "wooden_sword",
+                        "items": "brush",
                         "components":
                         {
-                            "item_model": "wtworlds:wooden_staff"
+                            "item_model": "wtworlds:anvil_restoration_kit"
                         }
                     }
                 ]
@@ -24,18 +24,18 @@
     {
         "title":
         {
-            "translate": "advancements.wtworlds.wooden_staff.title"
+            "translate": "advancements.wtworlds.anvil_restoration_kit.title"
         },
         "description":
         {
-            "translate": "advancements.wtworlds.wooden_staff.description"
+            "translate": "advancements.wtworlds.anvil_restoration_kit.description"
         },
         "icon":
         {
-            "id": "wooden_sword",
+            "id": "brush",
             "components":
             {
-                "item_model": "wtworlds:wooden_staff"
+                "item_model": "wtworlds:anvil_restoration_kit"
             }
         }
     }

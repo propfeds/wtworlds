@@ -37,8 +37,6 @@
             {
                 "item_model": "wtworlds:trowel"
             }
-        },
-        "announce_to_chat": false,
-        "show_toast": false
+        }
     }
 }

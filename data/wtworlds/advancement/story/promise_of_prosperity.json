@@ -10,10 +10,10 @@
                 "items":
                 [
                     {
-                        "items": "wooden_sword",
+                        "items": "beetroot_soup",
                         "components":
                         {
-                            "item_model": "wtworlds:wooden_staff"
+                            "item_model": "wtworlds:promise_of_prosperity"
                         }
                     }
                 ]
@@ -24,18 +24,18 @@
     {
         "title":
         {
-            "translate": "advancements.wtworlds.wooden_staff.title"
+            "translate": "advancements.wtworlds.promise_of_prosperity.title"
         },
         "description":
         {
-            "translate": "advancements.wtworlds.wooden_staff.description"
+            "translate": "advancements.wtworlds.promise_of_prosperity.description"
         },
         "icon":
         {
-            "id": "wooden_sword",
+            "id": "beetroot_soup",
             "components":
             {
-                "item_model": "wtworlds:wooden_staff"
+                "item_model": "wtworlds:promise_of_prosperity"
             }
         }
     }
