@@ -1,5 +1,6 @@
 # Weathered Worlds
 
-Experience unique weapons and abilities. Eventually I will add enemies and structures.
+A down-to-earth exploration data pack adding unique weapons (not anime), structures, and cultures (not anime).
 
-> There lie ancient worlds, held by a promise.
+> There lie ancient lands, hung by a promise.
+> Then they turn weathered, on a thought of change.

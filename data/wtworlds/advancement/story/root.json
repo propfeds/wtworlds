@@ -1,0 +1,35 @@
+{
+    "criteria":
+    {
+        "free":
+        {
+            "trigger": "tick"
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.root.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.root.description"
+        },
+        "icon":
+        {
+            "id": "goat_horn",
+            "components":
+            {
+                "item_model": "wtworlds:trowel"
+            }
+        },
+        "background": "wtworlds:textures/gui/advancements/backgrounds/rooted_dirt.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "rewards":
+    {
+        "function": "wtworlds:welcome"
+    }
+}

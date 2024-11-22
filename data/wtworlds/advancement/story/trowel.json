@@ -1,0 +1,44 @@
+{
+    "parent": "wtworlds:story/root",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "goat_horn",
+                        "components":
+                        {
+                            "item_model": "wtworlds:trowel"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.trowel.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.trowel.description"
+        },
+        "icon":
+        {
+            "id": "goat_horn",
+            "components":
+            {
+                "item_model": "wtworlds:trowel"
+            }
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}

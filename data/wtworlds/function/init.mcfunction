@@ -1,4 +1,4 @@
-tellraw @a {"text": "Welcome to Weathered Worlds."}
+# tellraw @s {"translate": "welcome.wtworlds.reload"}
 
 # Teams
 

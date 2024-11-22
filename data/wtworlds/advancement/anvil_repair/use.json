@@ -1,7 +1,7 @@
 {
     "criteria":
     {
-        "example":
+        "brush_anvil":
         {
             "trigger": "item_used_on_block",
             "conditions":
@@ -37,12 +37,6 @@
             }
         }
     },
-    "requirements":
-    [
-        [
-            "example"
-        ]
-    ],
     "rewards":
     {
         "function": "wtworlds:anvil_repair/init_raycast"
