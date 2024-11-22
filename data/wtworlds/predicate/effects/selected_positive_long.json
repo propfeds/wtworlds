@@ -13,7 +13,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -30,7 +30,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -47,7 +47,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -64,7 +64,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -81,7 +81,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -98,7 +98,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -115,7 +115,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -132,7 +132,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -149,7 +149,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
@@ -166,24 +166,7 @@
                     {
                         "duration":
                         {
-                            "min": 300
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate":
-            {
-                "effects":
-                {
-                    "slow_falling":
-                    {
-                        "duration":
-                        {
-                            "min": 300
+                            "min": 200
                         }
                     }
                 }
