@@ -9,9 +9,6 @@ before release:
 
 armour stand jumping tree climb?
 
-promise of prosperity:
-- remake sprite with better palette
-
 promise of protection:
 - new sprite for wearing on head (custom armour in armour slot? maybe not enough padding)
 
