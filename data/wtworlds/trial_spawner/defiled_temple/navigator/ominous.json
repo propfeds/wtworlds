@@ -25,7 +25,14 @@
                     "Team": "wtworlds.defiled_temple",
                     "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}",
                     "CustomNameVisible": false,
-                    "DeathLootTable": "wtworlds:entities/navigator"
+                    "DeathLootTable": "wtworlds:entities/navigator",
+                    "HandItems":
+                    [
+                        {},
+                        {
+                            "id": "spectral_arrow"
+                        }
+                    ]
                 },
                 "equipment":
                 {

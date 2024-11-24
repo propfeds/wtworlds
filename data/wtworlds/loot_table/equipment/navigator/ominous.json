@@ -9,20 +9,9 @@
             [
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:equipment/defiled_temple/head",
+                    "value": "wtworlds:item/promise_of_protection",
                     "functions":
                     [
-                        {
-                            "function": "set_components",
-                            "components":
-                            {
-                                "trim":
-                                {
-                                    "pattern": "wayfinder",
-                                    "material": "redstone"
-                                }
-                            }
-                        },
                         {
                             "function": "set_enchantments",
                             "enchantments":

@@ -16,6 +16,8 @@
                             "components":
                             {
                                 "item_model": "wtworlds:farmer_hat",
+                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.farmer_hat\"}",
+                                "rarity": "uncommon",
                                 "!consumable": {},
                                 "!use_remainder": {},
                                 "max_damage": 150,
@@ -30,7 +32,7 @@
                                     {
                                         "id": "wtworlds:farmer_hat",
                                         "type": "armor",
-                                        "amount": 2,
+                                        "amount": 1,
                                         "operation": "add_value",
                                         "slot": "head"
                                     }
