@@ -1,6 +1,6 @@
 {
     "type": "jigsaw",
-    "biomes": "#is_hill",
+    "biomes": "#wtworlds:has_structure/defiled_temple",
     "step": "surface_structures",
     "spawn_overrides":
     {
