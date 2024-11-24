@@ -13,7 +13,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 1,
             "element":
             {
                 "element_type": "single_pool_element",
@@ -33,7 +33,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 1,
             "element":
             {
                 "element_type": "single_pool_element",
