@@ -1,5 +1,6 @@
 {
     "type": "generic",
+    "random_sequence": "wtworlds:item/promise_of_protection",
     "pools":
     [
         {

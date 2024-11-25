@@ -1,5 +1,6 @@
 {
     "type": "generic",
+    "random_sequence": "wtworlds:item/farmer_hat",
     "pools":
     [
         {

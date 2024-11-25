@@ -1,5 +1,6 @@
 {
     "type": "generic",
+    "random_sequence": "wtworlds:item/defiled_temple_banner_left",
     "pools":
     [
         {

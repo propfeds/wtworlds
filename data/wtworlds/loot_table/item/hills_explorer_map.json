@@ -1,5 +1,6 @@
 {
     "type": "generic",
+    "random_sequence": "wtworlds:item/hills_explorer_map",
     "pools":
     [
         {

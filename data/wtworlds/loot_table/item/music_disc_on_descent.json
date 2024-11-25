@@ -1,5 +1,6 @@
 {
     "type": "generic",
+    "random_sequence": "wtworlds:item/music_disc_on_descent",
     "pools":
     [
         {

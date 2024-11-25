@@ -1,5 +1,6 @@
 {
     "type": "equipment",
+    "random_sequence": "wtworlds:equipment/defiled_temple/head",
     "pools":
     [
         {
