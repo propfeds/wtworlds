@@ -25,8 +25,7 @@ scoreboard objectives add wtworlds.blocking.frame dummy
 scoreboard objectives add wtworlds.blocking.resistance.amplifier dummy
 scoreboard objectives add wtworlds.blocking.resistance.duration dummy
 scoreboard players set blocking.perfect_block_start wtworlds.const 1
-# Resistance lasts for 6 ticks but Retaliation's physical protection lasts for 7
-scoreboard players set blocking.imperfect_block_start wtworlds.const 7
+scoreboard players set blocking.imperfect_block_start wtworlds.const 8
 # Trowel deflecting
 scoreboard objectives add wtworlds.deflecting.mode dummy
 
