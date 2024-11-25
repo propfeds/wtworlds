@@ -1,0 +1,2 @@
+# execute rotated ~ 0 positioned ^ ^ ^0.5 run summon armor_stand ~ ~0.5 ~ {Invisible: 1b, Marker: 1b, DisabledSlots: 16191, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:dashing/explosion": 1}}}, {}], HandDropChances: [0.0, 0.0]}
+execute rotated ~ 0 positioned ^ ^ ^-0.5 run tp @s ~ ~ ~
