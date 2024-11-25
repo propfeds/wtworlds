@@ -7,7 +7,7 @@
             "element":
             {
                 "element_type": "feature_pool_element",
-                "feature": "wtworlds:pine_medium",
+                "feature": "spruce",
                 "projection": "rigid"
             }
         }
