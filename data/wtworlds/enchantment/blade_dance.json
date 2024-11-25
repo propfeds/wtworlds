@@ -24,6 +24,33 @@
     "anvil_cost": 4,
     "effects":
     {
+        "minecraft:damage":
+        [
+            {
+                "effect":
+                {
+                    "type": "add",
+                    "value":
+                    {
+                        "type": "linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
+                    }
+                },
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate":
+                    {
+                        "flags":
+                        {
+                            "is_on_ground": false
+                        }
+                    }
+                }
+            }
+        ],
         "projectile_piercing":
         [
             {

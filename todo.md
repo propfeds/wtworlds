@@ -30,10 +30,9 @@ initiate:
 gardener:
 - occasionally changes weapon to bows
   - have the weapon swap be normal gardener hat behaviour
-- make villy hat
 
 treasurer:
-- add spilling sound layer to milk bucket
+- add spilling sound layer to milk bucket (maybe not, makes it sound less dry)
 - ~~laser eyes~~ please don't make him like homelander
 - can they aggro towards witches?
 
@@ -42,6 +41,7 @@ trial spawners:
 
 temple:
 - backdoor to where?
+- include more nether fortress design
 - smithy house
 - initiate training grounds/living quarters
   - verticality? underground? prison?
