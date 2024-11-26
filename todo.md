@@ -32,7 +32,7 @@ gardener:
   - have the weapon swap be normal gardener hat behaviour
 
 treasurer:
-- add spilling sound layer to milk bucket (maybe not, makes it sound less dry)
+- add spilling sound layer to milk bucket (maybe not, 'd make it sound less dry)
 - ~~laser eyes~~ please don't make him like homelander
 - can they aggro towards witches?
 

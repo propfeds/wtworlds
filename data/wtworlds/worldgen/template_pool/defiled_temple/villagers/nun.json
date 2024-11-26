@@ -1,5 +1,5 @@
 {
-    "fallback": "wtworlds:defiled_temple/main/back_short",
+    "fallback": "empty",
     "elements":
     [
         {
@@ -7,9 +7,9 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/main/back",
+                "location": "wtworlds:defiled_temple/villagers/nun",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_degradation"
+                "processors": "empty"
             }
         }
     ]
