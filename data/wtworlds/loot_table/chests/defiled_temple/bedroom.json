@@ -81,8 +81,8 @@
                 },
                 {
                     "type": "loot_table",
-                    "value": "wtworlds:item/promise_of_protection_buttons_set",
-                    "weight": 2
+                    "value": "wtworlds:chests/defiled_temple/promise_of_protection_buttons_set",
+                    "weight": 1
                 },
                 {
                     "type": "item",

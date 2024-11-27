@@ -6,7 +6,7 @@
             "weight": 1,
             "element":
             {
-                "element_type": "single_pool_element",
+                "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/willow",
                 "projection": "rigid",
                 "processors": "empty"
@@ -16,7 +16,7 @@
             "weight": 1,
             "element":
             {
-                "element_type": "single_pool_element",
+                "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/spruce",
                 "projection": "rigid",
                 "processors": "empty"
@@ -26,7 +26,7 @@
             "weight": 1,
             "element":
             {
-                "element_type": "single_pool_element",
+                "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/flowers",
                 "projection": "rigid",
                 "processors": "empty"
@@ -36,7 +36,7 @@
             "weight": 1,
             "element":
             {
-                "element_type": "single_pool_element",
+                "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/bodhi",
                 "projection": "rigid",
                 "processors": "empty"
@@ -46,7 +46,7 @@
             "weight": 1,
             "element":
             {
-                "element_type": "single_pool_element",
+                "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/pines",
                 "projection": "rigid",
                 "processors": "empty"
@@ -56,10 +56,20 @@
             "weight": 1,
             "element":
             {
-                "element_type": "single_pool_element",
+                "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/bees",
                 "projection": "rigid",
                 "processors": "empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "legacy_single_pool_element",
+                "location": "wtworlds:defiled_temple/garden/pond",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
             }
         }
     ]
