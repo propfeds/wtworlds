@@ -3,11 +3,21 @@
     "elements":
     [
         {
-            "weight": 1,
+            "weight": 2,
             "element":
             {
                 "element_type": "single_pool_element",
                 "location": "wtworlds:defiled_temple/main/back",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/main/back_short",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }

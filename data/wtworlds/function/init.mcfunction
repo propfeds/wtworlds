@@ -76,8 +76,11 @@ scoreboard objectives add wtworlds.rope_dart.frame dummy
 # Initiate AI
 scoreboard objectives add wtworlds.initiate.fly dummy
 
-# Treasurer AI (ominous only)
+# Treasurer AI
 scoreboard objectives add wtworlds.treasurer.milk dummy
+
+# Nun AI
+scoreboard objectives add wtworlds.nun.wither dummy
 
 # Stupid fucking game
 scoreboard objectives add wtworlds.age dummy

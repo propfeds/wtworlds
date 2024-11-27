@@ -1,0 +1,17 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "effects":
+        {
+            "wither":
+            {
+                "amplifier":
+                {
+                    "min": 0
+                }
+            }
+        }
+    }
+}

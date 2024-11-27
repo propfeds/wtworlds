@@ -1,4 +1,4 @@
-summon villager ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.nun\"}", CustomNameVisible: false, Silent: true, VillagerData: {profession: "nitwit", type: "taiga", level: 1}, Offers: {Recipes: [\
+summon villager ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.nun\"}", CustomNameVisible: false, Silent: true, ArmorItems: [{}, {}, {}, {id: leather_helmet, components:{enchantments:{"wtworlds:entity/nun":1}}}], ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f], VillagerData: {profession: "nitwit", type: "taiga", level: 1}, Offers: {Recipes: [\
 {buy: {id: "emerald", count: 2}, sell: {id: "gold_ingot", count: 1}, \
 maxUses: 2147483647, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 {buy: {id: "gold_ingot", count: 1}, sell: {id: "candle", count: 3}, \
