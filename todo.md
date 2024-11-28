@@ -28,8 +28,8 @@ initiate:
 - use y distance predicates to check for flight
 
 gardener:
-- occasionally changes weapon to bows
-  - have the weapon swap be normal gardener hat behaviour
+- occasionally throws darts
+- reduce move speed
 
 treasurer:
 - add spilling sound layer to milk bucket (maybe not, 'd make it sound less dry)
@@ -164,10 +164,10 @@ jungle crypts
 - whirlpool crossbow
 
 promises
-- prosperity could give random talisman on consumption
+- hunter's: make enemies drop blood meal that can grow flowers (fake brushes) (or smelt into iron nugget if possible) (doesn't make sense piglin-wise though, so maybe the resistance refuge could have them)
 - providence: provide building bonuses?
 - harmony: scan for enemies that are attacking
-- intimacy: drain dur to heal allies and self, replenish by trading XP
+- intimacy: drain dur to heal allies and self, replenish by XP
 - return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
 - perpetuity: resists poison, harming and wither
 
