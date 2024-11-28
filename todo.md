@@ -28,7 +28,6 @@ initiate:
 - use y distance predicates to check for flight
 
 gardener:
-- occasionally throws darts
 - reduce move speed
 
 treasurer:
@@ -140,7 +139,7 @@ paintbrush (brush):
 navigator's temporary post:
 - forest biomes
 
-refuges:
+swamp/forest refuges:
 - like a village, but also with a school
 - redstone acts like chalk, written on the ground
 - Nushu lessons take place outdoors
@@ -148,6 +147,8 @@ refuges:
 - Teachers wear and sell redstone hats
 - Poem books as chest loot
 - Traps to deter enemies
+- lots of flowers
+- bog iron
 
 hermit homes:
 - in cliffside
@@ -159,7 +160,6 @@ hermit homes:
 jungle crypts
 - based on cham stuff?
 - drowned, bogged
-- bog iron
 - can serve as a way to learn conduits
 - whirlpool crossbow
 

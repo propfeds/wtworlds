@@ -1,0 +1,1 @@
+execute summon arrow run function wtworlds:entity/gardener/assign_arrow_motion

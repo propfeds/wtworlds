@@ -24,5 +24,24 @@
     "anvil_cost": 8,
     "effects":
     {
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "periodic_tick": 18
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:entity/gardener/consider_dart"
+                }
+            }
+        ]
     }
 }

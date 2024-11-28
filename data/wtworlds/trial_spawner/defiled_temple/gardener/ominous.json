@@ -25,7 +25,14 @@
                     "Team": "wtworlds.defiled_temple",
                     "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.gardener\"}",
                     "CustomNameVisible": false,
-                    "DeathLootTable": "wtworlds:entities/gardener"
+                    "DeathLootTable": "wtworlds:entities/gardener",
+                    "attributes":
+                    [
+                        {
+                            "id": "movement_speed",
+                            "base": 0.24
+                        }
+                    ]
                 },
                 "equipment":
                 {

@@ -1,4 +1,4 @@
-team join wtworlds.defiled_temple
+# team join wtworlds.defiled_temple
 
 execute on origin run function wtworlds:enchantment/navigator/pre_mount
 

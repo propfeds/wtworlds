@@ -76,6 +76,9 @@ scoreboard objectives add wtworlds.rope_dart.frame dummy
 # Initiate AI
 scoreboard objectives add wtworlds.initiate.fly dummy
 
+# Gardener AI
+scoreboard objectives add wtworlds.gardener.dart dummy
+
 # Treasurer AI
 scoreboard objectives add wtworlds.treasurer.milk dummy
 
