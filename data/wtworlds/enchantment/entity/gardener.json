@@ -33,7 +33,7 @@
                     "entity": "this",
                     "predicate":
                     {
-                        "periodic_tick": 18
+                        "periodic_tick": 20
                     }
                 },
                 "effect":
