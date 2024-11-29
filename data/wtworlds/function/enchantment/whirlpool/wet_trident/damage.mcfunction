@@ -1,0 +1,6 @@
+damage @s 1 wtworlds:whirlpool by @n[type=trident, dx=0]
+damage @s 1 wtworlds:whirlpool by @n[type=trident, dx=0]
+damage @s 1 wtworlds:whirlpool by @n[type=trident, dx=0]
+damage @s 1 wtworlds:whirlpool by @n[type=trident, dx=0]
+damage @s 1 wtworlds:whirlpool by @n[type=trident, dx=0]
+damage @s 1 wtworlds:whirlpool by @n[type=trident, dx=0]

@@ -281,7 +281,7 @@
                             "attribute_to_user": true,
                             "block_interaction": "none",
                             "knockback_multiplier": 0,
-                            "radius": 1.25,
+                            "radius": 1,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {
@@ -330,94 +330,8 @@
                     "effects":
                     [
                         {
-                            "type": "explode",
-                            "damage_type": "wtworlds:whirlpool",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0,
-                            "radius": 1.25,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "bubble"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "damage_type": "wtworlds:whirlpool",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0,
-                            "radius": 1.25,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "bubble"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "damage_type": "wtworlds:whirlpool",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0,
-                            "radius": 1.25,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "bubble"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "damage_type": "wtworlds:whirlpool",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0,
-                            "radius": 1.25,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "bubble"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "damage_type": "wtworlds:whirlpool",
-                            "attribute_to_user": true,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0,
-                            "radius": 1.25,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "bubble"
-                            },
-                            "sound": "intentionally_empty"
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/whirlpool/explosion_wet_trident"
                         },
                         {
                             "type": "run_function",
