@@ -63,7 +63,7 @@
                             "block_interaction": "none",
                             "create_fire": false,
                             "knockback_multiplier": 0.125,
-                            "radius": 0.875,
+                            "radius": 0.9,
                             "offset": [0, 0, 0],
                             "large_particle":
                             {

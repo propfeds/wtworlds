@@ -39,14 +39,13 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
+- make use of initiate flight
 - backdoor to where?
 - include more nether fortress design
-- smithy house
+- smithy houses, more house variants, more farm variants that look more alive and less stone like the houses are
 - initiate training grounds/living quarters
   - verticality? underground? prison?
-- garden: dried up lotus pool? more variants?
-- more farm variants?
-- turn pine trees into features
+- garden: more variants?
 - the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 - water wells/walls like the nether fortress lava wells but frozen into ice
   - how to incorporate into verticality?
