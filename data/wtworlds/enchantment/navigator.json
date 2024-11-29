@@ -24,16 +24,6 @@
     "anvil_cost": 4,
     "effects":
     {
-        "item_damage":
-        [
-            {
-                "effect":
-                {
-                    "type": "add",
-                    "value": 2
-                }
-            }
-        ],
         "projectile_spawned":
         [
             {
