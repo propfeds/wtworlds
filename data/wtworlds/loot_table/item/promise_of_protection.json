@@ -39,7 +39,7 @@
                                 "attribute_modifiers":
                                 [
                                     {
-                                        "id": "wtworlds:promise_of_protection",
+                                        "id": "minecraft:armor.helmet",
                                         "type": "armor",
                                         "amount": 2,
                                         "operation": "add_value",

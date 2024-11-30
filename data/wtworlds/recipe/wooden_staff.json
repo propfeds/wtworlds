@@ -27,44 +27,28 @@
                 "wtworlds:vault": 1
             },
             "minecraft:attribute_modifiers":
-            {
-                "modifiers":
-                [
-                    {
-                        "id": "wtworlds:wooden_staff",
-                        "type": "minecraft:attack_damage",
-                        "amount": 4,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:wooden_staff",
-                        "type": "minecraft:attack_speed",
-                        "amount": -2.6,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:wooden_staff",
-                        "type": "minecraft:entity_interaction_range",
-                        "amount": 0.5,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ],
-                "show_in_tooltip": false
-            },
-            "lore":
             [
-                "\"\"",
-
-                "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.4 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
-
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"+0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
+                {
+                    "id": "minecraft:base_attack_damage",
+                    "type": "minecraft:attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "minecraft:base_attack_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "minecraft:base_attack_reach",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
             ]
         }
     }

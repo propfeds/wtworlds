@@ -31,7 +31,7 @@
                                 "attribute_modifiers":
                                 [
                                     {
-                                        "id": "wtworlds:farmer_hat",
+                                        "id": "minecraft:armor.helmet",
                                         "type": "armor",
                                         "amount": 1,
                                         "operation": "add_value",

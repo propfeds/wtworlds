@@ -169,6 +169,7 @@ jungle crypts
 promises
 - hunter's: make enemies drop blood meal that can grow flowers (fake brushes) (or smelt into iron nugget if possible) (doesn't make sense piglin-wise though, so maybe the resistance refuge could have them)
 - providence: provide building bonuses?
+- influence: + block placement range and attack range
 - harmony: scan for enemies that are attacking
 - intimacy: drain dur to heal allies and self, replenish by XP
 - return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
