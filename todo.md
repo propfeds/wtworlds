@@ -28,9 +28,10 @@ initiate:
 - use y distance predicates to check for flight
 
 gardener:
-- reduce move speed
+- ominouses throw root-shaped snowballs that strangle you?
 
 treasurer:
+- does milk bucket have to be armour stand?
 - add spilling sound layer to milk bucket (maybe not, 'd make it sound less dry)
 - ~~laser eyes~~ please don't make him like homelander
 - can they aggro towards witches?
@@ -39,18 +40,14 @@ trial spawners:
 - test out different hovering ominous item spawners
 
 temple:
-- make use of initiate flight
-  - more higher gazebo in temple yard or sth, lower the initiate spawner like there's a hole and they have to fly up
-  - initiate spawner in lower level of backyard
-  - watch tower in practice yard in garden 2
 - backdoor to where?
 - include more nether fortress design
 - more faded spots on streets (like that straight one)
 - smithy houses, more house variants, more farm variants that look more alive and less stone like the houses are
 - initiate training grounds/living quarters
   - verticality? underground? prison?
-- garden: more variants?
-- the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
+  - make use of initiate flight
+- garden: more variants
 - water wells/walls like the nether fortress lava wells but frozen into ice
   - how to incorporate into verticality?
 
@@ -138,6 +135,8 @@ paintbrush (brush):
     - Se: summon meteor at the block brushed (earth)
     - Sm
     - Ss
+
+- the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 
 navigator's temporary post:
 - forest biomes

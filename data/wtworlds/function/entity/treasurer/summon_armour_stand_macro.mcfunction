@@ -1,0 +1,1 @@
+$summon armor_stand ^ ^ ^ {Team: wtworlds.defiled_temple, Invisible: 1b, Small: 1b, DisabledSlots: 16191, ArmorItems:[{}, {}, {}, {id: milk_bucket, components:{item_model:"wtworlds:milk_bucket_on_armour_stand", enchantments: {"wtworlds:entity/treasurer/milk_spill":1}, enchantment_glint_override: false}}], ArmorDropChances: [0.0, 0.0, 0.0, 0.0], Rotation: [$(y)f, $(x)f]}

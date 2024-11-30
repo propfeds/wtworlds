@@ -1,4 +1,4 @@
-rotate @s facing ^ ^ ^0.25
+# rotate @s facing ^ ^ ^0.25
 data modify entity @s Owner set from entity @n[type=skeleton, predicate=wtworlds:entity/gardener, dx=0] UUID
 
 execute store result score @s wtworlds.pos.x run data get entity @s Pos[0] 1000
