@@ -40,8 +40,12 @@ trial spawners:
 
 temple:
 - make use of initiate flight
+  - more higher gazebo in temple yard or sth, lower the initiate spawner like there's a hole and they have to fly up
+  - initiate spawner in lower level of backyard
+  - watch tower in practice yard in garden 2
 - backdoor to where?
 - include more nether fortress design
+- more faded spots on streets (like that straight one)
 - smithy houses, more house variants, more farm variants that look more alive and less stone like the houses are
 - initiate training grounds/living quarters
   - verticality? underground? prison?
