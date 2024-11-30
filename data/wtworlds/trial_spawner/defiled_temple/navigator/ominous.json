@@ -26,6 +26,13 @@
                     "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}",
                     "CustomNameVisible": false,
                     "DeathLootTable": "wtworlds:entities/navigator",
+                    "attributes":
+                    [
+                        {
+                            "id": "follow_range",
+                            "base": 20
+                        }
+                    ],
                     "HandItems":
                     [
                         {},
