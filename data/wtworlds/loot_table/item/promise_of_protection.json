@@ -26,7 +26,7 @@
                                 "equippable":
                                 {
                                     "slot": "head",
-                                    "swappable": false
+                                    "swappable": true
                                 },
                                 "repairable":
                                 {

@@ -9,16 +9,17 @@ before release:
 
 armour stand jumping tree climb?
 
-promise of protection:
-- new sprite for wearing on head (custom armour in armour slot? maybe not enough padding)
+staff:
+- make 3rd person models for keybinds
 
 pointer:
-- move passive learning to 'thought of a companion' (a tea cup or soup bowl)
+- move passive learning to 'thought of a friend' (a tea cup or soup bowl)
   - new name: mutual understanding/learning
   - provides passive xp (to both) when you're near a player, pet, or villager
   - does so until out of durability and then it can only be drank
 
 nun:
+- thought of a friend
 - next update's trades (rewards lots of xp)
   - clothing
   - map to the refugee village
@@ -53,23 +54,14 @@ temple:
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)
-- generation:
-  - windswept hills/forests (horizontal variant?) (maybe this could be reserved for abandoned refuges)
-  - stony peaks (vertical variant?) (maybe this should be reserved for hermit homes) (although no passive mobs spawn on stoney peaks)
 - lore: The temple had long stood as a refuge for wayward souls seeking protection and guidance. But then one day, the newly elected leadership found power in immortality through the repeated use of withering, and started worshipping a figure, now only known as the Proto-wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple. now, the gardeners tend to all within the temple, while the exorcists will do anything to undo the temple's curse.
-- structure:
-  - gate
-  - central yard: has willow trees and holes and cracks in yard
-  - backyard/gardens
-  - towers
-  - living quarters (for concubines): has letters?
-  - secret portal/lab
 - building palette:
-  - wood: spruce, oak, mangrove (imported)
+  - wood: spruce, oak, mangrove/birch (imported)
   - stone, andesite
   - fences
-  - trapdoor for windows
   - soul lanterns, candles
+    - soul lanterns represent areas safe for undead
+    - candles/lanterns represent areas that have no undead (usually within houses)
 - loot:
   - has blaze rod to enable weakness-brewing before nether
   - weapon room
@@ -151,6 +143,7 @@ swamp/forest refuges:
 - Traps to deter enemies
 - lots of flowers
 - bog iron
+- reed hats
 
 hermit homes:
 - in cliffside

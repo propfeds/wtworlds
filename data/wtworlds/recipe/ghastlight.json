@@ -20,16 +20,14 @@
         "components":
         {
             "item_model": "wtworlds:ghastlight",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.ghastlight\", \"color\": \"white\"}",
+            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.ghastlight\"}",
             "enchantments":
             {
                 "levels":
                 {
                     "wtworlds:firecracker": 1
-                },
-                "show_in_tooltip": false
-            },
-            "enchantment_glint_override": false
+                }
+            }
         }
     }
 }

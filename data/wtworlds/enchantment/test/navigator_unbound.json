@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.navigator"
+        "translate": "enchantment.wtworlds.navigator_unbound"
     },
     "supported_items": "#wtworlds:enchantable/projectile",
     "slots":
@@ -33,7 +33,7 @@
                     [
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/navigator/projectile_spawned"
+                            "function": "wtworlds:enchantment/navigator/projectile_spawned_unbound"
                         }
                     ]
                 }
