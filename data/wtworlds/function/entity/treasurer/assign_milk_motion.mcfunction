@@ -1,5 +1,3 @@
-# rotate @s facing ^ ^ ^0.25
-
 execute store result score @s wtworlds.pos.x run data get entity @s Pos[0] 1000
 execute store result score @s wtworlds.pos.y run data get entity @s Pos[1] 1000
 execute store result score @s wtworlds.pos.z run data get entity @s Pos[2] 1000

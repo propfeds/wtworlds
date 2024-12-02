@@ -1,0 +1,1 @@
+$summon arrow ^ ^ ^ {Rotation: [$(y)f, $(x)f]}
