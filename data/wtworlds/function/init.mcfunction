@@ -40,7 +40,7 @@ scoreboard objectives add wtworlds.whirlpool.y- dummy
 scoreboard objectives add wtworlds.whirlpool.z+ dummy
 scoreboard objectives add wtworlds.whirlpool.z- dummy
 # Whirlpool particle markers
-scoreboard objectives add wtworlds.whirlpool.raining dummy
+scoreboard objectives add wtworlds.whirlpool.water dummy
 scoreboard objectives add wtworlds.whirlpool.frame dummy
 
 # Position

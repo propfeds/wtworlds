@@ -1,1 +1,1 @@
-execute positioned ~-0.375 ~-0.125 ~-0.375 as @e[dx=0, type=!armor_stand, team=!wtworlds.defiled_temple] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run return run damage @s 3 mob_attack at ~0.625 ~0.625 ~0.625
+execute positioned ~-0.375 ~ ~-0.375 as @e[dx=0, type=!armor_stand, team=!wtworlds.defiled_temple] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run return run damage @s 3 mob_attack at ~0.625 ~0.625 ~0.625

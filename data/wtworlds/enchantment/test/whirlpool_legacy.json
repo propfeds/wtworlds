@@ -424,7 +424,7 @@
                                     "entity": "this",
                                     "scores":
                                     {
-                                        "wtworlds.whirlpool.raining": 1
+                                        "wtworlds.whirlpool.water": 1
                                     }
                                 },
                                 {
@@ -489,7 +489,7 @@
                         "entity": "this",
                         "scores":
                         {
-                            "wtworlds.whirlpool.raining": 1
+                            "wtworlds.whirlpool.water": 1
                         }
                     },
                     {

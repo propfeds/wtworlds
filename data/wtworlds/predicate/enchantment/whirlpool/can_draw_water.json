@@ -1,0 +1,33 @@
+{
+    "condition": "any_of",
+    "terms":
+    [
+        {
+            "condition": "all_of",
+            "terms":
+            [
+                {
+                    "condition": "weather_check",
+                    "raining": true
+                },
+                {
+                    "condition": "location_check",
+                    "predicate":
+                    {
+                        "can_see_sky": true
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "location_check",
+            "predicate":
+            {
+                "fluid":
+                {
+                    "fluids": "#water"
+                }
+            }
+        }
+    ]
+}

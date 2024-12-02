@@ -1,0 +1,2 @@
+summon armor_stand ^ ^ ^0.45 {Invisible: 1b, Marker: 1b, DisabledSlots: 16191, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:whirlpool/explosion": 1}}}, {}], HandDropChances: [0.0, 0.0]}
+execute positioned ^ ^ ^0.125 run function wtworlds:enchantment/whirlpool/water_check

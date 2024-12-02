@@ -13,4 +13,4 @@
 # scoreboard players reset @s wtworlds.whirlpool.z+
 # scoreboard players reset @s wtworlds.whirlpool.z-
 
-scoreboard players reset @s wtworlds.whirlpool.raining
+scoreboard players reset @s wtworlds.whirlpool.water
