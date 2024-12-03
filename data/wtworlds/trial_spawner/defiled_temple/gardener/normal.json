@@ -20,6 +20,10 @@
                         {
                             "id": "movement_speed",
                             "base": 0.24
+                        },
+                        {
+                            "id": "scale",
+                            "base": 0.9
                         }
                     ]
                 },

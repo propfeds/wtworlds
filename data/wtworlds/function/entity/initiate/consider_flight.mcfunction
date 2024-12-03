@@ -1,7 +1,7 @@
 execute store result score @s wtworlds.health run data get entity @s Health 10000
 execute if score @s wtworlds.health matches ..0 run return 0
 
-execute unless function wtworlds:entity/target/32m run return 0
+execute unless predicate wtworlds:target/32m run return 0
 
 function wtworlds:entity/rotate/target_eyes
 # Check if the target is above the initiate (wrong logic but please)

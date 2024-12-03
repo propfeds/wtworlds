@@ -10,7 +10,7 @@
                 "items":
                 [
                     {
-                        "items": "beetroot_soup",
+                        "items": "poisonous_potato",
                         "components":
                         {
                             "item_model": "wtworlds:promise_of_prosperity"
@@ -32,7 +32,7 @@
         },
         "icon":
         {
-            "id": "beetroot_soup",
+            "id": "poisonous_potato",
             "components":
             {
                 "item_model": "wtworlds:promise_of_prosperity"

@@ -12,14 +12,9 @@ armour stand jumping tree climb?
 staff:
 - make 3rd person models for keybinds
 
-pointer:
-- move passive learning to 'thought of a friend' (a tea cup or soup bowl)
-  - new name: mutual understanding/learning
-  - provides passive xp (to both) when you're near a player, pet, or villager
-  - does so until out of durability and then it can only be drank
-
 nun:
 - thought of a friend
+  - move passive learning to 'thought of a friend' (a tea cup or soup bowl)
 - next update's trades (rewards lots of xp)
   - clothing
   - map to the refugee village
@@ -106,6 +101,7 @@ bug: deflecting doesn't detect crawling in trapdoor
 
 enemies:
 - cave spider centipede
+- spider stack
 - dragonfly (bees?)
 
 wisteria trees
@@ -157,15 +153,51 @@ jungle crypts
 - drowned, bogged
 - can serve as a way to learn conduits
 - whirlpool crossbow
+- renewable sand
 
 promises
 - hunter's: make enemies drop blood meal that can grow flowers (fake brushes) (or smelt into iron nugget if possible) (doesn't make sense piglin-wise though, so maybe the resistance refuge could have them)
-- providence: provide building bonuses?
-- influence: + block placement range and attack range
+- providence/influence: + block placement range and attack range
 - harmony: scan for enemies that are attacking
 - intimacy: drain dur to heal allies and self, replenish by XP
 - return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
 - perpetuity: resists poison, harming and wither
+
+thoughts:
+- friend: 
+  - enchantment name: mutual understanding/learning
+  - when you're near a player, pet, or villager, provides passive xp to you and regen to them
+  - does so until out of durability and then it can only be drank
+
+## Lost Worlds (old concept)
+
+Have you ever rage quit after a gruesome death? Maybe I'll attempt to fix that.
+
+Introducing Lost Worlds (working name), which aims to reduce pain after death. I need a lot of stories from players.
+
+What's the meaning? Even if Mc is a procedurally generated game, it doesn't mean that any world you spawn in would be meaningless and you can just another one right away.
+
+Unwritten entries: Staves (Bamboo, Iron, End Rod?, Blaze Rod?), Needles, Vanilla balance (like creepers dropping 100% blocks on explosion)
+
+### (Revenants)
+
+Lost Wills (sometimes called revenants) are a neutral mob that spawn in a special structure (more on it a bit below). They wear leather or rusted iron armour (reparable with smithing table? anvil? innate mending before turning to regular iron?), and wield either an iron sword or crossbow.
+
+From afar, a LW would look to be lying on the ground sleeping. Upon the player approaching, it would wake up, grab its weapon and engage a crouching stance, while shivering. Should the player choose to step close, it'll uncrouch and attack the player. But if the player gets it close to half health, it'll cower and hide behind a shield. In this state, the player can safely give it some food, which will befriend the LW. They can be given food while in the ready stance as well, but the LW having an aggro range makes it harder to do so.
+
+Now, what do they do when befriended? They become your bodyguards! The player can then give them tools to change their behaviour. For example, giving one a spyglass will allow it to point to a nearby structure. More functions are needed.
+
+What do they drop when they die? Either a crafting table, some arrows, some dirt (FaRmABlE DIIRT??), gravel or cobblestone, some food (depending on biome), or some wheat seeds.
+
+Where do they spawn? Occasionally, the world will generate a grave biome. There are currently two variants in my head. One can be found near rivers, which will look like a patch of gravel (some of them suspicious) and cobble. There will be arrow entities on the ground that don't despawn. This LW may have been killed by skeletons. This grave variant also has a trail leading to the revenant's house. It might've been building a walkway on the river bank.
+The other variant spawns near mountains and dripstone caves, and contains gravel (mountain), sus gravel, dirt pillars and snow (mountains). On the ground and nearby walls lie several needles (needles are expensive crossbow ammo created from bones that can pin mobs to the ground or attach to blocks for climbing). How did it die?
+
+Now, what if they die? Each grave biome can only have one LW alive at a time. If it dies, it can be respawned (without the rusted armour) by placing a soul sand on the grave. It'll give soul particles for 20 mins until it's respawned. The soul sand will be heated to become tinted glass (TinTEED GlASS FaRM???).
+
+Would it make the player overpowered with allies by their side?
+Also, maybe develop their death causes more.
+
+## Reference
 
 item reference:
 - beetroot soup: used for headgear
