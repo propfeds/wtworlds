@@ -1,12 +1,12 @@
 summon villager ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.nun\"}", CustomNameVisible: false, Silent: true, ArmorItems: [{}, {}, {}, {id: leather_helmet, components: {enchantments: {"wtworlds:entity/nun": 1, protection: 4, vanishing_curse: 1}, unbreakable: {}}}], HandItems: [{}, {id: bow, components: {enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}], VillagerData: {profession: "nitwit", type: "taiga", level: 1}, Offers: {Recipes: [\
 {buy: {id: "emerald", count: 2}, sell: {id: "gold_ingot", count: 1}, \
 maxUses: 32, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
-{buy: {id: "gold_ingot", count: 1}, sell: {id: "candle", count: 3}, \
-maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 {buy: {id: "gold_ingot", count: 1}, sell: {id: "flint", count: 10}, \
 maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 {buy: {id: "gold_ingot", count: 3}, sell: {id: "soul_lantern", count: 1}, \
-maxUses: 12, priceMultiplier: 0.2, rewardExp: true, xp: 10}, \
+maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
+{buy: {id: "candle", count: 4}, sell: {id: "gold_ingot", count: 1}, \
+maxUses: 16, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
 {buy: {id: "string", count: 16}, buyB: {id: "gold_ingot", count: 1}, \
 sell: {id: "white_wool", count: 5}, \
 maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
