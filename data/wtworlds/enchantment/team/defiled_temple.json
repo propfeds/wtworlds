@@ -1,0 +1,37 @@
+{
+    "description":
+    {
+        "translate": "team.defiled_temple"
+    },
+    "supported_items": "bow",
+    "slots":
+    [
+        "offhand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:entity/team/defiled_temple"
+                }
+            }
+        ]
+    }
+}

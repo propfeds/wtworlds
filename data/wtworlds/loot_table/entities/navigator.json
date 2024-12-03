@@ -67,8 +67,35 @@
             "entries":
             [
                 {
-                    "type": "item",
-                    "name": "arrow",
+                    "type": "alternatives",
+                    "children":
+                    [
+                        {
+                            "type": "item",
+                            "conditions":
+                            [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate":
+                                    {
+                                        "equipment":
+                                        {
+                                            "offhand":
+                                            {
+                                                "items": "spectral_arrow"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "spectral_arrow"
+                        },
+                        {
+                            "type": "item",
+                            "name": "arrow"
+                        }
+                    ],
                     "functions":
                     [
                         {

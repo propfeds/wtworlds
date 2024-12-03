@@ -1,1 +1,1 @@
-execute at @s anchored eyes positioned ^ ^-0.5 ^ run summon armor_stand ~ ~ ~ {Invisible: 1b, Marker: 1b, DisabledSlots: 16191, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:vault/explosion": 1}}}, {}], HandDropChances: [0.0, 0.0]}
+execute at @s anchored eyes positioned ^ ^-0.5 ^ run summon armor_stand ~ ~ ~ {Invisible: 1b, Marker: 1b, DisabledSlots: 16191, HandItems: [{id: bow, components: {item_model: "air", enchantments: {"wtworlds:vault/explosion": 1, vanishing_curse: 1}}}, {}]}
