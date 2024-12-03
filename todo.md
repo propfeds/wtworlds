@@ -140,6 +140,7 @@ swamp/forest refuges:
 - lots of flowers
 - bog iron
 - reed hats
+- signal arrows crafted from spectral arrows or sold as trade
 
 hermit homes:
 - in cliffside

@@ -50,14 +50,21 @@
                 },
                 "effect":
                 {
-                    "type": "all_of",
-                    "effects":
-                    [
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:entity/nun/consider_wither"
-                        }
-                    ]
+                    "type": "run_function",
+                    "function": "wtworlds:entity/nun/consider_wither"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 1000,
+                    "period": 24000
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:entity/nun/refresh_trades"
                 }
             }
         ]
