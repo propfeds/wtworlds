@@ -1,5 +1,5 @@
 {
-    "parent": "wtworlds:story/root",
+    "parent": "wtworlds:story/trowel",
     "criteria":
     {
         "obtained_item":

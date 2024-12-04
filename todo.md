@@ -9,12 +9,7 @@ before release:
 
 armour stand jumping tree climb?
 
-staff:
-- make 3rd person models for keybinds
-
 nun:
-- thought of a friend
-  - move passive learning to 'thought of a friend' (a tea cup or soup bowl)
 - next update's trades (rewards lots of xp)
   - clothing
   - map to the refugee village
@@ -27,8 +22,6 @@ gardener:
 - ominouses throw root-shaped snowballs that strangle you?
 
 treasurer:
-- does milk bucket have to be armour stand?
-- add spilling sound layer to milk bucket (maybe not, 'd make it sound less dry)
 - ~~laser eyes~~ please don't make him like homelander
 - can they aggro towards witches?
 

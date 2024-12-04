@@ -1,0 +1,9 @@
+{
+    "values":
+    [
+        "wtworlds:entity/gardener/burying",
+        "wtworlds:entity/initiate/vampirism",
+        "wtworlds:entity/treasurer/heave",
+        "wtworlds:entity/treasurer/milk_spill"
+    ]
+}

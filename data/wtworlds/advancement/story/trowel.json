@@ -1,5 +1,5 @@
 {
-    "parent": "wtworlds:story/root",
+    "parent": "wtworlds:story/wooden_staff",
     "criteria":
     {
         "obtained_item":

@@ -37,6 +37,7 @@
         "icon":
         {
             "id": "stripped_mangrove_log"
-        }
+        },
+        "frame": "goal"
     }
 }

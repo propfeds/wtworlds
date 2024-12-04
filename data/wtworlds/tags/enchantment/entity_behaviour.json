@@ -2,12 +2,9 @@
     "values":
     [
         "wtworlds:entity/gardener",
-        "wtworlds:entity/gardener/burying",
         "wtworlds:entity/initiate",
-        "wtworlds:entity/initiate/vampirism",
         "wtworlds:entity/navigator",
-        "wtworlds:entity/treasurer",
-        "wtworlds:entity/treasurer/heave",
-        "wtworlds:entity/treasurer/milk_spill"
+        "wtworlds:entity/nun",
+        "wtworlds:entity/treasurer"
     ]
 }
