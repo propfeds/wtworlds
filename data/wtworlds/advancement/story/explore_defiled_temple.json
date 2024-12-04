@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/root",
+    "criteria":
+    {
+        "location":
+        {
+            "trigger": "location",
+            "conditions":
+            {
+                "player":
+                [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "location":
+                            {
+                                "structures": "wtworlds:defiled_temple"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.explore_defiled_temple.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.explore_defiled_temple.description"
+        },
+        "icon":
+        {
+            "id": "stripped_mangrove_log"
+        }
+    }
+}

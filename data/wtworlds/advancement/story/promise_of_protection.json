@@ -10,10 +10,10 @@
                 "items":
                 [
                     {
-                        "items": "golden_sword",
+                        "items": "beetroot_soup",
                         "components":
                         {
-                            "item_model": "wtworlds:golden_staff"
+                            "item_model": "wtworlds:promise_of_protection"
                         }
                     }
                 ]
@@ -24,18 +24,18 @@
     {
         "title":
         {
-            "translate": "advancements.wtworlds.golden_staff.title"
+            "translate": "advancements.wtworlds.promise_of_protection.title"
         },
         "description":
         {
-            "translate": "advancements.wtworlds.golden_staff.description"
+            "translate": "advancements.wtworlds.promise_of_protection.description"
         },
         "icon":
         {
-            "id": "golden_sword",
+            "id": "beetroot_soup",
             "components":
             {
-                "item_model": "wtworlds:golden_staff"
+                "item_model": "wtworlds:promise_of_protection"
             }
         }
     }

@@ -10,10 +10,10 @@
                 "items":
                 [
                     {
-                        "items": "golden_sword",
+                        "items": "potion",
                         "components":
                         {
-                            "item_model": "wtworlds:golden_staff"
+                            "item_model": "wtworlds:thought_of_a_friend"
                         }
                     }
                 ]
@@ -24,18 +24,18 @@
     {
         "title":
         {
-            "translate": "advancements.wtworlds.golden_staff.title"
+            "translate": "advancements.wtworlds.thought_of_a_friend.title"
         },
         "description":
         {
-            "translate": "advancements.wtworlds.golden_staff.description"
+            "translate": "advancements.wtworlds.thought_of_a_friend.description"
         },
         "icon":
         {
-            "id": "golden_sword",
+            "id": "potion",
             "components":
             {
-                "item_model": "wtworlds:golden_staff"
+                "item_model": "wtworlds:thought_of_a_friend"
             }
         }
     }

@@ -87,3 +87,6 @@ scoreboard objectives add wtworlds.nun.wither dummy
 
 # Stupid fucking game
 scoreboard objectives add wtworlds.age dummy
+
+# Stupid fucking game 2
+scoreboard objectives add wtworlds.bonding.hands dummy

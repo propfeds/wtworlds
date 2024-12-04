@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.retaliation"
     },
-    "supported_items": "#wtworlds:enchantable/blocking",
+    "supported_items": "#wtworlds:enchantable/parrying",
     "slots":
     [
         "hand"

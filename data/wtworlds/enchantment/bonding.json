@@ -1,9 +1,9 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.firecracker"
+        "translate": "enchantment.wtworlds.bonding"
     },
-    "supported_items": "#wtworlds:enchantable/firecracker",
+    "supported_items": "#wtworlds:enchantable/drink",
     "slots":
     [
         "hand"
@@ -17,19 +17,25 @@
     },
     "max_cost":
     {
-        "base": 35,
+        "base": 60,
         "per_level_above_first": 0
     },
-    "anvil_cost": 4,
+    "anvil_cost": 2,
     "effects":
     {
-        "projectile_spawned":
+        "tick":
         [
             {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 0,
+                    "period": 20
+                },
                 "effect":
                 {
                     "type": "run_function",
-                    "function": "wtworlds:enchantment/firecracker/projectile_spawned"
+                    "function": "wtworlds:enchantment/bonding/tick"
                 }
             }
         ]

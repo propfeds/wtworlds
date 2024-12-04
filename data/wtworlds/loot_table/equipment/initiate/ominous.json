@@ -140,6 +140,22 @@
                             "add": true
                         }
                     ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "wtworlds:item/wooden_staff",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/treasurer/heave": 1
+                            },
+                            "add": true
+                        }
+                    ]
                 }
             ]
         }
