@@ -33,7 +33,7 @@
                                 "instrument": "wtworlds:trowel",
                                 "tool":
                                 {
-                                    "damage_per_block": 2,
+                                    "damage_per_block": 1,
                                     "rules":
                                     [
                                         {

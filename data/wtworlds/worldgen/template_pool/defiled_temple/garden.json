@@ -71,6 +71,16 @@
                 "projection": "rigid",
                 "processors": "empty"
             }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "legacy_single_pool_element",
+                "location": "wtworlds:defiled_temple/garden/tea",
+                "projection": "rigid",
+                "processors": "empty"
+            }
         }
     ]
 }

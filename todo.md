@@ -1,11 +1,10 @@
 # To-do List
 
-before release:
+release:
 - trailer
 - post other stuff on curse forge
 - tutorial (advancements)
 - ask youtubers to cover
-- check all @n selectors to see if they're optimised
 
 armour stand jumping tree climb?
 
@@ -37,8 +36,9 @@ temple:
   - verticality? underground? prison?
   - make use of initiate flight
 - garden: more variants
+  - tea
 - water wells/walls like the nether fortress lava wells but frozen into ice
-  - how to incorporate into verticality?
+  - how to incorporate into verticality? maybe watch towers
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)

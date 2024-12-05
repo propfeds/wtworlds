@@ -8,7 +8,7 @@ execute on origin at @s anchored eyes positioned ^ ^ ^ as @n[type=#arrows, dista
 # tag @s remove wtworlds.blade_dance.self
 
 # Runs when arrow is out of range
-# If already rebound then do nothing, else rebound (40% velocity)
+# If already rebound then do nothing, else rebound (50% velocity)
 execute if entity @s[tag=wtworlds.blade_dance.rebound] run return run tag @s remove wtworlds.blade_dance.self
 
 execute store result entity @s Motion[0] double -0.000005 run data get entity @s Motion[0] 100000
