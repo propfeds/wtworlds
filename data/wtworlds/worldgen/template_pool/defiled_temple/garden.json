@@ -69,7 +69,7 @@
                 "element_type": "legacy_single_pool_element",
                 "location": "wtworlds:defiled_temple/garden/pond",
                 "projection": "rigid",
-                "processors": "wtworlds:defiled_temple_degradation"
+                "processors": "empty"
             }
         }
     ]

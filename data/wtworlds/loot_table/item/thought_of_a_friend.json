@@ -22,7 +22,7 @@
                                 "consumable":
                                 {
                                     "animation": "drink",
-                                    "consume_seconds": 6.4,
+                                    "consume_seconds": 4.8,
                                     "has_consume_particles": false,
                                     "sound": "entity.generic.drink"
                                 },

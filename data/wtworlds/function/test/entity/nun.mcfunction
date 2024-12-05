@@ -7,7 +7,7 @@ maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
 {buy: {id: "candle", count: 4}, sell: {id: "gold_ingot", count: 1}, \
 maxUses: 16, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
-{buy: {id: "string", count: 16}, sell: {id: "white_wool", count: 5}, \
+{buy: {id: "fermented_spider_eye", count: 8}, sell: {id: "gold_ingot", count: 1}, \
 maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
 {buy: {id: "gold_ingot", count: 15}, buyB: {id: "oak_button", count: 8}, sell: {id: "beetroot_soup", "components": {\
     "item_model": "wtworlds:promise_of_protection",\
@@ -62,7 +62,7 @@ maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
         }\
     ]\
 }}, maxUses: 3, priceMultiplier: 0.2, rewardExp: true, xp: 30}, \
-{buy: {id: "gold_ingot", count: 5}, buyB: {id: "experience_bottle", count: 4}, \
+{buy: {id: "gold_ingot", count: 3}, buyB: {id: "experience_bottle", count: 4}, \
 sell: {id: "potion", count: 1, "components": {\
     "item_model": "wtworlds:thought_of_a_friend",\
     "max_damage": 256,\
@@ -70,7 +70,7 @@ sell: {id: "potion", count: 1, "components": {\
     "consumable":\
     {\
         "animation": "drink",\
-        "consume_seconds": 6.4,\
+        "consume_seconds": 4.8,\
         "has_consume_particles": false,\
         "sound": "entity.generic.drink"\
     },\
