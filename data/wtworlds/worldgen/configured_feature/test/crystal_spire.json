@@ -5,21 +5,53 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:dirt"
+                "Name": "minecraft:end_rod",
+                "Properties":
+                {
+                    "facing": "down"
+                }
             }
         },
         "foliage_placer": {
             "type": "minecraft:random_spread_foliage_placer",
             "foliage_height": 7,
-            "leaf_placement_attempts": 60,
-            "offset": 1,
-            "radius": 3
+            "leaf_placement_attempts": 120,
+            "offset": 3,
+            "radius": 2
         },
         "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-                "Name": "minecraft:light_blue_stained_glass"
-            }
+            "type": "minecraft:weighted_state_provider",
+            "entries":
+            [
+                {
+                    "weight": 3,
+                    "data":
+                    {
+                        "Name": "light_blue_stained_glass"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "light_blue_stained_glass_pane"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "white_stained_glass"
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data":
+                    {
+                        "Name": "cyan_stained_glass"
+                    }
+                }
+            ]
         },
         "force_dirt": false,
         "ignore_vines": true,
