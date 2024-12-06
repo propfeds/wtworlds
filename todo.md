@@ -9,7 +9,7 @@ release:
 armour stand jumping tree climb?
 
 nun:
-- next update's trades (rewards lots of xp)
+- next update's trades
   - clothing
   - map to the refugee village
   - map to the mountain hermit
@@ -18,7 +18,12 @@ initiate:
 - use y distance predicates to check for flight
 
 gardener:
-- ominouses throw root-shaped snowballs that strangle you?
+- ominouses throw root-shaped snowballs that strangle you
+  - give up, snowballs can't get post_attack
+  - entity_hit_player advancement?
+
+navigator:
+- custom arrow sprite with name = sailing arrow?
 
 treasurer:
 - ~~laser eyes~~ please don't make him like homelander
@@ -31,7 +36,8 @@ temple:
 - backdoor to where?
 - include more nether fortress design
 - more faded spots on streets (like that straight one)
-- smithy houses, more house variants, more farm variants that look more alive and less stone like the houses are
+- more farm variants that look more alive and less stone like the houses are
+- house variants: 3 houses, potter house, smithy, spider infested market
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight
