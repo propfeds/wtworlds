@@ -1,2 +1,2 @@
 # Remember to add 'run return' if there's new stuff
-execute if score @s wtworlds.whirlpool.frame matches -2147483648..2147483647 at @s run function wtworlds:enchantment/whirlpool/particles_at_marker
+execute if entity @s[tag=wtworlds.whirlpool.particles] at @s run function wtworlds:enchantment/whirlpool/particles_at_marker

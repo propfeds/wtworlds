@@ -1,3 +1,3 @@
-execute summon marker run scoreboard players set @s wtworlds.whirlpool.frame 0
+summon marker ~ ~ ~ {Tags: [wtworlds.whirlpool.particles]}
 
 schedule function wtworlds:tally/marker/tick 1 replace

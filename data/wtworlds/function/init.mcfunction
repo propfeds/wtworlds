@@ -14,6 +14,19 @@ scoreboard objectives add wtworlds.const dummy
 # Tally (entity ticking) system
 scoreboard objectives add wtworlds.tally dummy
 
+# Entity age
+scoreboard objectives add wtworlds.age dummy
+
+# Position
+scoreboard objectives add wtworlds.pos.x dummy
+scoreboard objectives add wtworlds.pos.y dummy
+scoreboard objectives add wtworlds.pos.z dummy
+
+# Motion
+scoreboard objectives add wtworlds.motion.x dummy
+scoreboard objectives add wtworlds.motion.y dummy
+scoreboard objectives add wtworlds.motion.z dummy
+
 # Finishing (aka Committed)
 scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
@@ -33,25 +46,13 @@ scoreboard objectives add wtworlds.deflecting.mode dummy
 scoreboard objectives add wtworlds.vault.cooldown dummy
 
 # Whirlpool
-scoreboard objectives add wtworlds.whirlpool.x+ dummy
-scoreboard objectives add wtworlds.whirlpool.x- dummy
-scoreboard objectives add wtworlds.whirlpool.y+ dummy
-scoreboard objectives add wtworlds.whirlpool.y- dummy
-scoreboard objectives add wtworlds.whirlpool.z+ dummy
-scoreboard objectives add wtworlds.whirlpool.z- dummy
-# Whirlpool particle markers
+# scoreboard objectives add wtworlds.whirlpool.x+ dummy
+# scoreboard objectives add wtworlds.whirlpool.x- dummy
+# scoreboard objectives add wtworlds.whirlpool.y+ dummy
+# scoreboard objectives add wtworlds.whirlpool.y- dummy
+# scoreboard objectives add wtworlds.whirlpool.z+ dummy
+# scoreboard objectives add wtworlds.whirlpool.z- dummy
 scoreboard objectives add wtworlds.whirlpool.water dummy
-scoreboard objectives add wtworlds.whirlpool.frame dummy
-
-# Position
-scoreboard objectives add wtworlds.pos.x dummy
-scoreboard objectives add wtworlds.pos.y dummy
-scoreboard objectives add wtworlds.pos.z dummy
-
-# Motion
-scoreboard objectives add wtworlds.motion.x dummy
-scoreboard objectives add wtworlds.motion.y dummy
-scoreboard objectives add wtworlds.motion.z dummy
 
 # Raycasting (don't use this 'channel' for continuous applications)
 scoreboard objectives add wtworlds.raycast dummy
@@ -85,8 +86,5 @@ scoreboard objectives add wtworlds.treasurer.milk dummy
 # Nun AI
 scoreboard objectives add wtworlds.nun.wither dummy
 
-# Stupid fucking game
-scoreboard objectives add wtworlds.age dummy
-
-# Stupid fucking game 2
+# Bonding (prevents two ticking at the same time)
 scoreboard objectives add wtworlds.bonding.hands dummy

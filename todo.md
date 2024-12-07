@@ -42,8 +42,6 @@ temple:
   - verticality? underground? prison?
   - make use of initiate flight
 - garden: more variants
-- water wells/walls like the nether fortress lava wells but frozen into ice
-  - how to incorporate into verticality? maybe watch towers
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)
