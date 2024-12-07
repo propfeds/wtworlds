@@ -7,7 +7,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/garden_1",
+                "location": "wtworlds:defiled_temple/building/garden_1",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_light_degradation"
             }
@@ -17,7 +17,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/garden_2",
+                "location": "wtworlds:defiled_temple/building/garden_2",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_light_degradation"
             }
@@ -27,7 +27,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/farm_1",
+                "location": "wtworlds:defiled_temple/building/farm_1",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_abandoned_degradation"
             }
@@ -37,7 +37,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/farm_2",
+                "location": "wtworlds:defiled_temple/building/farm_2",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_abandoned_degradation"
             }
@@ -47,7 +47,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/houses_1",
+                "location": "wtworlds:defiled_temple/building/houses_1",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_abandoned_degradation"
             }
@@ -57,7 +57,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/houses_2",
+                "location": "wtworlds:defiled_temple/building/initiate_house",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_abandoned_degradation"
             }

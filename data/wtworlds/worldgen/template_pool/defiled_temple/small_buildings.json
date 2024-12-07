@@ -7,7 +7,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/shrine",
+                "location": "wtworlds:defiled_temple/small_building/shrine",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }
@@ -17,7 +17,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/gazebo",
+                "location": "wtworlds:defiled_temple/small_building/gazebo",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }
@@ -27,7 +27,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/watch_tower",
+                "location": "wtworlds:defiled_temple/small_building/watch_tower",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }
