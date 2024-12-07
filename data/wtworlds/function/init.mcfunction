@@ -50,12 +50,6 @@ scoreboard players set 10000 wtworlds.const 10000
 ## Vault
 scoreboard objectives add wtworlds.vault.cooldown dummy
 ## Whirlpool
-# scoreboard objectives add wtworlds.whirlpool.x+ dummy
-# scoreboard objectives add wtworlds.whirlpool.x- dummy
-# scoreboard objectives add wtworlds.whirlpool.y+ dummy
-# scoreboard objectives add wtworlds.whirlpool.y- dummy
-# scoreboard objectives add wtworlds.whirlpool.z+ dummy
-# scoreboard objectives add wtworlds.whirlpool.z- dummy
 scoreboard objectives add wtworlds.whirlpool.water dummy
 
 # Item scoreboards
