@@ -6,4 +6,4 @@ execute if predicate wtworlds:enchantment/bonding/mainhand if function wtworlds:
 execute if predicate wtworlds:enchantment/bonding/offhand if function wtworlds:enchantment/bonding/check_companion run function wtworlds:enchantment/bonding/give_xp_offhand
 tag @s remove wtworlds.self
 
-execute if score @s wtworlds.bonding.hands matches 1.. run return run scoreboard players reset @s wtworlds.bonding.hands
+execute if score @s wtworlds.bonding.hands matches 1 run return run scoreboard players reset @s wtworlds.bonding.hands

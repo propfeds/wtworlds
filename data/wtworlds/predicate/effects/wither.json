@@ -5,13 +5,7 @@
     {
         "effects":
         {
-            "wither":
-            {
-                "amplifier":
-                {
-                    "min": 0
-                }
-            }
+            "wither": {}
         }
     }
 }
