@@ -14,9 +14,6 @@ nun:
   - map to the refugee village
   - map to the mountain hermit
 
-initiate:
-- use y distance predicates to check for flight
-
 gardener:
 - ominouses throw root-shaped snowballs that strangle you
   - give up, snowballs can't get post_attack

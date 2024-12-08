@@ -32,7 +32,24 @@
                     "entity": "this",
                     "predicate":
                     {
-                        "periodic_tick": 10
+                        "periodic_tick": 10,
+                        "targeted_entity":
+                        {
+                            "distance":
+                            {
+                                "absolute":
+                                {
+                                    "max": 4
+                                }
+                            },
+                            "stepping_on":
+                            {
+                                "block":
+                                {
+                                    "blocks": "#mineable/shovel"
+                                }
+                            }
+                        }
                     }
                 },
                 "effect":
@@ -47,6 +64,21 @@
             {
                 "enchanted": "attacker",
                 "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "stepping_on":
+                        {
+                            "block":
+                            {
+                                "blocks": "#mineable/shovel"
+                            }
+                        }
+                    }
+                },
                 "effect":
                 {
                     "type": "run_function",

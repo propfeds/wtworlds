@@ -1,2 +1,2 @@
-execute anchored eyes positioned ^ ^ ^ run particle entity_effect{color: [0.66274509803921568627450980392157, 0.3960784313725490196078431372549, 0.41568627450980392156862745098039, 1.0]} ~ ~ ~ 0.0 0.0 0.0 0.0625 4
+execute anchored eyes positioned ^ ^ ^ run particle entity_effect{color: [0.66274509803921568627450980392157, 0.3960784313725490196078431372549, 0.41568627450980392156862745098039, 1.0]} ~ ~ ~ 0.0 0.0 0.0 0.125 6
 execute anchored eyes positioned ^ ^ ^ run particle instant_effect ~ ~ ~ 0.0 0.0 0.0 0.0625 6

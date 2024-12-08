@@ -1,2 +1,2 @@
-execute unless predicate wtworlds:target/alive run return 0
-effect give @s speed 3 0 true
+effect give @s speed 2 1 true
+function wtworlds:entity/initiate/sound_chase

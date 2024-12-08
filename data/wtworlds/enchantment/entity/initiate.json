@@ -81,7 +81,7 @@
                         {
                             "type": "explode",
                             "radius": 0.5,
-                            "knockback_multiplier": 0.4,
+                            "knockback_multiplier": 0.375,
                             "block_interaction": "none",
                             "large_particle":
                             {
@@ -147,6 +147,10 @@
                                 "base": 0,
                                 "movement_scale": -0.5
                             }
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/initiate/post_jump_fatigue"
                         }
                     ]
                 }
@@ -158,7 +162,8 @@
                     "entity": "this",
                     "predicate":
                     {
-                        "periodic_tick": 125
+                        "periodic_tick": 120,
+                        "targeted_entity": {}
                     }
                 },
                 "effect":
@@ -174,7 +179,21 @@
                     "entity": "this",
                     "predicate":
                     {
-                        "periodic_tick": 15
+                        "periodic_tick": 15,
+                        "targeted_entity":
+                        {
+                            "distance":
+                            {
+                                "absolute":
+                                {
+                                    "max": 32
+                                },
+                                "y":
+                                {
+                                    "min": 2
+                                }
+                            }
+                        }
                     }
                 },
                 "effect":

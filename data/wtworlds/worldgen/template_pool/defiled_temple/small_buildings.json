@@ -17,7 +17,7 @@
             "element":
             {
                 "element_type": "single_pool_element",
-                "location": "wtworlds:defiled_temple/small_building/gazebo",
+                "location": "wtworlds:defiled_temple/small_building/pavilion",
                 "projection": "rigid",
                 "processors": "wtworlds:defiled_temple_degradation"
             }
