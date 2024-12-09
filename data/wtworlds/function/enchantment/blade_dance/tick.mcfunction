@@ -21,7 +21,7 @@ execute on origin at @s anchored eyes positioned ^ ^ ^ run rotate @n[type=#arrow
 
 tag @s remove wtworlds.blade_dance.self
 
-function wtworlds:enchantment/blade_dance/sound
+execute on origin run function wtworlds:enchantment/blade_dance/sound
 function wtworlds:enchantment/blade_dance/particles
 function wtworlds:enchantment/blade_dance/particles_rebound
 

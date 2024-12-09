@@ -6,13 +6,17 @@ release:
 - tutorial (advancements)
 - ask youtubers to cover
 
-armour stand jumping tree climb?
-
-nun:
-- next update's trades
-  - clothing
-  - map to the refugee village
-  - map to the mountain hermit
+temple:
+- backdoor to where?
+- performer mini-boss in basement cell
+- include more nether fortress design
+- more faded spots on streets (like that straight one)
+- more farm variants that look more alive and less stone like the houses are
+- house variants: 3 houses, potter house, smithy, spider infested market
+- initiate training grounds/living quarters
+  - verticality? underground? prison?
+  - make use of initiate flight
+- garden: more variants
 
 gardener:
 - ominouses throw root-shaped snowballs that strangle you
@@ -22,23 +26,11 @@ gardener:
 navigator:
 - custom arrow sprite with name = sailing arrow?
 
-treasurer:
-- ~~laser eyes~~ please don't make him like homelander
-- can they aggro towards witches?
+navigator's temporary post:
+- forest biomes
 
 trial spawners:
 - test out different hovering ominous item spawners
-
-temple:
-- backdoor to where?
-- include more nether fortress design
-- more faded spots on streets (like that straight one)
-- more farm variants that look more alive and less stone like the houses are
-- house variants: 3 houses, potter house, smithy, spider infested market
-- initiate training grounds/living quarters
-  - verticality? underground? prison?
-  - make use of initiate flight
-- garden: more variants
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)
@@ -59,9 +51,6 @@ Defiled Temple:
   - other tools and equipment room
     - promise of protection
     - promise of perpetuity?
-  - other storage:
-    - leather
-    - old statue of some old deity (maybe the ones in mc dungeons/legends)
 - enemies: totally undead, bring your smites and splash health pots here
   - Initiate: a practitioner that runs and jumps (even flies)
     - Their weakness is the sun, as it breaks their helmets (therefore their AI)
@@ -83,10 +72,9 @@ Defiled Temple:
 custom shears
 - cut hair to form wigs xd
 
-heave & vault:
-- use custom model data
-
 foil: check out Han dynasty fencing swords
+
+armour stand jumping tree climb?
 
 rework deflecting
 
@@ -119,8 +107,11 @@ paintbrush (brush):
 
 - the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 
-navigator's temporary post:
-- forest biomes
+nun:
+- next update's trades
+  - clothing
+  - map to the refugee village
+  - map to the mountain hermit
 
 swamp/forest refuges:
 - like a village, but also with a school
@@ -142,26 +133,22 @@ hermit homes:
 - book hidden inside fish barrels or well
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
-jungle crypts
+jungle crypts:
 - based on cham stuff?
 - drowned, bogged
 - can serve as a way to learn conduits
 - whirlpool crossbow
 - renewable sand
 
-promises
+promises:
 - hunter's: make enemies drop blood meal that can grow flowers (fake brushes) (or smelt into iron nugget if possible) (doesn't make sense piglin-wise though, so maybe the resistance refuge could have them)
-- providence/influence: + block placement range and attack range
 - harmony: scan for enemies that are attacking
-- intimacy: drain dur to heal allies and self, replenish by XP
 - return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
 - perpetuity: resists poison, harming and wither
 
 thoughts:
-- friend: 
-  - enchantment name: mutual understanding/learning
-  - when you're near a player, pet, or villager, provides passive xp to you and regen to them
-  - does so until out of durability and then it can only be drank
+- what's for villagers?
+- providence/influence: +2 block placement range and +0.5 attack range
 
 ## Lost Worlds (old concept)
 

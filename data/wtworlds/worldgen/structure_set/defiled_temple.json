@@ -10,8 +10,7 @@
     {
         "type": "random_spread",
         "separation": 8,
-        "spacing": 24,
-        "salt": 1713133113,
-        "locate_offset": [0, 3, 0]
+        "spacing": 32,
+        "salt": 1713133113
     }
 }

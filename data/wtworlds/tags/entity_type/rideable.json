@@ -2,12 +2,8 @@
     "values":
     [
         "camel",
-        "horse",
-        "zombie_horse",
-        "skeleton_horse",
-        "donkey",
-        "mule",
-        "llama",
-        "trader_llama"
+        "pig",
+        "strider",
+        "#wtworlds:tameable_ride"
     ]
 }

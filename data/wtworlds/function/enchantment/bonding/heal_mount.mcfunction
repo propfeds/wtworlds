@@ -1,0 +1,1 @@
+execute on vehicle run return run effect give @s[type=#wtworlds:rideable, type=!#ignores_poison_and_regen, predicate=!wtworlds:effects/regeneration] regeneration 1 0
