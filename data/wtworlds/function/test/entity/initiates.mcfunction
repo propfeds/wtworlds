@@ -17,7 +17,7 @@ summon zombie ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"tr
         "id": "safe_fall_distance",\
         "base": 8\
     }\
-], ArmorItems: [{id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, {}, {id: "leather_helmet", components: {dyed_color: {rgb: 2829120}, damage: 35, enchantments: {"wtworlds:entity/initiate": 1, vanishing_curse: 1}, enchantment_glint_override: false}}], HandItems: [{}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}]}
+], ArmorItems: [{id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, {}, {id: "leather_helmet", components: {dyed_color: {rgb: 2829120}, enchantments: {"wtworlds:entity/initiate": 1, vanishing_curse: 1}, enchantment_glint_override: false}}], HandItems: [{}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}]}
 summon zombie ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.initiate\"}", CustomNameVisible: false, DeathLootTable: "wtworlds:entities/initiate", "attributes": [\
     {\
         "id": "armor",\
@@ -35,4 +35,4 @@ summon zombie ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"tr
         "id": "safe_fall_distance",\
         "base": 8\
     }\
-], ArmorItems: [{id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, {}, {id: "leather_helmet", components: {dyed_color: {rgb: 2829120}, damage: 35, enchantments: {"wtworlds:entity/initiate": 1, vanishing_curse: 1}, enchantment_glint_override: false}}], HandItems: [{}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}]}
+], ArmorItems: [{id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, {}, {id: "leather_helmet", components: {dyed_color: {rgb: 2829120}, enchantments: {"wtworlds:entity/initiate": 1, vanishing_curse: 1}, enchantment_glint_override: false}}], HandItems: [{}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}]}

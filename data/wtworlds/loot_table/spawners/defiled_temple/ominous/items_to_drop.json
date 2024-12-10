@@ -1,0 +1,43 @@
+{
+    "type": "chest",
+    "random_sequence": "wtworlds:spawners/defiled_temple/ominous/items_to_drop",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "oak_boat"
+                },
+                {
+                    "type": "item",
+                    "name": "armor_stand"
+                },
+                {
+                    "type": "item",
+                    "name": "firework_rocket"
+                },
+                {
+                    "type": "item",
+                    "name": "trident"
+                },
+                {
+                    "type": "item",
+                    "name": "glowstone"
+                },
+                {
+                    "type": "item",
+                    "name": "water_bucket"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+            ]
+        }
+    ]
+}

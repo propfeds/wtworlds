@@ -10,7 +10,7 @@
     {
         "type": "random_spread",
         "separation": 8,
-        "spacing": 32,
+        "spacing": 24,
         "salt": 1713133113
     }
 }

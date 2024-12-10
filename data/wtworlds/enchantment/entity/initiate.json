@@ -50,7 +50,8 @@
                             "flags":
                             {
                                 "is_on_ground": true
-                            }
+                            },
+                            "targeted_entity": {}
                         }
                     },
                     {
@@ -147,10 +148,6 @@
                                 "base": 0,
                                 "movement_scale": -0.5
                             }
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:entity/initiate/post_jump_fatigue"
                         }
                     ]
                 }
@@ -190,7 +187,7 @@
                                 },
                                 "y":
                                 {
-                                    "min": 2
+                                    "min": 1.5
                                 }
                             }
                         }

@@ -1,0 +1,26 @@
+{
+    "fallback": "empty",
+    "elements":
+    [
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/house/1p_mason",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_abandoned_degradation"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/house/2p_shepherd",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_abandoned_degradation"
+            }
+        }
+    ]
+}

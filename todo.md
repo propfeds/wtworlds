@@ -13,6 +13,7 @@ temple:
 - more faded spots on streets (like that straight one)
 - more farm variants that look more alive and less stone like the houses are
 - house variants: 3 houses, potter house, smithy, spider infested market
+  - fallback house is ruined
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight
