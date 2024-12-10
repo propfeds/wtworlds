@@ -110,6 +110,54 @@
                             "snowy": "false"
                         }
                     }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "rooted_dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "water"
+                    },
+                    "output_state":
+                    {
+                        "Name": "water"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "rooted_dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "grass_block"
+                    },
+                    "output_state":
+                    {
+                        "Name": "dirt"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "rooted_dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "dirt"
+                    },
+                    "output_state":
+                    {
+                        "Name": "dirt"
+                    }
                 }
             ]
         }
