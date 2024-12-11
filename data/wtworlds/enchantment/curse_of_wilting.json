@@ -29,7 +29,7 @@
                 "requirements":
                 {
                     "condition": "random_chance",
-                    "chance": 0.2
+                    "chance": 0.08
                 },
                 "effect":
                 {
@@ -51,7 +51,12 @@
                                     },
                                     {
                                         "type": "matching_blocks",
-                                        "blocks": "dirt"
+                                        "blocks":
+                                        [
+                                            "dirt",
+                                            "grass_block",
+                                            "mud"
+                                        ]
                                     },
                                     {
                                         "type": "unobstructed"
@@ -72,7 +77,55 @@
                             "type": "spawn_particles",
                             "particle":
                             {
-                                "type": "dust_plume"
+                                "type": "ash"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 0.5
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "ash"
+                            },
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position",
+                                "offset": 0.5
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 1
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "ash"
                             },
                             "horizontal_position":
                             {
@@ -99,7 +152,7 @@
                 "requirements":
                 {
                     "condition": "random_chance",
-                    "chance": 0.6
+                    "chance": 0.4
                 },
                 "effect":
                 {
@@ -189,31 +242,7 @@
                             "type": "spawn_particles",
                             "particle":
                             {
-                                "type": "white_ash"
-                            },
-                            "horizontal_position":
-                            {
-                                "type": "in_bounding_box"
-                            },
-                            "vertical_position":
-                            {
-                                "type": "entity_position",
-                                "offset": 0.5
-                            },
-                            "horizontal_velocity":
-                            {
-                                "base": 0
-                            },
-                            "vertical_velocity":
-                            {
-                                "base": 1
-                            }
-                        },
-                        {
-                            "type": "spawn_particles",
-                            "particle":
-                            {
-                                "type": "ash"
+                                "type": "smoke"
                             },
                             "horizontal_position":
                             {

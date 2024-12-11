@@ -8,12 +8,12 @@ release:
 
 temple:
 - backdoor to where?
-- performer mini-boss in basement cell
 - include more nether fortress design
+  - cross shaped pavilion
 - more faded spots on streets (like that straight one)
 - more farm variants that look more alive and less stone like the houses are
 - house variants: 3 houses, potter house, smithy, spider infested market
-  - fallback house is ruined
+  - fallback house is ruined/burnt
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight
@@ -23,9 +23,15 @@ gardener:
 - ominouses throw root-shaped snowballs that strangle you
   - give up, snowballs can't get post_attack
   - entity_hit_player advancement?
+- are farmer hats properly enchantable on armour stands?
 
 navigator:
 - custom arrow sprite with name = sailing arrow?
+- occasional navigator spawning in streets and towers
+
+performer:
+- make own functions for enemy rope dart
+- mini-boss in basement cell
 
 navigator's temporary post:
 - forest biomes
@@ -85,6 +91,8 @@ enemies:
 - cave spider centipede
 - spider stack
 - dragonfly (bees?)
+- goat unicorns!
+- killer rabbits!
 
 wisteria trees
 
@@ -126,6 +134,7 @@ swamp/forest refuges:
 - bog iron
 - reed hats
 - signal arrows crafted from spectral arrows or sold as trade
+- coal flowers replaced with dandelions/sunflowers?
 
 hermit homes:
 - in cliffside

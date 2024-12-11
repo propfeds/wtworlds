@@ -26,6 +26,10 @@ maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
     {\
         "items": "#wooden_buttons"\
     },\
+    "enchantable":\
+    {\
+        "value": 15\
+    },\
     "enchantments":\
     {\
         "wtworlds:vigilance": 1\

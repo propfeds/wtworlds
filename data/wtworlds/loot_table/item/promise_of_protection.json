@@ -32,6 +32,10 @@
                                 {
                                     "items": "#wooden_buttons"
                                 },
+                                "enchantable":
+                                {
+                                    "value": 15
+                                },
                                 "enchantments":
                                 {
                                     "wtworlds:vigilance": 1

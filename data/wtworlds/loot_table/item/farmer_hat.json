@@ -28,6 +28,10 @@
                                     "slot": "head",
                                     "swappable": false
                                 },
+                                "enchantable":
+                                {
+                                    "value": 15
+                                },
                                 "attribute_modifiers":
                                 [
                                     {
