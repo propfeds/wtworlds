@@ -1,0 +1,123 @@
+{
+    "type": "chest",
+    "random_sequence": "wtworlds:chests/defiled_temple/blacksmith",
+    "pools":
+    [
+        {
+            "rolls":
+            {
+                "min": 6,
+                "max": 8
+            },
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "coal",
+                    "weight": 8,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "raw_iron",
+                    "weight": 4,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "chain",
+                    "weight": 4,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iron_ingot",
+                    "weight": 4,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "bucket",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "iron_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "name": "iron_sword"
+                },
+                {
+                    "type": "item",
+                    "name": "iron_axe"
+                },
+                {
+                    "type": "item",
+                    "name": "chainmail_helmet"
+                },
+                {
+                    "type": "item",
+                    "name": "chainmail_chestplate"
+                },
+                {
+                    "type": "item",
+                    "name": "chainmail_leggings"
+                },
+                {
+                    "type": "item",
+                    "name": "chainmail_boots"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:chests/defiled_temple/rope_dart_set",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

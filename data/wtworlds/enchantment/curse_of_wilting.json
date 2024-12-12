@@ -26,6 +26,33 @@
         "location_changed":
         [
             {
+                "effect":
+                {
+                    "type": "spawn_particles",
+                    "particle":
+                    {
+                        "type": "ash"
+                    },
+                    "horizontal_position":
+                    {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position":
+                    {
+                        "type": "entity_position",
+                        "offset": 0.5
+                    },
+                    "horizontal_velocity":
+                    {
+                        "base": 0
+                    },
+                    "vertical_velocity":
+                    {
+                        "base": 1
+                    }
+                }
+            },
+            {
                 "requirements":
                 {
                     "condition": "random_chance",
@@ -77,55 +104,7 @@
                             "type": "spawn_particles",
                             "particle":
                             {
-                                "type": "ash"
-                            },
-                            "horizontal_position":
-                            {
-                                "type": "in_bounding_box"
-                            },
-                            "vertical_position":
-                            {
-                                "type": "entity_position",
-                                "offset": 0.5
-                            },
-                            "horizontal_velocity":
-                            {
-                                "base": 0
-                            },
-                            "vertical_velocity":
-                            {
-                                "base": 1
-                            }
-                        },
-                        {
-                            "type": "spawn_particles",
-                            "particle":
-                            {
-                                "type": "ash"
-                            },
-                            "horizontal_position":
-                            {
-                                "type": "in_bounding_box"
-                            },
-                            "vertical_position":
-                            {
-                                "type": "entity_position",
-                                "offset": 0.5
-                            },
-                            "horizontal_velocity":
-                            {
-                                "base": 0
-                            },
-                            "vertical_velocity":
-                            {
-                                "base": 1
-                            }
-                        },
-                        {
-                            "type": "spawn_particles",
-                            "particle":
-                            {
-                                "type": "ash"
+                                "type": "smoke"
                             },
                             "horizontal_position":
                             {

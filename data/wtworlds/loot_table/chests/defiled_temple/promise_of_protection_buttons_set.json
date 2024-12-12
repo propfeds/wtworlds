@@ -1,6 +1,6 @@
 {
     "type": "chest",
-    "random_sequence": "wtworlds:item/promise_of_protection_buttons_set",
+    "random_sequence": "wtworlds:chests/defiled_temple/promise_of_protection_buttons_set",
     "pools":
     [
         {

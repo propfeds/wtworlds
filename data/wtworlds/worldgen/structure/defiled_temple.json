@@ -10,7 +10,7 @@
             "spawns": []
         }
     },
-    "terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "beard_box",
     "start_pool": "wtworlds:defiled_temple/streets/start",
     "size": 7,
     "start_height":

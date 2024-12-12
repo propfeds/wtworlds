@@ -7,6 +7,7 @@ release:
 - ask youtubers to cover
 
 temple:
+- smith house: armour stands, loot chests
 - backdoor to where?
 - include more nether fortress design
   - cross shaped pavilion
@@ -135,6 +136,7 @@ swamp/forest refuges:
 - reed hats
 - signal arrows crafted from spectral arrows or sold as trade
 - coal flowers replaced with dandelions/sunflowers?
+- sell saddle for money
 
 hermit homes:
 - in cliffside
