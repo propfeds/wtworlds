@@ -31,7 +31,7 @@
                 "effect":
                 {
                     "type": "add",
-                    "value": 12
+                    "value": 6
                 }
             }
         ],
@@ -41,7 +41,7 @@
                 "effect":
                 {
                     "type": "add",
-                    "value": 12
+                    "value": 20
                 }
             }
         ],
@@ -54,23 +54,155 @@
                     "effects":
                     [
                         {
-                            "type": "explode",
-                            "attribute_to_user": false,
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.03125,
-                            "radius": 0.01,
-                            "offset": [0, 0, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion_emitter"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/rainbow/register_rainbow_arrow"
                         }
                     ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": false,
+                    "block_interaction": "none",
+                    "knockback_multiplier": 0.03125,
+                    "radius": 0.0625,
+                    "offset": [0, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion_emitter"
+                    },
+                    "small_particle":
+                    {
+                        "type": "electric_spark"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 3
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": false,
+                    "block_interaction": "none",
+                    "knockback_multiplier": 0.0625,
+                    "radius": 0.0625,
+                    "offset": [0, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion_emitter"
+                    },
+                    "small_particle":
+                    {
+                        "type": "electric_spark"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 5
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": false,
+                    "block_interaction": "none",
+                    "knockback_multiplier": 0.09375,
+                    "radius": 0.0625,
+                    "offset": [0, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion_emitter"
+                    },
+                    "small_particle":
+                    {
+                        "type": "electric_spark"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores":
+                    {
+                        "wtworlds.deflecting.mode": 7
+                    }
+                },
+                "effect":
+                {
+                    "type": "explode",
+                    "attribute_to_user": false,
+                    "block_interaction": "none",
+                    "knockback_multiplier": 0.125,
+                    "radius": 0.0625,
+                    "offset": [0, 0, 0],
+                    "large_particle":
+                    {
+                        "type": "explosion_emitter"
+                    },
+                    "small_particle":
+                    {
+                        "type": "electric_spark"
+                    },
+                    "sound": "intentionally_empty"
+                }
+            }
+        ],
+        "tick":
+        [
+            {
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/rainbow/tick"
+                }
+            }
+        ],
+        "hit_block":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#arrows"
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/rainbow/hit"
                 }
             }
         ]

@@ -44,6 +44,7 @@
                             "type": "explode",
                             "block_interaction": "tnt",
                             "radius": 1.5,
+                            "offset": [0, 0.5, 0],
                             "small_particle":
                             {
                                 "type": "flash"

@@ -1,0 +1,1 @@
+execute as @e[type=#arrows, scores={wtworlds.deflecting.mode=1..7}] at @s run function wtworlds:enchantment/rainbow/particles
