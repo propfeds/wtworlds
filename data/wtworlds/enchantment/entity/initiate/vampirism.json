@@ -9,7 +9,7 @@
         "mainhand"
     ],
     "weight": 1,
-    "max_level": 10,
+    "max_level": 1,
     "min_cost":
     {
         "base": 0,

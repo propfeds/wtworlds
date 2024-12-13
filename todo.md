@@ -13,8 +13,9 @@ temple:
   - cross shaped pavilion
 - more faded spots on streets (like that straight one)
 - more farm variants that look more alive and less stone like the houses are
-- house variants: 3 houses, potter house, smithy, spider infested market
+- house variants: one more housing area, potter house, spider infested market
   - fallback house is ruined/burnt
+- should housing areas be moved to streets?
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight

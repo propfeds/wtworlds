@@ -3,7 +3,7 @@
     "elements":
     [
         {
-            "weight": 5,
+            "weight": 6,
             "element":
             {
                 "element_type": "single_pool_element",
