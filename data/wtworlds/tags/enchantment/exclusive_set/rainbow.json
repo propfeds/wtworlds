@@ -3,6 +3,7 @@
     [
         "power",
         "piercing",
-        "multishot"
+        "multishot",
+        "wtworlds:entity/navigator"
     ]
 }

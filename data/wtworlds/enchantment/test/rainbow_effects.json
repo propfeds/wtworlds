@@ -1,7 +1,7 @@
 {
     "description":
     {
-        "translate": "enchantment.wtworlds.rainbow"
+        "translate": "enchantment.wtworlds.rainbow_effects"
     },
     "supported_items":
     [
@@ -203,6 +203,156 @@
         [
             {
                 "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 6
+                    }
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "hunger",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 7,
+                    "max_duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 4
+                    }
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "weakness",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 7,
+                    "max_duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 2
+                    }
+                },
+                "effect":
+                {
+                    "type": "ignite",
+                    "duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 1
+                    }
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "poison",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 7,
+                    "max_duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 3
+                    }
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "darkness",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 7,
+                    "max_duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 5
+                    }
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "wither",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 7,
+                    "max_duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "requirements":
+                {
+                    "condition": "entity_scores",
+                    "entity": "direct_attacker",
+                    "scores":
+                    {
+                        "wtworlds.rainbow": 7
+                    }
+                },
+                "effect":
+                {
+                    "type": "apply_mob_effect",
+                    "to_apply": "slowness",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0,
+                    "min_duration": 7,
+                    "max_duration": 7
+                }
+            },
+            {
+                "enchanted": "attacker",
                 "affected": "damaging_entity",
                 "requirements":
                 {
@@ -217,39 +367,6 @@
                 {
                     "type": "run_function",
                     "function": "wtworlds:enchantment/rainbow/hit"
-                }
-            }
-        ],
-        "location_changed":
-        [
-            {
-                "effect":
-                {
-                    "type": "spawn_particles",
-                    "particle":
-                    {
-                        "type": "electric_spark"
-                    },
-                    "speed": 0.125,
-                    "horizontal_position":
-                    {
-                        "type": "in_bounding_box",
-                        "scale": 3
-                    },
-                    "horizontal_velocity":
-                    {
-                        "base": 0.0625,
-                        "movement_scale": -1
-                    },
-                    "vertical_position":
-                    {
-                        "type": "in_bounding_box"
-                    },
-                    "vertical_velocity":
-                    {
-                        "base": 0.0625,
-                        "movement_scale": -1
-                    }
                 }
             }
         ]
