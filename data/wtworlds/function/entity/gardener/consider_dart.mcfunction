@@ -7,6 +7,7 @@ execute if score @s wtworlds.gardener.dart matches ..-1 run return run scoreboar
 execute unless predicate wtworlds:target/12m run return 0
 
 scoreboard players add @s wtworlds.gardener.dart 1
-execute if score @s wtworlds.gardener.dart matches 2 run return run item replace entity @s weapon.offhand with arrow
+execute if score @s wtworlds.gardener.dart matches 2 run item replace entity @s weapon.offhand with arrow
+execute if score @s wtworlds.gardener.dart matches 2 run playsound minecraft:item.armor.equip_generic hostile @a
 
 execute if score @s wtworlds.gardener.dart matches 3.. run function wtworlds:entity/gardener/throw_dart

@@ -77,4 +77,4 @@ scoreboard players set blocking.imperfect_block_start wtworlds.const 8
 scoreboard objectives add wtworlds.deflecting.mode dummy
 
 # Done loading!
-tellraw @s {"translate": "welcome.wtworlds"}
+tellraw @a {"translate": "welcome.wtworlds"}

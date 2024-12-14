@@ -1,4 +1,4 @@
-scoreboard players set @s wtworlds.treasurer.milk -7
+scoreboard players set @s wtworlds.treasurer.milk -6
 
 # function wtworlds:entity/rotate/target_eyes
 

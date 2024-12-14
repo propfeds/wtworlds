@@ -9,6 +9,7 @@ execute unless predicate wtworlds:target/12m run return 0
 execute unless score @s wtworlds.treasurer.milk matches 1.. on target unless predicate wtworlds:effects/selected_positive_long run return 0
 
 scoreboard players add @s wtworlds.treasurer.milk 1
-execute if score @s wtworlds.treasurer.milk matches 2 run return run item replace entity @s weapon.offhand with milk_bucket
+execute if score @s wtworlds.treasurer.milk matches 2 run item replace entity @s weapon.offhand with milk_bucket
+execute if score @s wtworlds.treasurer.milk matches 2 run playsound minecraft:item.armor.equip_generic hostile @a
 
 execute if score @s wtworlds.treasurer.milk matches 3.. if predicate wtworlds:target/8m run function wtworlds:entity/treasurer/throw_milk
