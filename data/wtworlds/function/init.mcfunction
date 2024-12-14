@@ -15,9 +15,9 @@ scoreboard objectives add wtworlds.tally dummy
 ## Entity age
 scoreboard objectives add wtworlds.age dummy
 ## Position
-scoreboard objectives add wtworlds.pos.x dummy
-scoreboard objectives add wtworlds.pos.y dummy
-scoreboard objectives add wtworlds.pos.z dummy
+# scoreboard objectives add wtworlds.pos.x dummy
+# scoreboard objectives add wtworlds.pos.y dummy
+# scoreboard objectives add wtworlds.pos.z dummy
 ## Motion
 scoreboard objectives add wtworlds.motion.x dummy
 scoreboard objectives add wtworlds.motion.y dummy
