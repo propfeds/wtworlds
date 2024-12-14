@@ -1,4 +1,4 @@
-# tellraw @s {"translate": "welcome.wtworlds.reload"}
+# Weathered Worlds
 
 # Teams
 ## Defiled Temple (Initiate, Navigator, Gardener, Treasurer)
@@ -47,6 +47,8 @@ scoreboard objectives add wtworlds.climbing.cooldown dummy
 scoreboard objectives add wtworlds.missing_health dummy
 scoreboard objectives add wtworlds.health dummy
 scoreboard players set 10000 wtworlds.const 10000
+## Rainbow
+scoreboard objectives add wtworlds.rainbow dummy
 ## Vault
 scoreboard objectives add wtworlds.vault.cooldown dummy
 ## Whirlpool
@@ -73,3 +75,6 @@ scoreboard players set blocking.perfect_block_start wtworlds.const 1
 scoreboard players set blocking.imperfect_block_start wtworlds.const 8
 ## Trowel (deflecting)
 scoreboard objectives add wtworlds.deflecting.mode dummy
+
+# Done loading!
+tellraw @s {"translate": "welcome.wtworlds"}

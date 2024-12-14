@@ -1,1 +1,3 @@
-execute as @e[type=#arrows, scores={wtworlds.deflecting.mode=1..7}] at @s run function wtworlds:enchantment/rainbow/particles
+# Arrow is still alive
+scoreboard players add arrow wtworlds.tally 1
+execute if entity @s[nbt={HasBeenShot:true}] run function wtworlds:enchantment/rainbow/particles

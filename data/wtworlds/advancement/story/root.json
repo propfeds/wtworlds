@@ -27,9 +27,5 @@
         "background": "wtworlds:textures/gui/advancements/backgrounds/rooted_dirt.png",
         "announce_to_chat": false,
         "show_toast": false
-    },
-    "rewards":
-    {
-        "function": "wtworlds:welcome"
     }
 }

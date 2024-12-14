@@ -6,8 +6,10 @@ release:
 - tutorial (advancements)
 - ask youtubers to cover
 
+trial spawners:
+- test out different hovering ominous item spawners
+
 temple:
-- smith house: armour stands, loot chests
 - backdoor to where?
 - include more nether fortress design
   - cross shaped pavilion
@@ -25,7 +27,6 @@ gardener:
 - ominouses throw root-shaped snowballs that strangle you
   - give up, snowballs can't get post_attack
   - entity_hit_player advancement?
-- are farmer hats properly enchantable on armour stands?
 
 navigator:
 - custom arrow sprite with name = sailing arrow?
@@ -37,9 +38,6 @@ performer:
 
 navigator's temporary post:
 - forest biomes
-
-trial spawners:
-- test out different hovering ominous item spawners
 
 Defiled Temple:
 - mix between nether fortress and buddhist temple (impossible)

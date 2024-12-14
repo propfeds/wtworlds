@@ -1,1 +1,2 @@
-scoreboard players reset @s wtworlds.deflecting.mode
+function wtworlds:enchantment/rainbow/particles
+scoreboard players reset @s wtworlds.rainbow
