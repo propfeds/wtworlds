@@ -6,9 +6,6 @@ release:
 - tutorial (advancements)
 - ask youtubers to cover
 
-trial spawners:
-- test out different hovering ominous item spawners
-
 temple:
 - backdoor to where?
 - include more nether fortress design

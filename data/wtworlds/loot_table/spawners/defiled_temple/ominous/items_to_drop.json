@@ -9,27 +9,58 @@
             [
                 {
                     "type": "item",
-                    "name": "oak_boat"
+                    "name": "lingering_potion",
+                    "functions":
+                    [
+                        {
+                            "function": "set_potion",
+                            "id": "wind_charged"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "armor_stand"
+                    "name": "lingering_potion",
+                    "functions":
+                    [
+                        {
+                            "function": "set_potion",
+                            "id": "weaving"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "firework_rocket"
+                    "name": "lingering_potion",
+                    "functions":
+                    [
+                        {
+                            "function": "set_potion",
+                            "id": "infested"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "trident"
+                    "name": "lingering_potion",
+                    "functions":
+                    [
+                        {
+                            "function": "set_potion",
+                            "id": "slow_falling"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "glowstone"
-                },
-                {
-                    "type": "item",
-                    "name": "water_bucket"
+                    "name": "lingering_potion",
+                    "functions":
+                    [
+                        {
+                            "function": "set_potion",
+                            "id": "harming"
+                        }
+                    ]
                 }
             ]
         },
@@ -37,6 +68,78 @@
             "rolls": 1,
             "entries":
             [
+                {
+                    "type": "item",
+                    "name": "wind_charge",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "fire_charge"
+                },
+                {
+                    "type": "item",
+                    "name": "arrow",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 4
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:spawners/defiled_temple/ominous/tipped_arrows_to_drop"
+                },
+                {
+                    "type": "item",
+                    "name": "firework_rocket",
+                    "functions":
+                    [
+                        {
+                            "function": "set_fireworks",
+                            "explosions":
+                            {
+                                "mode": "append",
+                                "values":
+                                [
+                                    {
+                                        "shape": "small_ball",
+                                        "colors": [10138703],
+                                        "fade_colors": [10329495]
+                                    },
+                                    {
+                                        "shape": "small_ball",
+                                        "colors": [6192178],
+                                        "fade_colors": [4673362]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "colors": [8413016],
+                                        "fade_colors": [1908001]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             ]
         }
     ]
