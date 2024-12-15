@@ -114,33 +114,7 @@
                         },
                         {
                             "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/tp_forward"
-                        },
-                        {
-                            "type": "explode",
-                            "attribute_to_user": false,
-                            "block_interaction": "none",
-                            "knockback_multiplier":
-                            {
-                                "type": "linear",
-                                "base": 0.6,
-                                "per_level_above_first": 0.3
-                            },
-                            "radius": 20,
-                            "offset": [0, 100000, 0],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "run_function",
-                            "function": "wtworlds:enchantment/vault/tp_backward"
+                            "function": "wtworlds:enchantment/vault/summon_armour_stand"
                         },
                         {
                             "type": "explode",
