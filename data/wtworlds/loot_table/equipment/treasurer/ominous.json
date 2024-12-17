@@ -142,7 +142,8 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "wtworlds:entity/treasurer/heave": 2
+                                "wtworlds:entity/treasurer/heave": 2,
+                                "fire_aspect": 1
                             },
                             "add": true
                         }

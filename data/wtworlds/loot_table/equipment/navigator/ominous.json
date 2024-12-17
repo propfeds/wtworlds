@@ -133,8 +133,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "power": 5,
-                                "punch": 1
+                                "power": 4
                             },
                             "add": true
                         }
@@ -149,7 +148,7 @@
                             "function": "set_enchantments",
                             "enchantments":
                             {
-                                "power": 3,
+                                "power": 2,
                                 "punch": 2,
                                 "flame": 1
                             },

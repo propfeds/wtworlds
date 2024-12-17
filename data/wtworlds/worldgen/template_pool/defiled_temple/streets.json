@@ -3,7 +3,7 @@
     "elements":
     [
         {
-            "weight": 6,
+            "weight": 7,
             "element":
             {
                 "element_type": "single_pool_element",
@@ -13,7 +13,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 7,
             "element":
             {
                 "element_type": "single_pool_element",
@@ -23,7 +23,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 7,
             "element":
             {
                 "element_type": "single_pool_element",
@@ -33,7 +33,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 7,
             "element":
             {
                 "element_type": "single_pool_element",
@@ -43,7 +43,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 7,
             "element":
             {
                 "element_type": "single_pool_element",

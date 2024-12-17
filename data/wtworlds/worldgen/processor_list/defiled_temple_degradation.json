@@ -37,6 +37,22 @@
                     "input_predicate":
                     {
                         "predicate_type": "random_block_match",
+                        "block": "stone",
+                        "probability": 0.05
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "infested_stone"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
                         "block": "polished_andesite",
                         "probability": 0.06
                     },
@@ -151,7 +167,7 @@
                         "predicate_type": "random_block_match",
                         
                         "block": "oak_stairs",
-                        "probability": 0.04
+                        "probability": 0.06
                     },
                     "location_predicate":
                     {
@@ -159,11 +175,7 @@
                     },
                     "output_state":
                     {
-                        "Name": "oak_slab",
-                        "Properties":
-                        {
-                            "type": "bottom"
-                        }
+                        "Name": "oak_slab"
                     }
                 }
             ]

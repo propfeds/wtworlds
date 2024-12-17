@@ -9,16 +9,15 @@ release:
 temple:
 - backdoor to where?
 - include more nether fortress design
-  - cross shaped pavilion
-- more faded spots on streets (like that straight one)
-- more farm variants that look more alive and less stone like the houses are
+  - cross shaped pavilion with some well in the middle
+- more faded spots on streets
+- farm variants that look more alive and less stone like the houses are
 - house variants: one more housing area, potter house, spider infested market
   - fallback house is ruined/burnt
-- should housing areas be moved to streets?
+- garden variants
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight
-- garden: more variants
 
 gardener:
 - ominouses throw root-shaped snowballs that strangle you
