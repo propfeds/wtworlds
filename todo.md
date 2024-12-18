@@ -26,7 +26,6 @@ gardener:
 
 navigator:
 - custom arrow sprite with name = sailing arrow?
-- occasional navigator spawning in towers
 
 performer:
 - make own functions for enemy rope dart

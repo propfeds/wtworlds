@@ -1,0 +1,27 @@
+{
+    "type": "block_pile",
+    "config":
+    {
+        "state_provider":
+        {
+            "type": "weighted_state_provider",
+            "entries":
+            [
+                {
+                    "weight": 2,
+                    "data":
+                    {
+                        "Name": "decorated_pot"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data":
+                    {
+                        "Name": "flower_pot"
+                    }
+                }
+            ]
+        }
+    }
+}
