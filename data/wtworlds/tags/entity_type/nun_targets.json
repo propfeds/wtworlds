@@ -5,7 +5,11 @@
         "skeleton",
         "stray",
         "bogged",
-        "#zombies",
+        "zombie",
+        "zombified_piglin",
+        "zoglin",
+        "drowned",
+        "husk",
         "phantom",
         "spider"
     ]
