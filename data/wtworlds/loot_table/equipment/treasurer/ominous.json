@@ -49,7 +49,7 @@
                                 "trim":
                                 {
                                     "pattern": "wayfinder",
-                                    "material": "quartz"
+                                    "material": "redstone"
                                 }
                             }
                         },
@@ -81,7 +81,7 @@
                                 "trim":
                                 {
                                     "pattern": "wayfinder",
-                                    "material": "quartz"
+                                    "material": "redstone"
                                 }
                             }
                         },
@@ -113,7 +113,7 @@
                                 "trim":
                                 {
                                     "pattern": "wayfinder",
-                                    "material": "quartz"
+                                    "material": "redstone"
                                 }
                             }
                         },
