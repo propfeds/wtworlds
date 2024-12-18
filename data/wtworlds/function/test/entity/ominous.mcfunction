@@ -1,1 +1,1 @@
-summon ominous_item_spawner ~ ~8 ~ {spawn_item_after_ticks: 60, item: {id: "oak_boat"}}
+summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks: 60, item: {id: "firework_rocket", components: {enchantments: {"wtworlds:firecracker": 1}}}}
