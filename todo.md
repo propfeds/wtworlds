@@ -15,6 +15,7 @@ temple:
 - house variants: one more housing area, potter house, spider infested market
   - fallback house is ruined/burnt
 - garden variants
+  - park with statue
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight
@@ -26,6 +27,9 @@ gardener:
 
 navigator:
 - custom arrow sprite with name = sailing arrow?
+
+treasurer:
+- dispel sound & particles
 
 performer:
 - make own functions for enemy rope dart

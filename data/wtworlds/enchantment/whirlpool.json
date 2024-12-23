@@ -55,26 +55,12 @@
                     "terms":
                     [
                         {
-                            "condition": "all_of",
-                            "terms":
-                            [
-                                {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores":
-                                    {
-                                        "wtworlds.whirlpool.water": 1
-                                    }
-                                },
-                                {
-                                    "condition": "entity_properties",
-                                    "entity": "this",
-                                    "predicate":
-                                    {
-                                        "type": "#impact_projectiles"
-                                    }
-                                }
-                            ]
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.whirlpool.water": 1
+                            }
                         },
                         {
                             "condition": "entity_properties",
