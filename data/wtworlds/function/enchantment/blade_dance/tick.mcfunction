@@ -53,7 +53,6 @@ execute store result entity @s Motion[2] double 0.00001 run scoreboard players o
 tag @s remove wtworlds.blade_dance.self
 
 execute on origin run function wtworlds:enchantment/blade_dance/sound
-function wtworlds:enchantment/blade_dance/particles
 function wtworlds:enchantment/blade_dance/particles_rebound
 
 # function wtworlds:enchantment/blade_dance/hit
