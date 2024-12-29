@@ -1,0 +1,1 @@
+return run execute on origin if predicate wtworlds:flags/sneaking_or_key

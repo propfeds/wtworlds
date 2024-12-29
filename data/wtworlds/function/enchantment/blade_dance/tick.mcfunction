@@ -20,6 +20,8 @@ tag @s add wtworlds.blade_dance.self
 
 # execute on origin at @s anchored eyes positioned ^ ^ ^ run rotate @n[type=#arrows, tag=wtworlds.blade_dance.self] facing entity @s
 
+# tag @s remove wtworlds.blade_dance.self
+
 ## End of old rebound behaviour
 
 ## New rebound behaviour
@@ -28,9 +30,9 @@ execute on origin at @s anchored eyes positioned ^ ^ ^ as @n[type=#arrows, dista
 
 execute on origin run tag @s add wtworlds.origin
 
-execute store result score @s wtworlds.motion.x run data get entity @s Motion[0] 75000
-execute store result score @s wtworlds.motion.y run data get entity @s Motion[1] 75000
-execute store result score @s wtworlds.motion.z run data get entity @s Motion[2] 75000
+execute store result score @s wtworlds.motion.x run data get entity @s Motion[0] 80000
+execute store result score @s wtworlds.motion.y run data get entity @s Motion[1] 80000
+execute store result score @s wtworlds.motion.z run data get entity @s Motion[2] 80000
 
 execute facing entity @n[tag=wtworlds.origin] eyes positioned 0.0 0.0 0.0 run tp @s ^ ^ ^0.6
 
@@ -48,11 +50,12 @@ execute store result entity @s Motion[0] double 0.00001 run scoreboard players o
 execute store result entity @s Motion[1] double 0.00001 run scoreboard players operation @s wtworlds.motion.y += @s wtworlds.pos.y
 execute store result entity @s Motion[2] double 0.00001 run scoreboard players operation @s wtworlds.motion.z += @s wtworlds.pos.z
 
-## End of new rebound behaviour
-
 tag @s remove wtworlds.blade_dance.self
+
+## End of new rebound behaviour
 
 execute on origin run function wtworlds:enchantment/blade_dance/sound
 function wtworlds:enchantment/blade_dance/particles_rebound
 
-# function wtworlds:enchantment/blade_dance/hit
+# execute if function wtworlds:enchantment/blade_dance/sneak_check run return run function wtworlds:enchantment/blade_dance/rebound_feet
+# function wtworlds:enchantment/blade_dance/rebound_eyes
