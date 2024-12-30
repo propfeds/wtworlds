@@ -7,6 +7,8 @@ release:
 - ask youtubers to cover
 
 temple:
+- need enchanted armour loot (good chain mail/really good leather)
+- add bone/meal to food stores
 - backdoor to where?
 - include more nether fortress design
   - cross shaped pavilion with some well in the middle
@@ -15,10 +17,16 @@ temple:
 - house variants: one more housing area, potter house, spider infested market
   - fallback house is ruined/burnt
 - garden variants
+  - extend training railings to around the yard and also change roof shape
   - park with statue
+- small building variants
+  - wither statue with secret trapdoor accessible by mining or navigating, leading down to abandoned statue storage
 - initiate training grounds/living quarters
   - verticality? underground? prison?
   - make use of initiate flight
+
+initiate:
+- use armour stands to propel instead of tp to avoid collision
 
 gardener:
 - ominouses throw root-shaped snowballs that strangle you
@@ -27,6 +35,7 @@ gardener:
 
 navigator:
 - custom arrow sprite with name = sailing arrow?
+- test @n[dx=0]
 
 treasurer:
 - dispel sound & particles
@@ -85,6 +94,8 @@ armour stand jumping tree climb?
 rework deflecting
 
 bug: deflecting doesn't detect crawling in trapdoor
+
+make echo shards 'spreadable' (duplicate shard by surrounding it with amethyst, maybe either 4 or 8)
 
 enemies:
 - cave spider centipede
