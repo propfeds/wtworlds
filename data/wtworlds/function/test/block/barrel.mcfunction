@@ -1,0 +1,1 @@
+$give @s barrel[container_loot={loot_table: "wtworlds:chests/$(loot_table)"}]

@@ -1,1 +1,0 @@
-give @s trial_spawner[block_entity_data = {"id": "trial_spawner", normal_config: "wtworlds:defiled_temple/initiate/normal", ominous_config: "wtworlds:defiled_temple/initiate/ominous"}] 1

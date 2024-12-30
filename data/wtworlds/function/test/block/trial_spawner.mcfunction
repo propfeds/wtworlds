@@ -1,0 +1,1 @@
+$give @s trial_spawner[block_entity_data = {"id": "trial_spawner", normal_config: "wtworlds:$(config)/normal", ominous_config: "wtworlds:$(config)/ominous"}] 1

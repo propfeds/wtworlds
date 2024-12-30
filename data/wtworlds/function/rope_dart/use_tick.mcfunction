@@ -5,9 +5,11 @@ advancement revoke @s only wtworlds:rope_dart/use
 advancement revoke @s only wtworlds:rope_dart/impulse
 scoreboard players set @s wtworlds.rope_dart.impulse 2
 # function wtworlds:rope_dart/frame
-function wtworlds:rope_dart/frame_increment
+scoreboard players add @s wtworlds.rope_dart.frame 1
+
+execute if score @s wtworlds.rope_dart.frame matches 17.. run scoreboard players remove @s wtworlds.rope_dart.frame 16
 
 execute anchored eyes positioned ^ ^ ^0.25 positioned ~ ~-0.25 ~ rotated ~-90 ~ run function wtworlds:rope_dart/particles
-# execute if predicate wtworlds:flags/on_ground run return run execute anchored eyes positioned ^ ^ ^0.25 run function wtworlds:rope_dart/effects_on_ground
-# execute anchored eyes positioned ^ ^ ^0.25 run function wtworlds:rope_dart/effects_in_air
-execute anchored eyes positioned ^ ^ ^0.25 run function wtworlds:rope_dart/effects_on_ground
+# execute if predicate wtworlds:flags/on_ground run return run execute anchored eyes positioned ^ ^ ^0.25 run function wtworlds:rope_dart/effects_forward
+# execute anchored eyes positioned ^ ^ ^0.25 run function wtworlds:rope_dart/effects_backward
+execute anchored eyes positioned ^ ^ ^0.25 run function wtworlds:rope_dart/effects_forward
