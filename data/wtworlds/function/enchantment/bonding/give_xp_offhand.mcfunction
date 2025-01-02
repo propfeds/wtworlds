@@ -1,3 +1,3 @@
 scoreboard players add @s wtworlds.bonding.hands 1
 xp add @s 1 points
-item modify entity @s weapon.offhand wtworlds:damage_1_256th
+item modify entity @s weapon.offhand wtworlds:enchantment/bonding/damage_1_256th

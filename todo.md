@@ -9,6 +9,7 @@ release:
 temple:
 - need enchanted armour loot (good chain mail/really good leather)
 - add bone/meal to food stores
+- change hay bales in basement to pots
 - backdoor to where?
 - include more nether fortress design
   - cross shaped pavilion with some well in the middle
@@ -43,6 +44,7 @@ treasurer:
 performer:
 - make own functions for enemy rope dart
 - mini-boss in basement cell
+- drops chains
 
 navigator's temporary post:
 - forest biomes
@@ -164,7 +166,9 @@ jungle crypts:
 promises:
 - hunter's: make enemies drop blood meal that can grow flowers (fake brushes) (or smelt into iron nugget if possible) (doesn't make sense piglin-wise though, so maybe the resistance refuge could have them)
 - harmony: scan for enemies that are attacking
-- return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
+- return: prismarine, acts like totem of undying but teleports to spawn instead of giving regen
+  - functions are currently in test folder
+  - how to extinguish fire when used?
 - perpetuity: resists poison, harming and wither
 
 thoughts:

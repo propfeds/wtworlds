@@ -1,4 +1,4 @@
-item modify entity @s weapon.offhand wtworlds:damage_1_64th_from_score
+item modify entity @s weapon.offhand wtworlds:anvil_repair/damage_1_16th
 execute unless predicate wtworlds:equipment/offhand_broken run return 0
 
 item modify entity @s weapon.offhand wtworlds:discard
