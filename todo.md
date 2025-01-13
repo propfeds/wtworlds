@@ -8,6 +8,7 @@ release:
 
 temple:
 - need enchanted armour loot (good chain mail/really good leather)
+- bottle of enchanting loot
 - add bone/meal to food stores
 - change hay bales in basement to pots
 - backdoor to where?
@@ -98,6 +99,8 @@ rework deflecting
 bug: deflecting doesn't detect crawling in trapdoor
 
 make echo shards 'spreadable' (duplicate shard by surrounding it with amethyst, maybe either 4 or 8)
+
+weapon that uses xp to fire (maybe sculk or enchantment themed, in next update)
 
 enemies:
 - cave spider centipede
