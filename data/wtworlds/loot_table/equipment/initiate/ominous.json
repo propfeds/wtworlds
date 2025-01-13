@@ -1,0 +1,163 @@
+{
+    "type": "equipment",
+    "random_sequence": "wtworlds:equipment/initiate/ominous",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/head",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/initiate": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "redstone"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage":
+                            {
+                                "max": -0.7,
+                                "min": -0.8
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/legs",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "iron"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/feet",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "weight": 1,
+                    "type": "item",
+                    "name": "wooden_sword",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/initiate/vampirism": 1
+                            },
+                            "add": true
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "item",
+                    "name": "wooden_sword",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:blade_dance": 1
+                            },
+                            "add": true
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "wtworlds:item/wooden_staff",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/treasurer/heave": 1
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

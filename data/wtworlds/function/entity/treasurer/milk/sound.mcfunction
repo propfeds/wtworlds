@@ -1,0 +1,1 @@
+playsound wtworlds:entity.milk_bucket.hit hostile @a

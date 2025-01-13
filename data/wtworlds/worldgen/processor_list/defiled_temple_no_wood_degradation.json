@@ -1,0 +1,103 @@
+{
+    "processors":
+    [
+        {
+            "processor_type": "protected_blocks",
+            "value": "#minecraft:features_cannot_replace"
+        },
+        {
+            "processor_type": "rule",
+            "rules":
+            [
+                {
+                    "position_predicate":
+                    {
+                        "predicate_type": "axis_aligned_linear_pos",
+                        "axis": "y",
+                        "min_dist": 0,
+                        "max_dist": 12,
+                        "min_chance": 0.15,
+                        "max_chance": 0.45
+                    },
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "stone"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "cobblestone"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "stone",
+                        "probability": 0.05
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "infested_stone"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "polished_andesite",
+                        "probability": 0.05
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "andesite"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "polished_andesite_stairs",
+                        "probability": 0.05
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "andesite_stairs"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "polished_andesite_slab",
+                        "probability": 0.05
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "andesite_slab"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,1 @@
-playsound block.bamboo.fall player @a ^ ^ ^-0.1
+playsound wtworlds:item.pointer.hit player @a ^ ^ ^-0.1

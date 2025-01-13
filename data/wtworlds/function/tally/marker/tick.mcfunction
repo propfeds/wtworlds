@@ -1,2 +1,4 @@
-# Remember to add 'run return' if there's new stuff
-execute if score @s wtworlds.whirlpool.frame matches -2147483648..2147483647 run function wtworlds:enchantment/whirlpool/particles_at_marker
+scoreboard players set marker wtworlds.tally 0
+execute as @e[type=marker] run function wtworlds:tally/marker/tick_individual
+
+execute if score marker wtworlds.tally matches 1.. run schedule function wtworlds:tally/marker/tick 1 replace

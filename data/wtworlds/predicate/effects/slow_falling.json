@@ -5,13 +5,7 @@
     {
         "effects":
         {
-            "slow_falling":
-            {
-                "amplifier":
-                {
-                    "min": 0
-                }
-            }
+            "slow_falling": {}
         }
     }
 }

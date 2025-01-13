@@ -1,0 +1,217 @@
+{
+    "processors":
+    [
+        {
+            "processor_type": "protected_blocks",
+            "value": "#minecraft:features_cannot_replace"
+        },
+        {
+            "processor_type": "rule",
+            "rules":
+            [
+                {
+                    "position_predicate":
+                    {
+                        "predicate_type": "axis_aligned_linear_pos",
+                        "axis": "y",
+                        "min_dist": 0,
+                        "max_dist": 12,
+                        "min_chance": 0.15,
+                        "max_chance": 0.45
+                    },
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "stone"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "cobblestone"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "stone",
+                        "probability": 0.05
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "infested_stone"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "spruce_stairs",
+                        "probability": 0.12
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "spruce_slab"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "spruce_planks",
+                        "probability": 0.15
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "spruce_stairs"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "stripped_spruce_log",
+                        "probability": 0.2
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "spruce_planks"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "stripped_spruce_log",
+                        "probability": 0.04
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "air"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        "block": "spruce_fence",
+                        "probability": 0.12
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "air"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        
+                        "block": "oak_slab",
+                        "probability": 0.1
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "air"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "random_block_match",
+                        
+                        "block": "oak_stairs",
+                        "probability": 0.24
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state":
+                    {
+                        "Name": "oak_slab"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "rooted_dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "water"
+                    },
+                    "output_state":
+                    {
+                        "Name": "water"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "rooted_dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "grass_block"
+                    },
+                    "output_state":
+                    {
+                        "Name": "dirt"
+                    }
+                },
+                {
+                    "input_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "rooted_dirt"
+                    },
+                    "location_predicate":
+                    {
+                        "predicate_type": "block_match",
+                        "block": "dirt"
+                    },
+                    "output_state":
+                    {
+                        "Name": "dirt"
+                    }
+                }
+            ]
+        }
+    ]
+}

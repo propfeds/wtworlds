@@ -11,7 +11,7 @@
                 {
                     "mainhand":
                     {
-                        "items": "beetroot_soup",
+                        "items": "poisonous_potato",
                         "components":
                         {
                             "item_model": "wtworlds:pointer"
@@ -29,7 +29,7 @@
                 {
                     "offhand":
                     {
-                        "items": "beetroot_soup",
+                        "items": "poisonous_potato",
                         "components":
                         {
                             "item_model": "wtworlds:pointer"

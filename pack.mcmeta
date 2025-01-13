@@ -2,7 +2,7 @@
     "pack":
     {
         "pack_format": 57,
-        "supported_formats": [56, 57],
-        "description": "There lie ancient worlds, torn by a promise."
+        "supported_formats": [57, 61],
+        "description": "A down-to-earth exploration data pack. - prop"
     }
 }

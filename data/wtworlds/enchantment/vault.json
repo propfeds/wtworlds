@@ -17,7 +17,7 @@
     },
     "max_cost":
     {
-        "base": 25,
+        "base": 30,
         "per_level_above_first": 0
     },
     "anvil_cost": 4,
@@ -28,7 +28,7 @@
             {
                 "id": "wtworlds:enchantment.vault",
                 "attribute": "safe_fall_distance",
-                "amount": 2,
+                "amount": 3,
                 "operation": "add_value"
             }
         ],
@@ -66,26 +66,22 @@
                                         }
                                     }
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        "condition": "entity_properties",
-                        "entity": "this",
-                        "predicate":
-                        {
-                            "distance":
+                            },
                             {
-                                "horizontal":
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate":
                                 {
-                                    "max": 3
-                                },
-                                "y":
-                                {
-                                    "max": 2.5
+                                    "movement":
+                                    {
+                                        "y":
+                                        {
+                                            "max": -9.999999747378752E-6
+                                        }
+                                    }
                                 }
                             }
-                        }
+                        ]
                     },
                     {
                         "condition": "inverted",
@@ -117,10 +113,40 @@
                             "amount": 1
                         },
                         {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/tp_forward"
+                        },
+                        {
+                            "type": "explode",
+                            "attribute_to_user": false,
+                            "block_interaction": "none",
+                            "knockback_multiplier":
+                            {
+                                "type": "linear",
+                                "base": 0.6,
+                                "per_level_above_first": 0.3
+                            },
+                            "radius": 20,
+                            "offset": [0, 100000, 0],
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "small_gust"
+                            },
+                            "sound": "intentionally_empty"
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/vault/tp_backward"
+                        },
+                        {
                             "type": "explode",
                             "block_interaction": "trigger",
                             "knockback_multiplier": 0,
-                            "radius": 0.5,
+                            "radius": 0.75,
                             "offset": [0, 0.5, 0],
                             "large_particle":
                             {
@@ -130,87 +156,10 @@
                             {
                                 "type": "gust"
                             },
-                            "sound": "block.bamboo.fall"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.2,
-                            "radius": 1.5,
-                            "offset": [0, 0.5, 0],
-                            "large_particle":
+                            "sound":
                             {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "small_gust"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1.5,
-                            "offset": [1, 0.75, 1],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1.5,
-                            "offset": [-1, 0.75, -1],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1.5,
-                            "offset": [-1, 0.75, 1],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
-                        },
-                        {
-                            "type": "explode",
-                            "block_interaction": "none",
-                            "knockback_multiplier": 0.25,
-                            "radius": 1.5,
-                            "offset": [1, 0.75, -1],
-                            "large_particle":
-                            {
-                                "type": "explosion"
-                            },
-                            "small_particle":
-                            {
-                                "type": "ash"
-                            },
-                            "sound": "intentionally_empty"
+                                "sound_id": "wtworlds:item.staff.hit"
+                            }
                         },
                         {
                             "type": "run_function",

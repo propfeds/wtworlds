@@ -1,0 +1,1 @@
+summon small_fireball ~ ~0.5 ~ {Motion: [0.0, -0.125, 0.0]}

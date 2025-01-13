@@ -4,9 +4,6 @@
         "translate": "instrument.wtworlds.trowel"
     },
     "range": 16.0,
-    "sound_event":
-    {
-        "sound_id": "wtworlds:item.trowel.use"
-    },
+    "sound_event": "intentionally_empty",
     "use_duration": 107374182
 }

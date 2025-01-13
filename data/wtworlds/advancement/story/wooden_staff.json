@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/root",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "wooden_sword",
+                        "components":
+                        {
+                            "item_model": "wtworlds:wooden_staff"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.wooden_staff.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.wooden_staff.description"
+        },
+        "icon":
+        {
+            "id": "wooden_sword",
+            "components":
+            {
+                "item_model": "wtworlds:wooden_staff"
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+execute anchored eyes run playsound entity.arrow.shoot hostile @a ^ ^ ^

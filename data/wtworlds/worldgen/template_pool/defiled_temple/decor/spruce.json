@@ -1,0 +1,15 @@
+{
+    "fallback": "empty",
+    "elements":
+    [
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "feature_pool_element",
+                "feature": "spruce",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

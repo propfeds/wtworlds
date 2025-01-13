@@ -29,13 +29,13 @@
             },
             "use_cooldown":
             {
-                "seconds": 0.6,
+                "seconds": 0.25,
                 "cooldown_group": "wtworlds:trowel"
             },
             "instrument": "wtworlds:trowel",
             "tool":
             {
-                "damage_per_block": 2,
+                "damage_per_block": 1,
                 "rules":
                 [
                     {
@@ -65,44 +65,28 @@
                 "wtworlds:weaponised_instrument": 1
             },
             "attribute_modifiers":
-            {
-                "modifiers":
-                [
-                    {
-                        "id": "wtworlds:trowel",
-                        "type": "attack_damage",
-                        "amount": 3,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:trowel",
-                        "type": "attack_speed",
-                        "amount": -2.2,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:trowel",
-                        "type": "entity_interaction_range",
-                        "amount": -0.5,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ],
-                "show_in_tooltip": false
-            },
-            "lore":
             [
-                "\"\"",
-
-                "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 4 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.8 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}",
-
-                "{\"color\": \"blue\", \"italic\": false, \"text\": \"-0.5 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.entity_interaction_range\"}]}"
+                {
+                    "id": "minecraft:base_attack_damage",
+                    "type": "attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "minecraft:base_attack_speed",
+                    "type": "attack_speed",
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "minecraft:base_attack_reach",
+                    "type": "entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
             ]
         }
     }

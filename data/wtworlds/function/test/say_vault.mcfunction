@@ -1,1 +1,0 @@
-say Trying to vault:

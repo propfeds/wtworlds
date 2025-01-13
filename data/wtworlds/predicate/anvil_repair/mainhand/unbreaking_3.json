@@ -13,7 +13,10 @@
                     [
                         {
                             "enchantments": "unbreaking",
-                            "levels": 3
+                            "levels":
+                            {
+                                "min": 3
+                            }
                         }
                     ]
                 }

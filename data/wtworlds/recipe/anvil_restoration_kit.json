@@ -20,10 +20,7 @@
         {
             "item_model": "wtworlds:anvil_restoration_kit",
             "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.anvil_restoration_kit\"}",
-            "custom_data":
-            {
-                "can_repair_anvil": true
-            }
+            "max_damage": 16
         }
     }
 }

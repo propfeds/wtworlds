@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/explore_defiled_temple",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "beetroot_soup",
+                        "components":
+                        {
+                            "item_model": "wtworlds:promise_of_protection"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.promise_of_protection.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.promise_of_protection.description"
+        },
+        "icon":
+        {
+            "id": "beetroot_soup",
+            "components":
+            {
+                "item_model": "wtworlds:promise_of_protection"
+            }
+        }
+    }
+}

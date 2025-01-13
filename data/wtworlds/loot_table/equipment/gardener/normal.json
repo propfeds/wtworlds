@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "random_sequence": "wtworlds:equipment/gardener/normal",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:item/farmer_hat",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/gardener": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "enchantment_glint_override": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/chest"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/legs"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:item/unenchanted_trowel"
+                }
+            ]
+        }
+    ]
+}

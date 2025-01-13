@@ -1,0 +1,3 @@
+execute if score @s wtworlds.nun.wither matches 3 rotated ~ 0 anchored eyes positioned ^ ^0.25 ^1 run return run particle soul ~ ~ ~ 0.125 0.125 0.125 0 3
+execute if score @s wtworlds.nun.wither matches 2 rotated ~ 0 anchored eyes positioned ^-0.5 ^-0.25 ^1 run return run particle soul ~ ~ ~ 0.125 0.125 0.125 0 2
+execute rotated ~ 0 anchored eyes positioned ^0.5 ^-0.5 ^1 run particle soul ~ ~ ~ 0.125 0.125 0.125 0 1

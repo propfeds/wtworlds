@@ -1,0 +1,43 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.true_strike"
+    },
+    "supported_items": "#wtworlds:enchantable/projectile",
+    "slots":
+    [
+        "any"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "effects":
+    {
+        "projectile_spawned":
+        [
+            {
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:enchantment/true_strike/projectile_spawned"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

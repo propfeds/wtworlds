@@ -1,0 +1,74 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.superflat_cleaning"
+    },
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 2,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 5,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "effects":
+    {
+        "hit_block":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "type": "#impact_projectiles"
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "explode",
+                            "block_interaction": "tnt",
+                            "radius": 1.5,
+                            "offset": [0, 0.5, 0],
+                            "small_particle":
+                            {
+                                "type": "flash"
+                            },
+                            "large_particle":
+                            {
+                                "type": "explosion_emitter"
+                            },
+                            "sound": "item.bone_meal.use",
+                            "immune_blocks":
+                            [
+                                "dirt",
+                                "grass_block",
+                                "stone",
+                                "bedrock"
+                            ]
+                        },
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/kill"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "type": "generic",
+    "random_sequence": "wtworlds:item/farmer_hat",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "beetroot_soup",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:farmer_hat",
+                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.farmer_hat\"}",
+                                "rarity": "uncommon",
+                                "!consumable": {},
+                                "!use_remainder": {},
+                                "max_damage": 150,
+                                "damage": 0,
+                                "equippable":
+                                {
+                                    "slot": "head",
+                                    "swappable": false
+                                },
+                                "enchantable":
+                                {
+                                    "value": 15
+                                },
+                                "attribute_modifiers":
+                                [
+                                    {
+                                        "id": "minecraft:armor.helmet",
+                                        "type": "armor",
+                                        "amount": 1,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

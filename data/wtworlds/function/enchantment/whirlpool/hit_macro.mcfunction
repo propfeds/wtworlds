@@ -1,0 +1,1 @@
+$execute facing ~$(x) ~$(y) ~$(z) run function wtworlds:enchantment/whirlpool/hit_effects

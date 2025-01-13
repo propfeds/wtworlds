@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/root",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "brush",
+                        "components":
+                        {
+                            "item_model": "wtworlds:anvil_restoration_kit"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.anvil_restoration_kit.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.anvil_restoration_kit.description"
+        },
+        "icon":
+        {
+            "id": "brush",
+            "components":
+            {
+                "item_model": "wtworlds:anvil_restoration_kit"
+            }
+        }
+    }
+}

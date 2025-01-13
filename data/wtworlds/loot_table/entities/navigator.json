@@ -1,0 +1,123 @@
+{
+    "type": "entity",
+    "random_sequence": "wtworlds:entities/navigator",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "entities/skeleton"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions":
+            [
+                {
+                    "condition": "random_chance_with_enchanted_bonus",
+                    "enchantment": "looting",
+                    "unenchanted_chance": 0.12,
+                    "enchanted_chance":
+                    {
+                        "type": "linear",
+                        "base": 0.14,
+                        "per_level_above_first": 0.02
+                    }
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "leather",
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions":
+            [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_enchanted_bonus",
+                    "enchantment": "looting",
+                    "unenchanted_chance": 0.12,
+                    "enchanted_chance":
+                    {
+                        "type": "linear",
+                        "base": 0.13,
+                        "per_level_above_first": 0.01
+                    }
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type": "alternatives",
+                    "children":
+                    [
+                        {
+                            "type": "item",
+                            "conditions":
+                            [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate":
+                                    {
+                                        "equipment":
+                                        {
+                                            "offhand":
+                                            {
+                                                "items": "spectral_arrow"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "spectral_arrow"
+                        },
+                        {
+                            "type": "item",
+                            "name": "arrow"
+                        }
+                    ],
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 4
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:navigator": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

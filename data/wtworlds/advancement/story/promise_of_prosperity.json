@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/root",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "poisonous_potato",
+                        "components":
+                        {
+                            "item_model": "wtworlds:promise_of_prosperity"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.promise_of_prosperity.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.promise_of_prosperity.description"
+        },
+        "icon":
+        {
+            "id": "poisonous_potato",
+            "components":
+            {
+                "item_model": "wtworlds:promise_of_prosperity"
+            }
+        }
+    }
+}

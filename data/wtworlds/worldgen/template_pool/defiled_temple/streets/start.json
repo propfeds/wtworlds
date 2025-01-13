@@ -1,0 +1,16 @@
+{
+    "fallback": "wtworlds:defiled_temple/streets/terminators",
+    "elements":
+    [
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/streets/start",
+                "projection": "terrain_matching",
+                "processors": "wtworlds:defiled_temple_streets"
+            }
+        }
+    ]
+}

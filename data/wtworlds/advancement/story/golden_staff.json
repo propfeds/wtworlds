@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/explore_defiled_temple",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "golden_sword",
+                        "components":
+                        {
+                            "item_model": "wtworlds:golden_staff"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.golden_staff.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.golden_staff.description"
+        },
+        "icon":
+        {
+            "id": "golden_sword",
+            "components":
+            {
+                "item_model": "wtworlds:golden_staff"
+            }
+        }
+    }
+}

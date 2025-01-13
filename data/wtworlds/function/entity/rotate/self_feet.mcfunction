@@ -1,0 +1,1 @@
+execute anchored eyes run rotate @s facing entity @s feet

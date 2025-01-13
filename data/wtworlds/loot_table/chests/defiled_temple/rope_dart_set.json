@@ -1,0 +1,27 @@
+{
+    "type": "chest",
+    "random_sequence": "wtworlds:chests/defiled_temple/rope_dart_set",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "chain"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "lead"
+                }
+            ]
+        }
+    ]
+}

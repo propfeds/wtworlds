@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/trowel",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "bow",
+                        "components":
+                        {
+                            "item_model": "wtworlds:rope_dart"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.rope_dart.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.rope_dart.description"
+        },
+        "icon":
+        {
+            "id": "bow",
+            "components":
+            {
+                "item_model": "wtworlds:rope_dart"
+            }
+        }
+    }
+}

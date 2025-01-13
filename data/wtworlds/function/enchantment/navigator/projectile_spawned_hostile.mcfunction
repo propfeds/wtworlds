@@ -1,0 +1,1 @@
+ride @n[type=!#impact_projectiles, dx=0] mount @s

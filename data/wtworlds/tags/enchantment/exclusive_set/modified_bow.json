@@ -2,6 +2,6 @@
     "values":
     [
         "wtworlds:blade_dance",
-        "wtworlds:navigator"
+        "wtworlds:entity/navigator"
     ]
 }

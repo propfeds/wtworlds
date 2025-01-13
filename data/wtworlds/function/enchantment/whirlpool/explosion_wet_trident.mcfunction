@@ -1,0 +1,1 @@
+execute positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=4, dy=4, dz=4] positioned ~2.5 ~2.5 ~2.5 run function wtworlds:enchantment/whirlpool/wet_trident/damage

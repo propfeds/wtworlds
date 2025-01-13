@@ -1,0 +1,1 @@
+execute at @s run playsound entity.item.break player @a

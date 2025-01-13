@@ -1,0 +1,1 @@
+playsound wtworlds:item.firecracker.use player @a

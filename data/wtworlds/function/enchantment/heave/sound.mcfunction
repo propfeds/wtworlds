@@ -1,1 +1,1 @@
-playsound wtworlds:entity.player.attack.heave player @a
+playsound wtworlds:enchant.heave.hit player @a

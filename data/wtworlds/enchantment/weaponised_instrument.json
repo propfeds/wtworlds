@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.weaponised_instrument"
     },
-    "supported_items": "#wtworlds:enchantable/weaponised_instrument",
+    "supported_items": "#wtworlds:enchantable/instrument",
     "slots":
     [
         "mainhand"

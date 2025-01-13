@@ -1,0 +1,164 @@
+{
+    "type": "equipment",
+    "random_sequence": "wtworlds:equipment/gardener/ominous",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:item/farmer_hat",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/gardener": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "redstone"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/chest",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/legs",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "iron"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "protection": 4
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:equipment/defiled_temple/feet",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:curse_of_wilting": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "trim":
+                                {
+                                    "pattern": "wayfinder",
+                                    "material": "iron"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "loot_table",
+                    "value": "wtworlds:item/unenchanted_trowel",
+                    "functions":
+                    [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments":
+                            {
+                                "wtworlds:entity/gardener/burying": 1
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:burying_trowel"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "stone_axe"
+                }
+            ]
+        }
+    ]
+}

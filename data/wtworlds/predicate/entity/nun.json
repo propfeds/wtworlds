@@ -1,0 +1,26 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "equipment":
+        {
+            "head":
+            {
+                "predicates":
+                {
+                    "enchantments":
+                    [
+                        {
+                            "enchantments": "wtworlds:entity/nun",
+                            "levels":
+                            {
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -3,6 +3,7 @@
     [
         "wtworlds:post_attack",
         "wtworlds:pointer",
-        "wtworlds:whirlpool"
+        "wtworlds:whirlpool",
+        "wtworlds:firecracker"
     ]
 }

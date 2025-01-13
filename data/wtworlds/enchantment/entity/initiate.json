@@ -1,0 +1,210 @@
+{
+    "description":
+    {
+        "translate": "entity.wtworlds.initiate"
+    },
+    "primary_items": "#minecraft:enchantable/head_armor",
+    "supported_items": "#minecraft:enchantable/armor",
+    "slots":
+    [
+        "armor"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "requirements":
+                [
+                    {
+                        "condition": "time_check",
+                        "value":
+                        {
+                            "min": 0,
+                            "max": 6
+                        },
+                        "period": 25
+                    },
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.75
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "flags":
+                            {
+                                "is_on_ground": true
+                            },
+                            "targeted_entity": {}
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term":
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores":
+                            {
+                                "wtworlds.initiate.fly":
+                                {
+                                    "min": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/initiate/reset_flight"
+                        },
+                        {
+                            "type": "explode",
+                            "radius": 0.5,
+                            "knockback_multiplier": 0.375,
+                            "block_interaction": "none",
+                            "large_particle":
+                            {
+                                "type": "explosion"
+                            },
+                            "small_particle":
+                            {
+                                "type": "ash"
+                            },
+                            "sound":
+                            {
+                                "sound_id": "wtworlds:entity.initiate.jump"
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "dust_plume"
+                            },
+                            "speed": 0.5,
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -1
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position"
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -0.5
+                            }
+                        },
+                        {
+                            "type": "spawn_particles",
+                            "particle":
+                            {
+                                "type": "dust_plume"
+                            },
+                            "speed": 0.5,
+                            "horizontal_position":
+                            {
+                                "type": "in_bounding_box"
+                            },
+                            "horizontal_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -1
+                            },
+                            "vertical_position":
+                            {
+                                "type": "entity_position"
+                            },
+                            "vertical_velocity":
+                            {
+                                "base": 0,
+                                "movement_scale": -0.5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "periodic_tick": 120,
+                        "targeted_entity": {}
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:entity/initiate/chase"
+                }
+            },
+            {
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate":
+                    {
+                        "periodic_tick": 15,
+                        "targeted_entity":
+                        {
+                            "distance":
+                            {
+                                "absolute":
+                                {
+                                    "max": 32
+                                },
+                                "y":
+                                {
+                                    "min": 1.5
+                                }
+                            }
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "all_of",
+                    "effects":
+                    [
+                        {
+                            "type": "run_function",
+                            "function": "wtworlds:entity/initiate/consider_flight"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

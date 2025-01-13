@@ -1,0 +1,43 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.bonding"
+    },
+    "supported_items": "#wtworlds:enchantable/drink",
+    "slots":
+    [
+        "hand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "effects":
+    {
+        "tick":
+        [
+            {
+                "requirements":
+                {
+                    "condition": "time_check",
+                    "value": 0,
+                    "period": 20
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/bonding/tick"
+                }
+            }
+        ]
+    }
+}

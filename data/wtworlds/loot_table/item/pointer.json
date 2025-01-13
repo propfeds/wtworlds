@@ -1,0 +1,41 @@
+{
+    "type": "generic",
+    "random_sequence": "wtworlds:item/pointer",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:pointer",
+                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+                                "rarity": "uncommon",
+                                "!food": {},
+                                "consumable":
+                                {
+                                    "consume_seconds": 107374182,
+                                    "animation": "spear",
+                                    "has_consume_particles": false
+                                },
+                                "use_remainder":
+                                {
+                                    "id": "stick",
+                                    "count": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

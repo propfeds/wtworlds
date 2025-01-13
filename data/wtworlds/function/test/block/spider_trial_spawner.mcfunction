@@ -1,0 +1,1 @@
+give @s trial_spawner[block_entity_data = {"id": "trial_spawner", normal_config: "minecraft:trial_chamber/melee/spider/normal", ominous_config: "minecraft:trial_chamber/melee/spider/ominous"}] 1

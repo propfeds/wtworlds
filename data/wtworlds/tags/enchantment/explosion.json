@@ -1,0 +1,9 @@
+{
+    "values":
+    [
+        "wtworlds:test/dashing/explosion",
+        "wtworlds:firecracker/explosion",
+        "wtworlds:test/vault/explosion",
+        "wtworlds:whirlpool/explosion"
+    ]
+}

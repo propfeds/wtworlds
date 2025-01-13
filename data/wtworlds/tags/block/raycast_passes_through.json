@@ -8,6 +8,8 @@
         "lightning_rod",
         "lantern",
         "soul_lantern",
-        "cocoa"
+        "cocoa",
+        "#trapdoors",
+        "#doors"
     ]
 }

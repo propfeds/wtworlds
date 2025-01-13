@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/rope_dart",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "firework_rocket",
+                        "components":
+                        {
+                            "item_model": "wtworlds:ghastlight"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.ghastlight.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.ghastlight.description"
+        },
+        "icon":
+        {
+            "id": "firework_rocket",
+            "components":
+            {
+                "item_model": "wtworlds:ghastlight"
+            }
+        }
+    }
+}

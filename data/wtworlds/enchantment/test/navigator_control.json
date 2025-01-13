@@ -3,7 +3,7 @@
     {
         "translate": "enchantment.wtworlds.navigator_control"
     },
-    "supported_items": "#wtworlds:enchantable/projectile",
+    "supported_items": "#wtworlds:enchantable/ranged_weapon",
     "slots":
     [
         "hand"

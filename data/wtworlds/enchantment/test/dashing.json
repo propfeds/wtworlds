@@ -1,0 +1,130 @@
+{
+    "description":
+    {
+        "translate": "enchantment.wtworlds.dashing"
+    },
+    "supported_items": "stick",
+    "slots":
+    [
+        "mainhand"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost":
+    {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "effects":
+    {
+        "post_attack":
+        [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "attacker",
+                    "predicate":
+                    {
+                        "type_specific":
+                        {
+                            "type": "player",
+                            "input":
+                            {
+                                "forward": true
+                            }
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/dashing/forward"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "attacker",
+                    "predicate":
+                    {
+                        "type_specific":
+                        {
+                            "type": "player",
+                            "input":
+                            {
+                                "backward": true
+                            }
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/dashing/backward"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "attacker",
+                    "predicate":
+                    {
+                        "type_specific":
+                        {
+                            "type": "player",
+                            "input":
+                            {
+                                "left": true
+                            }
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/dashing/left"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "requirements":
+                {
+                    "condition": "entity_properties",
+                    "entity": "attacker",
+                    "predicate":
+                    {
+                        "type_specific":
+                        {
+                            "type": "player",
+                            "input":
+                            {
+                                "right": true
+                            }
+                        }
+                    }
+                },
+                "effect":
+                {
+                    "type": "run_function",
+                    "function": "wtworlds:enchantment/dashing/right"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "parent": "wtworlds:story/explore_defiled_temple",
+    "criteria":
+    {
+        "obtained_item":
+        {
+            "trigger": "inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "potion",
+                        "components":
+                        {
+                            "item_model": "wtworlds:thought_of_a_friend"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display":
+    {
+        "title":
+        {
+            "translate": "advancements.wtworlds.thought_of_a_friend.title"
+        },
+        "description":
+        {
+            "translate": "advancements.wtworlds.thought_of_a_friend.description"
+        },
+        "icon":
+        {
+            "id": "potion",
+            "components":
+            {
+                "item_model": "wtworlds:thought_of_a_friend"
+            }
+        }
+    }
+}

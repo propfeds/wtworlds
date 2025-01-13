@@ -26,35 +26,21 @@
                 "wtworlds:blade_dance": 1
             },
             "attribute_modifiers":
-            {
-                "modifiers":
-                [
-                    {
-                        "id": "wtworlds:rope_dart",
-                        "type": "attack_damage",
-                        "amount": 5,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    },
-                    {
-                        "id": "wtworlds:rope_dart",
-                        "type": "attack_speed",
-                        "amount": -2.4,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ],
-                "show_in_tooltip": false
-            },
-            "lore":
             [
-                "\"\"",
-
-                "{\"color\": \"gray\", \"italic\": false, \"type\": \"translatable\", \"translate\": \"item.modifiers.mainhand\"}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_damage\"}]}",
-
-                "{\"color\": \"dark_green\", \"italic\": false, \"text\": \" 1.6 \", \"extra\": [{\"type\": \"translatable\", \"translate\": \"attribute.name.attack_speed\"}]}"
+                {
+                    "id": "minecraft:base_attack_damage",
+                    "type": "attack_damage",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "minecraft:base_attack_speed",
+                    "type": "attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
             ]
         }
     }

@@ -1,8 +1,115 @@
 # To-do List
 
-rope dart:
-- add small hitbox to spinning?
-- mobs to farm chain
+release:
+- trailer
+- post other stuff on curse forge
+- tutorial (advancements)
+- ask youtubers to cover
+
+temple:
+- need enchanted armour loot (good chain mail/really good leather)
+- bottle of enchanting loot
+- add bone/meal to food stores
+- change hay bales in basement to pots
+- backdoor to where?
+- include more nether fortress design
+  - cross shaped pavilion with some well in the middle
+- more faded spots on streets
+- farm variants that look more alive and less stone like the houses are
+- house variants: one more housing area, potter house, spider infested market
+  - fallback house is ruined/burnt
+- garden variants
+  - extend training railings to around the yard and also change roof shape
+  - park with statue
+- small building variants
+  - wither statue with secret trapdoor accessible by mining or navigating, leading down to abandoned statue storage
+- initiate training grounds/living quarters
+  - verticality? underground? prison?
+  - make use of initiate flight
+
+initiate:
+- use armour stands to propel instead of tp to avoid collision
+
+gardener:
+- ominouses throw root-shaped snowballs that strangle you
+  - give up, snowballs can't get post_attack
+  - entity_hit_player advancement?
+
+navigator:
+- custom arrow sprite with name = sailing arrow?
+- test @n[dx=0]
+
+treasurer:
+- dispel sound & particles
+
+performer:
+- make own functions for enemy rope dart
+- mini-boss in basement cell
+- drops chains
+
+navigator's temporary post:
+- forest biomes
+
+Defiled Temple:
+- mix between nether fortress and buddhist temple (impossible)
+- lore: The temple had long stood as a refuge for wayward souls seeking protection and guidance. But then one day, the newly elected leadership found power in immortality through the repeated use of withering, and started worshipping a figure, now only known as the Proto-wither. however, they needed milk to counteract the after effects. at first, they tried to breed cows, but the mountainous weather made it hard to sustain them. since then, the head master had started to use women's milk. disgusting. one day, his concubines organised a breakout, and with the help of a villager witch, they cursed the temple's practitioners to slowly decay and become undead. that's why it's called the defiled temple. the doubly defiled temple. now, the gardeners tend to all within the temple, while the exorcists will do anything to undo the temple's curse.
+- building palette:
+  - wood: spruce, oak, mangrove/birch (imported)
+  - stone, andesite
+  - fences
+  - soul lanterns, candles
+    - soul lanterns represent areas safe for undead
+    - candles/lanterns represent areas that have no undead (usually within houses)
+- loot:
+  - has blaze rod to enable weakness-brewing before nether
+  - weapon room
+    - rope dart
+    - golden staff and normal staff
+    - sabres
+  - other tools and equipment room
+    - promise of protection
+    - promise of perpetuity?
+- enemies: totally undead, bring your smites and splash health pots here
+  - Initiate: a practitioner that runs and jumps (even flies)
+    - Their weakness is the sun, as it breaks their helmets (therefore their AI)
+  - Gardener: tends to the backyard
+    - drops unenchanted trowel
+    - can dig you a grave
+  - Treasurer: obsessed with milk
+    - drops milk
+  - Navigator: a practitioner that kicks
+  - Performer/proto-blaze: a practitioner that fires rope darts or has willow sabres (knocks yourself back from the enemy when hitting) or chain whips (sweeping edge) or nunchucks (knockback)?
+    - drops chains to be farmed
+  - Methodist/Exorcist/Contact/Proto-wither: bullet not hell
+    - normal merchant, but enrages when player is holding a nether star
+    - nether reactor with crying obsidian
+- Villagers: trade with gold
+  - Nun: provides clothing, is linked to the teacher
+  - Priest/Priestess: provides talismans, beads (promises of protection)
+
+custom shears
+- cut hair to form wigs xd
+
+foil: check out Han dynasty fencing swords
+
+armour stand jumping tree climb?
+
+rework deflecting
+
+bug: deflecting doesn't detect crawling in trapdoor
+
+make echo shards 'spreadable' (duplicate shard by surrounding it with amethyst, maybe either 4 or 8)
+
+weapon that uses xp to fire (maybe sculk or enchantment themed, in next update)
+
+enemies:
+- cave spider centipede
+- spider stack
+- dragonfly (bees?)
+- goat unicorns!
+- killer rabbits!
+
+wisteria trees
 
 paintbrush (brush):
 - store experience (mending)
@@ -22,59 +129,90 @@ paintbrush (brush):
     - Sm
     - Ss
 
-make navigator drop infighting
+- the nun's friends on hermit homes and refuge schools, basically like real player-built structures instead of vanilla-ish style
 
-rename anvil_repair folder to anvil_restoration
-rename scoreboard to anvil_restoration (no more kit)
-breaking sound for anvil kit
+nun:
+- next update's trades
+  - clothing
+  - map to the refugee village
+  - map to the mountain hermit
 
-figure out how to remove the tick function from climbing
-
-foil: check out Han dynasty fencing swords
-
-rework deflecting
-
-bug: deflecting doesn't detect crawling in trapdoor
-
-try making a fake spear (hoe???)
-
-obsidian dagger (high damage, dimension tear - turns piglins into zombies, or scare them)
-
-giant spider on fire or spider centipede
-
-dragonfly
-
-wisteria trees
-
-magical talismans
-
-antiquarians:
-- sells promises
-
-refuges:
+swamp/forest refuges:
 - like a village, but also with a school
 - redstone acts like chalk, written on the ground
 - Nushu lessons take place outdoors
 - Chairs = logs? stairs?
 - Teachers wear and sell redstone hats
 - Poem books as chest loot
+- Traps to deter enemies
+- lots of flowers
+- bog iron
+- reed hats
+- signal arrows crafted from spectral arrows or sold as trade
+- coal flowers replaced with dandelions/sunflowers?
+- sell saddle for money
 
 hermit homes:
 - in cliffside
 - drawers with letters
-- goat horns & trowels
+- trowels & other kinds of goat horns
 - book hidden inside fish barrels or well
 - https://discord.com/channels/935560260725379143/1282200600989138974/1285974213924225108
 
-promises
-- don't make them craftable, instead put them in village loot chests or trades
-- providence: provide building bonuses?
+jungle crypts:
+- based on cham stuff?
+- drowned, bogged
+- can serve as a way to learn conduits
+- whirlpool crossbow
+- renewable sand
+
+promises:
+- hunter's: make enemies drop blood meal that can grow flowers (fake brushes) (or smelt into iron nugget if possible) (doesn't make sense piglin-wise though, so maybe the resistance refuge could have them)
 - harmony: scan for enemies that are attacking
-- intimacy: drain dur to heal allies and self, replenish by trading XP
-- return: prismarine, acts like totem of undying but teleports to spawn instad of giving regen
+- return: prismarine, acts like totem of undying but teleports to spawn instead of giving regen
+  - functions are currently in test folder
+  - how to extinguish fire when used?
 - perpetuity: resists poison, harming and wither
 
-enderite: (joke) used to craft the enderong (ender gong)
+thoughts:
+- what's for villagers?
+- providence/influence: +2 block placement range and +0.5 attack range
+
+## Lost Worlds (old concept)
+
+Have you ever rage quit after a gruesome death? Maybe I'll attempt to fix that.
+
+Introducing Lost Worlds (working name), which aims to reduce pain after death. I need a lot of stories from players.
+
+What's the meaning? Even if Mc is a procedurally generated game, it doesn't mean that any world you spawn in would be meaningless and you can just another one right away.
+
+Unwritten entries: Staves (Bamboo, Iron, End Rod?, Blaze Rod?), Needles, Vanilla balance (like creepers dropping 100% blocks on explosion)
+
+### (Revenants)
+
+Lost Wills (sometimes called revenants) are a neutral mob that spawn in a special structure (more on it a bit below). They wear leather or rusted iron armour (reparable with smithing table? anvil? innate mending before turning to regular iron?), and wield either an iron sword or crossbow.
+
+From afar, a LW would look to be lying on the ground sleeping. Upon the player approaching, it would wake up, grab its weapon and engage a crouching stance, while shivering. Should the player choose to step close, it'll uncrouch and attack the player. But if the player gets it close to half health, it'll cower and hide behind a shield. In this state, the player can safely give it some food, which will befriend the LW. They can be given food while in the ready stance as well, but the LW having an aggro range makes it harder to do so.
+
+Now, what do they do when befriended? They become your bodyguards! The player can then give them tools to change their behaviour. For example, giving one a spyglass will allow it to point to a nearby structure. More functions are needed.
+
+What do they drop when they die? Either a crafting table, some arrows, some dirt (FaRmABlE DIIRT??), gravel or cobblestone, some food (depending on biome), or some wheat seeds.
+
+Where do they spawn? Occasionally, the world will generate a grave biome. There are currently two variants in my head. One can be found near rivers, which will look like a patch of gravel (some of them suspicious) and cobble. There will be arrow entities on the ground that don't despawn. This LW may have been killed by skeletons. This grave variant also has a trail leading to the revenant's house. It might've been building a walkway on the river bank.
+The other variant spawns near mountains and dripstone caves, and contains gravel (mountain), sus gravel, dirt pillars and snow (mountains). On the ground and nearby walls lie several needles (needles are expensive crossbow ammo created from bones that can pin mobs to the ground or attach to blocks for climbing). How did it die?
+
+Now, what if they die? Each grave biome can only have one LW alive at a time. If it dies, it can be respawned (without the rusted armour) by placing a soul sand on the grave. It'll give soul particles for 20 mins until it's respawned. The soul sand will be heated to become tinted glass (TinTEED GlASS FaRM???).
+
+Would it make the player overpowered with allies by their side?
+Also, maybe develop their death causes more.
+
+## Reference
+
+item reference:
+- beetroot soup: used for headgear
+- mushroom stew:
+- suspicious stew: (remember to get rid of effects component)
+- poisonous potato: used for pointer
 
 pitch reference:
 - -12: 0.5

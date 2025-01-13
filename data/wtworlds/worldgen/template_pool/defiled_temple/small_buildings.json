@@ -1,0 +1,36 @@
+{
+    "fallback": "wtworlds:defiled_temple/streets/terminators",
+    "elements":
+    [
+        {
+            "weight": 2,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/small_building/shrine",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
+        },
+        {
+            "weight": 2,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/small_building/pavilion",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
+        },
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/small_building/watch_tower",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
+        }
+    ]
+}

@@ -10,7 +10,7 @@
         "hand"
     ],
     "weight": 2,
-    "max_level": 1,
+    "max_level": 2,
     "min_cost":
     {
         "base": 20,
@@ -50,7 +50,7 @@
                             "type": "explode",
                             "offset": [0, -1.75, 0],
                             "radius": 0.25,
-                            "knockback_multiplier": 0.35,
+                            "knockback_multiplier": 0.325,
                             "block_interaction": "none",
                             "large_particle":
                             {
@@ -70,31 +70,46 @@
         [
             {
                 "enchanted": "attacker",
-                "affected": "damaging_entity",
-                "requirements":
-                {
-                    "condition": "minecraft:damage_source_properties",
-                    "predicate":
-                    {
-                        "is_direct": false
-                    }
-                },
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/blade_dance/hit_entity"
-                }
-            },
-            {
-                "enchanted": "attacker",
                 "affected": "attacker",
                 "effect":
                 {
                     "type": "apply_mob_effect",
-                    "min_amplifier": 0,
-                    "max_amplifier": 0,
-                    "min_duration": 5,
-                    "max_duration": 5,
+                    "min_amplifier":
+                    {
+                        "type": "linear",
+                        "base": 0,
+                        "per_level_above_first": 1
+                    },
+                    "max_amplifier":
+                    {
+                        "type": "linear",
+                        "base": 0,
+                        "per_level_above_first": 1
+                    },
+                    "min_duration":
+                    {
+                        "type": "clamped",
+                        "value":
+                        {
+                            "type": "linear",
+                            "base": 5,
+                            "per_level_above_first": -0.5
+                        },
+                        "min": 3,
+                        "max": 5
+                    },
+                    "max_duration":
+                    {
+                        "type": "clamped",
+                        "value":
+                        {
+                            "type": "linear",
+                            "base": 5,
+                            "per_level_above_first": -0.5
+                        },
+                        "min": 3,
+                        "max": 5
+                    },
                     "to_apply": "speed"
                 }
             },

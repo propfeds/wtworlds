@@ -27,20 +27,6 @@
         "minecraft:post_attack":
         [
             {
-                "enchanted": "victim",
-                "affected": "victim",
-                "requirements":
-                {
-                    "condition": "random_chance",
-                    "chance": 0.5
-                },
-                "effect":
-                {
-                    "type": "run_function",
-                    "function": "wtworlds:enchantment/mother_of_all_curses/layer_0"
-                }
-            },
-            {
                 "enchanted": "attacker",
                 "affected": "attacker",
                 "requirements":

@@ -1,0 +1,10 @@
+{
+    "values":
+    [
+        "wtworlds:entity/gardener",
+        "wtworlds:entity/initiate",
+        "wtworlds:entity/navigator",
+        "wtworlds:entity/nun",
+        "wtworlds:entity/treasurer"
+    ]
+}

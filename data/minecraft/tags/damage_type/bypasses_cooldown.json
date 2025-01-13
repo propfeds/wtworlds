@@ -2,6 +2,7 @@
     "values":
     [
         "wtworlds:post_attack",
-        "wtworlds:whirlpool"
+        "wtworlds:whirlpool",
+        "wtworlds:dashing"
     ]
 }

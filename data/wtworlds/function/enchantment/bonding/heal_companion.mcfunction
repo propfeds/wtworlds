@@ -1,0 +1,1 @@
+return run effect give @n[type=#wtworlds:can_normally_bond_with, type=!#ignores_poison_and_regen, distance=..8, predicate=!wtworlds:effects/regeneration, tag=!wtworlds.self] regeneration 1 0

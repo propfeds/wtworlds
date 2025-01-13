@@ -1,0 +1,16 @@
+{
+    "values":
+    [
+        "#raiders",
+        "skeleton",
+        "stray",
+        "bogged",
+        "zombie",
+        "zombified_piglin",
+        "zoglin",
+        "drowned",
+        "husk",
+        "phantom",
+        "spider"
+    ]
+}

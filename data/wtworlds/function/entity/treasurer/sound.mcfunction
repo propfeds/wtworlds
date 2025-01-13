@@ -1,0 +1,1 @@
+execute anchored eyes run playsound wtworlds:entity.milk_bucket.throw hostile @a ^ ^ ^

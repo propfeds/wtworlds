@@ -1,0 +1,34 @@
+{
+    "simultaneous_mobs": 2,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "ticks_between_spawn": 40,
+    "spawn_potentials":
+    [
+        {
+            "weight": 1,
+            "data":
+            {
+                "entity":
+                {
+                    "id": "skeleton",
+                    "Team": "wtworlds.defiled_temple",
+                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}",
+                    "CustomNameVisible": false,
+                    "DeathLootTable": "wtworlds:entities/navigator",
+                    "attributes":
+                    [
+                        {
+                            "id": "follow_range",
+                            "base": 20
+                        }
+                    ]
+                },
+                "equipment":
+                {
+                    "loot_table": "wtworlds:equipment/navigator/normal",
+                    "slot_drop_chances": 0
+                }
+            }
+        }
+    ]
+}

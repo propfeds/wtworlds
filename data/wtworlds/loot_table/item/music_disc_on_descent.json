@@ -1,0 +1,33 @@
+{
+    "type": "generic",
+    "random_sequence": "wtworlds:item/music_disc_on_descent",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "item",
+                    "name": "music_disc_mellohi",
+                    "functions":
+                    [
+                        {
+                            "function": "set_components",
+                            "components":
+                            {
+                                "item_model": "wtworlds:music_disc_on_descent",
+                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.music_disc_on_descent\"}",
+                                "jukebox_playable":
+                                {
+                                    "song": "wtworlds:on_descent",
+                                    "show_in_tooltip": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

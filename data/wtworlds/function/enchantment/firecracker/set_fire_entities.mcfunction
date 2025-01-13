@@ -1,0 +1,1 @@
+execute positioned ~-1 ~-2 ~-1 as @e[type=!#wtworlds:not_lit_by_ghastlight, dx=1, dy=2, dz=1] at @s run function wtworlds:entity/ignite

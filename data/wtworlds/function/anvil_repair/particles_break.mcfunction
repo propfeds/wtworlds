@@ -1,0 +1,1 @@
+particle item{item:{id: brush, components: {item_model: "wtworlds:anvil_restoration_kit"}}} ~ ~ ~ 0 0 0 0.125 24

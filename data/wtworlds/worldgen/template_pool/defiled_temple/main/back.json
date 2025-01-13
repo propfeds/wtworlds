@@ -1,0 +1,26 @@
+{
+    "fallback": "wtworlds:defiled_temple/main/back_short",
+    "elements":
+    [
+        {
+            "weight": 1,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/main/back_long",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
+        },
+        {
+            "weight": 3,
+            "element":
+            {
+                "element_type": "single_pool_element",
+                "location": "wtworlds:defiled_temple/main/back_short",
+                "projection": "rigid",
+                "processors": "wtworlds:defiled_temple_degradation"
+            }
+        }
+    ]
+}
