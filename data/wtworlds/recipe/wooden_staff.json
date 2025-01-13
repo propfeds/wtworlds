@@ -19,7 +19,10 @@
         "components":
         {
             "item_model": "wtworlds:wooden_staff",
-            "minecraft:item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.wooden_staff\"}",
+            "minecraft:item_name":
+            {
+                "translate": "item.wtworlds.wooden_staff"
+            },
             "minecraft:max_damage": 90,
             "!tool": {},
             "enchantments":

@@ -17,7 +17,10 @@
                             "components":
                             {
                                 "item_model": "wtworlds:music_disc_on_descent",
-                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.music_disc_on_descent\"}",
+                                "item_name":
+                                {
+                                    "translate": "item.wtworlds.music_disc_on_descent"
+                                },
                                 "jukebox_playable":
                                 {
                                     "song": "wtworlds:on_descent",

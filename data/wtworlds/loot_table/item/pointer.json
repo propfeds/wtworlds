@@ -17,7 +17,10 @@
                             "components":
                             {
                                 "item_model": "wtworlds:pointer",
-                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.pointer\"}",
+                                "item_name":
+                                {
+                                    "translate": "item.wtworlds.pointer"
+                                },
                                 "rarity": "uncommon",
                                 "!food": {},
                                 "consumable":

@@ -20,7 +20,10 @@
         "components":
         {
             "item_model": "wtworlds:ghastlight",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.ghastlight\"}",
+            "item_name":
+            {
+                "translate": "item.wtworlds.ghastlight"
+            },
             "enchantments":
             {
                 "levels":

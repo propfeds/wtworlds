@@ -17,7 +17,10 @@
                             "components":
                             {
                                 "item_model": "wtworlds:farmer_hat",
-                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.farmer_hat\"}",
+                                "item_name":
+                                {
+                                    "translate": "item.wtworlds.farmer_hat"
+                                },
                                 "rarity": "uncommon",
                                 "!consumable": {},
                                 "!use_remainder": {},

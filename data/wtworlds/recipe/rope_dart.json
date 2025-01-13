@@ -20,7 +20,10 @@
         "components":
         {
             "item_model": "wtworlds:rope_dart",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.rope_dart\"}",
+            "item_name":
+            {
+                "translate": "item.wtworlds.rope_dart"
+            },
             "enchantments":
             {
                 "wtworlds:blade_dance": 1

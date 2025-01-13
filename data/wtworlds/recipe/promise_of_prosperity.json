@@ -18,7 +18,10 @@
         "components":
         {
             "item_model": "wtworlds:promise_of_prosperity",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_prosperity\"}",
+            "item_name":
+            {
+                "translate": "item.wtworlds.promise_of_prosperity"
+            },
             "!consumable": {},
             "!use_remainder": {},
             "max_stack_size": 1,

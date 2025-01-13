@@ -1,4 +1,4 @@
-summon zombie ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.initiate\"}", CustomNameVisible: false, DeathLootTable: "wtworlds:entities/initiate", "attributes": [\
+summon zombie ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: {translate: "entity.wtworlds.initiate"}, CustomNameVisible: false, DeathLootTable: "wtworlds:entities/initiate", "attributes": [\
     {\
         "id": "armor",\
         "base": 6\

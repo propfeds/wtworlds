@@ -12,7 +12,10 @@
                 {
                     "id": "zombie",
                     "Team": "wtworlds.defiled_temple",
-                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.initiate\"}",
+                    "CustomName":
+                    {
+                        "translate": "entity.wtworlds.initiate"
+                    },
                     "CustomNameVisible": false,
                     "DeathLootTable": "wtworlds:entities/initiate",
                     "attributes":

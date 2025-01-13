@@ -20,7 +20,10 @@
                 {
                     "id": "skeleton",
                     "Team": "wtworlds.defiled_temple",
-                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.gardener\"}",
+                    "CustomName":
+                    {
+                        "translate": "entity.wtworlds.gardener"
+                    },
                     "CustomNameVisible": false,
                     "DeathLootTable": "wtworlds:entities/gardener",
                     "attributes":

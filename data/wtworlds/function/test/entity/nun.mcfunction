@@ -1,4 +1,4 @@
-summon villager ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.nun\"}", CustomNameVisible: false, Silent: true, ArmorItems: [{}, {}, {}, {id: leather_helmet, components: {enchantments: {"wtworlds:entity/nun": 1, protection: 4, vanishing_curse: 1}, unbreakable: {}}}], HandItems: [{}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}], VillagerData: {profession: "nitwit", type: "taiga", level: 1}, Offers: {Recipes: [\
+summon villager ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: {translate: "entity.wtworlds.nun"}, CustomNameVisible: false, Silent: true, ArmorItems: [{}, {}, {}, {id: leather_helmet, components: {enchantments: {"wtworlds:entity/nun": 1, protection: 4, vanishing_curse: 1}, unbreakable: {}}}], HandItems: [{}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}], VillagerData: {profession: "nitwit", type: "taiga", level: 1}, Offers: {Recipes: [\
 {buy: {id: "emerald", count: 2}, sell: {id: "gold_ingot", count: 1}, \
 maxUses: 32, priceMultiplier: 0.05, rewardExp: true, xp: 5}, \
 {buy: {id: "gold_ingot", count: 1}, sell: {id: "flint", count: 10}, \
@@ -11,7 +11,7 @@ maxUses: 16, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
 maxUses: 12, priceMultiplier: 0.05, rewardExp: true, xp: 10}, \
 {buy: {id: "gold_ingot", count: 15}, buyB: {id: "oak_button", count: 8}, sell: {id: "beetroot_soup", "components": {\
     "item_model": "wtworlds:promise_of_protection",\
-    "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_protection\"}",\
+    "item_name": {translate: "item.wtworlds.promise_of_protection"},\
     "rarity": "uncommon",\
     "!consumable": {},\
     "!use_remainder": {},\

@@ -19,7 +19,10 @@
         "components":
         {
             "item_model": "wtworlds:trowel",
-            "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.trowel\"}",
+            "item_name":
+            {
+                "translate": "item.wtworlds.trowel"
+            },
             "rarity": "common",
             "damage": 0,
             "max_damage": 156,
@@ -55,6 +58,10 @@
                     }
                 ]
             },
+            "weapon":
+            {
+                "damage_per_attack": 2
+            },
             "enchantable":
             {
                 "value": 15
@@ -62,7 +69,7 @@
             "enchantments":
             {
                 "wtworlds:retaliation": 1,
-                "wtworlds:weaponised_instrument": 1
+                "wtworlds:cursed_instrument": 1
             },
             "attribute_modifiers":
             [

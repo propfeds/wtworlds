@@ -17,7 +17,10 @@
                             "components":
                             {
                                 "item_model": "wtworlds:promise_of_protection",
-                                "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_protection\"}",
+                                "item_name":
+                                {
+                                    "translate": "item.wtworlds.promise_of_protection"
+                                },
                                 "rarity": "uncommon",
                                 "!consumable": {},
                                 "!use_remainder": {},

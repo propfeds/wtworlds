@@ -1,13 +1,12 @@
-# Please add team and name
-# summon minecraft:skeleton ~ ~ ~ {ArmorItems: [{id: leather_boots}, {id: leather_leggings}, {id: leather_chestplate}, {id: leather_helmet, components:{enchantments:{"wtworlds:mother_of_all_curses":1}}}], HandItems: [{id: bow, components: {item_model: "minecraft:air", enchantments: {"wtworlds:entity/navigator": 1, power: 5}}}, {}], ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f], HandDropChances: [0.0f, 0.0f]}
-summon skeleton ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}", CustomNameVisible: false, DeathLootTable: "wtworlds:entities/navigator", "attributes": [\
+# summon minecraft:skeleton ~ ~ ~ {ArmorItems: [{id: leather_boots}, {id: leather_leggings}, {id: leather_chestplate}, {id: leather_helmet, components:{enchantments:{"wtworlds:mother_of_all_curses":1}}}], HandItems: [{id: bow, components: {item_model: "minecraft:air", enchantments: {"wtworlds:entity/navigator": 1, power: 5}}}, {}]}
+summon skeleton ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: {translate: "entity.wtworlds.navigator"}, CustomNameVisible: false, DeathLootTable: "wtworlds:entities/navigator", "attributes": [\
     {\
         "id": "follow_range",\
         "base": 20\
     }\
 ], ArmorItems: [{id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_chestplate", components: {dyed_color: {rgb: 2829120}}}, {id: "beetroot_soup", "components": {\
     "item_model": "wtworlds:promise_of_protection",\
-    "item_name": "{\"type\": \"translatable\", \"translate\": \"item.wtworlds.promise_of_protection\"}",\
+    "item_name": {translate: "item.wtworlds.promise_of_protection"},\
     "rarity": "uncommon",\
     "!consumable": {},\
     "!use_remainder": {},\

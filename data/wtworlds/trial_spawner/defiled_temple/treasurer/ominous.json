@@ -26,7 +26,10 @@
                 {
                     "id": "wither_skeleton",
                     "Team": "wtworlds.defiled_temple",
-                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.treasurer\"}",
+                    "CustomName":
+                    {
+                        "translate": "entity.wtworlds.treasurer"
+                    },
                     "CustomNameVisible": false,
                     "DeathLootTable": "wtworlds:entities/treasurer",
                     "attributes":

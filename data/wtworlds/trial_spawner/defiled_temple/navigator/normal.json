@@ -12,7 +12,10 @@
                 {
                     "id": "skeleton",
                     "Team": "wtworlds.defiled_temple",
-                    "CustomName": "{\"type\": \"translatable\", \"translate\": \"entity.wtworlds.navigator\"}",
+                    "CustomName":
+                    {
+                        "translate": "entity.wtworlds.navigator"
+                    },
                     "CustomNameVisible": false,
                     "DeathLootTable": "wtworlds:entities/navigator",
                     "attributes":
