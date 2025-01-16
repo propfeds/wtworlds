@@ -6,7 +6,7 @@
     "supported_items": "#wtworlds:enchantable/instrument",
     "slots":
     [
-        "mainhand"
+        "any"
     ],
     "weight": 1,
     "max_level": 1,
