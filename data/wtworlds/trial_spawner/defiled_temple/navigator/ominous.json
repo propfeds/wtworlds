@@ -33,13 +33,13 @@
                             "base": 20
                         }
                     ],
-                    "HandItems":
-                    [
-                        {},
+                    "equipment":
+                    {
+                        "offhand":
                         {
                             "id": "spectral_arrow"
                         }
-                    ]
+                    }
                 },
                 "equipment":
                 {

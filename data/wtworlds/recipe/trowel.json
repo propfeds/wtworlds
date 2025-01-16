@@ -60,7 +60,7 @@
             },
             "weapon":
             {
-                "damage_per_attack": 2
+                "item_damage_per_attack": 2
             },
             "enchantable":
             {

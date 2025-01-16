@@ -1,8 +1,8 @@
 {
     "pack":
     {
-        "pack_format": 62,
-        "supported_formats": [62, 62],
+        "pack_format": 63,
+        "supported_formats": [63, 63],
         "description": "A down-to-earth exploration data pack. - prop"
     }
 }

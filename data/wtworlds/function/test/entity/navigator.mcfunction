@@ -1,10 +1,9 @@
-# summon minecraft:skeleton ~ ~ ~ {ArmorItems: [{id: leather_boots}, {id: leather_leggings}, {id: leather_chestplate}, {id: leather_helmet, components:{enchantments:{"wtworlds:mother_of_all_curses":1}}}], HandItems: [{id: bow, components: {item_model: "minecraft:air", enchantments: {"wtworlds:entity/navigator": 1, power: 5}}}, {}]}
 summon skeleton ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: {translate: "entity.wtworlds.navigator"}, CustomNameVisible: false, DeathLootTable: "wtworlds:entities/navigator", "attributes": [\
     {\
         "id": "follow_range",\
         "base": 20\
     }\
-], ArmorItems: [{id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, {id: "leather_chestplate", components: {dyed_color: {rgb: 2829120}}}, {id: "beetroot_soup", "components": {\
+], equipment: {feet: {id: "leather_boots", components: {dyed_color: {rgb: 2829120}}}, legs: {id: "leather_leggings", components: {dyed_color: {rgb: 2829120}}}, chest: {id: "leather_chestplate", components: {dyed_color: {rgb: 2829120}}}, head: {id: "beetroot_soup", "components": {\
     "item_model": "wtworlds:promise_of_protection",\
     "item_name": {translate: "item.wtworlds.promise_of_protection"},\
     "rarity": "uncommon",\
@@ -60,4 +59,4 @@ summon skeleton ~ ~ ~ {Team: wtworlds.defiled_temple, CustomName: {translate: "e
             "slot": "any"\
         }\
     ]\
-}}], HandItems: [{id: bow, components: {enchantments: {"wtworlds:entity/navigator": 1}}}, {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}]}
+}}, mainhand: {id: bow, components: {enchantments: {"wtworlds:entity/navigator": 1}}}, offhand: {id: bow, components: {item_model: "air", enchantments: {"wtworlds:team/defiled_temple": 1, vanishing_curse: 1}}}}}
