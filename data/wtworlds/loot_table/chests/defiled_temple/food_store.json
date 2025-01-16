@@ -47,6 +47,40 @@
                 },
                 {
                     "type": "item",
+                    "name": "bone",
+                    "weight": 1,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "bone_meal",
+                    "weight": 2,
+                    "functions":
+                    [
+                        {
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 2,
+                                "max": 4
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
                     "name": "rotten_flesh",
                     "weight": 4,
                     "functions":

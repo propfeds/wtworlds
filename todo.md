@@ -8,8 +8,6 @@ release:
 
 temple:
 - need enchanted armour loot (good chain mail/really good leather)
-- bottle of enchanting loot
-- add bone/meal to food stores
 - change hay bales in basement to pots
 - backdoor to where?
 - include more nether fortress design
