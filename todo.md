@@ -92,6 +92,8 @@ foil: check out Han dynasty fencing swords
 
 armour stand jumping tree climb?
 
+new trowel based on new blocking component (25w04a)?
+
 rework deflecting
 
 bug: deflecting doesn't detect crawling in trapdoor

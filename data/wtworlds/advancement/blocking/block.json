@@ -13,7 +13,7 @@
                         "tags":
                         [
                             {
-                                "id": "bypasses_shield",
+                                "id": "bypasses_blocking",
                                 "expected": false
                             }
                         ]

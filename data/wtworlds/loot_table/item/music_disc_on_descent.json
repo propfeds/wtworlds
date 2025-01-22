@@ -23,8 +23,7 @@
                                 },
                                 "jukebox_playable":
                                 {
-                                    "song": "wtworlds:on_descent",
-                                    "show_in_tooltip": true
+                                    "song": "wtworlds:on_descent"
                                 }
                             }
                         }
